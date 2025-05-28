@@ -1,0 +1,2062 @@
+[gd_scene load_steps=485 format=3 uid="uid://d1leh2a7tgf8v"]
+
+[ext_resource type="Texture2D" uid="uid://fky7k6onxtcm" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_0.png" id="1_uivww"]
+[ext_resource type="Texture2D" uid="uid://bx2m6qsjx1jr6" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_0.png" id="1_xftja"]
+[ext_resource type="Script" uid="uid://k2vus13cetl3" path="res://scripts/enemy.gd" id="1_yh0ue"]
+[ext_resource type="Texture2D" uid="uid://trwjp5ovm5lk" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_1.png" id="2_riuj1"]
+[ext_resource type="Texture2D" uid="uid://bk1tpet6gl2x4" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_1.png" id="2_u5ige"]
+[ext_resource type="Texture2D" uid="uid://isyqqwja16tq" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_2.png" id="3_7vknq"]
+[ext_resource type="Texture2D" uid="uid://bq7g0us3n04qs" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_2.png" id="3_yh0ue"]
+[ext_resource type="Texture2D" uid="uid://cygl1135b1ia4" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_3.png" id="4_1acxm"]
+[ext_resource type="Texture2D" uid="uid://bie4l5ediet7o" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_3.png" id="4_3jeic"]
+[ext_resource type="Texture2D" uid="uid://cpjnura43jlmh" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_4.png" id="5_pw5sp"]
+[ext_resource type="Texture2D" uid="uid://2mm7hkggo0c" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_4.png" id="5_syauo"]
+[ext_resource type="Texture2D" uid="uid://bfkeg6e16rkf1" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_5.png" id="6_fxo0m"]
+[ext_resource type="Texture2D" uid="uid://d0vxah1k7tmd" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_5.png" id="6_h8jun"]
+[ext_resource type="Texture2D" uid="uid://d2baluff58ks2" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_6.png" id="7_5owri"]
+[ext_resource type="Texture2D" uid="uid://b1kyfmrn6cr88" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_6.png" id="7_fnix5"]
+[ext_resource type="Texture2D" uid="uid://dma03nnpieq5x" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_7.png" id="8_bno02"]
+[ext_resource type="Texture2D" uid="uid://d8r45xy86h1n" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_7.png" id="8_g63gj"]
+[ext_resource type="Texture2D" uid="uid://ddyhlo30q8hq" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_8.png" id="9_1nkt4"]
+[ext_resource type="Texture2D" uid="uid://d36xaaceucolu" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_8.png" id="9_cu6c5"]
+[ext_resource type="Texture2D" uid="uid://tprr7nbjkblq" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_9.png" id="10_d20mk"]
+[ext_resource type="Texture2D" uid="uid://dy1r71wuupw7h" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_9.png" id="10_y1f6v"]
+[ext_resource type="Texture2D" uid="uid://2vcedrnbx413" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_10.png" id="11_k1kfj"]
+[ext_resource type="Texture2D" uid="uid://dgykqs43gyb2j" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_10.png" id="11_tm5rb"]
+[ext_resource type="Texture2D" uid="uid://d88vovo8iik6" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_11.png" id="12_w30nc"]
+[ext_resource type="Texture2D" uid="uid://datk4oysinerk" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_11.png" id="12_wtwi3"]
+[ext_resource type="Texture2D" uid="uid://bwckd721hqi43" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_12.png" id="13_34d5p"]
+[ext_resource type="Texture2D" uid="uid://c7g42wlcuxa8m" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_12.png" id="13_uun35"]
+[ext_resource type="Texture2D" uid="uid://khy3w08osqhm" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_13.png" id="14_0o5r2"]
+[ext_resource type="Texture2D" uid="uid://duquqr1d411jy" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_13.png" id="14_sy7t6"]
+[ext_resource type="Texture2D" uid="uid://b7w1ba7vfim23" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_14.png" id="15_51q5c"]
+[ext_resource type="Texture2D" uid="uid://cg7dj1dpr3ur4" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_14.png" id="15_vftjy"]
+[ext_resource type="Texture2D" uid="uid://0c0hlh1quic0" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_15.png" id="16_2788s"]
+[ext_resource type="Texture2D" uid="uid://dfmsngwpfkqou" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_15.png" id="16_lxdmq"]
+[ext_resource type="Texture2D" uid="uid://cxeuajxcsny55" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_16.png" id="17_mlm2k"]
+[ext_resource type="Texture2D" uid="uid://7rcx0fr0q6n1" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_16.png" id="17_s8hao"]
+[ext_resource type="Texture2D" uid="uid://bjmkjxqjl3qfy" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_17.png" id="18_8db6o"]
+[ext_resource type="Texture2D" uid="uid://uxswkcntt8fm" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_17.png" id="18_p4kep"]
+[ext_resource type="Texture2D" uid="uid://bborjtvh02lun" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_18.png" id="19_ayma5"]
+[ext_resource type="Texture2D" uid="uid://cs6q3mlxtdbi1" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_18.png" id="19_ibalu"]
+[ext_resource type="Texture2D" uid="uid://cot3nhmrmr137" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_19.png" id="20_acj41"]
+[ext_resource type="Texture2D" uid="uid://dxi8llsqnkox1" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_19.png" id="20_t1gxv"]
+[ext_resource type="Texture2D" uid="uid://bx0yg6l838g0u" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_20.png" id="21_w8cq7"]
+[ext_resource type="Texture2D" uid="uid://trfpbfr5mspj" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_20.png" id="21_xp3gy"]
+[ext_resource type="Texture2D" uid="uid://dfxbn7qvs62gf" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_21.png" id="22_bql34"]
+[ext_resource type="Texture2D" uid="uid://dglxjyyq5ypv3" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_21.png" id="22_nexb0"]
+[ext_resource type="Texture2D" uid="uid://das6cabdh8cxl" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_22.png" id="23_1lkpm"]
+[ext_resource type="Texture2D" uid="uid://0pgs6evs218o" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_22.png" id="23_p5wk0"]
+[ext_resource type="Texture2D" uid="uid://cie627n30lu0x" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_23.png" id="24_pwhfl"]
+[ext_resource type="Texture2D" uid="uid://by8sveipjhvkm" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_23.png" id="24_swm2e"]
+[ext_resource type="Texture2D" uid="uid://ctmhsv3208rww" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_24.png" id="25_bj8dw"]
+[ext_resource type="Texture2D" uid="uid://d2odrnwvx35s5" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_24.png" id="25_o20lj"]
+[ext_resource type="Texture2D" uid="uid://db82uw73b67u8" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_25.png" id="26_4wpnb"]
+[ext_resource type="Texture2D" uid="uid://jy4mdlfhw6ut" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_25.png" id="26_b84ri"]
+[ext_resource type="Texture2D" uid="uid://wjdoxyc3nr26" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_26.png" id="27_n2wh0"]
+[ext_resource type="Texture2D" uid="uid://d0v3upxnatdde" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_26.png" id="27_yxee3"]
+[ext_resource type="Texture2D" uid="uid://cre5acdehas82" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_27.png" id="28_4s76f"]
+[ext_resource type="Texture2D" uid="uid://cvryl4ltdjf1r" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_27.png" id="28_hpnsa"]
+[ext_resource type="Texture2D" uid="uid://dfwjq0q8nyia1" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_28.png" id="29_fhfsf"]
+[ext_resource type="Texture2D" uid="uid://dufrl4elvhoqu" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_28.png" id="29_wjm80"]
+[ext_resource type="Texture2D" uid="uid://cfxct2gwjiqrb" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_29.png" id="30_5gixk"]
+[ext_resource type="Texture2D" uid="uid://coxidwqahw6yd" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_29.png" id="30_14mff"]
+[ext_resource type="Texture2D" uid="uid://d21foysou5qrc" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_30.png" id="31_8e1yp"]
+[ext_resource type="Texture2D" uid="uid://p6k00makixok" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_30.png" id="31_67rfl"]
+[ext_resource type="Texture2D" uid="uid://dv6goxgnabyqr" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_31.png" id="32_2qpuy"]
+[ext_resource type="Texture2D" uid="uid://dj1i6lujtrgjm" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_31.png" id="32_h0hv8"]
+[ext_resource type="Texture2D" uid="uid://c7w3nbaygk1qe" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_32.png" id="33_12uu0"]
+[ext_resource type="Texture2D" uid="uid://cd7etd7lkrbqb" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_32.png" id="33_rfx7c"]
+[ext_resource type="Texture2D" uid="uid://cp03eq2dw0pl8" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_33.png" id="34_cpfda"]
+[ext_resource type="Texture2D" uid="uid://bsacb8t7uropl" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_33.png" id="34_nujrt"]
+[ext_resource type="Texture2D" uid="uid://fv3teec45nwf" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_34.png" id="35_0wkkt"]
+[ext_resource type="Texture2D" uid="uid://dugok51df42so" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_34.png" id="35_67uce"]
+[ext_resource type="Texture2D" uid="uid://8lm56i6tm5en" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_35.png" id="36_33ave"]
+[ext_resource type="Texture2D" uid="uid://kptwklmpqdsr" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_35.png" id="36_o45lq"]
+[ext_resource type="Texture2D" uid="uid://bakousas61hcn" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_36.png" id="37_byjar"]
+[ext_resource type="Texture2D" uid="uid://bgw5ln2ls1xwk" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_36.png" id="37_ibfkr"]
+[ext_resource type="Texture2D" uid="uid://cmj4y8uichixc" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_37.png" id="38_vynm2"]
+[ext_resource type="Texture2D" uid="uid://deaest5pk8h75" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_37.png" id="38_xlhlx"]
+[ext_resource type="Texture2D" uid="uid://q7guxrii7wyg" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_38.png" id="39_iagyc"]
+[ext_resource type="Texture2D" uid="uid://cso78ir3oj0dk" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_38.png" id="39_jw857"]
+[ext_resource type="Texture2D" uid="uid://3ofly2xusqr0" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_39.png" id="40_6hu6x"]
+[ext_resource type="Texture2D" uid="uid://7gv3o17d6yoo" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_39.png" id="40_c311a"]
+[ext_resource type="Texture2D" uid="uid://do43sqnbslsio" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_40.png" id="41_awnxg"]
+[ext_resource type="Texture2D" uid="uid://w4oj7rklf2yv" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_40.png" id="41_c1ql6"]
+[ext_resource type="Texture2D" uid="uid://d2ph5ts4vkrmy" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_41.png" id="42_8jdlx"]
+[ext_resource type="Texture2D" uid="uid://cii7x2n7x0skx" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_41.png" id="42_feit4"]
+[ext_resource type="Texture2D" uid="uid://c2aijddajq84s" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_42.png" id="43_4iyuh"]
+[ext_resource type="Texture2D" uid="uid://bjumkiuxok734" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_42.png" id="43_6vw12"]
+[ext_resource type="Texture2D" uid="uid://cgu152qag4o8l" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_43.png" id="44_2w0js"]
+[ext_resource type="Texture2D" uid="uid://cb5v157ssd3xn" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_43.png" id="44_jkkrg"]
+[ext_resource type="Texture2D" uid="uid://b8mqw5uf5oynm" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_44.png" id="45_ewb86"]
+[ext_resource type="Texture2D" uid="uid://cbcpog4iluy0i" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_44.png" id="45_rpny6"]
+[ext_resource type="Texture2D" uid="uid://cncpk4cvu844g" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_45.png" id="46_h24ym"]
+[ext_resource type="Texture2D" uid="uid://dy55u0krkngim" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_45.png" id="46_k2lfo"]
+[ext_resource type="Texture2D" uid="uid://bujot14fclulf" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_46.png" id="47_4flfo"]
+[ext_resource type="Texture2D" uid="uid://b201cuor37clm" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_46.png" id="47_f7r1u"]
+[ext_resource type="Texture2D" uid="uid://dgg222qq01yvm" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_47.png" id="48_fp66m"]
+[ext_resource type="Texture2D" uid="uid://e0jafj8bab1q" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_47.png" id="48_tnwf0"]
+[ext_resource type="Texture2D" uid="uid://txsij5r75vt1" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_48.png" id="49_4km2i"]
+[ext_resource type="Texture2D" uid="uid://0sry7bu0ky8i" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_48.png" id="49_qvdab"]
+[ext_resource type="Texture2D" uid="uid://bcim2tb1oluj2" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_49.png" id="50_8crlj"]
+[ext_resource type="Texture2D" uid="uid://cjfuupm0nskr7" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_49.png" id="50_nlcse"]
+[ext_resource type="Texture2D" uid="uid://bqhrnlqjtw0oc" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_50.png" id="51_b34ng"]
+[ext_resource type="Texture2D" uid="uid://cactgm4j5d1jx" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_50.png" id="51_o84do"]
+[ext_resource type="Texture2D" uid="uid://bavfxtbqy5ux5" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_51.png" id="52_e6xjm"]
+[ext_resource type="Texture2D" uid="uid://d27yix7828hko" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_51.png" id="52_njh0e"]
+[ext_resource type="Texture2D" uid="uid://bmxr8py3bj256" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_52.png" id="53_3o8ai"]
+[ext_resource type="Texture2D" uid="uid://d11dhhlaj35y0" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_52.png" id="53_184p0"]
+[ext_resource type="Texture2D" uid="uid://ctlsbnh5q2jvv" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_53.png" id="54_a1b4j"]
+[ext_resource type="Texture2D" uid="uid://bnmd5iphgab5y" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_53.png" id="54_x0vc6"]
+[ext_resource type="Texture2D" uid="uid://dt1lutwoytjnm" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_54.png" id="55_bslem"]
+[ext_resource type="Texture2D" uid="uid://d2egp587rvsqb" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_54.png" id="55_elk8v"]
+[ext_resource type="Texture2D" uid="uid://xtj20s2wd87a" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_55.png" id="56_mb2g1"]
+[ext_resource type="Texture2D" uid="uid://b7445fcukoyi1" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_55.png" id="56_udac3"]
+[ext_resource type="Texture2D" uid="uid://q08xqk222pjl" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_56.png" id="57_7j7l8"]
+[ext_resource type="Texture2D" uid="uid://brmkash7mxnca" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_56.png" id="57_njhnt"]
+[ext_resource type="Texture2D" uid="uid://dc1k063gd82q4" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_57.png" id="58_6bu3y"]
+[ext_resource type="Texture2D" uid="uid://bkc0rfeqtp78d" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_57.png" id="58_ryf4x"]
+[ext_resource type="Texture2D" uid="uid://cy72t676dv4xy" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_58.png" id="59_1cliu"]
+[ext_resource type="Texture2D" uid="uid://dm0ng088wpxk" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_58.png" id="59_mv3yu"]
+[ext_resource type="Texture2D" uid="uid://cs26dnnk2tufx" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_59.png" id="60_sn1f5"]
+[ext_resource type="Texture2D" uid="uid://cygr851ewt1xg" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_59.png" id="60_vqbgw"]
+[ext_resource type="Texture2D" uid="uid://d4fc5whkekp66" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_60.png" id="61_1oegy"]
+[ext_resource type="Texture2D" uid="uid://dm12f87252uao" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_60.png" id="61_uwyhs"]
+[ext_resource type="Texture2D" uid="uid://bnv6ausmn71gv" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_61.png" id="62_u2sot"]
+[ext_resource type="Texture2D" uid="uid://vw172alhh4ap" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_61.png" id="62_x8n2n"]
+[ext_resource type="Texture2D" uid="uid://ydoj7tun1i6n" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_62.png" id="63_5ynu8"]
+[ext_resource type="Texture2D" uid="uid://qmsyu1lomw6g" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_62.png" id="63_h1f87"]
+[ext_resource type="Texture2D" uid="uid://m7j1pf8csglb" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_63.png" id="64_hx0rd"]
+[ext_resource type="Texture2D" uid="uid://bux5p8c4kouc6" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_63.png" id="64_opfho"]
+[ext_resource type="Texture2D" uid="uid://d11b5hhsydtbu" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_64.png" id="65_8lr80"]
+[ext_resource type="Texture2D" uid="uid://72d6arnqjmbp" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_64.png" id="65_he7nq"]
+[ext_resource type="Texture2D" uid="uid://hlcsp87kg1hn" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_65.png" id="66_1ukqn"]
+[ext_resource type="Texture2D" uid="uid://cpxfcck8r7p0q" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_65.png" id="66_uaxqq"]
+[ext_resource type="Texture2D" uid="uid://p53f0wapjh1j" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_66.png" id="67_kgr13"]
+[ext_resource type="Texture2D" uid="uid://c26r3ers3dufi" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_66.png" id="67_kyemg"]
+[ext_resource type="Texture2D" uid="uid://ybxixpn7sj7r" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_67.png" id="68_j08aw"]
+[ext_resource type="Texture2D" uid="uid://dvi6jk6nvxn60" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_67.png" id="68_s06ar"]
+[ext_resource type="Texture2D" uid="uid://bi4wgnbu6ckaq" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_68.png" id="69_vesnn"]
+[ext_resource type="Texture2D" uid="uid://yj85j84wmnm8" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_68.png" id="69_vsuh3"]
+[ext_resource type="Texture2D" uid="uid://do7k1a8qohdmu" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_69.png" id="70_8ka2g"]
+[ext_resource type="Texture2D" uid="uid://dfnphdgie02wy" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_69.png" id="70_r5c20"]
+[ext_resource type="Texture2D" uid="uid://dqefniqn2wbn0" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_70.png" id="71_sqsa7"]
+[ext_resource type="Texture2D" uid="uid://cjucvhyrwqqh2" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_70.png" id="71_tsjf0"]
+[ext_resource type="Texture2D" uid="uid://b8t2qqtpwmlp0" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_71.png" id="72_bxtdl"]
+[ext_resource type="Texture2D" uid="uid://qlp64qwdqp35" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_71.png" id="72_su1l3"]
+[ext_resource type="Texture2D" uid="uid://bkyfwpg31v3xa" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_72.png" id="73_ep8no"]
+[ext_resource type="Texture2D" uid="uid://dba8uc0m74l7i" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_72.png" id="73_ro6mm"]
+[ext_resource type="Texture2D" uid="uid://c5wu2ntypcrl2" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_73.png" id="74_0yfct"]
+[ext_resource type="Texture2D" uid="uid://cnej7v1h6allj" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_73.png" id="74_crqye"]
+[ext_resource type="Texture2D" uid="uid://dcr8u6gs0fqgp" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_74.png" id="75_eun7y"]
+[ext_resource type="Texture2D" uid="uid://duaep66qy2juy" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_74.png" id="75_xhsvf"]
+[ext_resource type="Texture2D" uid="uid://dxdp8nr3hjc4d" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_75.png" id="76_8doa8"]
+[ext_resource type="Texture2D" uid="uid://bxpben6jmp0co" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_75.png" id="76_etdh5"]
+[ext_resource type="Texture2D" uid="uid://bgcf6g578axuu" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_76.png" id="77_1y3od"]
+[ext_resource type="Texture2D" uid="uid://b3rr3sma1c2mi" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_76.png" id="77_8kcui"]
+[ext_resource type="Texture2D" uid="uid://btanhwvpkfvv1" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_77.png" id="78_3as6p"]
+[ext_resource type="Texture2D" uid="uid://vwtukqboy3q7" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_77.png" id="78_jk8ax"]
+[ext_resource type="Texture2D" uid="uid://d23g40rkjyq5e" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_78.png" id="79_d6b6v"]
+[ext_resource type="Texture2D" uid="uid://cs81jye2q67go" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_79.png" id="80_ipsk8"]
+[ext_resource type="Texture2D" uid="uid://bsewn5fn8a1x4" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_80.png" id="81_41ks3"]
+[ext_resource type="Texture2D" uid="uid://da0mcljvb5lgo" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_80.png" id="81_mulsw"]
+[ext_resource type="Texture2D" uid="uid://d1815l64hct3e" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_81.png" id="82_2x8dh"]
+[ext_resource type="Texture2D" uid="uid://cfog6fxur3j6p" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_81.png" id="82_kosi2"]
+[ext_resource type="Texture2D" uid="uid://ro75jeuabes8" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_82.png" id="83_6r3if"]
+[ext_resource type="Texture2D" uid="uid://c37oihh72har3" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_82.png" id="83_p0c0c"]
+[ext_resource type="Texture2D" uid="uid://dr0hhjaepfbbx" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_83.png" id="84_jyig5"]
+[ext_resource type="Texture2D" uid="uid://d08m2xcl6n04o" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_83.png" id="84_yv3f1"]
+[ext_resource type="Texture2D" uid="uid://cuguti50pe6si" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_84.png" id="85_6f6wv"]
+[ext_resource type="Texture2D" uid="uid://dfrvdivqa01of" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_84.png" id="85_u7ugp"]
+[ext_resource type="Texture2D" uid="uid://ltjyeatmoyhb" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_85.png" id="86_ipual"]
+[ext_resource type="Texture2D" uid="uid://d3f276bo6ieln" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_85.png" id="86_jnlfc"]
+[ext_resource type="Texture2D" uid="uid://opw7o82a7t55" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_86.png" id="87_kud06"]
+[ext_resource type="Texture2D" uid="uid://bu8dcybm68ke0" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_86.png" id="87_mikvr"]
+[ext_resource type="Texture2D" uid="uid://dwdcpedvmfjoy" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_87.png" id="88_hxcyc"]
+[ext_resource type="Texture2D" uid="uid://2dice7kam6ik" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_87.png" id="88_xarkr"]
+[ext_resource type="Texture2D" uid="uid://cywes058ic3vl" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_88.png" id="89_nxmax"]
+[ext_resource type="Texture2D" uid="uid://idku3dm7ykfj" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_88.png" id="89_vk68e"]
+[ext_resource type="Texture2D" uid="uid://bmhsyvdi6i8wy" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_89.png" id="90_1bevf"]
+[ext_resource type="Texture2D" uid="uid://8jfainiumh87" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_89.png" id="90_dv8wq"]
+[ext_resource type="Texture2D" uid="uid://0epg0y6ohjku" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_90.png" id="91_myxwl"]
+[ext_resource type="Texture2D" uid="uid://cq7bahd4kb04t" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_90.png" id="91_y71f0"]
+[ext_resource type="Texture2D" uid="uid://biob6824vij7f" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_91.png" id="92_b7qox"]
+[ext_resource type="Texture2D" uid="uid://bk3e3s82dlrxc" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_91.png" id="92_huyfs"]
+[ext_resource type="Texture2D" uid="uid://d3x2fed201ha8" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_92.png" id="93_wskr6"]
+[ext_resource type="Texture2D" uid="uid://cit71t8fmn5rh" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_92.png" id="93_xwh64"]
+[ext_resource type="Texture2D" uid="uid://c4edobosdkl2g" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_93.png" id="94_bbe10"]
+[ext_resource type="Texture2D" uid="uid://bty1ww6kpct4x" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_93.png" id="94_vg7c3"]
+[ext_resource type="Texture2D" uid="uid://devvouywhhyfg" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_94.png" id="95_mrpw3"]
+[ext_resource type="Texture2D" uid="uid://dp6olss8yx5qt" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_94.png" id="95_tqsrk"]
+[ext_resource type="Texture2D" uid="uid://cfye57x1qpybv" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_95.png" id="96_sktnm"]
+[ext_resource type="Texture2D" uid="uid://dv35a6cihy5jb" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_95.png" id="96_sn8jm"]
+[ext_resource type="Texture2D" uid="uid://euc8kui266w0" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_96.png" id="97_pt0er"]
+[ext_resource type="Texture2D" uid="uid://cw8tecljltdyc" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_96.png" id="97_qbwfh"]
+[ext_resource type="Texture2D" uid="uid://dc88witrc3soy" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_97.png" id="98_am6eo"]
+[ext_resource type="Texture2D" uid="uid://c0vjsoew602ye" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_97.png" id="98_s0pic"]
+[ext_resource type="Texture2D" uid="uid://j0us7b3e4jii" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_98.png" id="99_f6k2g"]
+[ext_resource type="Texture2D" uid="uid://dmrahi8k0yfe8" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_98.png" id="99_hvttj"]
+[ext_resource type="Texture2D" uid="uid://b028514a4dbky" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_99.png" id="100_855p0"]
+[ext_resource type="Texture2D" uid="uid://cm715w0d2klcw" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_99.png" id="100_hlydu"]
+[ext_resource type="Texture2D" uid="uid://tsk30ehdb0n2" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_100.png" id="101_i4ylr"]
+[ext_resource type="Texture2D" uid="uid://g61wba7d0y4p" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_100.png" id="101_plb2k"]
+[ext_resource type="Texture2D" uid="uid://b7gu1fiwkbwf2" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_101.png" id="102_snfcf"]
+[ext_resource type="Texture2D" uid="uid://0jiwv38o3sbc" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_101.png" id="102_utlea"]
+[ext_resource type="Texture2D" uid="uid://66kxjlamuot0" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_102.png" id="103_0rewc"]
+[ext_resource type="Texture2D" uid="uid://brn16lc50vw5q" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_102.png" id="103_ge6u6"]
+[ext_resource type="Texture2D" uid="uid://djhql3apfqgx3" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_103.png" id="104_fsiww"]
+[ext_resource type="Texture2D" uid="uid://dj2w5b1up7i43" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_103.png" id="104_hf30n"]
+[ext_resource type="Texture2D" uid="uid://cfiqv5aox6uw7" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_104.png" id="105_nf06k"]
+[ext_resource type="Texture2D" uid="uid://debcyxs58h581" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_104.png" id="105_qixrw"]
+[ext_resource type="Texture2D" uid="uid://dfc65kx1bsdls" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_105.png" id="106_ds0gd"]
+[ext_resource type="Texture2D" uid="uid://cmimyc80h86kr" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_105.png" id="106_em36u"]
+[ext_resource type="Texture2D" uid="uid://bpauko7pqo44i" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_106.png" id="107_57cpo"]
+[ext_resource type="Texture2D" uid="uid://dqvrqqlvhptlk" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_106.png" id="107_s666b"]
+[ext_resource type="Texture2D" uid="uid://q60f6utsn74p" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_107.png" id="108_bs3y4"]
+[ext_resource type="Texture2D" uid="uid://bbo6npp83eey4" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_107.png" id="108_t4c7a"]
+[ext_resource type="Texture2D" uid="uid://cpcjn1fhfdlkw" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_108.png" id="109_qdf1p"]
+[ext_resource type="Texture2D" uid="uid://ylvd52codcea" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_108.png" id="109_uvtot"]
+[ext_resource type="Texture2D" uid="uid://vawsj040tuxa" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_109.png" id="110_dgsik"]
+[ext_resource type="Texture2D" uid="uid://c8rwp4v64wl1v" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_109.png" id="110_sc44p"]
+[ext_resource type="Texture2D" uid="uid://dept5qgxjk61h" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_110.png" id="111_5wv5m"]
+[ext_resource type="Texture2D" uid="uid://cg5helxfoptyo" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_110.png" id="111_nehmm"]
+[ext_resource type="Texture2D" uid="uid://h3xh8cx4gcwo" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_111.png" id="112_bex76"]
+[ext_resource type="Texture2D" uid="uid://dj46jdvmg417e" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_111.png" id="112_paluq"]
+[ext_resource type="Texture2D" uid="uid://crmllsgh76hg3" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_112.png" id="113_dnrl5"]
+[ext_resource type="Texture2D" uid="uid://dc85mak4wxe0y" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_112.png" id="113_rfopb"]
+[ext_resource type="Texture2D" uid="uid://dfsi1p8fck7um" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_113.png" id="114_o5unh"]
+[ext_resource type="Texture2D" uid="uid://bypkmmsm4ya0w" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_113.png" id="114_tefks"]
+[ext_resource type="Texture2D" uid="uid://up45y3svpytc" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_114.png" id="115_1xthi"]
+[ext_resource type="Texture2D" uid="uid://dfq5andtny60w" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_114.png" id="115_iohpr"]
+[ext_resource type="Texture2D" uid="uid://brx0u0mpr3rj7" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_115.png" id="116_7jayo"]
+[ext_resource type="Texture2D" uid="uid://crorvtnd85pn" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_115.png" id="116_x28ij"]
+[ext_resource type="Texture2D" uid="uid://syed7f7jatn0" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_116.png" id="117_jug4f"]
+[ext_resource type="Texture2D" uid="uid://curv31bui2vox" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_116.png" id="117_vogp5"]
+[ext_resource type="Texture2D" uid="uid://lq6elabbwr7y" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_117.png" id="118_jjfml"]
+[ext_resource type="Texture2D" uid="uid://davmwhol34wjl" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_117.png" id="118_q7gsb"]
+[ext_resource type="Texture2D" uid="uid://b067jvmx8u4r3" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_118.png" id="119_5b51g"]
+[ext_resource type="Texture2D" uid="uid://c1jvg6stlthdj" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_118.png" id="119_wrn3l"]
+[ext_resource type="Texture2D" uid="uid://bcp4xg6h0e4c" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_119.png" id="120_q3xi0"]
+[ext_resource type="Texture2D" uid="uid://0bndy7nvbdjx" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_119.png" id="120_r1rci"]
+[ext_resource type="Texture2D" uid="uid://u6bmroojghks" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_0.png" id="121_8ihsx"]
+[ext_resource type="Texture2D" uid="uid://cl6trddi4k6pl" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_1.png" id="122_bupjm"]
+[ext_resource type="Texture2D" uid="uid://c1m675xbvqudc" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_2.png" id="123_a4q70"]
+[ext_resource type="Texture2D" uid="uid://03y37ilj6c7w" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_3.png" id="124_0vehl"]
+[ext_resource type="Texture2D" uid="uid://iddstpq3b1c4" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_4.png" id="125_l4p0t"]
+[ext_resource type="Texture2D" uid="uid://2bibb3ic6qoy" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_5.png" id="126_qfgey"]
+[ext_resource type="Texture2D" uid="uid://grxdh4df7a20" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_6.png" id="127_iednw"]
+[ext_resource type="Texture2D" uid="uid://dahfb407whxbr" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_7.png" id="128_mrqvq"]
+[ext_resource type="Texture2D" uid="uid://m7ofmat1y58c" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_8.png" id="129_8n0ll"]
+[ext_resource type="Texture2D" uid="uid://b4tkqlxpwucj1" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_9.png" id="130_bsl6h"]
+[ext_resource type="Texture2D" uid="uid://3bcdlmjfq8gl" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_10.png" id="131_053j8"]
+[ext_resource type="Texture2D" uid="uid://c7htxxw2tbeyg" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_11.png" id="132_y0cxt"]
+[ext_resource type="Texture2D" uid="uid://cvj11dxykdmhw" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_12.png" id="133_ap64u"]
+[ext_resource type="Texture2D" uid="uid://y37jbx0sd6rv" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_13.png" id="134_c4br7"]
+[ext_resource type="Texture2D" uid="uid://b68dprm5fr4x1" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_14.png" id="135_oipyv"]
+[ext_resource type="Texture2D" uid="uid://cn0t4xejumpx3" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_15.png" id="136_rh5mp"]
+[ext_resource type="Texture2D" uid="uid://bytipvtvbfwyh" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_16.png" id="137_lcg7c"]
+[ext_resource type="Texture2D" uid="uid://b2ohfmg10j2hb" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_17.png" id="138_6j18r"]
+[ext_resource type="Texture2D" uid="uid://dh72dltqrwmcb" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_18.png" id="139_encct"]
+[ext_resource type="Texture2D" uid="uid://dexagk7wxr1tk" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_19.png" id="140_3ueut"]
+[ext_resource type="Texture2D" uid="uid://nyahtke6u42b" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_20.png" id="141_5y7kp"]
+[ext_resource type="Texture2D" uid="uid://co6qnw4pt55lh" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_21.png" id="142_3ipat"]
+[ext_resource type="Texture2D" uid="uid://ca0gikerlqpqa" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_22.png" id="143_ruwf5"]
+[ext_resource type="Texture2D" uid="uid://dor7rcr0p5sg2" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_23.png" id="144_u56jm"]
+[ext_resource type="Texture2D" uid="uid://ddedpqj3esvch" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_24.png" id="145_mer8m"]
+[ext_resource type="Texture2D" uid="uid://b7ofmvojhev6g" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_25.png" id="146_q5mv5"]
+[ext_resource type="Texture2D" uid="uid://cihahvnjvbs8q" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_26.png" id="147_kwq7e"]
+[ext_resource type="Texture2D" uid="uid://cbfi5wc5vh28f" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_27.png" id="148_83wl0"]
+[ext_resource type="Texture2D" uid="uid://x715okcj05lx" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_28.png" id="149_ly7ed"]
+[ext_resource type="Texture2D" uid="uid://cafpdytov3xea" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_29.png" id="150_rya58"]
+[ext_resource type="Texture2D" uid="uid://cp1jivulpkkce" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_30.png" id="151_1u47t"]
+[ext_resource type="Texture2D" uid="uid://sbvntrxurjkm" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_31.png" id="152_88j5j"]
+[ext_resource type="Texture2D" uid="uid://cuanyi4pbxaaf" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_32.png" id="153_8t2dp"]
+[ext_resource type="Texture2D" uid="uid://co1na22xcjqub" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_33.png" id="154_fkbnf"]
+[ext_resource type="Texture2D" uid="uid://bi53bns2d7whe" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_34.png" id="155_cotmv"]
+[ext_resource type="Texture2D" uid="uid://c1uctf51w15x4" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_35.png" id="156_2tc57"]
+[ext_resource type="Texture2D" uid="uid://byyjnl457462d" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_36.png" id="157_kk14s"]
+[ext_resource type="Texture2D" uid="uid://8e74mxfhpv8h" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_37.png" id="158_8pmg5"]
+[ext_resource type="Texture2D" uid="uid://bba6vcpdimqd8" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_38.png" id="159_jdlwr"]
+[ext_resource type="Texture2D" uid="uid://dx38565jm84hq" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_39.png" id="160_78dpg"]
+[ext_resource type="Texture2D" uid="uid://bvso8bahartj8" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_40.png" id="161_c6a73"]
+[ext_resource type="Texture2D" uid="uid://d1qspqpjk2a31" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_41.png" id="162_e2ac4"]
+[ext_resource type="Texture2D" uid="uid://cjvb2qvp47elc" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_42.png" id="163_fb8fm"]
+[ext_resource type="Texture2D" uid="uid://cbeiwo87ned43" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_43.png" id="164_ql3ud"]
+[ext_resource type="Texture2D" uid="uid://kv7vb0tsdrfp" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_44.png" id="165_cfyqf"]
+[ext_resource type="Texture2D" uid="uid://cb61honru62ds" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_45.png" id="166_hwjqw"]
+[ext_resource type="Texture2D" uid="uid://5mww06x2tp5x" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_46.png" id="167_bp0se"]
+[ext_resource type="Texture2D" uid="uid://wjh6sht8is47" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_47.png" id="168_qllq3"]
+[ext_resource type="Texture2D" uid="uid://drd4urnxkl4fw" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_48.png" id="169_14r2f"]
+[ext_resource type="Texture2D" uid="uid://ds7gfwva7dd1t" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_49.png" id="170_rfwnh"]
+[ext_resource type="Texture2D" uid="uid://b6xomm2517k4" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_50.png" id="171_qeck5"]
+[ext_resource type="Texture2D" uid="uid://clae62mg7hyui" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_51.png" id="172_av4ge"]
+[ext_resource type="Texture2D" uid="uid://cvaad310uj0ks" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_52.png" id="173_st6f4"]
+[ext_resource type="Texture2D" uid="uid://bby7j0q6lkhdh" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_53.png" id="174_ur4xg"]
+[ext_resource type="Texture2D" uid="uid://dngliruuly8je" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_54.png" id="175_nlybe"]
+[ext_resource type="Texture2D" uid="uid://cnc15j5b81qi" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_55.png" id="176_3ubc6"]
+[ext_resource type="Texture2D" uid="uid://phjwvbl50gx" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_56.png" id="177_kyjjh"]
+[ext_resource type="Texture2D" uid="uid://clcwivhu7fcpt" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_57.png" id="178_v0sjg"]
+[ext_resource type="Texture2D" uid="uid://dtqnx3q7rtyvc" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_58.png" id="179_yc6re"]
+[ext_resource type="Texture2D" uid="uid://dv3t37524e2ag" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_59.png" id="180_6ensq"]
+[ext_resource type="Texture2D" uid="uid://e1lgsymf4wp0" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_60.png" id="181_oyg5u"]
+[ext_resource type="Texture2D" uid="uid://b0bf6l7x884ki" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_61.png" id="182_ed45o"]
+[ext_resource type="Texture2D" uid="uid://boy8kdx5gsre4" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_62.png" id="183_a6k8p"]
+[ext_resource type="Texture2D" uid="uid://br1oqweb8fhx6" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_63.png" id="184_yqetb"]
+[ext_resource type="Texture2D" uid="uid://b1liqrrsb71o7" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_64.png" id="185_l0b6o"]
+[ext_resource type="Texture2D" uid="uid://bmfkrmuoiev3v" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_65.png" id="186_ls6dc"]
+[ext_resource type="Texture2D" uid="uid://bml2h1vj447o7" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_66.png" id="187_6t5gp"]
+[ext_resource type="Texture2D" uid="uid://cvkb2rtr7k4n" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_67.png" id="188_mp73g"]
+[ext_resource type="Texture2D" uid="uid://cut8uiqd604f5" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_68.png" id="189_27j1r"]
+[ext_resource type="Texture2D" uid="uid://df7rf3di8ycb1" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_69.png" id="190_la05x"]
+[ext_resource type="Texture2D" uid="uid://ychn2au7nn6s" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_70.png" id="191_frtth"]
+[ext_resource type="Texture2D" uid="uid://ca8k6gwg7nqim" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_71.png" id="192_pfclx"]
+[ext_resource type="Texture2D" uid="uid://wg8ju2f3bc84" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_72.png" id="193_wae63"]
+[ext_resource type="Texture2D" uid="uid://dlidielgnp5m1" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_73.png" id="194_hjfh8"]
+[ext_resource type="Texture2D" uid="uid://dporf4gatywyy" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_74.png" id="195_jbdox"]
+[ext_resource type="Texture2D" uid="uid://dq3r51b3f2kff" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_75.png" id="196_3kdeh"]
+[ext_resource type="Texture2D" uid="uid://5b1aa68jwu15" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_76.png" id="197_66m43"]
+[ext_resource type="Texture2D" uid="uid://bbrd1bjn4pncn" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_77.png" id="198_fkko0"]
+[ext_resource type="Texture2D" uid="uid://ccxqn6srsifo6" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_78.png" id="199_cls61"]
+[ext_resource type="Texture2D" uid="uid://bmvrbuprfhr1g" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_79.png" id="200_scxw3"]
+[ext_resource type="Texture2D" uid="uid://c2u861478s7pi" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_80.png" id="201_2e4e3"]
+[ext_resource type="Texture2D" uid="uid://dy8lxlfngtg2n" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_81.png" id="202_iscxj"]
+[ext_resource type="Texture2D" uid="uid://cbx2apqskxn3k" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_82.png" id="203_ocj1o"]
+[ext_resource type="Texture2D" uid="uid://dnb0nlrln357i" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_83.png" id="204_4jq6p"]
+[ext_resource type="Texture2D" uid="uid://cir6kan7cca4s" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_84.png" id="205_dscin"]
+[ext_resource type="Texture2D" uid="uid://wt63ryau0gg7" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_85.png" id="206_yb03c"]
+[ext_resource type="Texture2D" uid="uid://bdtcgx6fbbkit" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_86.png" id="207_sfoeq"]
+[ext_resource type="Texture2D" uid="uid://cmmvq2lvwcfx4" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_87.png" id="208_k4odl"]
+[ext_resource type="Texture2D" uid="uid://b5j7u6vqdmb0p" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_88.png" id="209_jk3hr"]
+[ext_resource type="Texture2D" uid="uid://dk5c4qn8dqxys" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_89.png" id="210_8rlco"]
+[ext_resource type="Texture2D" uid="uid://ds71tm0x4w30t" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_90.png" id="211_w2dm6"]
+[ext_resource type="Texture2D" uid="uid://cvri073wajrhp" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_91.png" id="212_h6s3f"]
+[ext_resource type="Texture2D" uid="uid://gu25joj1iavh" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_92.png" id="213_rcuik"]
+[ext_resource type="Texture2D" uid="uid://b6tf2gwmmhfs3" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_93.png" id="214_etuud"]
+[ext_resource type="Texture2D" uid="uid://c0ny53mwm8j01" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_94.png" id="215_o2pv8"]
+[ext_resource type="Texture2D" uid="uid://dcefias608j1o" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_95.png" id="216_ggedt"]
+[ext_resource type="Texture2D" uid="uid://dq5y34tvx6gmf" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_96.png" id="217_4ug08"]
+[ext_resource type="Texture2D" uid="uid://d18oi4fas2408" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_97.png" id="218_qj72q"]
+[ext_resource type="Texture2D" uid="uid://tok5sheph28l" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_98.png" id="219_hxxkg"]
+[ext_resource type="Texture2D" uid="uid://bgwwcqqt87f2k" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_99.png" id="220_nb6eq"]
+[ext_resource type="Texture2D" uid="uid://dj5d5dnd15gtn" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_100.png" id="221_j4bpv"]
+[ext_resource type="Texture2D" uid="uid://b6cdu1jgdrcpx" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_101.png" id="222_lm78n"]
+[ext_resource type="Texture2D" uid="uid://m0ofsvjrwqe2" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_102.png" id="223_3uo3k"]
+[ext_resource type="Texture2D" uid="uid://8tjvqf4a5420" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_103.png" id="224_ucead"]
+[ext_resource type="Texture2D" uid="uid://b6buiq1vhjhqr" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_104.png" id="225_mx017"]
+[ext_resource type="Texture2D" uid="uid://cbkv047ohcx2r" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_105.png" id="226_dkbsv"]
+[ext_resource type="Texture2D" uid="uid://oah6ma3llyuh" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_106.png" id="227_qatth"]
+[ext_resource type="Texture2D" uid="uid://iqfigt1q3yqd" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_107.png" id="228_etrke"]
+[ext_resource type="Texture2D" uid="uid://c0e0dufwn6epq" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_108.png" id="229_cmqn4"]
+[ext_resource type="Texture2D" uid="uid://djmd3qfle30fa" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_109.png" id="230_hbmo0"]
+[ext_resource type="Texture2D" uid="uid://5mfmb5cct5ef" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_110.png" id="231_30lxo"]
+[ext_resource type="Texture2D" uid="uid://bok1vpnbem5j3" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_111.png" id="232_c27pp"]
+[ext_resource type="Texture2D" uid="uid://yo3a7q46jjwu" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_112.png" id="233_41mry"]
+[ext_resource type="Texture2D" uid="uid://cbg4yndw6x8hm" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_113.png" id="234_rseho"]
+[ext_resource type="Texture2D" uid="uid://v1ah7k7awpop" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_114.png" id="235_oujp5"]
+[ext_resource type="Texture2D" uid="uid://5cg63sc8u2uo" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_115.png" id="236_1plv2"]
+[ext_resource type="Texture2D" uid="uid://bvk8brpiwcmtj" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_116.png" id="237_afeso"]
+[ext_resource type="Texture2D" uid="uid://bovtf4w5g5f7d" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_117.png" id="238_eebfh"]
+[ext_resource type="Texture2D" uid="uid://b14i4nli2h6ck" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_118.png" id="239_sx4iv"]
+[ext_resource type="Texture2D" uid="uid://c036xstmi3oda" path="res://assets/character/狗/enemy_1165_duhond_Die_Sequence/enemy_1165_duhond_Die_119.png" id="240_c4ag4"]
+[ext_resource type="Texture2D" uid="uid://b2y71eojois37" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_0.png" id="361_5colp"]
+[ext_resource type="Texture2D" uid="uid://dmifg6o4h4pv5" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_1.png" id="362_onosn"]
+[ext_resource type="Texture2D" uid="uid://7oh50qkvehq8" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_2.png" id="363_7smsj"]
+[ext_resource type="Texture2D" uid="uid://dfp0ugdsjypfa" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_3.png" id="364_fbdd7"]
+[ext_resource type="Texture2D" uid="uid://bnafjkdkn0qjw" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_4.png" id="365_8xogn"]
+[ext_resource type="Texture2D" uid="uid://bbjxxhmas8iwv" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_5.png" id="366_bk847"]
+[ext_resource type="Texture2D" uid="uid://c2wom2rkjj8u4" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_6.png" id="367_7eo8m"]
+[ext_resource type="Texture2D" uid="uid://hbagw8off3iy" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_7.png" id="368_qnpxq"]
+[ext_resource type="Texture2D" uid="uid://r7qd5g7tp42x" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_8.png" id="369_0cqs1"]
+[ext_resource type="Texture2D" uid="uid://dyuupkjmud8iq" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_9.png" id="370_yplcy"]
+[ext_resource type="Texture2D" uid="uid://b11xr0mdfp0j8" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_10.png" id="371_o5pfx"]
+[ext_resource type="Texture2D" uid="uid://u6id4uwy284e" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_11.png" id="372_ca7gy"]
+[ext_resource type="Texture2D" uid="uid://ti5koa2u3i8" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_12.png" id="373_ie3bo"]
+[ext_resource type="Texture2D" uid="uid://c0d6vteykl6km" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_13.png" id="374_a5b6d"]
+[ext_resource type="Texture2D" uid="uid://pesplu0k0ajo" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_14.png" id="375_rxsvi"]
+[ext_resource type="Texture2D" uid="uid://d07ad6dt4xir0" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_15.png" id="376_te0mp"]
+[ext_resource type="Texture2D" uid="uid://sux5ngc1kaxm" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_16.png" id="377_ad84o"]
+[ext_resource type="Texture2D" uid="uid://fgtbqcwej4ki" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_17.png" id="378_fjbx2"]
+[ext_resource type="Texture2D" uid="uid://bf8mctn5qciln" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_18.png" id="379_pbtq7"]
+[ext_resource type="Texture2D" uid="uid://0hindoywed31" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_19.png" id="380_u2o4d"]
+[ext_resource type="Texture2D" uid="uid://dk4qfkumg7fjc" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_20.png" id="381_owhjq"]
+[ext_resource type="Texture2D" uid="uid://b1xl8bvs3d4ai" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_21.png" id="382_76qg8"]
+[ext_resource type="Texture2D" uid="uid://3ne0h8lj7csu" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_22.png" id="383_mhmvl"]
+[ext_resource type="Texture2D" uid="uid://qexa01yovhm2" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_23.png" id="384_2h4h1"]
+[ext_resource type="Texture2D" uid="uid://ch2hbf2uol0n2" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_24.png" id="385_xnohr"]
+[ext_resource type="Texture2D" uid="uid://v5oic3flr8ev" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_25.png" id="386_ccnex"]
+[ext_resource type="Texture2D" uid="uid://ceq1k2trwvdfn" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_26.png" id="387_ay0rv"]
+[ext_resource type="Texture2D" uid="uid://coxhhg2x1tt31" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_27.png" id="388_cj3h4"]
+[ext_resource type="Texture2D" uid="uid://cikiv4etlhmhf" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_28.png" id="389_tjlf0"]
+[ext_resource type="Texture2D" uid="uid://66iqdyd5taur" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_29.png" id="390_62yud"]
+[ext_resource type="Texture2D" uid="uid://dq44xgtq11eh2" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_30.png" id="391_wkjbe"]
+[ext_resource type="Texture2D" uid="uid://dvpwp76yo1bnr" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_31.png" id="392_yqc8g"]
+[ext_resource type="Texture2D" uid="uid://d032sotytfsbi" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_32.png" id="393_pxi8u"]
+[ext_resource type="Texture2D" uid="uid://cpt6kdldiifjb" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_33.png" id="394_yrusl"]
+[ext_resource type="Texture2D" uid="uid://bh5bsb750x7ae" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_34.png" id="395_us5ud"]
+[ext_resource type="Texture2D" uid="uid://bhxxxno4ggu0v" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_35.png" id="396_stj51"]
+[ext_resource type="Texture2D" uid="uid://jrywgn05fvre" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_36.png" id="397_tga3x"]
+[ext_resource type="Texture2D" uid="uid://kln6u7km1kkv" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_37.png" id="398_l700m"]
+[ext_resource type="Texture2D" uid="uid://by8madmivf03l" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_38.png" id="399_xnsaq"]
+[ext_resource type="Texture2D" uid="uid://yh6078t0lwaf" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_39.png" id="400_byk7m"]
+[ext_resource type="Texture2D" uid="uid://c32n3ycgf1ipv" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_40.png" id="401_3w0h5"]
+[ext_resource type="Texture2D" uid="uid://crs731qyo8mk5" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_41.png" id="402_uwwqp"]
+[ext_resource type="Texture2D" uid="uid://b0qejvsm5b7tq" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_42.png" id="403_hpfpq"]
+[ext_resource type="Texture2D" uid="uid://bj855wog02mjj" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_43.png" id="404_mkk0p"]
+[ext_resource type="Texture2D" uid="uid://dia8yvrw11bu5" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_44.png" id="405_iripk"]
+[ext_resource type="Texture2D" uid="uid://bk8ldutir3f2s" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_45.png" id="406_3ju1a"]
+[ext_resource type="Texture2D" uid="uid://b7m7j80ov30u2" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_46.png" id="407_r05iq"]
+[ext_resource type="Texture2D" uid="uid://pm4i4bu4rwlj" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_47.png" id="408_d28o1"]
+[ext_resource type="Texture2D" uid="uid://xeqtyrnltyn2" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_48.png" id="409_kilp0"]
+[ext_resource type="Texture2D" uid="uid://b4e4ki4w6vvvk" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_49.png" id="410_8y6bk"]
+[ext_resource type="Texture2D" uid="uid://c21a7lmotv35t" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_50.png" id="411_sjbwg"]
+[ext_resource type="Texture2D" uid="uid://bdf3cyrv5g4g7" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_51.png" id="412_vdd0d"]
+[ext_resource type="Texture2D" uid="uid://dmlv7kpyhia1b" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_52.png" id="413_6w1gy"]
+[ext_resource type="Texture2D" uid="uid://b0kwlb7v1u3le" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_53.png" id="414_86cxs"]
+[ext_resource type="Texture2D" uid="uid://bh7pkrcdfc3hu" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_54.png" id="415_l2i0y"]
+[ext_resource type="Texture2D" uid="uid://b0nppprtsurgs" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_55.png" id="416_sywrx"]
+[ext_resource type="Texture2D" uid="uid://bmwlnl7p6ogyp" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_56.png" id="417_k02hc"]
+[ext_resource type="Texture2D" uid="uid://bvbts7bh62ctq" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_57.png" id="418_ch6y4"]
+[ext_resource type="Texture2D" uid="uid://cde3pp8nj40q3" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_58.png" id="419_cmr55"]
+[ext_resource type="Texture2D" uid="uid://42rm4dldp1i" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_59.png" id="420_d6ix0"]
+[ext_resource type="Texture2D" uid="uid://b57n1bu1rykg1" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_60.png" id="421_me3s6"]
+[ext_resource type="Texture2D" uid="uid://bu4eli6of061u" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_61.png" id="422_jvxik"]
+[ext_resource type="Texture2D" uid="uid://ctf71fb4ukn4v" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_62.png" id="423_3rsec"]
+[ext_resource type="Texture2D" uid="uid://3i0pucidxyf0" path="res://assets/character/狗/enemy_1165_duhond_Run_Loop_Sequence/enemy_1165_duhond_Run_Loop_63.png" id="424_r10nh"]
+[ext_resource type="Script" uid="uid://b5yyt0mq3bcy3" path="res://ai/tasks/random_move.gd" id="425_yh0ue"]
+[ext_resource type="Script" uid="uid://bn4reb36r6yie" path="res://ai/tasks/play_frame_animation.gd" id="426_yh0ue"]
+[ext_resource type="PackedScene" uid="uid://bnhtoeja04f2s" path="res://scenes/info.tscn" id="427_1acxm"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4c5pb"]
+radius = 0.322429
+height = 1.2961
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wex0o"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xftja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_riuj1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_yh0ue")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_1acxm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_syauo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_fxo0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_5owri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_g63gj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_cu6c5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_y1f6v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_tm5rb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_wtwi3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_uun35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_sy7t6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_vftjy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_2788s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_mlm2k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_p4kep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_ibalu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_acj41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_xp3gy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_nexb0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_p5wk0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_pwhfl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_bj8dw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_b84ri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_n2wh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_4s76f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_wjm80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_14mff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_8e1yp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_2qpuy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_12uu0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_nujrt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_67uce")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_33ave")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_ibfkr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_vynm2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_jw857")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_6hu6x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_c1ql6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_feit4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_4iyuh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_jkkrg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_rpny6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_k2lfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_f7r1u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_fp66m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_4km2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_nlcse")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_b34ng")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_e6xjm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_3o8ai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_x0vc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_elk8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_mb2g1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_7j7l8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_ryf4x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_1cliu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_vqbgw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_uwyhs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_x8n2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_5ynu8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_hx0rd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_he7nq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_uaxqq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_kgr13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_s06ar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_vesnn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_8ka2g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_tsjf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_bxtdl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_ro6mm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_crqye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_eun7y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_8doa8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_1y3od")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_jk8ax")
+}],
+"loop": false,
+"name": &"attack1",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("81_41ks3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_2x8dh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_p0c0c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_jyig5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_6f6wv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_ipual")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_mikvr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_hxcyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_vk68e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_1bevf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_myxwl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_huyfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_xwh64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_bbe10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_tqsrk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_sn8jm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_pt0er")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_s0pic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_hvttj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_855p0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_plb2k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_utlea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_0rewc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_fsiww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_nf06k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_em36u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_57cpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_bs3y4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_qdf1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_sc44p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_5wv5m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_bex76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_rfopb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_tefks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_iohpr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_x28ij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_vogp5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_q7gsb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_wrn3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_q3xi0")
+}],
+"loop": false,
+"name": &"attack2",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("121_8ihsx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_bupjm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_a4q70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_0vehl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_l4p0t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_qfgey")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_iednw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_mrqvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_8n0ll")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_bsl6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_053j8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_y0cxt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_ap64u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_c4br7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_oipyv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_rh5mp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_lcg7c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_6j18r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_encct")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_3ueut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_5y7kp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_3ipat")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_ruwf5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_u56jm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_mer8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_q5mv5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_kwq7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_83wl0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_ly7ed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_rya58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_1u47t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_88j5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_8t2dp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_fkbnf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_cotmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_2tc57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_kk14s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_8pmg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_jdlwr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_78dpg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_c6a73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_e2ac4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_fb8fm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_ql3ud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_cfyqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_hwjqw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_bp0se")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_qllq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_14r2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_rfwnh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_qeck5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_av4ge")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_st6f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_ur4xg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_nlybe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_3ubc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_kyjjh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_v0sjg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_yc6re")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_6ensq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_oyg5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_ed45o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_a6k8p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_yqetb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_l0b6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_ls6dc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_6t5gp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_mp73g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_27j1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_la05x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_frtth")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_pfclx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_wae63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_hjfh8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_jbdox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_3kdeh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_66m43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_fkko0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_cls61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_scxw3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_2e4e3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_iscxj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_ocj1o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_4jq6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_dscin")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_yb03c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_sfoeq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_k4odl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_jk3hr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_8rlco")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_w2dm6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_h6s3f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_rcuik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_etuud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_o2pv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_ggedt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_4ug08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_qj72q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_hxxkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_nb6eq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_j4bpv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_lm78n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_3uo3k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_ucead")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_mx017")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_dkbsv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_qatth")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_etrke")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_cmqn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_hbmo0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_30lxo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_c27pp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_41mry")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_rseho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_oujp5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_1plv2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_afeso")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_eebfh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_sx4iv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_c4ag4")
+}],
+"loop": false,
+"name": &"die",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_uivww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_u5ige")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7vknq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_3jeic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_pw5sp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_h8jun")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fnix5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_bno02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_1nkt4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_d20mk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_k1kfj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_w30nc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_34d5p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_0o5r2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_51q5c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_lxdmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_s8hao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_8db6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_ayma5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_t1gxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_w8cq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_bql34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_1lkpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_swm2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_o20lj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_4wpnb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_yxee3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_hpnsa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_fhfsf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_5gixk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_67rfl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_h0hv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_rfx7c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_cpfda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_0wkkt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_o45lq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_byjar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_xlhlx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_iagyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_c311a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_awnxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_8jdlx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_6vw12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_2w0js")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_ewb86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_h24ym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_4flfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_tnwf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_qvdab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_8crlj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_o84do")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_njh0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_184p0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_a1b4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_bslem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_udac3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_njhnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_6bu3y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_mv3yu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_sn1f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_1oegy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_u2sot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_h1f87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_opfho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_8lr80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_1ukqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_kyemg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_j08aw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_vsuh3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_r5c20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_sqsa7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_su1l3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_ep8no")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_0yfct")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_xhsvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_etdh5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_8kcui")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_3as6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_d6b6v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_ipsk8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_mulsw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_kosi2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_6r3if")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_yv3f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_u7ugp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_jnlfc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_kud06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_xarkr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_nxmax")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_dv8wq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_y71f0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_b7qox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_wskr6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_vg7c3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_mrpw3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_sktnm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_qbwfh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_am6eo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_f6k2g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_hlydu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_i4ylr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_snfcf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_ge6u6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_hf30n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_qixrw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_ds0gd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_s666b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_t4c7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_uvtot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_dgsik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_nehmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_paluq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_dnrl5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_o5unh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_1xthi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_7jayo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_jug4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_jjfml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_5b51g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_r1rci")
+}],
+"loop": false,
+"name": &"idle",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("361_5colp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("362_onosn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("363_7smsj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("364_fbdd7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("365_8xogn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("366_bk847")
+}, {
+"duration": 1.0,
+"texture": ExtResource("367_7eo8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("368_qnpxq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("369_0cqs1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("370_yplcy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("371_o5pfx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("372_ca7gy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("373_ie3bo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("374_a5b6d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("375_rxsvi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("376_te0mp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("377_ad84o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("378_fjbx2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("379_pbtq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("380_u2o4d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("381_owhjq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("382_76qg8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("383_mhmvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("384_2h4h1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("385_xnohr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("386_ccnex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("387_ay0rv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("388_cj3h4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("389_tjlf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("390_62yud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("391_wkjbe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("392_yqc8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("393_pxi8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("394_yrusl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("395_us5ud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("396_stj51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("397_tga3x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("398_l700m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("399_xnsaq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("400_byk7m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("401_3w0h5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("402_uwwqp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("403_hpfpq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("404_mkk0p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("405_iripk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("406_3ju1a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("407_r05iq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("408_d28o1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("409_kilp0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("410_8y6bk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("411_sjbwg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("412_vdd0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("413_6w1gy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("414_86cxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("415_l2i0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("416_sywrx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("417_k02hc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("418_ch6y4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("419_cmr55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("420_d6ix0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("421_me3s6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("422_jvxik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("423_3rsec")
+}, {
+"duration": 1.0,
+"texture": ExtResource("424_r10nh")
+}],
+"loop": false,
+"name": &"walk",
+"speed": 120.0
+}]
+
+[sub_resource type="BlackboardPlan" id="BlackboardPlan_syauo"]
+var/hp/name = &"hp"
+var/hp/type = 2
+var/hp/value = 0
+var/hp/hint = 0
+var/hp/hint_string = ""
+var/player_path/name = &"player_path"
+var/player_path/type = 22
+var/player_path/value = NodePath("")
+var/player_path/hint = 0
+var/player_path/hint_string = ""
+binding/hp = NodePath(".:hp")
+
+[sub_resource type="BBVariant" id="BBVariant_fxo0m"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_5owri"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_fxo0m")
+
+[sub_resource type="BBVariant" id="BBVariant_syauo"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_fxo0m"]
+variable = &"player_path"
+check_type = 5
+value = SubResource("BBVariant_syauo")
+
+[sub_resource type="BBNode" id="BBNode_yh0ue"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_1acxm"]
+node = SubResource("BBNode_yh0ue")
+method = &"stop_navgation"
+
+[sub_resource type="BBVariant" id="BBVariant_5owri"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_g63gj"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_5owri")
+
+[sub_resource type="BTAction" id="BTAction_fxo0m"]
+script = ExtResource("426_yh0ue")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"attack1"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBVariant" id="BBVariant_riuj1"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_yh0ue"]
+variable = &"player_path"
+check_type = 5
+value = SubResource("BBVariant_riuj1")
+
+[sub_resource type="BBNode" id="BBNode_syauo"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_fxo0m"]
+node = SubResource("BBNode_syauo")
+method = &"attack"
+
+[sub_resource type="BTSequence" id="BTSequence_yh0ue"]
+children = [SubResource("BTCheckVar_g63gj"), SubResource("BTAction_fxo0m"), SubResource("BTCheckVar_yh0ue"), SubResource("BTCallMethod_fxo0m")]
+
+[sub_resource type="BTAlwaysSucceed" id="BTAlwaysSucceed_riuj1"]
+children = [SubResource("BTSequence_yh0ue")]
+
+[sub_resource type="BTAction" id="BTAction_riuj1"]
+script = ExtResource("426_yh0ue")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"attack2"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_1acxm"]
+children = [SubResource("BTAlwaysSucceed_riuj1"), SubResource("BTAction_riuj1")]
+
+[sub_resource type="BTDelay" id="BTDelay_g63gj"]
+seconds = 0.5
+children = [SubResource("BTSequence_1acxm")]
+
+[sub_resource type="BTSequence" id="BTSequence_5owri"]
+custom_name = "attrack"
+children = [SubResource("BTCheckVar_5owri"), SubResource("BTCheckVar_fxo0m"), SubResource("BTCallMethod_1acxm"), SubResource("BTDelay_g63gj")]
+
+[sub_resource type="BTCooldown" id="BTCooldown_riuj1"]
+duration = 2.0
+children = [SubResource("BTSequence_5owri")]
+
+[sub_resource type="BBNode" id="BBNode_fxo0m"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_5owri"]
+node = SubResource("BBNode_fxo0m")
+method = &"stop_navgation"
+
+[sub_resource type="BBVariant" id="BBVariant_yh0ue"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_1acxm"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_yh0ue")
+
+[sub_resource type="BTAction" id="BTAction_1acxm"]
+script = ExtResource("426_yh0ue")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"idle"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_riuj1"]
+custom_name = "idle"
+children = [SubResource("BTCallMethod_5owri"), SubResource("BTCheckVar_1acxm"), SubResource("BTAction_1acxm")]
+
+[sub_resource type="BTProbability" id="BTProbability_yh0ue"]
+children = [SubResource("BTSequence_riuj1")]
+
+[sub_resource type="BTCooldown" id="BTCooldown_yh0ue"]
+duration = 5.0
+children = [SubResource("BTProbability_yh0ue")]
+
+[sub_resource type="BBVariant" id="BBVariant_1acxm"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_syauo"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_1acxm")
+
+[sub_resource type="BBVariant" id="BBVariant_cu6c5"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_y1f6v"]
+variable = &"player_path"
+value = SubResource("BBVariant_cu6c5")
+
+[sub_resource type="BTAction" id="BTAction_5owri"]
+script = ExtResource("425_yh0ue")
+area = 5.0
+
+[sub_resource type="BTAction" id="BTAction_syauo"]
+script = ExtResource("426_yh0ue")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"walk"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBVariant" id="BBVariant_tm5rb"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_wtwi3"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_tm5rb")
+
+[sub_resource type="BTSequence" id="BTSequence_sy7t6"]
+children = [SubResource("BTAction_syauo"), SubResource("BTCheckVar_wtwi3")]
+
+[sub_resource type="BTRepeat" id="BTRepeat_yh0ue"]
+forever = true
+children = [SubResource("BTSequence_sy7t6")]
+
+[sub_resource type="BTParallel" id="BTParallel_5owri"]
+children = [SubResource("BTAction_5owri"), SubResource("BTRepeat_yh0ue")]
+
+[sub_resource type="BTSequence" id="BTSequence_fxo0m"]
+custom_name = "walk"
+children = [SubResource("BTCheckVar_syauo"), SubResource("BTCheckVar_y1f6v"), SubResource("BTParallel_5owri")]
+
+[sub_resource type="BBNode" id="BBNode_5owri"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_g63gj"]
+node = SubResource("BBNode_5owri")
+method = &"stop_navgation"
+
+[sub_resource type="BBVariant" id="BBVariant_y1f6v"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_tm5rb"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_y1f6v")
+
+[sub_resource type="BTAction" id="BTAction_wtwi3"]
+script = ExtResource("426_yh0ue")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"idle"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_uun35"]
+custom_name = "idle"
+children = [SubResource("BTCallMethod_g63gj"), SubResource("BTCheckVar_tm5rb"), SubResource("BTAction_wtwi3")]
+
+[sub_resource type="BTSelector" id="BTSelector_g63gj"]
+children = [SubResource("BTCooldown_riuj1"), SubResource("BTCooldown_yh0ue"), SubResource("BTSequence_fxo0m"), SubResource("BTSequence_uun35")]
+
+[sub_resource type="BehaviorTree" id="BehaviorTree_cu6c5"]
+blackboard_plan = SubResource("BlackboardPlan_syauo")
+root_task = SubResource("BTSelector_g63gj")
+
+[sub_resource type="BlackboardPlan" id="BlackboardPlan_y1f6v"]
+binding/hp = NodePath("..:hp")
+binding/player_path = NodePath("..:player_path")
+
+[sub_resource type="Animation" id="Animation_1acxm"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_yh0ue"]
+resource_name = "blink"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.266667, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0.406038, 0.406038, 0.406038, 1), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_syauo"]
+resource_name = "die"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_syauo"]
+_data = {
+&"RESET": SubResource("Animation_1acxm"),
+&"blink": SubResource("Animation_yh0ue"),
+&"die": SubResource("Animation_syauo")
+}
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_1acxm"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1acxm"]
+size = Vector3(1.27435, 0.691895, 1)
+
+[node name="Dog" type="CharacterBody3D" groups=["enemy"]]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_yh0ue")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_4c5pb")
+
+[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.251614, 0)
+pixel_size = 0.003
+sprite_frames = SubResource("SpriteFrames_wex0o")
+animation = &"die"
+
+[node name="BTPlayer" type="BTPlayer" parent="."]
+behavior_tree = SubResource("BehaviorTree_cu6c5")
+blackboard_plan = SubResource("BlackboardPlan_y1f6v")
+monitor_performance = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_syauo")
+}
+
+[node name="Info" parent="." instance=ExtResource("427_1acxm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5567, 0)
+pixel_size = 0.0015
+render_priority = 127
+texture = SubResource("ViewportTexture_1acxm")
+
+[node name="AttackArea" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AttackArea"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.026947, 0.0176393, 0)
+shape = SubResource("BoxShape3D_1acxm")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+
+[connection signal="body_entered" from="AttackArea" to="." method="_on_attack_area_body_entered"]
+[connection signal="body_exited" from="AttackArea" to="." method="_on_attack_area_body_exited"]

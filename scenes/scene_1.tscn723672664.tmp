@@ -1,0 +1,73 @@
+[gd_scene load_steps=10 format=3 uid="uid://bthxhupw0i4nk"]
+
+[ext_resource type="PackedScene" uid="uid://dibggq5mpdd75" path="res://scenes/weed.tscn" id="1_ta4h7"]
+[ext_resource type="Script" uid="uid://bd046eokvcnu2" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="2_ka884"]
+[ext_resource type="Script" uid="uid://csjccrhj5wnx7" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd" id="2_sj5te"]
+[ext_resource type="Script" uid="uid://8umksf8e80fw" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="3_lki8s"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_sj5te"]
+sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+
+[sub_resource type="Sky" id="Sky_lki8s"]
+sky_material = SubResource("ProceduralSkyMaterial_sj5te")
+
+[sub_resource type="Environment" id="Environment_t6bmd"]
+background_mode = 2
+sky = SubResource("Sky_lki8s")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_y23cg"]
+
+[sub_resource type="Resource" id="Resource_t6bmd"]
+script = ExtResource("3_lki8s")
+duration = 1.0
+transition = 0
+ease = 2
+
+[node name="Scene1" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_t6bmd")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("WorldBoundaryShape3D_y23cg")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.500444, 0)
+size = Vector3(10000, 1, 10000)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.40042, 0, -1.73426)
+
+[node name="Weed" parent="." instance=ExtResource("1_ta4h7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.539831, 0)
+
+[node name="PhantomCamera3D" type="Node3D" parent="Weed" node_paths=PackedStringArray("follow_target", "look_at_target")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.539831, 2)
+top_level = true
+script = ExtResource("2_sj5te")
+follow_mode = 2
+follow_target = NodePath("..")
+look_at_target = NodePath("..")
+tween_resource = SubResource("Resource_t6bmd")
+follow_offset = Vector3(0, 0, 2)
+follow_damping = true
+follow_axis_lock = 3
+metadata/_custom_type_script = "uid://csjccrhj5wnx7"
+
+[node name="Camera3D" type="Camera3D" parent="."]
+physics_interpolation_mode = 1
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.539831, 2)
+
+[node name="PhantomCameraHost" type="Node" parent="Camera3D"]
+process_priority = 300
+process_physics_priority = 300
+script = ExtResource("2_ka884")

@@ -1,0 +1,77 @@
+[gd_scene load_steps=13 format=3 uid="uid://bthxhupw0i4nk"]
+
+[ext_resource type="PackedScene" uid="uid://dibggq5mpdd75" path="res://scenes/reed.tscn" id="1_ta4h7"]
+[ext_resource type="MeshLibrary" uid="uid://cvha7l7kjbjj" path="res://assets/block/grid_map.meshlib" id="2_ka884"]
+[ext_resource type="PackedScene" uid="uid://d1leh2a7tgf8v" path="res://scenes/dog.tscn" id="4_sj5te"]
+[ext_resource type="PackedScene" uid="uid://tmiase524ugu" path="res://scenes/ui_layer.tscn" id="5_lki8s"]
+[ext_resource type="Script" uid="uid://jh71obyu2kar" path="res://scenes/ui_layer.gd" id="5_t6bmd"]
+[ext_resource type="Texture2D" uid="uid://bnxkeltslbhq7" path="res://assets/背景/ccmap_armory.png" id="7_d7a6c"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_sj5te"]
+sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+
+[sub_resource type="Sky" id="Sky_lki8s"]
+sky_material = SubResource("ProceduralSkyMaterial_sj5te")
+
+[sub_resource type="Environment" id="Environment_t6bmd"]
+background_mode = 2
+sky = SubResource("Sky_lki8s")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ka884"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g2j0d"]
+albedo_texture = ExtResource("7_d7a6c")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_p837x"]
+material = SubResource("StandardMaterial3D_g2j0d")
+size = Vector2(120, 60)
+
+[node name="Scene1" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_t6bmd")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Reed" parent="." instance=ExtResource("1_ta4h7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.412, 1.687, 0)
+speed_y = 5.0
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = ExtResource("2_ka884")
+physics_material = SubResource("PhysicsMaterial_ka884")
+cell_size = Vector3(1, 1, 1)
+cell_center_y = false
+collision_layer = 3
+collision_mask = 3
+bake_navigation = true
+data = {
+"cells": PackedInt32Array(-65536, 65535, 152, -65534, 65535, 63, 0, 65535, 40, -65532, 65535, 53, -65530, 65535, 54, -65528, 65535, 42, 65543, 65533, 151, 5, 65533, 151, -65533, 65533, 151, 131081, 65533, 138, 14, 65535, 132, 16, 65535, 132, 18, 65535, 135, 22, 65535, 63, 24, 65535, 63, 26, 65535, 63, 23, 65535, 63, 25, 65535, 63, 27, 65535, 63, 28, 65535, 63, 29, 65535, 63, 30, 65535, 63, 31, 65535, 63, 32, 65535, 63, 29, 65533, 64, 26, 65534, 136, 24, 65534, 136, 22, 65534, 136, 32, 65533, 54, 65570, 65533, 54, 65568, 65531, 168, 65563, 65531, 168, 65561, 65531, 158, 65559, 65531, 158, 65551, 65533, 162, 65553, 65533, 54, 262178, 65533, 174, 131098, 65533, 16, 131110, 65535, 53, 131112, 65535, 53, 196650, 65535, 46, 262185, 65533, 50, 262190, 65535, 50, 262192, 65535, 147, 327727, 65533, 147, 327729, 65533, 142, 196662, 65535, 135, 65571, 65535, 19, 131124, 65535, 19, 131124, 65533, 21, 196662, 65533, 21, 9, 65533, 42, 10, 65535, 42)
+}
+metadata/_editor_floor_ = Vector3(0, 0, 0)
+
+[node name="UILayer" parent="." instance=ExtResource("5_lki8s")]
+script = ExtResource("5_t6bmd")
+
+[node name="Dog" parent="." instance=ExtResource("4_sj5te")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.275, 1.446, 0)
+
+[node name="Dog2" parent="." instance=ExtResource("4_sj5te")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.2664, 2.54611, 0)
+
+[node name="Dog3" parent="." instance=ExtResource("4_sj5te")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.458, 2.54611, 0)
+
+[node name="Dog4" parent="." instance=ExtResource("4_sj5te")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.3163, 4.60944, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 29.2182, 12.7267, -16.1413)
+mesh = SubResource("PlaneMesh_p837x")
+
+[connection signal="status_change" from="Reed" to="UILayer" method="_on_weed_status_change"]

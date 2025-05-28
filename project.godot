@@ -1,0 +1,42 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="reed_fight"
+run/main_scene="uid://bthxhupw0i4nk"
+config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+PhantomCameraManager="*res://addons/phantom_camera/scripts/managers/phantom_camera_manager.gd"
+DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+GUIDE="*res://addons/guide/guide.gd"
+
+[dialogue_manager]
+
+runtime/balloon_path="uid://cjniqhsachvig"
+
+[display]
+
+window/stretch/mode="canvas_items"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg", "res://addons/guide/plugin.cfg", "res://addons/phantom_camera/plugin.cfg")
+
+[global_group]
+
+player=""
+
+[internationalization]
+
+locale/translations_pot_files=PackedStringArray("res://dialogue/dialogue_test.dialogue")
