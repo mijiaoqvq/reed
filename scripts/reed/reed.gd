@@ -9,6 +9,7 @@ extends CharacterBody3D
 @export var idle_state: LimboState
 @export var move_state: LimboState
 @export var jump_state: LimboState
+@export var jump_wall_state: LimboState
 @export var attack_state: LimboState
 
 @export var acc:= 0.2
@@ -40,6 +41,8 @@ func _ready() -> void:
 	hsm.add_transition(idle_state, attack_state, "attack")
 	hsm.add_transition(move_state, attack_state, "attack")
 	hsm.add_transition(jump_state, attack_state, "attack")
+	hsm.add_transition(jump_state, jump_wall_state, "jump")
+	hsm.add_transition(jump_wall_state, jump_state, jump_wall_state.EVENT_FINISHED)
 	hsm.add_transition(attack_state, move_state, attack_state.EVENT_FINISHED)
 	
 	hsm.initialize(self)

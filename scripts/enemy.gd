@@ -21,17 +21,17 @@ func attacked(damage):
 	if hp > 0:
 		$AnimationPlayer.play("blink")
 	else:
-		$AnimationPlayer.play("die")
-		$AnimatedSprite3D.play("die")
-		await $AnimatedSprite3D.animation_finished
-		queue_free()
+		$BTPlayer.restart()
 
 func _physics_process(delta: float) -> void:
 	velocity.y = velocity.y - 9.8 * delta
-	if velocity.x > 0:
-		$AnimatedSprite3D.flip_h = false
-	elif velocity.x < 0:
-		$AnimatedSprite3D.flip_h = true
+	if player_path == NodePath():
+		if velocity.x > 0:
+			$AnimatedSprite3D.flip_h = false
+		elif velocity.x < 0:
+			$AnimatedSprite3D.flip_h = true
+	else:
+		$AnimatedSprite3D.flip_h = get_node(player_path).global_position.x - global_position.x < 0
 	move_and_slide()
 	
 	# Do not query when the map has never synchronized and is empty.
@@ -58,6 +58,7 @@ func get_target_position():
 func _on_attack_area_body_entered(body: Node3D) -> void:
 	if body.is_in_group(&"player"):
 		player_path = get_path_to(body)
+		$BTPlayer.restart()
 		
 
 func _on_attack_area_body_exited(body: Node3D) -> void:

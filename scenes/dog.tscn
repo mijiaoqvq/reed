@@ -1,4 +1,4 @@
-[gd_scene load_steps=485 format=3 uid="uid://d1leh2a7tgf8v"]
+[gd_scene load_steps=494 format=3 uid="uid://d1leh2a7tgf8v"]
 
 [ext_resource type="Texture2D" uid="uid://fky7k6onxtcm" path="res://assets/character/狗/enemy_1165_duhond_Idle_Sequence/enemy_1165_duhond_Idle_0.png" id="1_uivww"]
 [ext_resource type="Texture2D" uid="uid://bx2m6qsjx1jr6" path="res://assets/character/狗/enemy_1165_duhond_Attack_Sequence/enemy_1165_duhond_Attack_0.png" id="1_xftja"]
@@ -1738,6 +1738,47 @@ var/player_path/hint = 0
 var/player_path/hint_string = ""
 binding/hp = NodePath(".:hp")
 
+[sub_resource type="BBVariant" id="BBVariant_wtwi3"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_uun35"]
+variable = &"hp"
+check_type = 2
+value = SubResource("BBVariant_wtwi3")
+
+[sub_resource type="BTAction" id="BTAction_yh0ue"]
+script = ExtResource("426_yh0ue")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"die"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBNode" id="BBNode_1acxm"]
+saved_value = NodePath("AnimationPlayer")
+resource_name = "AnimationPlayer"
+
+[sub_resource type="BTPlayAnimation" id="BTPlayAnimation_syauo"]
+animation_player = SubResource("BBNode_1acxm")
+animation_name = &"die"
+
+[sub_resource type="BTParallel" id="BTParallel_yh0ue"]
+num_successes_required = 2
+children = [SubResource("BTAction_yh0ue"), SubResource("BTPlayAnimation_syauo")]
+
+[sub_resource type="BBNode" id="BBNode_g63gj"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_cu6c5"]
+node = SubResource("BBNode_g63gj")
+method = &"queue_free"
+
+[sub_resource type="BTSequence" id="BTSequence_vftjy"]
+custom_name = "die"
+children = [SubResource("BTCheckVar_uun35"), SubResource("BTParallel_yh0ue"), SubResource("BTCallMethod_cu6c5")]
+
 [sub_resource type="BBVariant" id="BBVariant_fxo0m"]
 type = 2
 saved_value = 0
@@ -1949,7 +1990,7 @@ custom_name = "idle"
 children = [SubResource("BTCallMethod_g63gj"), SubResource("BTCheckVar_tm5rb"), SubResource("BTAction_wtwi3")]
 
 [sub_resource type="BTSelector" id="BTSelector_g63gj"]
-children = [SubResource("BTCooldown_riuj1"), SubResource("BTCooldown_yh0ue"), SubResource("BTSequence_fxo0m"), SubResource("BTSequence_uun35")]
+children = [SubResource("BTSequence_vftjy"), SubResource("BTCooldown_riuj1"), SubResource("BTCooldown_yh0ue"), SubResource("BTSequence_fxo0m"), SubResource("BTSequence_uun35")]
 
 [sub_resource type="BehaviorTree" id="BehaviorTree_cu6c5"]
 blackboard_plan = SubResource("BlackboardPlan_syauo")

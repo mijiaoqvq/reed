@@ -21,10 +21,6 @@ PhantomCameraManager="*res://addons/phantom_camera/scripts/managers/phantom_came
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 GUIDE="*res://addons/guide/guide.gd"
 
-[dialogue_manager]
-
-runtime/balloon_path="uid://cjniqhsachvig"
-
 [display]
 
 window/stretch/mode="canvas_items"
@@ -39,4 +35,4 @@ player=""
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://dialogue/dialogue_test.dialogue")
+locale/translations_pot_files=PackedStringArray("res://dialogue/dialogue_test.dialogue", "res://dialogue/charpter1.dialogue", "res://dialogue/charpter0.dialogue", "res://dialogue/charpter2.dialogue", "res://dialogue/charpter2_2.dialogue", "res://dialogue/charpter3.dialogue", "res://dialogue/charpter3_2.dialogue", "res://dialogue/charpter3_3.dialogue")

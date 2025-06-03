@@ -1,4 +1,4 @@
-[gd_scene load_steps=922 format=3 uid="uid://dibggq5mpdd75"]
+[gd_scene load_steps=923 format=3 uid="uid://dibggq5mpdd75"]
 
 [ext_resource type="Texture2D" uid="uid://jd46ja5up2va" path="res://assets/character/苇草/char_1020_reed2_Attack_Sequence/char_1020_reed2_Attack_0.png" id="1_m3bbu"]
 [ext_resource type="Texture2D" uid="uid://cnqoyw6a6emn1" path="res://assets/character/苇草/char_1020_reed2_Attack_Sequence/char_1020_reed2_Attack_1.png" id="2_8wrid"]
@@ -912,6 +912,7 @@
 [ext_resource type="Script" uid="uid://dbh1frund7ss7" path="res://scripts/reed/move_state.gd" id="908_46mqa"]
 [ext_resource type="Script" uid="uid://bx2x4dkfgs2jw" path="res://scripts/reed/attack_state.gd" id="909_3rh87"]
 [ext_resource type="Script" uid="uid://bb4t430x8gda7" path="res://scripts/reed/jump_state.gd" id="909_52kna"]
+[ext_resource type="Script" uid="uid://sglfs40mp006" path="res://scenes/jump_wall_state.gd" id="913_01mb2"]
 [ext_resource type="Script" uid="uid://bd046eokvcnu2" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="913_c744f"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_m3bbu"]
@@ -3722,7 +3723,7 @@ _data = {
 &"camera_noise": SubResource("Animation_0deii")
 }
 
-[node name="Reed" type="CharacterBody3D" node_paths=PackedStringArray("camera_position", "model", "attack_area", "hsm", "idle_state", "move_state", "jump_state", "attack_state") groups=["player"]]
+[node name="Reed" type="CharacterBody3D" node_paths=PackedStringArray("camera_position", "model", "attack_area", "hsm", "idle_state", "move_state", "jump_state", "jump_wall_state", "attack_state") groups=["player"]]
 script = ExtResource("904_x482i")
 camera_position = NodePath("CameraPosition")
 model = NodePath("AnimatedSprite3D")
@@ -3731,6 +3732,7 @@ hsm = NodePath("LimboHSM")
 idle_state = NodePath("LimboHSM/IdleState")
 move_state = NodePath("LimboHSM/MoveState")
 jump_state = NodePath("LimboHSM/JumpState")
+jump_wall_state = NodePath("LimboHSM/JumpWallState")
 attack_state = NodePath("LimboHSM/AttackState")
 speed_y = 4.0
 
@@ -3792,6 +3794,10 @@ attack_area = NodePath("../../AttackArea")
 
 [node name="JumpState" type="LimboState" parent="LimboHSM" node_paths=PackedStringArray("model")]
 script = ExtResource("909_52kna")
+model = NodePath("../../AnimatedSprite3D")
+
+[node name="JumpWallState" type="LimboState" parent="LimboHSM" node_paths=PackedStringArray("model")]
+script = ExtResource("913_01mb2")
 model = NodePath("../../AnimatedSprite3D")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

@@ -13,3 +13,5 @@ func _update(_delta: float) -> void:
 		get_root().dispatch("attack")
 	if agent.is_on_floor():
 		get_root().dispatch(EVENT_FINISHED)
+	if move.value_axis_3d.y > 0 and agent.is_on_wall() and not agent.is_on_floor():
+		get_root().dispatch("jump")
