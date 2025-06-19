@@ -1,0 +1,79 @@
+[gd_scene load_steps=13 format=3 uid="uid://dipybsd2atjop"]
+
+[ext_resource type="Script" uid="uid://cnppfly1wq12s" path="res://scripts/dmage_bullet.gd" id="1_tqqmr"]
+[ext_resource type="Script" uid="uid://610l1kr2r678" path="res://scripts/Trail3D.gd" id="2_h52xv"]
+[ext_resource type="Shader" uid="uid://csh3dhynfhohx" path="res://assets/shader/dmage.tres" id="2_tqqmr"]
+[ext_resource type="Shader" uid="uid://dg0j461xtysr3" path="res://assets/shader/fireball_head.tres" id="3_h52xv"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tqqmr"]
+render_priority = 0
+shader = ExtResource("2_tqqmr")
+shader_parameter/FireColor = Color(1.2, 0.35, 0.248, 1)
+shader_parameter/Vector2Parameter = Vector2(0.5, 2)
+
+[sub_resource type="ImmediateMesh" id="ImmediateMesh_tqqmr"]
+
+[sub_resource type="ImmediateMesh" id="ImmediateMesh_0hrg0"]
+
+[sub_resource type="ImmediateMesh" id="ImmediateMesh_i43qy"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_i43qy"]
+radius = 0.062116
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0hrg0"]
+render_priority = 0
+shader = ExtResource("3_h52xv")
+shader_parameter/FireballColor = Color(0.595562, 0.17104, 0.0129829, 1)
+shader_parameter/Fre = 2.0
+
+[sub_resource type="SphereMesh" id="SphereMesh_i43qy"]
+material = SubResource("ShaderMaterial_0hrg0")
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_tqqmr"]
+radius = 0.154801
+
+[node name="DmageBullet" type="CharacterBody3D"]
+collision_mask = 4
+script = ExtResource("1_tqqmr")
+
+[node name="Trail3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 8.88178e-16, -8.88178e-16, 3.88235e-23, 1, 0, 0, 0)
+material_override = SubResource("ShaderMaterial_tqqmr")
+mesh = SubResource("ImmediateMesh_tqqmr")
+script = ExtResource("2_h52xv")
+fromWidth = 0.2
+toWidth = 0.2
+metadata/_custom_type_script = "uid://610l1kr2r678"
+
+[node name="Trail3D2" type="MeshInstance3D" parent="."]
+material_override = SubResource("ShaderMaterial_tqqmr")
+mesh = SubResource("ImmediateMesh_0hrg0")
+script = ExtResource("2_h52xv")
+fromWidth = 0.2
+toWidth = 0.2
+metadata/_custom_type_script = "uid://610l1kr2r678"
+
+[node name="Trail3D3" type="MeshInstance3D" parent="."]
+material_override = SubResource("ShaderMaterial_tqqmr")
+mesh = SubResource("ImmediateMesh_i43qy")
+script = ExtResource("2_h52xv")
+fromWidth = 0.2
+toWidth = 0.2
+metadata/_custom_type_script = "uid://610l1kr2r678"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_i43qy")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1.94079e-08, 0, 0.444, 0, 0.444, 0, -0.444, 0, -1.94079e-08, -7.53254e-05, 0, 0)
+mesh = SubResource("SphereMesh_i43qy")
+
+[node name="Area3D" type="Area3D" parent="."]
+collision_layer = 5
+collision_mask = 5
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+shape = SubResource("SphereShape3D_tqqmr")
+debug_color = Color(0.920857, 5.87195e-05, 0.693346, 0.42)
+
+[connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]

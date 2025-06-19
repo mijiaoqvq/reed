@@ -9,7 +9,7 @@ extends LimboState
 var raw_acc: float
 
 func _ready() -> void:
-	model.animation_finished.connect(_on_attrack_end)
+	model.animation_finished.connect(_on_attack_end)
 
 func _enter():
 	model.play("attack", agent.attack_speed)
@@ -21,10 +21,10 @@ func _enter():
 	agent.acc = attack_acc
 	#print("attack")
 	
-func _update(delta: float) -> void:
+func _update(_delta: float) -> void:
 	attack_area.monitoring = model.frame > 50 and model.frame < 150
 
-func _on_attrack_end():
+func _on_attack_end():
 	get_root().dispatch(EVENT_FINISHED)
 
 func _exit() -> void:

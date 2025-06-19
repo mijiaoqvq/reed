@@ -1,8 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://blyhns6lc45oo"]
+[gd_scene load_steps=10 format=3 uid="uid://blyhns6lc45oo"]
 
-[ext_resource type="Texture2D" uid="uid://dr5dtr2fao3j8" path="res://assets/背景/main.png" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://c78irqdbm3d4a" path="res://scripts/main.gd" id="1_85g3d"]
+[ext_resource type="Texture2D" uid="uid://dr5dtr2fao3j8" path="res://assets/background/main.png" id="1_o5qli"]
 [ext_resource type="Texture2D" uid="uid://cke8wpr5e4rxj" path="res://assets/textures/start.png" id="2_0wfyh"]
 [ext_resource type="Texture2D" uid="uid://jy74ryeqj8r3" path="res://assets/textures/settings.png" id="2_sugp2"]
+[ext_resource type="Texture2D" uid="uid://cmq80r88trgpq" path="res://assets/textures/settings_pressed.png" id="3_tipki"]
+[ext_resource type="Texture2D" uid="uid://bcvpgtr03oes0" path="res://assets/textures/settings_hover.png" id="4_85g3d"]
 [ext_resource type="Texture2D" uid="uid://cef4168cpd8jf" path="res://assets/textures/start_pressed.png" id="4_tbgi4"]
 [ext_resource type="Texture2D" uid="uid://xl43fb4uetgd" path="res://assets/textures/start_hover.png" id="5_tefeu"]
 [ext_resource type="Script" uid="uid://bv8rp5gbn0f7x" path="res://scripts/mask_button.gd" id="6_tefeu"]
@@ -14,6 +17,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_85g3d")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1
@@ -38,10 +42,13 @@ offset_top = -31.752
 offset_right = 30.352
 offset_bottom = 32.248
 texture_normal = ExtResource("2_sugp2")
+texture_pressed = ExtResource("3_tipki")
+texture_hover = ExtResource("4_85g3d")
 ignore_texture_size = true
 stretch_mode = 5
 
 [node name="Start" type="TextureButton" parent="."]
+unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.83
@@ -60,3 +67,5 @@ texture_hover = ExtResource("5_tefeu")
 ignore_texture_size = true
 stretch_mode = 5
 script = ExtResource("6_tefeu")
+
+[connection signal="pressed" from="Start" to="." method="_on_start_pressed"]

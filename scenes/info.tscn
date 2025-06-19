@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bnhtoeja04f2s"]
 
-[ext_resource type="Script" uid="uid://c1qdjvwne2bcb" path="res://scenes/info.gd" id="1_1t52y"]
+[ext_resource type="Script" uid="uid://c1qdjvwne2bcb" path="res://scripts/info.gd" id="1_1t52y"]
 [ext_resource type="Texture2D" uid="uid://qtccntqrb8ci" path="res://assets/ui/hp.png" id="1_6cmwp"]
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_6cmwp"]

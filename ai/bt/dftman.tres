@@ -1,0 +1,290 @@
+[gd_resource type="BehaviorTree" load_steps=63 format=3 uid="uid://qvvkui0322v2"]
+
+[ext_resource type="Script" uid="uid://bn4reb36r6yie" path="res://ai/tasks/play_frame_animation.gd" id="1_lo6ty"]
+[ext_resource type="Script" uid="uid://b5yyt0mq3bcy3" path="res://ai/tasks/random_move.gd" id="2_37lbc"]
+
+[sub_resource type="BlackboardPlan" id="BlackboardPlan_syauo"]
+var/hp/name = &"hp"
+var/hp/type = 2
+var/hp/value = 0
+var/hp/hint = 0
+var/hp/hint_string = ""
+var/player_path/name = &"player_path"
+var/player_path/type = 22
+var/player_path/value = NodePath("")
+var/player_path/hint = 0
+var/player_path/hint_string = ""
+binding/hp = NodePath(".")
+
+[sub_resource type="BBVariant" id="BBVariant_wtwi3"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_uun35"]
+variable = &"hp"
+check_type = 2
+value = SubResource("BBVariant_wtwi3")
+
+[sub_resource type="BTAction" id="BTAction_yh0ue"]
+script = ExtResource("1_lo6ty")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"die"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBNode" id="BBNode_1acxm"]
+saved_value = NodePath("AnimationPlayer")
+resource_name = "AnimationPlayer"
+
+[sub_resource type="BTPlayAnimation" id="BTPlayAnimation_syauo"]
+animation_player = SubResource("BBNode_1acxm")
+animation_name = &"die"
+
+[sub_resource type="BBVariant" id="BBVariant_g63gj"]
+type = 2
+saved_value = 8
+resource_name = "8"
+
+[sub_resource type="BTSetAgentProperty" id="BTSetAgentProperty_cu6c5"]
+property = &"collision_layer"
+value = SubResource("BBVariant_g63gj")
+
+[sub_resource type="BBVariant" id="BBVariant_uun35"]
+type = 2
+saved_value = 8
+resource_name = "8"
+
+[sub_resource type="BTSetAgentProperty" id="BTSetAgentProperty_sy7t6"]
+property = &"collision_mask"
+value = SubResource("BBVariant_uun35")
+
+[sub_resource type="BTParallel" id="BTParallel_yh0ue"]
+num_successes_required = 4
+children = [SubResource("BTAction_yh0ue"), SubResource("BTPlayAnimation_syauo"), SubResource("BTSetAgentProperty_cu6c5"), SubResource("BTSetAgentProperty_sy7t6")]
+
+[sub_resource type="BBNode" id="BBNode_g63gj"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_cu6c5"]
+node = SubResource("BBNode_g63gj")
+method = &"queue_free"
+
+[sub_resource type="BTSequence" id="BTSequence_vftjy"]
+custom_name = "die"
+children = [SubResource("BTCheckVar_uun35"), SubResource("BTParallel_yh0ue"), SubResource("BTCallMethod_cu6c5")]
+
+[sub_resource type="BBVariant" id="BBVariant_fxo0m"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_5owri"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_fxo0m")
+
+[sub_resource type="BBVariant" id="BBVariant_syauo"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_fxo0m"]
+variable = &"player_path"
+check_type = 5
+value = SubResource("BBVariant_syauo")
+
+[sub_resource type="BBNode" id="BBNode_yh0ue"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_1acxm"]
+node = SubResource("BBNode_yh0ue")
+method = &"stop_navgation"
+
+[sub_resource type="BTRandomWait" id="BTRandomWait_yh0ue"]
+min_duration = 0.1
+max_duration = 0.5
+
+[sub_resource type="BBVariant" id="BBVariant_5owri"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_g63gj"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_5owri")
+
+[sub_resource type="BTAction" id="BTAction_fxo0m"]
+script = ExtResource("1_lo6ty")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"attack1"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBVariant" id="BBVariant_riuj1"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_yh0ue"]
+variable = &"player_path"
+check_type = 5
+value = SubResource("BBVariant_riuj1")
+
+[sub_resource type="BBNode" id="BBNode_syauo"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_fxo0m"]
+node = SubResource("BBNode_syauo")
+method = &"attack"
+
+[sub_resource type="BTSequence" id="BTSequence_yh0ue"]
+children = [SubResource("BTCheckVar_g63gj"), SubResource("BTAction_fxo0m"), SubResource("BTCheckVar_yh0ue"), SubResource("BTCallMethod_fxo0m")]
+
+[sub_resource type="BTAlwaysSucceed" id="BTAlwaysSucceed_riuj1"]
+children = [SubResource("BTSequence_yh0ue")]
+
+[sub_resource type="BTAction" id="BTAction_riuj1"]
+script = ExtResource("1_lo6ty")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"attack2"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_5owri"]
+custom_name = "attrack"
+children = [SubResource("BTCheckVar_5owri"), SubResource("BTCheckVar_fxo0m"), SubResource("BTCallMethod_1acxm"), SubResource("BTRandomWait_yh0ue"), SubResource("BTAlwaysSucceed_riuj1"), SubResource("BTAction_riuj1")]
+
+[sub_resource type="BTCooldown" id="BTCooldown_riuj1"]
+duration = 1.0
+children = [SubResource("BTSequence_5owri")]
+
+[sub_resource type="BBNode" id="BBNode_fxo0m"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_5owri"]
+node = SubResource("BBNode_fxo0m")
+method = &"stop_navgation"
+
+[sub_resource type="BBVariant" id="BBVariant_yh0ue"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_1acxm"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_yh0ue")
+
+[sub_resource type="BTAction" id="BTAction_1acxm"]
+script = ExtResource("1_lo6ty")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"idle"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_riuj1"]
+custom_name = "idle"
+children = [SubResource("BTCallMethod_5owri"), SubResource("BTCheckVar_1acxm"), SubResource("BTAction_1acxm")]
+
+[sub_resource type="BTProbability" id="BTProbability_yh0ue"]
+children = [SubResource("BTSequence_riuj1")]
+
+[sub_resource type="BTCooldown" id="BTCooldown_yh0ue"]
+duration = 5.0
+children = [SubResource("BTProbability_yh0ue")]
+
+[sub_resource type="BBVariant" id="BBVariant_1acxm"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_syauo"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_1acxm")
+
+[sub_resource type="BBVariant" id="BBVariant_cu6c5"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_y1f6v"]
+variable = &"player_path"
+value = SubResource("BBVariant_cu6c5")
+
+[sub_resource type="BTAction" id="BTAction_5owri"]
+script = ExtResource("2_37lbc")
+area = 5.0
+
+[sub_resource type="BTAction" id="BTAction_syauo"]
+script = ExtResource("1_lo6ty")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"walk"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBVariant" id="BBVariant_tm5rb"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_wtwi3"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_tm5rb")
+
+[sub_resource type="BTSequence" id="BTSequence_sy7t6"]
+children = [SubResource("BTAction_syauo"), SubResource("BTCheckVar_wtwi3")]
+
+[sub_resource type="BTRepeat" id="BTRepeat_yh0ue"]
+forever = true
+children = [SubResource("BTSequence_sy7t6")]
+
+[sub_resource type="BTParallel" id="BTParallel_5owri"]
+children = [SubResource("BTAction_5owri"), SubResource("BTRepeat_yh0ue")]
+
+[sub_resource type="BTSequence" id="BTSequence_fxo0m"]
+custom_name = "walk"
+children = [SubResource("BTCheckVar_syauo"), SubResource("BTCheckVar_y1f6v"), SubResource("BTParallel_5owri")]
+
+[sub_resource type="BBNode" id="BBNode_5owri"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_g63gj"]
+node = SubResource("BBNode_5owri")
+method = &"stop_navgation"
+
+[sub_resource type="BBVariant" id="BBVariant_y1f6v"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_tm5rb"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_y1f6v")
+
+[sub_resource type="BTAction" id="BTAction_wtwi3"]
+script = ExtResource("1_lo6ty")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"idle"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_uun35"]
+custom_name = "idle"
+children = [SubResource("BTCallMethod_g63gj"), SubResource("BTCheckVar_tm5rb"), SubResource("BTAction_wtwi3")]
+
+[sub_resource type="BTSelector" id="BTSelector_g63gj"]
+children = [SubResource("BTSequence_vftjy"), SubResource("BTCooldown_riuj1"), SubResource("BTCooldown_yh0ue"), SubResource("BTSequence_fxo0m"), SubResource("BTSequence_uun35")]
+
+[resource]
+blackboard_plan = SubResource("BlackboardPlan_syauo")
+root_task = SubResource("BTSelector_g63gj")

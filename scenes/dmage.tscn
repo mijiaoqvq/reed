@@ -1,0 +1,3230 @@
+[gd_scene load_steps=773 format=3 uid="uid://cw81dlgc4ipif"]
+
+[ext_resource type="Script" uid="uid://bimv30n7v28fo" path="res://scripts/dmage.gd" id="1_cosw3"]
+[ext_resource type="Texture2D" uid="uid://b2oxk03p4ftfa" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_1.png" id="2_cosw3"]
+[ext_resource type="Texture2D" uid="uid://cms0ubb7skf8y" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_2.png" id="3_tilh7"]
+[ext_resource type="Texture2D" uid="uid://d4lfnpuk7pmwx" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_3.png" id="4_u5cak"]
+[ext_resource type="Texture2D" uid="uid://dhyxri6boruyb" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_4.png" id="5_viqf7"]
+[ext_resource type="Texture2D" uid="uid://cv627ygxjwcd4" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_5.png" id="6_1xfcv"]
+[ext_resource type="Texture2D" uid="uid://5k1o5xipdnd" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_6.png" id="7_uik4w"]
+[ext_resource type="Texture2D" uid="uid://ih7k8jmhmeqi" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_7.png" id="8_6v0wo"]
+[ext_resource type="Texture2D" uid="uid://c8eqbtg60qg3p" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_8.png" id="9_a27hl"]
+[ext_resource type="Texture2D" uid="uid://c04xuubt3iy1f" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_9.png" id="10_h3sgh"]
+[ext_resource type="Texture2D" uid="uid://c40rhw8ukiv6v" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_10.png" id="11_dk2fb"]
+[ext_resource type="Texture2D" uid="uid://bg6ylfim82m" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_11.png" id="12_s7ymv"]
+[ext_resource type="Texture2D" uid="uid://ckd71c2gyremu" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_12.png" id="13_k2v12"]
+[ext_resource type="Texture2D" uid="uid://gmp7k4u3co4u" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_13.png" id="14_q1a5j"]
+[ext_resource type="Texture2D" uid="uid://btsvkg5jcglea" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_14.png" id="15_ue2p7"]
+[ext_resource type="Texture2D" uid="uid://dpy1gtcccyhq4" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_15.png" id="16_x56ia"]
+[ext_resource type="Texture2D" uid="uid://dak1yxsigg47n" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_16.png" id="17_twtb3"]
+[ext_resource type="Texture2D" uid="uid://c6gcljpxowb0u" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_17.png" id="18_kr8sv"]
+[ext_resource type="Texture2D" uid="uid://diu7rummq8dfl" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_18.png" id="19_js3jq"]
+[ext_resource type="Texture2D" uid="uid://bnmrwb4axmxph" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_19.png" id="20_dtoj0"]
+[ext_resource type="Texture2D" uid="uid://boy6m8yjh2ric" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_20.png" id="21_trj5c"]
+[ext_resource type="Texture2D" uid="uid://8ulskyucbay0" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_21.png" id="22_jo5gr"]
+[ext_resource type="Texture2D" uid="uid://dmnjewsjxcvat" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_22.png" id="23_30bra"]
+[ext_resource type="Texture2D" uid="uid://dg3s17rayfs6l" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_23.png" id="24_dbtg8"]
+[ext_resource type="Texture2D" uid="uid://6yvrxx4erbj4" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_24.png" id="25_xlgnf"]
+[ext_resource type="Texture2D" uid="uid://tdy0kd2ri8l4" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_25.png" id="26_mv5t2"]
+[ext_resource type="Texture2D" uid="uid://dhnfkqrfb6svs" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_26.png" id="27_70lv7"]
+[ext_resource type="Texture2D" uid="uid://csf4jbdd7oc2g" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_27.png" id="28_2523m"]
+[ext_resource type="Texture2D" uid="uid://df3anpxeqbp14" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_28.png" id="29_lerm3"]
+[ext_resource type="Texture2D" uid="uid://der0gjxicn5nw" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_29.png" id="30_xny18"]
+[ext_resource type="Texture2D" uid="uid://cpxch3jlli67y" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_30.png" id="31_m2rob"]
+[ext_resource type="Texture2D" uid="uid://dbhkr80eelby6" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_31.png" id="32_pdni2"]
+[ext_resource type="Texture2D" uid="uid://bip5a37uoj2k6" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_32.png" id="33_eigjf"]
+[ext_resource type="Texture2D" uid="uid://p8bbct1me1l2" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_33.png" id="34_cpevx"]
+[ext_resource type="Texture2D" uid="uid://5qs7h7ot7d4t" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_34.png" id="35_q4agi"]
+[ext_resource type="Texture2D" uid="uid://bxei1cqk3tec" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_35.png" id="36_mbkou"]
+[ext_resource type="Texture2D" uid="uid://isif8le7sn14" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_36.png" id="37_v3wrl"]
+[ext_resource type="Texture2D" uid="uid://rkwmoilgvc2s" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_37.png" id="38_df1y1"]
+[ext_resource type="Texture2D" uid="uid://2uf1n8kv4otg" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_38.png" id="39_x03gg"]
+[ext_resource type="Texture2D" uid="uid://brmsh3cexy3ig" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_39.png" id="40_6qr42"]
+[ext_resource type="Texture2D" uid="uid://crp81eksnueho" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_40.png" id="41_0a6e4"]
+[ext_resource type="Texture2D" uid="uid://br017wt3svxl4" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_41.png" id="42_1pju1"]
+[ext_resource type="Texture2D" uid="uid://sjpxwdgxvy0x" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_42.png" id="43_1rlq2"]
+[ext_resource type="Texture2D" uid="uid://busmtrx1sr4ak" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_43.png" id="44_nymfa"]
+[ext_resource type="Texture2D" uid="uid://dk6rbdokdpr0r" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_44.png" id="45_hn7y2"]
+[ext_resource type="Texture2D" uid="uid://cks41di4avfaj" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_45.png" id="46_2kxe2"]
+[ext_resource type="Texture2D" uid="uid://2j7spg8stkrk" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_46.png" id="47_csc8i"]
+[ext_resource type="Texture2D" uid="uid://dbkgcomc1l2d7" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_47.png" id="48_0ggam"]
+[ext_resource type="Texture2D" uid="uid://b1kfwm62pw0kr" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_48.png" id="49_my0uy"]
+[ext_resource type="Texture2D" uid="uid://ebu6smbskvyr" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_49.png" id="50_0xagy"]
+[ext_resource type="Texture2D" uid="uid://dkpn7ijxglfu0" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_50.png" id="51_fo2n2"]
+[ext_resource type="Texture2D" uid="uid://brsd5sxom4j5l" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_51.png" id="52_23feo"]
+[ext_resource type="Texture2D" uid="uid://loxtghygqxsa" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_52.png" id="53_dahyr"]
+[ext_resource type="Texture2D" uid="uid://d23xjc2nncbwi" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_53.png" id="54_kdv1s"]
+[ext_resource type="Texture2D" uid="uid://t0po1dovn87j" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_54.png" id="55_fbisf"]
+[ext_resource type="Texture2D" uid="uid://ba0dhgjyl6j73" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_55.png" id="56_s5ppr"]
+[ext_resource type="Texture2D" uid="uid://cneutv783fclo" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_56.png" id="57_cvnrw"]
+[ext_resource type="Texture2D" uid="uid://by8jmrtcbnnt8" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_57.png" id="58_uji2c"]
+[ext_resource type="Texture2D" uid="uid://d1j0wqya0phwd" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_58.png" id="59_qvck3"]
+[ext_resource type="Texture2D" uid="uid://cp5d46lsw0apb" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_59.png" id="60_5rk7f"]
+[ext_resource type="Texture2D" uid="uid://lrwwdhqg74un" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_60.png" id="61_1r3du"]
+[ext_resource type="Texture2D" uid="uid://bhbrb2nh1i7yv" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_61.png" id="62_1pg8m"]
+[ext_resource type="Texture2D" uid="uid://dedp7j12ghvj2" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_62.png" id="63_imt45"]
+[ext_resource type="Texture2D" uid="uid://q56xcc4nb1hn" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_63.png" id="64_fi87l"]
+[ext_resource type="Texture2D" uid="uid://b7uf7dx68d6av" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_64.png" id="65_f7o0g"]
+[ext_resource type="Texture2D" uid="uid://d35ucs3df4yuw" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_65.png" id="66_sic2y"]
+[ext_resource type="Texture2D" uid="uid://cqb56nr8oa2dx" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_66.png" id="67_jagbo"]
+[ext_resource type="Texture2D" uid="uid://c4hkquglvgqce" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_67.png" id="68_jrj7r"]
+[ext_resource type="Texture2D" uid="uid://cq20csgxwq1fy" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_68.png" id="69_5vyku"]
+[ext_resource type="Texture2D" uid="uid://ooycx41oldgu" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_69.png" id="70_4g0vp"]
+[ext_resource type="Texture2D" uid="uid://dsuujqkn0xeth" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_70.png" id="71_7yhq5"]
+[ext_resource type="Texture2D" uid="uid://bfyl8ale3w0y" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_71.png" id="72_q5kh2"]
+[ext_resource type="Texture2D" uid="uid://de8ieetc035em" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_72.png" id="73_rlmk7"]
+[ext_resource type="Texture2D" uid="uid://bbqhjy7hubw6i" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_73.png" id="74_76kbt"]
+[ext_resource type="Texture2D" uid="uid://bs2palbt6t03" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_74.png" id="75_md560"]
+[ext_resource type="Texture2D" uid="uid://c1wholjcsgxn5" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_75.png" id="76_ltftd"]
+[ext_resource type="Texture2D" uid="uid://c68l72eqt1euj" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_76.png" id="77_j5gdp"]
+[ext_resource type="Texture2D" uid="uid://cnhvgyr2eys0d" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_77.png" id="78_jnqkc"]
+[ext_resource type="Texture2D" uid="uid://bfel4tfems46b" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_78.png" id="79_ig84k"]
+[ext_resource type="Texture2D" uid="uid://dgnq3mk2kkig5" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_79.png" id="80_fxgal"]
+[ext_resource type="Texture2D" uid="uid://bw2bgpapckr7d" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_80.png" id="81_ucy8d"]
+[ext_resource type="Texture2D" uid="uid://bpv8s4vfv26qd" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_81.png" id="82_labrv"]
+[ext_resource type="Texture2D" uid="uid://dx2j3d3inydv7" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_82.png" id="83_8cgqu"]
+[ext_resource type="Texture2D" uid="uid://d2vbyteunjfdg" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_83.png" id="84_2unvw"]
+[ext_resource type="Texture2D" uid="uid://b5gijxk3pkcro" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_84.png" id="85_3nrai"]
+[ext_resource type="Texture2D" uid="uid://clt5il23ies5a" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_85.png" id="86_557ou"]
+[ext_resource type="Texture2D" uid="uid://cyj1j563aqso1" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_86.png" id="87_wyldq"]
+[ext_resource type="Texture2D" uid="uid://mk1o3wj3x0iw" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_87.png" id="88_3j7yo"]
+[ext_resource type="Texture2D" uid="uid://djcj6r53s5j7e" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_88.png" id="89_g0tda"]
+[ext_resource type="Texture2D" uid="uid://cyr5oi7ckdr3h" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_89.png" id="90_m2yk3"]
+[ext_resource type="Texture2D" uid="uid://wv6hfy6p5q4l" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_90.png" id="91_rx531"]
+[ext_resource type="Texture2D" uid="uid://hyp3m1ptoeuw" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_91.png" id="92_vtg78"]
+[ext_resource type="Texture2D" uid="uid://yb5wi5ouogsy" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_92.png" id="93_00kp1"]
+[ext_resource type="Texture2D" uid="uid://brs7a4wngufiy" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_93.png" id="94_ngws2"]
+[ext_resource type="Texture2D" uid="uid://b5xg3fuw7pnfj" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_94.png" id="95_62g7s"]
+[ext_resource type="Texture2D" uid="uid://c1lmf1wnqrrtp" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_95.png" id="96_x5ivq"]
+[ext_resource type="Texture2D" uid="uid://ded0kf0fp8mfw" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_96.png" id="97_da7rb"]
+[ext_resource type="Texture2D" uid="uid://di0nfh36o4ilt" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_97.png" id="98_fw4jf"]
+[ext_resource type="Texture2D" uid="uid://doh8m5umwcdxf" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_98.png" id="99_k2bds"]
+[ext_resource type="Texture2D" uid="uid://d081t0iulgu2l" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_99.png" id="100_osorb"]
+[ext_resource type="Texture2D" uid="uid://bv0u5njkd0beq" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_100.png" id="101_vn866"]
+[ext_resource type="Texture2D" uid="uid://cfh2njxu47ck8" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_101.png" id="102_4p8yh"]
+[ext_resource type="Texture2D" uid="uid://xsvnt6qmp8lg" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_102.png" id="103_fsxak"]
+[ext_resource type="Texture2D" uid="uid://c03tpq7n83vew" path="res://assets/character/术士/enemy_1022_dmage_Skill_Begin_Sequence/enemy_1022_dmage_Skill_Begin_103.png" id="104_6l74m"]
+[ext_resource type="Texture2D" uid="uid://catmuh1areo00" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_1.png" id="105_y5t2i"]
+[ext_resource type="Texture2D" uid="uid://d37utrau2dy58" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_2.png" id="106_ld3ae"]
+[ext_resource type="Texture2D" uid="uid://ranli6pw77rp" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_3.png" id="107_dqe7w"]
+[ext_resource type="Texture2D" uid="uid://b3j5e8cmx85d0" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_4.png" id="108_xbdx8"]
+[ext_resource type="Texture2D" uid="uid://cetakcguh0gmq" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_5.png" id="109_djnsd"]
+[ext_resource type="Texture2D" uid="uid://bwfw7uqrjca5u" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_6.png" id="110_qs2kb"]
+[ext_resource type="Texture2D" uid="uid://dwd8fe0xf21yf" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_7.png" id="111_ra3hr"]
+[ext_resource type="Texture2D" uid="uid://gs3q4bscufo7" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_8.png" id="112_f4ioi"]
+[ext_resource type="Texture2D" uid="uid://dft27m10iut5p" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_9.png" id="113_wgols"]
+[ext_resource type="Texture2D" uid="uid://d2rg27rnunu17" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_10.png" id="114_j67qd"]
+[ext_resource type="Texture2D" uid="uid://3cmbyoykmwck" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_11.png" id="115_ekuv5"]
+[ext_resource type="Texture2D" uid="uid://dylqvj0ba8c5s" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_12.png" id="116_rsuvv"]
+[ext_resource type="Texture2D" uid="uid://bnc8wh4ka257m" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_13.png" id="117_xlp76"]
+[ext_resource type="Texture2D" uid="uid://cga8guvjj67cq" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_14.png" id="118_l7g0m"]
+[ext_resource type="Texture2D" uid="uid://2mna23m0odhw" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_15.png" id="119_43wpv"]
+[ext_resource type="Texture2D" uid="uid://derr58k2bbo1a" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_16.png" id="120_w2tql"]
+[ext_resource type="Texture2D" uid="uid://brlpdr4mgwtwl" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_17.png" id="121_5ut2u"]
+[ext_resource type="Texture2D" uid="uid://b6m3bu0322ou5" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_18.png" id="122_6i8qd"]
+[ext_resource type="Texture2D" uid="uid://qx8rh4l5vuvx" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_19.png" id="123_xxbei"]
+[ext_resource type="Texture2D" uid="uid://0a24fv4dur47" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_20.png" id="124_scgd7"]
+[ext_resource type="Texture2D" uid="uid://caaib1g1diih5" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_21.png" id="125_ycddc"]
+[ext_resource type="Texture2D" uid="uid://ciu3uci1qujrp" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_22.png" id="126_lywyj"]
+[ext_resource type="Texture2D" uid="uid://ch5ki5yv1wl10" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_23.png" id="127_h6v8f"]
+[ext_resource type="Texture2D" uid="uid://bysf7pkeytym8" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_24.png" id="128_tqhu0"]
+[ext_resource type="Texture2D" uid="uid://d350jyfyxtmxn" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_25.png" id="129_xbl0n"]
+[ext_resource type="Texture2D" uid="uid://bifarad0pt1xg" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_26.png" id="130_5r7mv"]
+[ext_resource type="Texture2D" uid="uid://xlg0t0anclpb" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_27.png" id="131_gc4ax"]
+[ext_resource type="Texture2D" uid="uid://ke2fcm8bfiio" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_28.png" id="132_uyjw2"]
+[ext_resource type="Texture2D" uid="uid://fktt5w0x82tu" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_29.png" id="133_p668q"]
+[ext_resource type="Texture2D" uid="uid://dw015j21bj5ip" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_30.png" id="134_duj1p"]
+[ext_resource type="Texture2D" uid="uid://dqx8pcl2yiub" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_31.png" id="135_1t6yh"]
+[ext_resource type="Texture2D" uid="uid://bx65e06marfet" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_32.png" id="136_1eyhd"]
+[ext_resource type="Texture2D" uid="uid://dyjfxwxia07uv" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_33.png" id="137_esugs"]
+[ext_resource type="Texture2D" uid="uid://beq2bucyyg4no" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_34.png" id="138_o6p7w"]
+[ext_resource type="Texture2D" uid="uid://birb886hgm8wq" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_35.png" id="139_4ul03"]
+[ext_resource type="Texture2D" uid="uid://cxhydmh8cio2f" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_36.png" id="140_kn61p"]
+[ext_resource type="Texture2D" uid="uid://bsbnqn7wvgr00" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_37.png" id="141_mpehh"]
+[ext_resource type="Texture2D" uid="uid://cu3wny64vynr4" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_38.png" id="142_kwql4"]
+[ext_resource type="Texture2D" uid="uid://dlswlekd6jn4g" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_39.png" id="143_fdaae"]
+[ext_resource type="Texture2D" uid="uid://bh1hdrp1afsft" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_40.png" id="144_rq6pu"]
+[ext_resource type="Texture2D" uid="uid://c1issqrx6xra3" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_41.png" id="145_j32g4"]
+[ext_resource type="Texture2D" uid="uid://cahr43f0m8c8d" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_42.png" id="146_lumon"]
+[ext_resource type="Texture2D" uid="uid://2s42elj8fse7" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_43.png" id="147_livep"]
+[ext_resource type="Texture2D" uid="uid://b8d3400svr85n" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_44.png" id="148_tk83k"]
+[ext_resource type="Texture2D" uid="uid://b6bxt2aqnb8px" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_45.png" id="149_knnar"]
+[ext_resource type="Texture2D" uid="uid://5yy16aeppiyp" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_46.png" id="150_hmrco"]
+[ext_resource type="Texture2D" uid="uid://b4fykenxr1lqc" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_47.png" id="151_0j2sy"]
+[ext_resource type="Texture2D" uid="uid://bwhhw62usfe0p" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_48.png" id="152_f66lo"]
+[ext_resource type="Texture2D" uid="uid://i5crp2wjjfdw" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_49.png" id="153_2mnbi"]
+[ext_resource type="Texture2D" uid="uid://dn2hdjujefhk7" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_50.png" id="154_084pd"]
+[ext_resource type="Texture2D" uid="uid://b1ti7gdnc0as0" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_51.png" id="155_2amcy"]
+[ext_resource type="Texture2D" uid="uid://ctmcq5wuk32sw" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_52.png" id="156_qvs45"]
+[ext_resource type="Texture2D" uid="uid://bkboas5tgfvx5" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_53.png" id="157_b7eac"]
+[ext_resource type="Texture2D" uid="uid://8h7lo0i7ssw4" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_54.png" id="158_blm6u"]
+[ext_resource type="Texture2D" uid="uid://bk1mnx1prvsdk" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_55.png" id="159_8nt6o"]
+[ext_resource type="Texture2D" uid="uid://cajk5hqga43sd" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_56.png" id="160_ok03r"]
+[ext_resource type="Texture2D" uid="uid://canalmubbbc1r" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_57.png" id="161_ypf5t"]
+[ext_resource type="Texture2D" uid="uid://bkm4mtrd314i" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_58.png" id="162_yf0oc"]
+[ext_resource type="Texture2D" uid="uid://g0okgypb3uha" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_59.png" id="163_fq3xq"]
+[ext_resource type="Texture2D" uid="uid://bwrtw32igs17p" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_60.png" id="164_dm3nf"]
+[ext_resource type="Texture2D" uid="uid://ba3tne73smjoy" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_61.png" id="165_n35ac"]
+[ext_resource type="Texture2D" uid="uid://carivrnpj4n8l" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_62.png" id="166_utp50"]
+[ext_resource type="Texture2D" uid="uid://ctfwaaxmgjyqn" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_63.png" id="167_yrnv5"]
+[ext_resource type="Texture2D" uid="uid://v4a7urg3uyf0" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_64.png" id="168_role4"]
+[ext_resource type="Texture2D" uid="uid://big4gx88t2k8m" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_65.png" id="169_egvvk"]
+[ext_resource type="Texture2D" uid="uid://3obusiry2s0d" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_66.png" id="170_jv2th"]
+[ext_resource type="Texture2D" uid="uid://cx7bptmdttbmu" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_67.png" id="171_04umc"]
+[ext_resource type="Texture2D" uid="uid://bcymtyj8tq6nt" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_68.png" id="172_rrcli"]
+[ext_resource type="Texture2D" uid="uid://dvtx2ppe5e563" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_69.png" id="173_n86e4"]
+[ext_resource type="Texture2D" uid="uid://dwji422qdhh7v" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_70.png" id="174_jtxsf"]
+[ext_resource type="Texture2D" uid="uid://c0ux1oxypiks" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_71.png" id="175_f1fcd"]
+[ext_resource type="Texture2D" uid="uid://dhccrg7ohcj8i" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_72.png" id="176_utj6r"]
+[ext_resource type="Texture2D" uid="uid://ddyqhv5vj17k0" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_73.png" id="177_8ro48"]
+[ext_resource type="Texture2D" uid="uid://da7qfopxcna1t" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_74.png" id="178_05scp"]
+[ext_resource type="Texture2D" uid="uid://bo4vxib16yysc" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_75.png" id="179_docno"]
+[ext_resource type="Texture2D" uid="uid://bnsmyoouif1k2" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_76.png" id="180_jasam"]
+[ext_resource type="Texture2D" uid="uid://c6ti18irmcwro" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_77.png" id="181_htdk3"]
+[ext_resource type="Texture2D" uid="uid://226ak2n6v3ot" path="res://assets/character/术士/enemy_1022_dmage_Skill_End_Sequence/enemy_1022_dmage_Skill_End_78.png" id="182_jr7gk"]
+[ext_resource type="Texture2D" uid="uid://dnmc2es0rj5h8" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_0.png" id="183_v6p63"]
+[ext_resource type="Texture2D" uid="uid://ja6ohb31ysbl" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_1.png" id="184_h6pys"]
+[ext_resource type="Texture2D" uid="uid://c0gfbje4olysh" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_2.png" id="185_i8hcu"]
+[ext_resource type="Texture2D" uid="uid://fcombpkilb65" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_3.png" id="186_rwwkg"]
+[ext_resource type="Texture2D" uid="uid://bdvbiskqgp6un" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_4.png" id="187_8t0qj"]
+[ext_resource type="Texture2D" uid="uid://bn7uaehcidblk" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_5.png" id="188_5twxs"]
+[ext_resource type="Texture2D" uid="uid://dwxfw627dvmvi" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_6.png" id="189_gphy5"]
+[ext_resource type="Texture2D" uid="uid://cmunm01d1kqe3" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_7.png" id="190_lt4w3"]
+[ext_resource type="Texture2D" uid="uid://difpqw3nsb5xf" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_8.png" id="191_17ivu"]
+[ext_resource type="Texture2D" uid="uid://dtykvbqt74yhw" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_9.png" id="192_i18mw"]
+[ext_resource type="Texture2D" uid="uid://bfnftdtjdnx0u" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_10.png" id="193_gongd"]
+[ext_resource type="Texture2D" uid="uid://cpv0v5w56fnlw" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_11.png" id="194_o4hm6"]
+[ext_resource type="Texture2D" uid="uid://i7rwp765b5gu" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_12.png" id="195_poxyt"]
+[ext_resource type="Texture2D" uid="uid://bp7ndaaytp3vk" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_13.png" id="196_fncwm"]
+[ext_resource type="Texture2D" uid="uid://cilqua75uamrj" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_14.png" id="197_pp0cl"]
+[ext_resource type="Texture2D" uid="uid://d3dyh1ai1ag1e" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_15.png" id="198_k44u4"]
+[ext_resource type="Texture2D" uid="uid://iyyh4w4ve6nj" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_16.png" id="199_valca"]
+[ext_resource type="Texture2D" uid="uid://bvygef1jtirh1" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_17.png" id="200_nf71x"]
+[ext_resource type="Texture2D" uid="uid://brnneyux28163" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_18.png" id="201_oj0y7"]
+[ext_resource type="Texture2D" uid="uid://bokx4vvfyyln8" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_19.png" id="202_g8tsf"]
+[ext_resource type="Texture2D" uid="uid://c63nwnm68g6xt" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_20.png" id="203_ybck7"]
+[ext_resource type="Texture2D" uid="uid://d2n2sanrhhplr" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_21.png" id="204_dsxjj"]
+[ext_resource type="Texture2D" uid="uid://bhbmhgc6fyghu" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_22.png" id="205_kml4a"]
+[ext_resource type="Texture2D" uid="uid://csgthd7hejvi5" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_23.png" id="206_ga72w"]
+[ext_resource type="Texture2D" uid="uid://bie7p5i2rtb1g" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_24.png" id="207_5mtei"]
+[ext_resource type="Texture2D" uid="uid://l7kub0jio4sm" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_25.png" id="208_mwrrx"]
+[ext_resource type="Texture2D" uid="uid://brgyw3luhbgjs" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_26.png" id="209_0djnt"]
+[ext_resource type="Texture2D" uid="uid://nvjgp1hmfl8t" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_27.png" id="210_akdl2"]
+[ext_resource type="Texture2D" uid="uid://ro47fy74i0pb" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_28.png" id="211_b4k4l"]
+[ext_resource type="Texture2D" uid="uid://dkxmg7r7ec0jt" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_29.png" id="212_fhvn3"]
+[ext_resource type="Texture2D" uid="uid://53rrtfdq58hw" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_30.png" id="213_lsn40"]
+[ext_resource type="Texture2D" uid="uid://blvuup5g5i3ff" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_31.png" id="214_pohwv"]
+[ext_resource type="Texture2D" uid="uid://8wlfpje3qe43" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_32.png" id="215_08w3q"]
+[ext_resource type="Texture2D" uid="uid://b6au5trlboun6" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_33.png" id="216_dsjo2"]
+[ext_resource type="Texture2D" uid="uid://dj8bj8g2c8kkm" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_34.png" id="217_8ln7r"]
+[ext_resource type="Texture2D" uid="uid://cv2yi5vjt10my" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_35.png" id="218_f0oks"]
+[ext_resource type="Texture2D" uid="uid://b3jyxhh80lwfl" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_36.png" id="219_1by40"]
+[ext_resource type="Texture2D" uid="uid://f1khw4tpuy3f" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_37.png" id="220_tnwbb"]
+[ext_resource type="Texture2D" uid="uid://bsadm5kibj7fb" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_38.png" id="221_qof7e"]
+[ext_resource type="Texture2D" uid="uid://broji0eoavani" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_39.png" id="222_af3yp"]
+[ext_resource type="Texture2D" uid="uid://ctpaeohq5qmjx" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_40.png" id="223_d6d4p"]
+[ext_resource type="Texture2D" uid="uid://da2ilrdsoyon4" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_41.png" id="224_j6m41"]
+[ext_resource type="Texture2D" uid="uid://sw2cbcod77ai" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_42.png" id="225_k6ojc"]
+[ext_resource type="Texture2D" uid="uid://doa5ndgbnowy0" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_43.png" id="226_2hkj3"]
+[ext_resource type="Texture2D" uid="uid://dlp38rbyflyn7" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_44.png" id="227_f4amj"]
+[ext_resource type="Texture2D" uid="uid://dt6qyqptw6uri" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_45.png" id="228_j0axy"]
+[ext_resource type="Texture2D" uid="uid://slrns7j8oj7c" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_46.png" id="229_5inni"]
+[ext_resource type="Texture2D" uid="uid://mxc18s7qo0e7" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_47.png" id="230_rs8bx"]
+[ext_resource type="Texture2D" uid="uid://b06y7caeo1u5o" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_48.png" id="231_n3cy3"]
+[ext_resource type="Texture2D" uid="uid://33lprgvlqvda" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_49.png" id="232_arpnp"]
+[ext_resource type="Texture2D" uid="uid://cdo1q7j2rpwju" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_50.png" id="233_86adp"]
+[ext_resource type="Texture2D" uid="uid://uj368cakqnqy" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_51.png" id="234_2k6os"]
+[ext_resource type="Texture2D" uid="uid://bwv1g3wthbkav" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_52.png" id="235_crobd"]
+[ext_resource type="Texture2D" uid="uid://3i8do64lpqkt" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_53.png" id="236_fs3kf"]
+[ext_resource type="Texture2D" uid="uid://bmwdag624dr4w" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_54.png" id="237_butp8"]
+[ext_resource type="Texture2D" uid="uid://yj6r72jpes8w" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_55.png" id="238_a5u1g"]
+[ext_resource type="Texture2D" uid="uid://1m6kb704j53b" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_56.png" id="239_ge423"]
+[ext_resource type="Texture2D" uid="uid://fjl2xgtjbcyj" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_57.png" id="240_muri1"]
+[ext_resource type="Texture2D" uid="uid://b4uiaopg2v428" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_58.png" id="241_aveq7"]
+[ext_resource type="Texture2D" uid="uid://bgco63vow3urs" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_59.png" id="242_kjlm4"]
+[ext_resource type="Texture2D" uid="uid://ckrefmgw8oveb" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_60.png" id="243_cgk5l"]
+[ext_resource type="Texture2D" uid="uid://et7wjegoso8a" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_61.png" id="244_htcsb"]
+[ext_resource type="Texture2D" uid="uid://b18sfx4vihf6u" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_62.png" id="245_dnt5m"]
+[ext_resource type="Texture2D" uid="uid://ci8lndblqwsd7" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_63.png" id="246_o3mvt"]
+[ext_resource type="Texture2D" uid="uid://ehoivr470b3l" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_64.png" id="247_y7dn5"]
+[ext_resource type="Texture2D" uid="uid://blh2a5j24x655" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_65.png" id="248_igdfa"]
+[ext_resource type="Texture2D" uid="uid://darue0fpxeft" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_66.png" id="249_idhq3"]
+[ext_resource type="Texture2D" uid="uid://bfxu2iu2rev0m" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_67.png" id="250_jxitv"]
+[ext_resource type="Texture2D" uid="uid://7vpon0gn0py2" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_68.png" id="251_tb8vs"]
+[ext_resource type="Texture2D" uid="uid://dwk4cr73ja2iy" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_69.png" id="252_rcl3i"]
+[ext_resource type="Texture2D" uid="uid://b1y6mydbboace" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_70.png" id="253_lvstl"]
+[ext_resource type="Texture2D" uid="uid://dwlm502ardme0" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_71.png" id="254_1tk0o"]
+[ext_resource type="Texture2D" uid="uid://cgp7wgmo4h6kt" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_72.png" id="255_b7vh2"]
+[ext_resource type="Texture2D" uid="uid://cg5ysmyxp2kv5" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_73.png" id="256_x23oh"]
+[ext_resource type="Texture2D" uid="uid://bom4ato7p4g4y" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_74.png" id="257_ikvrc"]
+[ext_resource type="Texture2D" uid="uid://g4b7e0few720" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_75.png" id="258_i8pfr"]
+[ext_resource type="Texture2D" uid="uid://bmyo3wfvp11hc" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_76.png" id="259_ec37x"]
+[ext_resource type="Texture2D" uid="uid://dxfvbtu6aer7g" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_77.png" id="260_cy6qm"]
+[ext_resource type="Texture2D" uid="uid://gvpriuhu6owx" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_78.png" id="261_mv4b8"]
+[ext_resource type="Texture2D" uid="uid://btpyygw3x7gg5" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_79.png" id="262_ahd4j"]
+[ext_resource type="Texture2D" uid="uid://dvinfu6qhd8ke" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_80.png" id="263_5im4m"]
+[ext_resource type="Texture2D" uid="uid://bu14mqyd3pgeg" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_81.png" id="264_se7mw"]
+[ext_resource type="Texture2D" uid="uid://dn0c6qqhyxd13" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_82.png" id="265_yt7fx"]
+[ext_resource type="Texture2D" uid="uid://b32mklemy5xl2" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_83.png" id="266_yxi0l"]
+[ext_resource type="Texture2D" uid="uid://bi67d6h7ib6yq" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_84.png" id="267_vq4f7"]
+[ext_resource type="Texture2D" uid="uid://d0il01ficdif7" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_85.png" id="268_pqw0c"]
+[ext_resource type="Texture2D" uid="uid://c4hagldw7c74r" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_86.png" id="269_i6cw0"]
+[ext_resource type="Texture2D" uid="uid://bu4jrq2oeagvu" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_87.png" id="270_5eroc"]
+[ext_resource type="Texture2D" uid="uid://b2cxo5frma3t6" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_88.png" id="271_pkunt"]
+[ext_resource type="Texture2D" uid="uid://c2hwyjg5qg87x" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_89.png" id="272_id7c1"]
+[ext_resource type="Texture2D" uid="uid://c5rxxbr82n7xe" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_90.png" id="273_i50mm"]
+[ext_resource type="Texture2D" uid="uid://773te2bu21en" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_91.png" id="274_kn5ey"]
+[ext_resource type="Texture2D" uid="uid://cqb0m4cl8yif" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_92.png" id="275_mq31d"]
+[ext_resource type="Texture2D" uid="uid://dkjgc1g3k57ao" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_93.png" id="276_tr5yq"]
+[ext_resource type="Texture2D" uid="uid://dlkr8mil4gp2h" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_94.png" id="277_ilm7e"]
+[ext_resource type="Texture2D" uid="uid://q8nwrwwnbk08" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_95.png" id="278_30jc7"]
+[ext_resource type="Texture2D" uid="uid://qbsqdu276a5i" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_96.png" id="279_52ror"]
+[ext_resource type="Texture2D" uid="uid://uufbncwj87n2" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_97.png" id="280_8ofnq"]
+[ext_resource type="Texture2D" uid="uid://ccfrcg6a80w1m" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_98.png" id="281_78no0"]
+[ext_resource type="Texture2D" uid="uid://d14sahl1qc3x8" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_99.png" id="282_34on5"]
+[ext_resource type="Texture2D" uid="uid://bcqhn4atfmm1t" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_100.png" id="283_dosvy"]
+[ext_resource type="Texture2D" uid="uid://bu0x2qt3hp4mo" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_101.png" id="284_abipn"]
+[ext_resource type="Texture2D" uid="uid://bln7lcpwkjrp1" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_102.png" id="285_1ie4q"]
+[ext_resource type="Texture2D" uid="uid://cnp7t0nqrve4i" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_103.png" id="286_ivkxo"]
+[ext_resource type="Texture2D" uid="uid://cwpbnhredkja8" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_104.png" id="287_4sux0"]
+[ext_resource type="Texture2D" uid="uid://bdd5d8sl3lc0d" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_105.png" id="288_f8dy6"]
+[ext_resource type="Texture2D" uid="uid://cdl8nrrko45ke" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_106.png" id="289_iipfw"]
+[ext_resource type="Texture2D" uid="uid://c2fw63gxtus3l" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_107.png" id="290_tvhq2"]
+[ext_resource type="Texture2D" uid="uid://cqx6csieowphk" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_108.png" id="291_0ay2t"]
+[ext_resource type="Texture2D" uid="uid://dyj84xlpp112y" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_109.png" id="292_t8701"]
+[ext_resource type="Texture2D" uid="uid://ci4dkhet3rcj" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_110.png" id="293_ppx1r"]
+[ext_resource type="Texture2D" uid="uid://r26yqgma1fy4" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_111.png" id="294_ka2nk"]
+[ext_resource type="Texture2D" uid="uid://bsg60iw003ou6" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_112.png" id="295_lha51"]
+[ext_resource type="Texture2D" uid="uid://bxdc48u2tcdd2" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_113.png" id="296_xn3fx"]
+[ext_resource type="Texture2D" uid="uid://dem01xgh8f5g5" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_114.png" id="297_5nm0i"]
+[ext_resource type="Texture2D" uid="uid://do3jh3vrahsh8" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_115.png" id="298_jjl5r"]
+[ext_resource type="Texture2D" uid="uid://beosm1nr4p46n" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_116.png" id="299_rcqj3"]
+[ext_resource type="Texture2D" uid="uid://b3vsn3ki75x7r" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_117.png" id="300_o4epj"]
+[ext_resource type="Texture2D" uid="uid://bebimmt5hoe7n" path="res://assets/character/术士/enemy_1022_dmage_Die_Sequence/enemy_1022_dmage_Die_118.png" id="301_tf3w6"]
+[ext_resource type="Texture2D" uid="uid://d0s1wfrt2rpta" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_0.png" id="302_avby7"]
+[ext_resource type="Texture2D" uid="uid://dhy6p77qyn61r" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_1.png" id="303_f0k6f"]
+[ext_resource type="Texture2D" uid="uid://cokt1ka7snd3o" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_2.png" id="304_n12jp"]
+[ext_resource type="Texture2D" uid="uid://dm8erbflbns4q" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_3.png" id="305_jd6hw"]
+[ext_resource type="Texture2D" uid="uid://cfvoms8o16n7m" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_4.png" id="306_n7yob"]
+[ext_resource type="Texture2D" uid="uid://kctiyvn5x6fi" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_5.png" id="307_rh1wb"]
+[ext_resource type="Texture2D" uid="uid://d3p5il3p5f277" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_6.png" id="308_mfhy1"]
+[ext_resource type="Texture2D" uid="uid://v1hckkvp6d7a" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_7.png" id="309_xa14m"]
+[ext_resource type="Texture2D" uid="uid://7egfshu4xlt2" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_8.png" id="310_4b5uv"]
+[ext_resource type="Texture2D" uid="uid://bnh5f4gvkdh7u" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_9.png" id="311_kbbmk"]
+[ext_resource type="Texture2D" uid="uid://7xw7vjoc2g3m" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_10.png" id="312_6lbao"]
+[ext_resource type="Texture2D" uid="uid://g7jsodfi5bg8" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_11.png" id="313_mdlw7"]
+[ext_resource type="Texture2D" uid="uid://c0o3yobs3tfye" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_12.png" id="314_naob2"]
+[ext_resource type="Texture2D" uid="uid://dd6c7e14e4h6a" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_13.png" id="315_s26vo"]
+[ext_resource type="Texture2D" uid="uid://7sdxyqo1w36d" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_14.png" id="316_nvixh"]
+[ext_resource type="Texture2D" uid="uid://cxt3uwss3w2rf" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_15.png" id="317_2qbif"]
+[ext_resource type="Texture2D" uid="uid://bx0j3kwoql5wi" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_16.png" id="318_u2mv8"]
+[ext_resource type="Texture2D" uid="uid://b2agwl7m5bnxf" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_17.png" id="319_ojokx"]
+[ext_resource type="Texture2D" uid="uid://ck06xfbx4rttq" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_18.png" id="320_vtri4"]
+[ext_resource type="Texture2D" uid="uid://jufdh2lgj2df" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_19.png" id="321_bti0o"]
+[ext_resource type="Texture2D" uid="uid://chpl8ep3ils3i" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_20.png" id="322_ha2tx"]
+[ext_resource type="Texture2D" uid="uid://cvfq2uomc1d6a" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_21.png" id="323_1anlb"]
+[ext_resource type="Texture2D" uid="uid://cib8x0gfjfnkj" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_22.png" id="324_cvmdj"]
+[ext_resource type="Texture2D" uid="uid://odny7k27fdjb" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_23.png" id="325_a61ir"]
+[ext_resource type="Texture2D" uid="uid://bq3o52saofl3u" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_24.png" id="326_mukcv"]
+[ext_resource type="Texture2D" uid="uid://cmhfmak41cchn" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_25.png" id="327_c85sx"]
+[ext_resource type="Texture2D" uid="uid://bf2282fu01vs7" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_26.png" id="328_d37mr"]
+[ext_resource type="Texture2D" uid="uid://bwoj786doyebd" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_27.png" id="329_j6at8"]
+[ext_resource type="Texture2D" uid="uid://bnltqrxugucl4" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_28.png" id="330_xd558"]
+[ext_resource type="Texture2D" uid="uid://cejdh24dkvlwq" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_29.png" id="331_1hoto"]
+[ext_resource type="Texture2D" uid="uid://4rydgkjulxpo" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_30.png" id="332_y1etd"]
+[ext_resource type="Texture2D" uid="uid://b6lnlmo28pc2b" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_31.png" id="333_qjycu"]
+[ext_resource type="Texture2D" uid="uid://cdnsih6dq4gkn" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_32.png" id="334_je4gp"]
+[ext_resource type="Texture2D" uid="uid://ccnvuob82qcap" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_33.png" id="335_2jsi2"]
+[ext_resource type="Texture2D" uid="uid://mruf4xjbvs2g" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_34.png" id="336_tid4n"]
+[ext_resource type="Texture2D" uid="uid://b4vmcxd502e8i" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_35.png" id="337_c3fxf"]
+[ext_resource type="Texture2D" uid="uid://bau0tdsey45ng" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_36.png" id="338_dmgvq"]
+[ext_resource type="Texture2D" uid="uid://dx7as6cacsiww" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_37.png" id="339_70rma"]
+[ext_resource type="Texture2D" uid="uid://ccy282bjsxjgd" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_38.png" id="340_i0fiq"]
+[ext_resource type="Texture2D" uid="uid://bghied202oyhf" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_39.png" id="341_i8tkj"]
+[ext_resource type="Texture2D" uid="uid://s31d3iv0vmo2" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_40.png" id="342_b16lk"]
+[ext_resource type="Texture2D" uid="uid://b2bl5bi1yudcg" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_41.png" id="343_i7hky"]
+[ext_resource type="Texture2D" uid="uid://d4bpu5w77yxn8" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_42.png" id="344_ckscu"]
+[ext_resource type="Texture2D" uid="uid://ehsbkx3oyp10" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_43.png" id="345_w0yvk"]
+[ext_resource type="Texture2D" uid="uid://cqmk0h77y1bj2" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_44.png" id="346_vq8wl"]
+[ext_resource type="Texture2D" uid="uid://blnvf8l8v4kmj" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_45.png" id="347_8q4dq"]
+[ext_resource type="Texture2D" uid="uid://cj125iiw0mbon" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_46.png" id="348_ymviu"]
+[ext_resource type="Texture2D" uid="uid://b835qiy2kwi4v" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_47.png" id="349_ag1qd"]
+[ext_resource type="Texture2D" uid="uid://bv4qdkmbrew23" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_48.png" id="350_xx2v0"]
+[ext_resource type="Texture2D" uid="uid://b0f30njbwdn3k" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_49.png" id="351_36qvw"]
+[ext_resource type="Texture2D" uid="uid://bkw02ithey7lm" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_50.png" id="352_maytp"]
+[ext_resource type="Texture2D" uid="uid://blcnogwdgipep" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_51.png" id="353_qmf1g"]
+[ext_resource type="Texture2D" uid="uid://dxuqj2gybbr65" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_52.png" id="354_sdwbr"]
+[ext_resource type="Texture2D" uid="uid://dxotwto43damm" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_53.png" id="355_vmhpq"]
+[ext_resource type="Texture2D" uid="uid://bb846g722hftd" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_54.png" id="356_7moit"]
+[ext_resource type="Texture2D" uid="uid://cwgmvxm1gr1s7" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_55.png" id="357_pdo23"]
+[ext_resource type="Texture2D" uid="uid://6aibhgeqxpv4" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_56.png" id="358_e8j10"]
+[ext_resource type="Texture2D" uid="uid://bpoounk7b6a0a" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_57.png" id="359_uq80q"]
+[ext_resource type="Texture2D" uid="uid://bl8x81ej71wym" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_58.png" id="360_bc0xx"]
+[ext_resource type="Texture2D" uid="uid://hcxklqxm1xlu" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_59.png" id="361_panvp"]
+[ext_resource type="Texture2D" uid="uid://c0of0gmrqda3n" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_60.png" id="362_qloml"]
+[ext_resource type="Texture2D" uid="uid://c0iqioakbbi0m" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_61.png" id="363_stwtx"]
+[ext_resource type="Texture2D" uid="uid://pexddyfbmpki" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_62.png" id="364_iwgft"]
+[ext_resource type="Texture2D" uid="uid://d0hq8hlr7wvi8" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_63.png" id="365_lkuba"]
+[ext_resource type="Texture2D" uid="uid://dv7di21y3hk11" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_64.png" id="366_rbrnh"]
+[ext_resource type="Texture2D" uid="uid://bls5ryh481cxb" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_65.png" id="367_deafj"]
+[ext_resource type="Texture2D" uid="uid://evxc2yk3gxe2" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_66.png" id="368_8cg7u"]
+[ext_resource type="Texture2D" uid="uid://dlnof0rss57ft" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_67.png" id="369_tqepj"]
+[ext_resource type="Texture2D" uid="uid://bjmh8p5utuxtn" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_68.png" id="370_3uhxt"]
+[ext_resource type="Texture2D" uid="uid://nu4ifyve6gfi" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_69.png" id="371_yqfjd"]
+[ext_resource type="Texture2D" uid="uid://dsbp6nwyytuas" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_70.png" id="372_g5iyu"]
+[ext_resource type="Texture2D" uid="uid://dendqi805ieng" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_71.png" id="373_81w7x"]
+[ext_resource type="Texture2D" uid="uid://djg54cxgnpie1" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_72.png" id="374_4u8m0"]
+[ext_resource type="Texture2D" uid="uid://b6kwxqssr1y4w" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_73.png" id="375_yrb8s"]
+[ext_resource type="Texture2D" uid="uid://b3aog2r5iglb8" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_74.png" id="376_dq6ea"]
+[ext_resource type="Texture2D" uid="uid://dcdc3iq2lrtgm" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_75.png" id="377_nlksn"]
+[ext_resource type="Texture2D" uid="uid://tv4ak4dchps0" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_76.png" id="378_ifi3m"]
+[ext_resource type="Texture2D" uid="uid://cnxhvf4d5q5or" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_77.png" id="379_oq810"]
+[ext_resource type="Texture2D" uid="uid://cepxtiunr7lh2" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_78.png" id="380_7xam7"]
+[ext_resource type="Texture2D" uid="uid://chbxbyiy6c37" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_79.png" id="381_fgomx"]
+[ext_resource type="Texture2D" uid="uid://dhchjy2t0rdwq" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_80.png" id="382_pjm62"]
+[ext_resource type="Texture2D" uid="uid://b8jexjp4dd7np" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_81.png" id="383_evfq6"]
+[ext_resource type="Texture2D" uid="uid://bo0sla4w3b8i2" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_82.png" id="384_dgvla"]
+[ext_resource type="Texture2D" uid="uid://dgg1kl2sn2x0s" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_83.png" id="385_qso4s"]
+[ext_resource type="Texture2D" uid="uid://btfyw4um0855c" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_84.png" id="386_l0pse"]
+[ext_resource type="Texture2D" uid="uid://bwp3yq5xkvq14" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_85.png" id="387_4ewbd"]
+[ext_resource type="Texture2D" uid="uid://d38e44kg5yvse" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_86.png" id="388_mc5nl"]
+[ext_resource type="Texture2D" uid="uid://bu3ht55bric42" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_87.png" id="389_0f6bs"]
+[ext_resource type="Texture2D" uid="uid://clmyt6dc1e4px" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_88.png" id="390_ymm1s"]
+[ext_resource type="Texture2D" uid="uid://j6xuut2xfcra" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_89.png" id="391_wstsv"]
+[ext_resource type="Texture2D" uid="uid://dsukftui4md1x" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_90.png" id="392_8f4yb"]
+[ext_resource type="Texture2D" uid="uid://df2i5rd117si2" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_91.png" id="393_yydk7"]
+[ext_resource type="Texture2D" uid="uid://b71olfo8b2ffa" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_92.png" id="394_fol24"]
+[ext_resource type="Texture2D" uid="uid://bf88v0pfobow0" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_93.png" id="395_qmny3"]
+[ext_resource type="Texture2D" uid="uid://b7l53x8j4uhft" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_94.png" id="396_lqr06"]
+[ext_resource type="Texture2D" uid="uid://doqg5qmp7o8gu" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_95.png" id="397_uk67s"]
+[ext_resource type="Texture2D" uid="uid://cmariva0lp71d" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_96.png" id="398_j46cr"]
+[ext_resource type="Texture2D" uid="uid://s50npu2021fg" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_97.png" id="399_twtdm"]
+[ext_resource type="Texture2D" uid="uid://5vlnvqhoggn6" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_98.png" id="400_35v7j"]
+[ext_resource type="Texture2D" uid="uid://dgf7r2c00nbgx" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_99.png" id="401_r0pay"]
+[ext_resource type="Texture2D" uid="uid://tosd6gfqkrvl" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_100.png" id="402_co3eb"]
+[ext_resource type="Texture2D" uid="uid://bo8ea0jhfl5fw" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_101.png" id="403_05g8a"]
+[ext_resource type="Texture2D" uid="uid://clotyipwbmgnd" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_102.png" id="404_jaajt"]
+[ext_resource type="Texture2D" uid="uid://ciu5cf55m7nlx" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_103.png" id="405_5hs5v"]
+[ext_resource type="Texture2D" uid="uid://dkx4nv0na5e16" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_104.png" id="406_e2bws"]
+[ext_resource type="Texture2D" uid="uid://ci3q8y601lj1r" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_105.png" id="407_od2rw"]
+[ext_resource type="Texture2D" uid="uid://bfjb6iqerjox2" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_106.png" id="408_70r3i"]
+[ext_resource type="Texture2D" uid="uid://b5fs2t384rk7g" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_107.png" id="409_j2g7e"]
+[ext_resource type="Texture2D" uid="uid://bloybyaie23wd" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_108.png" id="410_ovkjm"]
+[ext_resource type="Texture2D" uid="uid://bvpe343ybpabh" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_109.png" id="411_cqyn0"]
+[ext_resource type="Texture2D" uid="uid://6wyvy08v4joq" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_110.png" id="412_86dh7"]
+[ext_resource type="Texture2D" uid="uid://b1yyekniwuebw" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_111.png" id="413_gtf8k"]
+[ext_resource type="Texture2D" uid="uid://bgqtlg0xtloai" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_112.png" id="414_2jdwh"]
+[ext_resource type="Texture2D" uid="uid://ejeabcyyoyok" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_113.png" id="415_xuej5"]
+[ext_resource type="Texture2D" uid="uid://bf3oqq1n8s4x2" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_114.png" id="416_5xsum"]
+[ext_resource type="Texture2D" uid="uid://sqv6wrctnov4" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_115.png" id="417_ftqpc"]
+[ext_resource type="Texture2D" uid="uid://b5n2kgo0mupvv" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_116.png" id="418_ebwsd"]
+[ext_resource type="Texture2D" uid="uid://bu54yfoo4pj04" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_117.png" id="419_sptv6"]
+[ext_resource type="Texture2D" uid="uid://bu74njr30wac2" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_118.png" id="420_vnwr5"]
+[ext_resource type="Texture2D" uid="uid://d0bdixm4oavsl" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_119.png" id="421_a65s7"]
+[ext_resource type="Texture2D" uid="uid://cm0rd77q8a5d4" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_120.png" id="422_dxk6l"]
+[ext_resource type="Texture2D" uid="uid://ddtoh4j7v03ij" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_121.png" id="423_1cudg"]
+[ext_resource type="Texture2D" uid="uid://c88kcbswem7wp" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_122.png" id="424_f3ywp"]
+[ext_resource type="Texture2D" uid="uid://cuoe32m8hgmp6" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_123.png" id="425_oj2d0"]
+[ext_resource type="Texture2D" uid="uid://o5w1yo0ue8wv" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_124.png" id="426_wwnxw"]
+[ext_resource type="Texture2D" uid="uid://btgwwwpbkhyyt" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_125.png" id="427_8e75k"]
+[ext_resource type="Texture2D" uid="uid://d0dw5wembllr4" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_126.png" id="428_2ew8g"]
+[ext_resource type="Texture2D" uid="uid://j455mer67vxm" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_127.png" id="429_rfiqy"]
+[ext_resource type="Texture2D" uid="uid://bfbl1emrnttyj" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_128.png" id="430_7lm1k"]
+[ext_resource type="Texture2D" uid="uid://cnjk3vl6wlnuj" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_129.png" id="431_ju5t8"]
+[ext_resource type="Texture2D" uid="uid://c3dmx255lgdxu" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_130.png" id="432_lqumy"]
+[ext_resource type="Texture2D" uid="uid://3nac0vkbsjj8" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_131.png" id="433_rnu4t"]
+[ext_resource type="Texture2D" uid="uid://bcquhhlayrqlk" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_132.png" id="434_8wgda"]
+[ext_resource type="Texture2D" uid="uid://bi8x7kc1tfe2m" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_133.png" id="435_cy2d7"]
+[ext_resource type="Texture2D" uid="uid://cbfgjxfakyl8h" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_134.png" id="436_gou7o"]
+[ext_resource type="Texture2D" uid="uid://dq7bsgaxow2q1" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_135.png" id="437_vw0pd"]
+[ext_resource type="Texture2D" uid="uid://haurr7ixf12l" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_136.png" id="438_bb8p3"]
+[ext_resource type="Texture2D" uid="uid://ogjhq18ymj41" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_137.png" id="439_gvwbw"]
+[ext_resource type="Texture2D" uid="uid://esbor8y3wkbo" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_138.png" id="440_5r6q2"]
+[ext_resource type="Texture2D" uid="uid://b3h1wxbgfp5ic" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_139.png" id="441_xe17f"]
+[ext_resource type="Texture2D" uid="uid://bia5erhphedlr" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_140.png" id="442_06ff5"]
+[ext_resource type="Texture2D" uid="uid://c2l585y3n8orx" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_141.png" id="443_38j4t"]
+[ext_resource type="Texture2D" uid="uid://bobwqvogytrbf" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_142.png" id="444_gmykr"]
+[ext_resource type="Texture2D" uid="uid://doedak5d65nlc" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_143.png" id="445_bqkba"]
+[ext_resource type="Texture2D" uid="uid://djfqjx4ouctr" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_144.png" id="446_ewqeh"]
+[ext_resource type="Texture2D" uid="uid://b722uvtxmdgtf" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_145.png" id="447_thkn5"]
+[ext_resource type="Texture2D" uid="uid://dq1utahwrhak5" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_146.png" id="448_k5a2f"]
+[ext_resource type="Texture2D" uid="uid://h6i1txw7i6ma" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_147.png" id="449_a2ts7"]
+[ext_resource type="Texture2D" uid="uid://dpwqrh1dkmqk4" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_148.png" id="450_1ak5b"]
+[ext_resource type="Texture2D" uid="uid://b6wpw8vjxws4y" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_149.png" id="451_lxgh4"]
+[ext_resource type="Texture2D" uid="uid://cuyruoafgi6hr" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_150.png" id="452_b0lfc"]
+[ext_resource type="Texture2D" uid="uid://b3cq23cdh12ks" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_151.png" id="453_8oods"]
+[ext_resource type="Texture2D" uid="uid://bixcvcpkeehqy" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_152.png" id="454_tmw3j"]
+[ext_resource type="Texture2D" uid="uid://bt67soha1ggj1" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_153.png" id="455_386w6"]
+[ext_resource type="Texture2D" uid="uid://hk34pnwmvgu5" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_154.png" id="456_hemt5"]
+[ext_resource type="Texture2D" uid="uid://d16cgx7rax4r5" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_155.png" id="457_t75ha"]
+[ext_resource type="Texture2D" uid="uid://c2ousp3gau2uf" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_156.png" id="458_fje6p"]
+[ext_resource type="Texture2D" uid="uid://b81c5hg5c1hof" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_157.png" id="459_gvu7h"]
+[ext_resource type="Texture2D" uid="uid://bbd2g8m2ol6lp" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_158.png" id="460_tjpra"]
+[ext_resource type="Texture2D" uid="uid://c17eg1rkxk28v" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_159.png" id="461_krgmi"]
+[ext_resource type="Texture2D" uid="uid://4xv5vte6k1yi" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_160.png" id="462_wq3ep"]
+[ext_resource type="Texture2D" uid="uid://d2tfaoo1s33wd" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_161.png" id="463_2cbi0"]
+[ext_resource type="Texture2D" uid="uid://dsdbas3hc6dsa" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_162.png" id="464_b7f4i"]
+[ext_resource type="Texture2D" uid="uid://b3qwsfykvysrm" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_163.png" id="465_dry5h"]
+[ext_resource type="Texture2D" uid="uid://bxjhl735bosra" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_164.png" id="466_m50of"]
+[ext_resource type="Texture2D" uid="uid://wegxgh10o75v" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_165.png" id="467_sg11u"]
+[ext_resource type="Texture2D" uid="uid://m8dq6udr16lm" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_166.png" id="468_q7618"]
+[ext_resource type="Texture2D" uid="uid://bj4e8c5elqju" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_167.png" id="469_q82sa"]
+[ext_resource type="Texture2D" uid="uid://yw8qn4tis6rv" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_168.png" id="470_l4dic"]
+[ext_resource type="Texture2D" uid="uid://bh6egx7s8njfo" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_169.png" id="471_lbb54"]
+[ext_resource type="Texture2D" uid="uid://42w2y2ni3rcg" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_170.png" id="472_g2igd"]
+[ext_resource type="Texture2D" uid="uid://48gjucl3yec2" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_171.png" id="473_845he"]
+[ext_resource type="Texture2D" uid="uid://dee2l427y0gyx" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_172.png" id="474_1qonv"]
+[ext_resource type="Texture2D" uid="uid://b3gpi6dxa6khx" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_173.png" id="475_flmdf"]
+[ext_resource type="Texture2D" uid="uid://dpq5oryy6w78g" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_174.png" id="476_jk0vn"]
+[ext_resource type="Texture2D" uid="uid://cxaj0rieytb4d" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_175.png" id="477_rmnwp"]
+[ext_resource type="Texture2D" uid="uid://e2koc40ylgy5" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_176.png" id="478_tuy64"]
+[ext_resource type="Texture2D" uid="uid://cnk4cmb5cnj66" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_177.png" id="479_uh6xu"]
+[ext_resource type="Texture2D" uid="uid://c1kmbhcg6dc20" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_178.png" id="480_yb1gv"]
+[ext_resource type="Texture2D" uid="uid://cc55gvpaddhtc" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_179.png" id="481_awftu"]
+[ext_resource type="Texture2D" uid="uid://3087m5wh4gqr" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_180.png" id="482_tyfsg"]
+[ext_resource type="Texture2D" uid="uid://cl5028vcndtav" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_181.png" id="483_xwp4n"]
+[ext_resource type="Texture2D" uid="uid://d0s2u8snd8oua" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_182.png" id="484_bgyj1"]
+[ext_resource type="Texture2D" uid="uid://chlysugdvyvqr" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_183.png" id="485_0j4y8"]
+[ext_resource type="Texture2D" uid="uid://bq4hv5vbe6trr" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_184.png" id="486_itnj8"]
+[ext_resource type="Texture2D" uid="uid://2lf4neys0ypb" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_185.png" id="487_7qe7s"]
+[ext_resource type="Texture2D" uid="uid://2ux54676o0k4" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_186.png" id="488_pi1i8"]
+[ext_resource type="Texture2D" uid="uid://hvbultpocgcy" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_187.png" id="489_sfxtr"]
+[ext_resource type="Texture2D" uid="uid://coev5bqoau7op" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_188.png" id="490_8uryg"]
+[ext_resource type="Texture2D" uid="uid://bsdblfotsgtsw" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_189.png" id="491_rnojk"]
+[ext_resource type="Texture2D" uid="uid://dsqox0gvonly6" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_190.png" id="492_jocbb"]
+[ext_resource type="Texture2D" uid="uid://c3u00id2qsjv7" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_191.png" id="493_08uhd"]
+[ext_resource type="Texture2D" uid="uid://md84ouyowj20" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_192.png" id="494_7uqhu"]
+[ext_resource type="Texture2D" uid="uid://ctxstfovr7cm" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_193.png" id="495_r8i1l"]
+[ext_resource type="Texture2D" uid="uid://cwa10bstqvyey" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_194.png" id="496_j80en"]
+[ext_resource type="Texture2D" uid="uid://oeik8exn4fcf" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_195.png" id="497_qjluv"]
+[ext_resource type="Texture2D" uid="uid://bbcvgh2mkxqcj" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_196.png" id="498_utpor"]
+[ext_resource type="Texture2D" uid="uid://dmj7s1luei5re" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_197.png" id="499_4ntml"]
+[ext_resource type="Texture2D" uid="uid://dfdrb6ehpme14" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_198.png" id="500_fejcc"]
+[ext_resource type="Texture2D" uid="uid://bhm65j6csjjd3" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_199.png" id="501_3tusf"]
+[ext_resource type="Texture2D" uid="uid://csfa7xybye6kq" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_200.png" id="502_elqpj"]
+[ext_resource type="Texture2D" uid="uid://cmk4c6d3fys2c" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_201.png" id="503_1q6pf"]
+[ext_resource type="Texture2D" uid="uid://bd6h043pyy6gm" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_202.png" id="504_ydbk3"]
+[ext_resource type="Texture2D" uid="uid://cx2v3du2cpj5b" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_203.png" id="505_n4jhr"]
+[ext_resource type="Texture2D" uid="uid://c01mide6fd7gs" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_204.png" id="506_hfu6q"]
+[ext_resource type="Texture2D" uid="uid://bsexpapw04euh" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_205.png" id="507_nqku6"]
+[ext_resource type="Texture2D" uid="uid://duu2xknjs6cjg" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_206.png" id="508_id4bs"]
+[ext_resource type="Texture2D" uid="uid://p8oqbrf851y4" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_207.png" id="509_8vq2y"]
+[ext_resource type="Texture2D" uid="uid://2k152pbngpud" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_208.png" id="510_hb1f3"]
+[ext_resource type="Texture2D" uid="uid://cdcwykatjhbb7" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_209.png" id="511_4d6kb"]
+[ext_resource type="Texture2D" uid="uid://bl8q30juau0ns" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_210.png" id="512_4aboo"]
+[ext_resource type="Texture2D" uid="uid://c6mrlyduf3l14" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_211.png" id="513_n6f3t"]
+[ext_resource type="Texture2D" uid="uid://borcmkqj6yxmt" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_212.png" id="514_x03tl"]
+[ext_resource type="Texture2D" uid="uid://bp6dtlvxa8ntj" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_213.png" id="515_5gen0"]
+[ext_resource type="Texture2D" uid="uid://d0rji78un440b" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_214.png" id="516_tifd3"]
+[ext_resource type="Texture2D" uid="uid://bkw8qcbbbxugh" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_215.png" id="517_ktn3t"]
+[ext_resource type="Texture2D" uid="uid://c0o5mtf0iw1vr" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_216.png" id="518_qt18e"]
+[ext_resource type="Texture2D" uid="uid://bw2axxi283ij7" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_217.png" id="519_y4ufh"]
+[ext_resource type="Texture2D" uid="uid://qiwt0h1ve2nd" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_218.png" id="520_sj76c"]
+[ext_resource type="Texture2D" uid="uid://dko4nhu57o0a5" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_219.png" id="521_lxecx"]
+[ext_resource type="Texture2D" uid="uid://mxirdotyjp7m" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_220.png" id="522_iy7l8"]
+[ext_resource type="Texture2D" uid="uid://byj4fjcorfphj" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_221.png" id="523_p71rc"]
+[ext_resource type="Texture2D" uid="uid://bthqsusc7hten" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_222.png" id="524_y5ox4"]
+[ext_resource type="Texture2D" uid="uid://dsugsx38rrhdt" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_223.png" id="525_xdgiv"]
+[ext_resource type="Texture2D" uid="uid://dudpmmk7ghuv4" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_224.png" id="526_1julo"]
+[ext_resource type="Texture2D" uid="uid://ddqnifhctbnph" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_225.png" id="527_u20g4"]
+[ext_resource type="Texture2D" uid="uid://c3ws1kxv83knr" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_226.png" id="528_glk0g"]
+[ext_resource type="Texture2D" uid="uid://qxfuc2gvbuin" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_227.png" id="529_2hih5"]
+[ext_resource type="Texture2D" uid="uid://bvyvgfi4a5x06" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_228.png" id="530_ju4p8"]
+[ext_resource type="Texture2D" uid="uid://drh20yjfgvluf" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_229.png" id="531_awl8u"]
+[ext_resource type="Script" uid="uid://bn4reb36r6yie" path="res://ai/tasks/play_frame_animation.gd" id="531_stwtx"]
+[ext_resource type="Texture2D" uid="uid://crxajsaysfrkm" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_230.png" id="532_7gijo"]
+[ext_resource type="Script" uid="uid://b5yyt0mq3bcy3" path="res://ai/tasks/random_move.gd" id="532_iwgft"]
+[ext_resource type="Texture2D" uid="uid://ch15aq8l00kyx" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_231.png" id="533_kpg48"]
+[ext_resource type="PackedScene" uid="uid://bnhtoeja04f2s" path="res://scenes/info.tscn" id="533_lkuba"]
+[ext_resource type="Texture2D" uid="uid://heqwdjyvcudo" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_232.png" id="534_dbebi"]
+[ext_resource type="Texture2D" uid="uid://be5nyywdxki7a" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_233.png" id="535_vpeg5"]
+[ext_resource type="Texture2D" uid="uid://dem5lslnjidlh" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_234.png" id="536_qc0h5"]
+[ext_resource type="Texture2D" uid="uid://cqm4ko8y0xjsm" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_235.png" id="537_t0a14"]
+[ext_resource type="Texture2D" uid="uid://bk6ngwhncp1gp" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_236.png" id="538_7aco1"]
+[ext_resource type="Texture2D" uid="uid://7f8vxmfl301s" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_237.png" id="539_p81vp"]
+[ext_resource type="Texture2D" uid="uid://bwipdfo6gfm6s" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_238.png" id="540_pdlts"]
+[ext_resource type="Texture2D" uid="uid://bklfq4n3wjrsk" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_239.png" id="541_qv2ij"]
+[ext_resource type="Texture2D" uid="uid://b4cm4k3xbdxpg" path="res://assets/character/术士/enemy_1022_dmage_Idle_Sequence/enemy_1022_dmage_Idle_240.png" id="542_ha17l"]
+[ext_resource type="Texture2D" uid="uid://bt4d0h6jsmbvg" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_0.png" id="543_6wgqv"]
+[ext_resource type="Texture2D" uid="uid://b00bx3kkektx8" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_1.png" id="544_5vxgj"]
+[ext_resource type="Texture2D" uid="uid://dsij5fdp48yxv" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_2.png" id="545_tn3a3"]
+[ext_resource type="Texture2D" uid="uid://ttk0p61nb1dw" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_3.png" id="546_pc4x7"]
+[ext_resource type="Texture2D" uid="uid://bnvhcw2ej2750" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_4.png" id="547_uebto"]
+[ext_resource type="Texture2D" uid="uid://duj2ddnwau561" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_5.png" id="548_jg5sv"]
+[ext_resource type="Texture2D" uid="uid://35eoewaiwopo" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_6.png" id="549_jeoq3"]
+[ext_resource type="Texture2D" uid="uid://qqlok7p146kb" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_7.png" id="550_y8meq"]
+[ext_resource type="Texture2D" uid="uid://c2gb6qx04ibmc" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_8.png" id="551_a3ptt"]
+[ext_resource type="Texture2D" uid="uid://baaqdt30fhqfq" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_9.png" id="552_k67wx"]
+[ext_resource type="Texture2D" uid="uid://cp5ss86wfq5e6" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_10.png" id="553_3q4a4"]
+[ext_resource type="Texture2D" uid="uid://i1t2fi52ux4g" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_11.png" id="554_5wdm7"]
+[ext_resource type="Texture2D" uid="uid://fpko6i7uuxon" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_12.png" id="555_mmlph"]
+[ext_resource type="Texture2D" uid="uid://dfh0wpsw85r8" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_13.png" id="556_indt6"]
+[ext_resource type="Texture2D" uid="uid://cbyui5nc6rlyj" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_14.png" id="557_35mjf"]
+[ext_resource type="Texture2D" uid="uid://5oep5rbsk8gp" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_15.png" id="558_jnqhh"]
+[ext_resource type="Texture2D" uid="uid://d18i7sx4ymm4k" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_16.png" id="559_hqqc5"]
+[ext_resource type="Texture2D" uid="uid://57xpvgonwgw7" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_17.png" id="560_tnx4y"]
+[ext_resource type="Texture2D" uid="uid://dv87ugdr3p8wh" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_18.png" id="561_iefsd"]
+[ext_resource type="Texture2D" uid="uid://dk1bhae4gw1cy" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_19.png" id="562_4ldtx"]
+[ext_resource type="Texture2D" uid="uid://cxed074m1dy7t" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_20.png" id="563_eb8tp"]
+[ext_resource type="Texture2D" uid="uid://dwbrwmawr8gnj" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_21.png" id="564_mfg5l"]
+[ext_resource type="Texture2D" uid="uid://bpbctt0dvgjcr" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_22.png" id="565_glv6d"]
+[ext_resource type="Texture2D" uid="uid://cxeihp1bvjbm6" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_23.png" id="566_f5lc6"]
+[ext_resource type="Texture2D" uid="uid://xlqyji1u4sum" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_24.png" id="567_qreim"]
+[ext_resource type="Texture2D" uid="uid://dvfoxjvav1b4q" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_25.png" id="568_j1lkv"]
+[ext_resource type="Texture2D" uid="uid://i4gx20nkjll4" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_26.png" id="569_3cggc"]
+[ext_resource type="Texture2D" uid="uid://b3st3y4gip8ml" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_27.png" id="570_nf7om"]
+[ext_resource type="Texture2D" uid="uid://daqeankpd8tcb" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_28.png" id="571_8pxjy"]
+[ext_resource type="Texture2D" uid="uid://1tcv8dut55x5" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_29.png" id="572_ebcu3"]
+[ext_resource type="Texture2D" uid="uid://coqd86uipl382" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_30.png" id="573_4x8xk"]
+[ext_resource type="Texture2D" uid="uid://q32ff10x02k6" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_31.png" id="574_1umo7"]
+[ext_resource type="Texture2D" uid="uid://n6jigrrpdu0o" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_32.png" id="575_31tx2"]
+[ext_resource type="Texture2D" uid="uid://ycm20g8frb66" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_33.png" id="576_b7uvw"]
+[ext_resource type="Texture2D" uid="uid://b2gdlp6reingb" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_34.png" id="577_vlddr"]
+[ext_resource type="Texture2D" uid="uid://eq3vr4y50fux" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_35.png" id="578_84nfv"]
+[ext_resource type="Texture2D" uid="uid://bk2aa3tecnlk1" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_36.png" id="579_6ae1i"]
+[ext_resource type="Texture2D" uid="uid://bbl1hawrmwosp" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_37.png" id="580_ghd23"]
+[ext_resource type="Texture2D" uid="uid://b0hkymf6rdeyy" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_38.png" id="581_2npdr"]
+[ext_resource type="Texture2D" uid="uid://0xeuvv28ev3w" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_39.png" id="582_bd44c"]
+[ext_resource type="Texture2D" uid="uid://bfr1e5dfk6kof" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_40.png" id="583_8tgj0"]
+[ext_resource type="Texture2D" uid="uid://bcvevcmbs7kpc" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_41.png" id="584_nwddl"]
+[ext_resource type="Texture2D" uid="uid://dt2benuncb8tu" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_42.png" id="585_q6pn5"]
+[ext_resource type="Texture2D" uid="uid://cox5n57qjngng" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_43.png" id="586_qu85w"]
+[ext_resource type="Texture2D" uid="uid://c60vplafob177" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_44.png" id="587_pohxy"]
+[ext_resource type="Texture2D" uid="uid://cqff1ytn7o0qw" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_45.png" id="588_4i5ol"]
+[ext_resource type="Texture2D" uid="uid://d07g5atfpbsd3" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_46.png" id="589_vburl"]
+[ext_resource type="Texture2D" uid="uid://cyt07x71s8emv" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_47.png" id="590_etmbm"]
+[ext_resource type="Texture2D" uid="uid://b1u2n323tr271" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_48.png" id="591_f3ca7"]
+[ext_resource type="Texture2D" uid="uid://bgjcl4qj57fna" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_49.png" id="592_d63w1"]
+[ext_resource type="Texture2D" uid="uid://dxgup4mlukm6o" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_50.png" id="593_vr3do"]
+[ext_resource type="Texture2D" uid="uid://ftr1cvuj5o4b" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_51.png" id="594_6t0kl"]
+[ext_resource type="Texture2D" uid="uid://byqo7c2182qdv" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_52.png" id="595_ve7nv"]
+[ext_resource type="Texture2D" uid="uid://bqh820sopnhpd" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_53.png" id="596_pg3u0"]
+[ext_resource type="Texture2D" uid="uid://dhqx0ntc4urwu" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_54.png" id="597_24hvx"]
+[ext_resource type="Texture2D" uid="uid://460fov1fmmaj" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_55.png" id="598_8t6og"]
+[ext_resource type="Texture2D" uid="uid://s0bk3d6cfc8c" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_56.png" id="599_wowxs"]
+[ext_resource type="Texture2D" uid="uid://dibyd2ockygp8" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_57.png" id="600_ygf6s"]
+[ext_resource type="Texture2D" uid="uid://doccays4po6hq" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_58.png" id="601_fgvj1"]
+[ext_resource type="Texture2D" uid="uid://dwolnwtk2u08f" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_59.png" id="602_xc2sy"]
+[ext_resource type="Texture2D" uid="uid://dndbx2aylamrc" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_60.png" id="603_1f6t7"]
+[ext_resource type="Texture2D" uid="uid://cyyst365lcp1g" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_61.png" id="604_v7rop"]
+[ext_resource type="Texture2D" uid="uid://cpd6m5agfmpw0" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_62.png" id="605_rf436"]
+[ext_resource type="Texture2D" uid="uid://dg7bbeltbbqn2" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_63.png" id="606_a5snw"]
+[ext_resource type="Texture2D" uid="uid://dfkmk86fjphr8" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_64.png" id="607_j6d7x"]
+[ext_resource type="Texture2D" uid="uid://25cciwu0r12b" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_65.png" id="608_ghot5"]
+[ext_resource type="Texture2D" uid="uid://b5syjk546tvky" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_66.png" id="609_y0r3b"]
+[ext_resource type="Texture2D" uid="uid://s2fts5omcsft" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_67.png" id="610_78gnq"]
+[ext_resource type="Texture2D" uid="uid://q8gbgyl763o7" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_68.png" id="611_m40vg"]
+[ext_resource type="Texture2D" uid="uid://dx8ircbvdse8w" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_69.png" id="612_munkc"]
+[ext_resource type="Texture2D" uid="uid://b4xx2ggqk6ddq" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_70.png" id="613_8ey0m"]
+[ext_resource type="Texture2D" uid="uid://ddo84ng6g1ams" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_71.png" id="614_gfq25"]
+[ext_resource type="Texture2D" uid="uid://bviansen6jvjw" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_72.png" id="615_1m3l6"]
+[ext_resource type="Texture2D" uid="uid://30rbptkr2tw6" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_73.png" id="616_ys5rc"]
+[ext_resource type="Texture2D" uid="uid://bw6sfd27ebcut" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_74.png" id="617_lsfms"]
+[ext_resource type="Texture2D" uid="uid://cw2j5qfs6ybbn" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_75.png" id="618_o8rmp"]
+[ext_resource type="Texture2D" uid="uid://dha6ojj6uwk0m" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_76.png" id="619_l1mkt"]
+[ext_resource type="Texture2D" uid="uid://dirp13v6iclrl" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_77.png" id="620_jcwid"]
+[ext_resource type="Texture2D" uid="uid://c054r3l8npq0e" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_78.png" id="621_jumfy"]
+[ext_resource type="Texture2D" uid="uid://cei01ran5htnu" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_79.png" id="622_r5ooh"]
+[ext_resource type="Texture2D" uid="uid://cii767rj77obt" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_80.png" id="623_10re8"]
+[ext_resource type="Texture2D" uid="uid://bbgfyl1kmr0ic" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_81.png" id="624_1un2p"]
+[ext_resource type="Texture2D" uid="uid://8muuesx62rsp" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_82.png" id="625_ysvqa"]
+[ext_resource type="Texture2D" uid="uid://cgnf4y021ngog" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_83.png" id="626_1m1g5"]
+[ext_resource type="Texture2D" uid="uid://d03j1e0ut528i" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_84.png" id="627_kainc"]
+[ext_resource type="Texture2D" uid="uid://bsnsjctk5uyil" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_85.png" id="628_sg4g8"]
+[ext_resource type="Texture2D" uid="uid://cg52rrcopy71u" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_86.png" id="629_5tiep"]
+[ext_resource type="Texture2D" uid="uid://bmljav85xi33b" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_87.png" id="630_eg3wu"]
+[ext_resource type="Texture2D" uid="uid://de4f6x7kqbi2h" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_88.png" id="631_rrxix"]
+[ext_resource type="Texture2D" uid="uid://wics83npry7g" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_89.png" id="632_5g42v"]
+[ext_resource type="Texture2D" uid="uid://c3ttslr7nnr0b" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_90.png" id="633_m4xmh"]
+[ext_resource type="Texture2D" uid="uid://bo7lxoygr8uj5" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_91.png" id="634_pd8uw"]
+[ext_resource type="Texture2D" uid="uid://blbyvwubrwi2w" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_92.png" id="635_7luei"]
+[ext_resource type="Texture2D" uid="uid://bfb5idmy6it1o" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_93.png" id="636_a8445"]
+[ext_resource type="Texture2D" uid="uid://bkruf3t22x8s6" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_94.png" id="637_xlncy"]
+[ext_resource type="Texture2D" uid="uid://5371x3q3i5t1" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_95.png" id="638_6vn4q"]
+[ext_resource type="Texture2D" uid="uid://dd7y8m0xtn0xp" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_96.png" id="639_gvorl"]
+[ext_resource type="Texture2D" uid="uid://cb3gkdvopp01r" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_97.png" id="640_aqhw2"]
+[ext_resource type="Texture2D" uid="uid://despjmw47k1vh" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_98.png" id="641_2fdkg"]
+[ext_resource type="Texture2D" uid="uid://cvo14ho406o54" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_99.png" id="642_kisbi"]
+[ext_resource type="Texture2D" uid="uid://8pu5dr4kqw52" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_100.png" id="643_gx3ur"]
+[ext_resource type="Texture2D" uid="uid://b1c1ahmwy38pk" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_101.png" id="644_4xs0e"]
+[ext_resource type="Texture2D" uid="uid://sm5twk4ls6ht" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_102.png" id="645_fljxd"]
+[ext_resource type="Texture2D" uid="uid://cdcmebotoqfkm" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_103.png" id="646_pv3g3"]
+[ext_resource type="Texture2D" uid="uid://kl72tg25detk" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_104.png" id="647_splrx"]
+[ext_resource type="Texture2D" uid="uid://8m5dccvx146o" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_105.png" id="648_vs0p2"]
+[ext_resource type="Texture2D" uid="uid://ddrohu8f2j6qf" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_106.png" id="649_n3bv2"]
+[ext_resource type="Texture2D" uid="uid://b1xy3ii6emurt" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_107.png" id="650_g6v0w"]
+[ext_resource type="Texture2D" uid="uid://bg0bbhd50fl0v" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_108.png" id="651_ymnpj"]
+[ext_resource type="Texture2D" uid="uid://2vgb2r5qbrk6" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_109.png" id="652_b0q58"]
+[ext_resource type="Texture2D" uid="uid://c1p41tdexdf73" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_110.png" id="653_gucxl"]
+[ext_resource type="Texture2D" uid="uid://ctvk37pvngrvu" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_111.png" id="654_ton66"]
+[ext_resource type="Texture2D" uid="uid://b7qtx06vnlhj4" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_112.png" id="655_pjiwo"]
+[ext_resource type="Texture2D" uid="uid://pie4wmlch4ib" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_113.png" id="656_164yt"]
+[ext_resource type="Texture2D" uid="uid://cubuxl6881ros" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_114.png" id="657_6ehay"]
+[ext_resource type="Texture2D" uid="uid://bnephxmjsbdxp" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_115.png" id="658_og28y"]
+[ext_resource type="Texture2D" uid="uid://b8dj8852hqjv" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_116.png" id="659_3rtu2"]
+[ext_resource type="Texture2D" uid="uid://c15wcjoh5h6ot" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_117.png" id="660_ex1fq"]
+[ext_resource type="Texture2D" uid="uid://dxyhsk2chxhtp" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_118.png" id="661_ykceo"]
+[ext_resource type="Texture2D" uid="uid://bosntv8br4k12" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_119.png" id="662_cvvt3"]
+[ext_resource type="Texture2D" uid="uid://bwtp81lr0sl0y" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_120.png" id="663_4k5g1"]
+[ext_resource type="Texture2D" uid="uid://m3uh1ec3i3v2" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_121.png" id="664_263c0"]
+[ext_resource type="Texture2D" uid="uid://b0evighgc635c" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_122.png" id="665_ictab"]
+[ext_resource type="Texture2D" uid="uid://c1w8fdkf3nn2u" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_123.png" id="666_1m655"]
+[ext_resource type="Texture2D" uid="uid://bq5sgtye2cj2c" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_124.png" id="667_oeghu"]
+[ext_resource type="Texture2D" uid="uid://bnlu14m5blewy" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_125.png" id="668_skkfg"]
+[ext_resource type="Texture2D" uid="uid://cfpsik2qqh1ig" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_126.png" id="669_426t1"]
+[ext_resource type="Texture2D" uid="uid://b7hj7oc26fnam" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_127.png" id="670_e243l"]
+[ext_resource type="Texture2D" uid="uid://cldacpc5etw3w" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_128.png" id="671_c3bkn"]
+[ext_resource type="Texture2D" uid="uid://dyujsd3pb5vt0" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_129.png" id="672_6a7e1"]
+[ext_resource type="Texture2D" uid="uid://dd0w4127no15n" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_130.png" id="673_83suh"]
+[ext_resource type="Texture2D" uid="uid://c7fbvcvdlrkvn" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_131.png" id="674_l3o6p"]
+[ext_resource type="Texture2D" uid="uid://bxqd625kpg7im" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_132.png" id="675_1ptfh"]
+[ext_resource type="Texture2D" uid="uid://dokq5ened1lgh" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_133.png" id="676_mp6ot"]
+[ext_resource type="Texture2D" uid="uid://b7onslbt4wk0y" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_134.png" id="677_dj8gw"]
+[ext_resource type="Texture2D" uid="uid://d07ao4feruyes" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_135.png" id="678_hpdr6"]
+[ext_resource type="Texture2D" uid="uid://70m32estwjnx" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_136.png" id="679_u8q8h"]
+[ext_resource type="Texture2D" uid="uid://c8up5i8dw1h0r" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_137.png" id="680_v0fyy"]
+[ext_resource type="Texture2D" uid="uid://dwta667g2e7ta" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_138.png" id="681_g6fk7"]
+[ext_resource type="Texture2D" uid="uid://bq55figkej4xq" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_139.png" id="682_djaw7"]
+[ext_resource type="Texture2D" uid="uid://b5rsakcv0eqtw" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_140.png" id="683_svp36"]
+[ext_resource type="Texture2D" uid="uid://clv6kgpxnsdbc" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_141.png" id="684_ra3qp"]
+[ext_resource type="Texture2D" uid="uid://bxfo0eu54qchr" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_142.png" id="685_80r7j"]
+[ext_resource type="Texture2D" uid="uid://dxx5afjjuy70o" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_143.png" id="686_myitw"]
+[ext_resource type="Texture2D" uid="uid://n5725j0ipm1x" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_144.png" id="687_glgs0"]
+[ext_resource type="Texture2D" uid="uid://dcjoktxvh6cs" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_145.png" id="688_npgcu"]
+[ext_resource type="Texture2D" uid="uid://daqxc1cj51x85" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_146.png" id="689_evbed"]
+[ext_resource type="Texture2D" uid="uid://b07wohsv1vlxo" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_147.png" id="690_er8mw"]
+[ext_resource type="Texture2D" uid="uid://b7wlqlp0v4d3v" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_148.png" id="691_gvpmq"]
+[ext_resource type="Texture2D" uid="uid://dcvve6r8f8of5" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_149.png" id="692_3eioq"]
+[ext_resource type="Texture2D" uid="uid://85s0onx213o2" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_150.png" id="693_ivk6q"]
+[ext_resource type="Texture2D" uid="uid://bno24mhaskp08" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_151.png" id="694_f4u3e"]
+[ext_resource type="Texture2D" uid="uid://cbfy7d2b0qyv1" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_152.png" id="695_3ps8v"]
+[ext_resource type="Texture2D" uid="uid://cbuljdtnt2sac" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_153.png" id="696_gp172"]
+[ext_resource type="Texture2D" uid="uid://bvv61ug6eqopy" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_154.png" id="697_w54u6"]
+[ext_resource type="Texture2D" uid="uid://ca0svehue46b6" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_155.png" id="698_xvu5n"]
+[ext_resource type="Texture2D" uid="uid://dd48wnsaavow8" path="res://assets/character/术士/enemy_1022_dmage_Move_Sequence/enemy_1022_dmage_Move_156.png" id="699_qwhin"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_j4beu"]
+radius = 0.282023
+height = 1.12508
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_q0ky2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_cosw3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_tilh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_u5cak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_viqf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_1xfcv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_uik4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_6v0wo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_a27hl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_h3sgh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_dk2fb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_s7ymv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_k2v12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_q1a5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ue2p7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_x56ia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_twtb3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_kr8sv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_js3jq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_dtoj0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_trj5c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_jo5gr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_30bra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_dbtg8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_xlgnf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_mv5t2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_70lv7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_2523m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_lerm3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_xny18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_m2rob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_pdni2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_eigjf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_cpevx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_q4agi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_mbkou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_v3wrl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_df1y1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_x03gg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_6qr42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_0a6e4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_1pju1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_1rlq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_nymfa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_hn7y2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_2kxe2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_csc8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_0ggam")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_my0uy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_0xagy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_fo2n2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_23feo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_dahyr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_kdv1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_fbisf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_s5ppr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_cvnrw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_uji2c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_qvck3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_5rk7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_1r3du")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_1pg8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_imt45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_fi87l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_f7o0g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_sic2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_jagbo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_jrj7r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_5vyku")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_4g0vp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_7yhq5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_q5kh2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_rlmk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_76kbt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_md560")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_ltftd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_j5gdp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_jnqkc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_ig84k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_fxgal")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_ucy8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_labrv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_8cgqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_2unvw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_3nrai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_557ou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_wyldq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_3j7yo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_g0tda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_m2yk3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_rx531")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_vtg78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_00kp1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_ngws2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_62g7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_x5ivq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_da7rb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_fw4jf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_k2bds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_osorb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_vn866")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_4p8yh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_fsxak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_6l74m")
+}],
+"loop": false,
+"name": &"attack1",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("105_y5t2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_ld3ae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_dqe7w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_xbdx8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_djnsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_qs2kb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_ra3hr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_f4ioi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_wgols")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_j67qd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_ekuv5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_rsuvv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_xlp76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_l7g0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_43wpv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_w2tql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_5ut2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_6i8qd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_xxbei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_scgd7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_ycddc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_lywyj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_h6v8f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_tqhu0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_xbl0n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_5r7mv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_gc4ax")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_uyjw2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_p668q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_duj1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_1t6yh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_1eyhd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_esugs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_o6p7w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_4ul03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_kn61p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_mpehh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_kwql4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_fdaae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_rq6pu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_j32g4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_lumon")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_livep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_tk83k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_knnar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_hmrco")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_0j2sy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_f66lo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_2mnbi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_084pd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_2amcy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_qvs45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_b7eac")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_blm6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_8nt6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_ok03r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_ypf5t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_yf0oc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_fq3xq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_dm3nf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_n35ac")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_utp50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_yrnv5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_role4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_egvvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_jv2th")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_04umc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_rrcli")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_n86e4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_jtxsf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_f1fcd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_utj6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_8ro48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_05scp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_docno")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_jasam")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_htdk3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_jr7gk")
+}],
+"loop": false,
+"name": &"attack2",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("183_v6p63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_h6pys")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_i8hcu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_rwwkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_8t0qj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_5twxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_gphy5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_lt4w3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_17ivu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_i18mw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_gongd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_o4hm6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_poxyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_fncwm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_pp0cl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_k44u4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_valca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_nf71x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_oj0y7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_g8tsf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_ybck7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_dsxjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_kml4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_ga72w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_5mtei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_mwrrx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_0djnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_akdl2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_b4k4l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_fhvn3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_lsn40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_pohwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_08w3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_dsjo2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_8ln7r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_f0oks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_1by40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_tnwbb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_qof7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_af3yp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_d6d4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_j6m41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_k6ojc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_2hkj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_f4amj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_j0axy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_5inni")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_rs8bx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_n3cy3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_arpnp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_86adp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_2k6os")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_crobd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_fs3kf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_butp8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_a5u1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_ge423")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_muri1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_aveq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242_kjlm4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_cgk5l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_htcsb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_dnt5m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_o3mvt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_y7dn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_igdfa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_idhq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250_jxitv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_tb8vs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_rcl3i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_lvstl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254_1tk0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_b7vh2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_x23oh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257_ikvrc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258_i8pfr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259_ec37x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260_cy6qm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261_mv4b8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262_ahd4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263_5im4m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264_se7mw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265_yt7fx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("266_yxi0l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267_vq4f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268_pqw0c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269_i6cw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270_5eroc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271_pkunt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272_id7c1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273_i50mm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274_kn5ey")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275_mq31d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276_tr5yq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277_ilm7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("278_30jc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279_52ror")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280_8ofnq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281_78no0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282_34on5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283_dosvy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284_abipn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285_1ie4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286_ivkxo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("287_4sux0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("288_f8dy6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("289_iipfw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("290_tvhq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("291_0ay2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("292_t8701")
+}, {
+"duration": 1.0,
+"texture": ExtResource("293_ppx1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("294_ka2nk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("295_lha51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("296_xn3fx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("297_5nm0i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("298_jjl5r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("299_rcqj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("300_o4epj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("301_tf3w6")
+}],
+"loop": false,
+"name": &"die",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("302_avby7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("303_f0k6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304_n12jp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("305_jd6hw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("306_n7yob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("307_rh1wb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("308_mfhy1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("309_xa14m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("310_4b5uv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("311_kbbmk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("312_6lbao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("313_mdlw7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("314_naob2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("315_s26vo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("316_nvixh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("317_2qbif")
+}, {
+"duration": 1.0,
+"texture": ExtResource("318_u2mv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("319_ojokx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("320_vtri4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("321_bti0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("322_ha2tx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("323_1anlb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("324_cvmdj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("325_a61ir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("326_mukcv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("327_c85sx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("328_d37mr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("329_j6at8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("330_xd558")
+}, {
+"duration": 1.0,
+"texture": ExtResource("331_1hoto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("332_y1etd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("333_qjycu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("334_je4gp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("335_2jsi2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("336_tid4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("337_c3fxf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("338_dmgvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("339_70rma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("340_i0fiq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("341_i8tkj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("342_b16lk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("343_i7hky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("344_ckscu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("345_w0yvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("346_vq8wl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("347_8q4dq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("348_ymviu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("349_ag1qd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("350_xx2v0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("351_36qvw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("352_maytp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("353_qmf1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("354_sdwbr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("355_vmhpq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("356_7moit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("357_pdo23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("358_e8j10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("359_uq80q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("360_bc0xx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("361_panvp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("362_qloml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("363_stwtx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("364_iwgft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("365_lkuba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("366_rbrnh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("367_deafj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("368_8cg7u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("369_tqepj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("370_3uhxt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("371_yqfjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("372_g5iyu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("373_81w7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("374_4u8m0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("375_yrb8s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("376_dq6ea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("377_nlksn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("378_ifi3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("379_oq810")
+}, {
+"duration": 1.0,
+"texture": ExtResource("380_7xam7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("381_fgomx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("382_pjm62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("383_evfq6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("384_dgvla")
+}, {
+"duration": 1.0,
+"texture": ExtResource("385_qso4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("386_l0pse")
+}, {
+"duration": 1.0,
+"texture": ExtResource("387_4ewbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("388_mc5nl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("389_0f6bs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("390_ymm1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("391_wstsv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("392_8f4yb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("393_yydk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("394_fol24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("395_qmny3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("396_lqr06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("397_uk67s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("398_j46cr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("399_twtdm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("400_35v7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("401_r0pay")
+}, {
+"duration": 1.0,
+"texture": ExtResource("402_co3eb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("403_05g8a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("404_jaajt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("405_5hs5v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("406_e2bws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("407_od2rw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("408_70r3i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("409_j2g7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("410_ovkjm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("411_cqyn0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("412_86dh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("413_gtf8k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("414_2jdwh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("415_xuej5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("416_5xsum")
+}, {
+"duration": 1.0,
+"texture": ExtResource("417_ftqpc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("418_ebwsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("419_sptv6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("420_vnwr5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("421_a65s7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("422_dxk6l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("423_1cudg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("424_f3ywp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("425_oj2d0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("426_wwnxw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("427_8e75k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("428_2ew8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("429_rfiqy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("430_7lm1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("431_ju5t8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("432_lqumy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("433_rnu4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("434_8wgda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("435_cy2d7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("436_gou7o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("437_vw0pd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("438_bb8p3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("439_gvwbw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("440_5r6q2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("441_xe17f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("442_06ff5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("443_38j4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("444_gmykr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("445_bqkba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("446_ewqeh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("447_thkn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("448_k5a2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("449_a2ts7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("450_1ak5b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("451_lxgh4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("452_b0lfc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("453_8oods")
+}, {
+"duration": 1.0,
+"texture": ExtResource("454_tmw3j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("455_386w6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("456_hemt5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("457_t75ha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("458_fje6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("459_gvu7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("460_tjpra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("461_krgmi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("462_wq3ep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("463_2cbi0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("464_b7f4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("465_dry5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("466_m50of")
+}, {
+"duration": 1.0,
+"texture": ExtResource("467_sg11u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("468_q7618")
+}, {
+"duration": 1.0,
+"texture": ExtResource("469_q82sa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("470_l4dic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("471_lbb54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("472_g2igd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("473_845he")
+}, {
+"duration": 1.0,
+"texture": ExtResource("474_1qonv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("475_flmdf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("476_jk0vn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("477_rmnwp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("478_tuy64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("479_uh6xu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("480_yb1gv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("481_awftu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("482_tyfsg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("483_xwp4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("484_bgyj1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("485_0j4y8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("486_itnj8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("487_7qe7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("488_pi1i8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("489_sfxtr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("490_8uryg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("491_rnojk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("492_jocbb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("493_08uhd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("494_7uqhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("495_r8i1l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("496_j80en")
+}, {
+"duration": 1.0,
+"texture": ExtResource("497_qjluv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("498_utpor")
+}, {
+"duration": 1.0,
+"texture": ExtResource("499_4ntml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("500_fejcc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("501_3tusf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("502_elqpj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("503_1q6pf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("504_ydbk3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("505_n4jhr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("506_hfu6q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("507_nqku6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("508_id4bs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("509_8vq2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("510_hb1f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("511_4d6kb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("512_4aboo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("513_n6f3t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("514_x03tl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("515_5gen0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("516_tifd3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("517_ktn3t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("518_qt18e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("519_y4ufh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("520_sj76c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("521_lxecx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("522_iy7l8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("523_p71rc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("524_y5ox4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("525_xdgiv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("526_1julo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("527_u20g4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("528_glk0g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("529_2hih5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("530_ju4p8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("531_awl8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("532_7gijo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("533_kpg48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("534_dbebi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("535_vpeg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("536_qc0h5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("537_t0a14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("538_7aco1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("539_p81vp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("540_pdlts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("541_qv2ij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("542_ha17l")
+}],
+"loop": false,
+"name": &"idle",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("543_6wgqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("544_5vxgj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("545_tn3a3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("546_pc4x7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("547_uebto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("548_jg5sv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("549_jeoq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("550_y8meq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("551_a3ptt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("552_k67wx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("553_3q4a4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("554_5wdm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("555_mmlph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("556_indt6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("557_35mjf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("558_jnqhh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("559_hqqc5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("560_tnx4y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("561_iefsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("562_4ldtx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("563_eb8tp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("564_mfg5l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("565_glv6d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("566_f5lc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("567_qreim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("568_j1lkv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("569_3cggc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("570_nf7om")
+}, {
+"duration": 1.0,
+"texture": ExtResource("571_8pxjy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("572_ebcu3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("573_4x8xk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("574_1umo7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("575_31tx2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("576_b7uvw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("577_vlddr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("578_84nfv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("579_6ae1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("580_ghd23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("581_2npdr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("582_bd44c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("583_8tgj0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("584_nwddl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("585_q6pn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("586_qu85w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("587_pohxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("588_4i5ol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("589_vburl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("590_etmbm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("591_f3ca7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("592_d63w1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("593_vr3do")
+}, {
+"duration": 1.0,
+"texture": ExtResource("594_6t0kl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("595_ve7nv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("596_pg3u0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("597_24hvx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("598_8t6og")
+}, {
+"duration": 1.0,
+"texture": ExtResource("599_wowxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("600_ygf6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("601_fgvj1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("602_xc2sy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("603_1f6t7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("604_v7rop")
+}, {
+"duration": 1.0,
+"texture": ExtResource("605_rf436")
+}, {
+"duration": 1.0,
+"texture": ExtResource("606_a5snw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("607_j6d7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("608_ghot5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("609_y0r3b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("610_78gnq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("611_m40vg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("612_munkc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("613_8ey0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("614_gfq25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("615_1m3l6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("616_ys5rc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("617_lsfms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("618_o8rmp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("619_l1mkt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("620_jcwid")
+}, {
+"duration": 1.0,
+"texture": ExtResource("621_jumfy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("622_r5ooh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("623_10re8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("624_1un2p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("625_ysvqa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("626_1m1g5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("627_kainc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("628_sg4g8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("629_5tiep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("630_eg3wu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("631_rrxix")
+}, {
+"duration": 1.0,
+"texture": ExtResource("632_5g42v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("633_m4xmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("634_pd8uw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("635_7luei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("636_a8445")
+}, {
+"duration": 1.0,
+"texture": ExtResource("637_xlncy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("638_6vn4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("639_gvorl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("640_aqhw2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("641_2fdkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("642_kisbi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("643_gx3ur")
+}, {
+"duration": 1.0,
+"texture": ExtResource("644_4xs0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("645_fljxd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("646_pv3g3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("647_splrx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("648_vs0p2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("649_n3bv2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("650_g6v0w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("651_ymnpj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("652_b0q58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("653_gucxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("654_ton66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("655_pjiwo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("656_164yt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("657_6ehay")
+}, {
+"duration": 1.0,
+"texture": ExtResource("658_og28y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("659_3rtu2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("660_ex1fq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("661_ykceo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("662_cvvt3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("663_4k5g1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("664_263c0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("665_ictab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("666_1m655")
+}, {
+"duration": 1.0,
+"texture": ExtResource("667_oeghu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("668_skkfg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("669_426t1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("670_e243l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("671_c3bkn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("672_6a7e1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("673_83suh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("674_l3o6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("675_1ptfh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("676_mp6ot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("677_dj8gw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("678_hpdr6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("679_u8q8h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("680_v0fyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("681_g6fk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("682_djaw7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("683_svp36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("684_ra3qp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("685_80r7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("686_myitw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("687_glgs0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("688_npgcu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("689_evbed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("690_er8mw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("691_gvpmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("692_3eioq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("693_ivk6q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("694_f4u3e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("695_3ps8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("696_gp172")
+}, {
+"duration": 1.0,
+"texture": ExtResource("697_w54u6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("698_xvu5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("699_qwhin")
+}],
+"loop": false,
+"name": &"walk",
+"speed": 120.0
+}]
+
+[sub_resource type="BlackboardPlan" id="BlackboardPlan_j4beu"]
+var/hp/name = &"hp"
+var/hp/type = 2
+var/hp/value = 0
+var/hp/hint = 0
+var/hp/hint_string = ""
+var/player_path/name = &"player_path"
+var/player_path/type = 22
+var/player_path/value = NodePath("")
+var/player_path/hint = 0
+var/player_path/hint_string = ""
+binding/hp = NodePath(".:hp")
+binding/player_path = NodePath(".:player_path")
+
+[sub_resource type="BBVariant" id="BBVariant_nep7q"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_bu1hm"]
+variable = &"hp"
+check_type = 2
+value = SubResource("BBVariant_nep7q")
+
+[sub_resource type="BTAction" id="BTAction_e07qs"]
+script = ExtResource("531_stwtx")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"die"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBNode" id="BBNode_7wbvl"]
+saved_value = NodePath("AnimationPlayer")
+resource_name = "AnimationPlayer"
+
+[sub_resource type="BTPlayAnimation" id="BTPlayAnimation_y7g2s"]
+animation_player = SubResource("BBNode_7wbvl")
+animation_name = &"die"
+
+[sub_resource type="BBVariant" id="BBVariant_d0glr"]
+type = 2
+saved_value = 8
+resource_name = "8"
+
+[sub_resource type="BTSetAgentProperty" id="BTSetAgentProperty_fnksq"]
+property = &"collision_layer"
+value = SubResource("BBVariant_d0glr")
+
+[sub_resource type="BBVariant" id="BBVariant_51ilj"]
+type = 2
+saved_value = 8
+resource_name = "8"
+
+[sub_resource type="BTSetAgentProperty" id="BTSetAgentProperty_j6jbp"]
+property = &"collision_mask"
+value = SubResource("BBVariant_51ilj")
+
+[sub_resource type="BTParallel" id="BTParallel_qo3e4"]
+num_successes_required = 4
+children = [SubResource("BTAction_e07qs"), SubResource("BTPlayAnimation_y7g2s"), SubResource("BTSetAgentProperty_fnksq"), SubResource("BTSetAgentProperty_j6jbp")]
+
+[sub_resource type="BBNode" id="BBNode_litfo"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_t0lqi"]
+node = SubResource("BBNode_litfo")
+method = &"queue_free"
+
+[sub_resource type="BTSequence" id="BTSequence_llkg2"]
+custom_name = "die"
+children = [SubResource("BTCheckVar_bu1hm"), SubResource("BTParallel_qo3e4"), SubResource("BTCallMethod_t0lqi")]
+
+[sub_resource type="BBVariant" id="BBVariant_t7ckn"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_aqk3p"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_t7ckn")
+
+[sub_resource type="BBVariant" id="BBVariant_jkair"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_y1h6n"]
+variable = &"player_path"
+check_type = 5
+value = SubResource("BBVariant_jkair")
+
+[sub_resource type="BBNode" id="BBNode_sh44b"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_w1f6j"]
+node = SubResource("BBNode_sh44b")
+method = &"stop_navgation"
+
+[sub_resource type="BTRandomWait" id="BTRandomWait_y1ge0"]
+min_duration = 0.1
+max_duration = 0.5
+
+[sub_resource type="BBVariant" id="BBVariant_x0jb4"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_ycscj"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_x0jb4")
+
+[sub_resource type="BTAction" id="BTAction_s0t2x"]
+script = ExtResource("531_stwtx")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"attack1"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBVariant" id="BBVariant_p5ul7"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_12rnc"]
+variable = &"player_path"
+check_type = 5
+value = SubResource("BBVariant_p5ul7")
+
+[sub_resource type="BBNode" id="BBNode_av18d"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_laohv"]
+node = SubResource("BBNode_av18d")
+method = &"attack"
+
+[sub_resource type="BTSequence" id="BTSequence_tnehx"]
+children = [SubResource("BTCheckVar_ycscj"), SubResource("BTAction_s0t2x"), SubResource("BTCheckVar_12rnc"), SubResource("BTCallMethod_laohv")]
+
+[sub_resource type="BTAlwaysSucceed" id="BTAlwaysSucceed_io2b4"]
+children = [SubResource("BTSequence_tnehx")]
+
+[sub_resource type="BTAction" id="BTAction_m71p6"]
+script = ExtResource("531_stwtx")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"attack2"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_pascy"]
+custom_name = "attack"
+children = [SubResource("BTCheckVar_aqk3p"), SubResource("BTCheckVar_y1h6n"), SubResource("BTCallMethod_w1f6j"), SubResource("BTRandomWait_y1ge0"), SubResource("BTAlwaysSucceed_io2b4"), SubResource("BTAction_m71p6")]
+
+[sub_resource type="BTCooldown" id="BTCooldown_q7o25"]
+duration = 2.0
+children = [SubResource("BTSequence_pascy")]
+
+[sub_resource type="BBNode" id="BBNode_fup86"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_4370p"]
+node = SubResource("BBNode_fup86")
+method = &"stop_navgation"
+
+[sub_resource type="BBVariant" id="BBVariant_j48o3"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_he3mx"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_j48o3")
+
+[sub_resource type="BTAction" id="BTAction_c6nct"]
+script = ExtResource("531_stwtx")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"idle"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_el7l0"]
+custom_name = "idle"
+children = [SubResource("BTCallMethod_4370p"), SubResource("BTCheckVar_he3mx"), SubResource("BTAction_c6nct")]
+
+[sub_resource type="BTProbability" id="BTProbability_shsi1"]
+children = [SubResource("BTSequence_el7l0")]
+
+[sub_resource type="BTCooldown" id="BTCooldown_15u7y"]
+duration = 5.0
+children = [SubResource("BTProbability_shsi1")]
+
+[sub_resource type="BBVariant" id="BBVariant_igxp8"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_wy3e3"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_igxp8")
+
+[sub_resource type="BBVariant" id="BBVariant_c06c7"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_6w18a"]
+variable = &"player_path"
+value = SubResource("BBVariant_c06c7")
+
+[sub_resource type="BTAction" id="BTAction_vl7eo"]
+script = ExtResource("532_iwgft")
+area = 5.0
+
+[sub_resource type="BTAction" id="BTAction_lebkc"]
+script = ExtResource("531_stwtx")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"walk"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBVariant" id="BBVariant_u04sc"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_c7yhv"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_u04sc")
+
+[sub_resource type="BTSequence" id="BTSequence_uxnm8"]
+children = [SubResource("BTAction_lebkc"), SubResource("BTCheckVar_c7yhv")]
+
+[sub_resource type="BTRepeat" id="BTRepeat_qyekj"]
+forever = true
+children = [SubResource("BTSequence_uxnm8")]
+
+[sub_resource type="BTParallel" id="BTParallel_dpbfv"]
+children = [SubResource("BTAction_vl7eo"), SubResource("BTRepeat_qyekj")]
+
+[sub_resource type="BTSequence" id="BTSequence_mmbdt"]
+custom_name = "walk"
+children = [SubResource("BTCheckVar_wy3e3"), SubResource("BTCheckVar_6w18a"), SubResource("BTParallel_dpbfv")]
+
+[sub_resource type="BBNode" id="BBNode_2s0ro"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_dq6uo"]
+node = SubResource("BBNode_2s0ro")
+method = &"stop_navgation"
+
+[sub_resource type="BBVariant" id="BBVariant_8p26v"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_jbauc"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_8p26v")
+
+[sub_resource type="BTAction" id="BTAction_uhpoa"]
+script = ExtResource("531_stwtx")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"idle"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_l0sb6"]
+custom_name = "idle"
+children = [SubResource("BTCallMethod_dq6uo"), SubResource("BTCheckVar_jbauc"), SubResource("BTAction_uhpoa")]
+
+[sub_resource type="BTSelector" id="BTSelector_bayb5"]
+children = [SubResource("BTSequence_llkg2"), SubResource("BTCooldown_q7o25"), SubResource("BTCooldown_15u7y"), SubResource("BTSequence_mmbdt"), SubResource("BTSequence_l0sb6")]
+
+[sub_resource type="BehaviorTree" id="BehaviorTree_ixgo0"]
+blackboard_plan = SubResource("BlackboardPlan_j4beu")
+root_task = SubResource("BTSelector_bayb5")
+
+[sub_resource type="BlackboardPlan" id="BlackboardPlan_y1f6v"]
+binding/hp = NodePath("..:hp")
+binding/player_path = NodePath("..:player_path")
+
+[sub_resource type="Animation" id="Animation_1acxm"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_yh0ue"]
+resource_name = "blink"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.266667, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0.406038, 0.406038, 0.406038, 1), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_syauo"]
+resource_name = "die"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_syauo"]
+_data = {
+&"RESET": SubResource("Animation_1acxm"),
+&"blink": SubResource("Animation_yh0ue"),
+&"die": SubResource("Animation_syauo")
+}
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_1acxm"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cosw3"]
+size = Vector3(10.159, 4.84327, 1)
+
+[node name="Dmage" type="CharacterBody3D" groups=["enemy"]]
+collision_layer = 2
+collision_mask = 2
+axis_lock_linear_z = true
+script = ExtResource("1_cosw3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(-0.999981, -0.0062307, 0, 0.0062307, -0.999981, 0, 0, 0, 1, 0, 0.166242, 0)
+shape = SubResource("CapsuleShape3D_j4beu")
+
+[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.251614, 0)
+pixel_size = 0.003
+sprite_frames = SubResource("SpriteFrames_q0ky2")
+animation = &"walk"
+
+[node name="BTPlayer" type="BTPlayer" parent="."]
+behavior_tree = SubResource("BehaviorTree_ixgo0")
+blackboard_plan = SubResource("BlackboardPlan_y1f6v")
+monitor_performance = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_syauo")
+}
+
+[node name="Info" parent="." instance=ExtResource("533_lkuba")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.84145, 0)
+pixel_size = 0.0015
+render_priority = 127
+texture = SubResource("ViewportTexture_1acxm")
+
+[node name="AttackArea" type="Area3D" parent="."]
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AttackArea"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00261509, 1.52922, 0)
+shape = SubResource("BoxShape3D_cosw3")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+
+[node name="Emit" type="Marker3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.859887, 0)
+
+[connection signal="body_entered" from="AttackArea" to="." method="_on_attack_area_body_entered"]
+[connection signal="body_exited" from="AttackArea" to="." method="_on_attack_area_body_exited"]

@@ -15,8 +15,8 @@ func _ready() -> void:
 	origin = global_position
 	navigation_agent.velocity_computed.connect(Callable(_on_velocity_computed))
 
-func attacked(damage):
-	hp -= damage
+func attacked(damage2):
+	hp -= damage2
 	$Info.hp = hp
 	if hp > 0:
 		$AnimationPlayer.play("blink")

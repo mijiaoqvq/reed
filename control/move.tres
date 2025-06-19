@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_g158j")
 name = &""
-action_value_type = 3
+action_value_type = 1
 block_lower_priority_actions = true
 emit_as_godot_actions = false
 is_remappable = false

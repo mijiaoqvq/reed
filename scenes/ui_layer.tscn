@@ -1,8 +1,88 @@
-[gd_scene load_steps=2 format=3 uid="uid://tmiase524ugu"]
+[gd_scene load_steps=11 format=3 uid="uid://tmiase524ugu"]
 
+[ext_resource type="Script" uid="uid://jh71obyu2kar" path="res://scripts/ui_layer.gd" id="1_6syxi"]
 [ext_resource type="Texture2D" uid="uid://qtccntqrb8ci" path="res://assets/ui/hp.png" id="1_w83ab"]
+[ext_resource type="Shader" uid="uid://caepmai8cvp6d" path="res://assets/shader/failed.tres" id="2_bkwom"]
+[ext_resource type="FontFile" uid="uid://d1lpqmuqhlmhx" path="res://assets/font/SourceHanSansCN-Medium.ttf" id="3_6av8n"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6av8n"]
+shader = ExtResource("2_bkwom")
+shader_parameter/Color = Color(1, 0.3, 0.3, 0.392157)
+shader_parameter/Alpha = 0.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_6syxi"]
+font = ExtResource("3_6av8n")
+font_size = 70
+font_color = Color(1, 1, 1, 0.792157)
+
+[sub_resource type="Animation" id="Animation_6syxi"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("UI/Failed:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("UI/Failed:material:shader_parameter/Alpha")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_6av8n"]
+resource_name = "show_failed"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("UI/Failed:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.01),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("UI/Failed:material:shader_parameter/Alpha")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 1.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_6gmgv"]
+_data = {
+&"RESET": SubResource("Animation_6syxi"),
+&"show_failed": SubResource("Animation_6av8n")
+}
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6syxi"]
+shader = ExtResource("2_bkwom")
+shader_parameter/Color = Color(0.25, 0.25, 0.25, 0.392157)
+shader_parameter/Alpha = 1.0
 
 [node name="UILayer" type="CanvasLayer"]
+script = ExtResource("1_6syxi")
 
 [node name="UI" type="Control" parent="."]
 layout_mode = 3
@@ -23,10 +103,115 @@ grow_vertical = 0
 scale = Vector2(0.5, 0.5)
 theme_override_constants/margin_left = 65
 
-[node name="TextureProgressBar" type="TextureProgressBar" parent="UI/MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 31
+
+[node name="HP" type="TextureProgressBar" parent="UI/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
 layout_mode = 2
 value = 100.0
 texture_under = ExtResource("1_w83ab")
 texture_progress = ExtResource("1_w83ab")
 tint_under = Color(0.243137, 0.243137, 0.243137, 0.756863)
 tint_progress = Color(0.407843, 0.713726, 0, 0.764706)
+
+[node name="SP" type="TextureProgressBar" parent="UI/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+step = 0.0
+value = 100.0
+texture_under = ExtResource("1_w83ab")
+texture_progress = ExtResource("1_w83ab")
+tint_under = Color(0.243137, 0.243137, 0.243137, 0.756863)
+tint_progress = Color(0, 0.766667, 1, 0.764706)
+
+[node name="Failed" type="ColorRect" parent="UI"]
+unique_name_in_owner = true
+visible = false
+material = SubResource("ShaderMaterial_6av8n")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/Failed"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -164.0
+offset_top = -69.0
+offset_right = 164.0
+offset_bottom = 69.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 70
+alignment = 1
+
+[node name="Label" type="Label" parent="UI/Failed/VBoxContainer"]
+layout_mode = 2
+text = "任 务 失 败"
+label_settings = SubResource("LabelSettings_6syxi")
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="UI/Failed/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_fonts/font = ExtResource("3_6av8n")
+text = "重试"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+unique_name_in_owner = true
+libraries = {
+&"": SubResource("AnimationLibrary_6gmgv")
+}
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 128
+
+[node name="Pause" type="ColorRect" parent="CanvasLayer"]
+unique_name_in_owner = true
+visible = false
+material = SubResource("ShaderMaterial_6syxi")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Pause"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -164.0
+offset_top = -69.0
+offset_right = 164.0
+offset_bottom = 69.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 70
+alignment = 1
+
+[node name="Label" type="Label" parent="CanvasLayer/Pause/VBoxContainer"]
+layout_mode = 2
+text = "暂 停"
+label_settings = SubResource("LabelSettings_6syxi")
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="CanvasLayer/Pause/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_fonts/font = ExtResource("3_6av8n")
+text = "返回主菜单"
+
+[connection signal="pressed" from="UI/Failed/VBoxContainer/Button" to="." method="_on_button_pressed"]

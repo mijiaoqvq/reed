@@ -16,7 +16,6 @@ func _generate_name() -> String:
 func _tick(_delta: float) -> Status:
 	if not path_found:
 		return FAILURE
-	var navigation_agent : NavigationAgent3D = agent.navigation_agent
 	if not finished and not agent.is_on_wall() and abs(agent.velocity.length()) > 0.01:
 		return RUNNING
 		

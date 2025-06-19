@@ -1,0 +1,2552 @@
+[gd_scene load_steps=604 format=3 uid="uid://cl10f3ahvvm75"]
+
+[ext_resource type="Script" uid="uid://k2vus13cetl3" path="res://scripts/enemy.gd" id="1_wvh6j"]
+[ext_resource type="Texture2D" uid="uid://cgf7oqpc5mwv1" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_0.png" id="2_j4beu"]
+[ext_resource type="Texture2D" uid="uid://ch7ovo7k02je2" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_1.png" id="3_nep7q"]
+[ext_resource type="Texture2D" uid="uid://itqlbxbtbtnj" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_2.png" id="4_bu1hm"]
+[ext_resource type="Texture2D" uid="uid://87gala7kt3ei" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_3.png" id="5_e07qs"]
+[ext_resource type="Texture2D" uid="uid://dssgx013nmc1r" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_4.png" id="6_7wbvl"]
+[ext_resource type="Texture2D" uid="uid://cgbwlvuswxso1" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_5.png" id="7_y7g2s"]
+[ext_resource type="Texture2D" uid="uid://h6d5bga7pgce" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_6.png" id="8_d0glr"]
+[ext_resource type="Texture2D" uid="uid://1simwv7ihgrn" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_7.png" id="9_fnksq"]
+[ext_resource type="Texture2D" uid="uid://b7evgxy4einhv" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_8.png" id="10_51ilj"]
+[ext_resource type="Texture2D" uid="uid://gf5crte6dm6o" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_9.png" id="11_j6jbp"]
+[ext_resource type="Texture2D" uid="uid://bgkkc0qlw4605" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_10.png" id="12_qo3e4"]
+[ext_resource type="Texture2D" uid="uid://cpaxeniyeuto8" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_11.png" id="13_litfo"]
+[ext_resource type="Texture2D" uid="uid://d2x80e1t6eav2" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_12.png" id="14_t0lqi"]
+[ext_resource type="Texture2D" uid="uid://cmjpbqubw2kl1" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_13.png" id="15_llkg2"]
+[ext_resource type="Texture2D" uid="uid://rlhyqh3lcwr7" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_14.png" id="16_t7ckn"]
+[ext_resource type="Texture2D" uid="uid://bl288cw73tffn" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_15.png" id="17_aqk3p"]
+[ext_resource type="Texture2D" uid="uid://nj11uqhsg2fs" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_16.png" id="18_jkair"]
+[ext_resource type="Texture2D" uid="uid://b2rlr7qcat5x2" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_17.png" id="19_y1h6n"]
+[ext_resource type="Texture2D" uid="uid://chvfr3mq23062" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_18.png" id="20_sh44b"]
+[ext_resource type="Texture2D" uid="uid://cu6mn23hqtgdl" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_19.png" id="21_w1f6j"]
+[ext_resource type="Texture2D" uid="uid://oo7g2fa6uoxg" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_20.png" id="22_y1ge0"]
+[ext_resource type="Texture2D" uid="uid://cle8a8u2a6f4o" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_21.png" id="23_x0jb4"]
+[ext_resource type="Texture2D" uid="uid://i2200p8ehdq6" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_22.png" id="24_ycscj"]
+[ext_resource type="Texture2D" uid="uid://d0w56urx1wscm" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_23.png" id="25_s0t2x"]
+[ext_resource type="Texture2D" uid="uid://bv38iyixf8l4s" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_24.png" id="26_p5ul7"]
+[ext_resource type="Texture2D" uid="uid://clug7v01nqtns" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_25.png" id="27_12rnc"]
+[ext_resource type="Texture2D" uid="uid://igtdre407ja1" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_26.png" id="28_av18d"]
+[ext_resource type="Texture2D" uid="uid://ddx5amictl6tc" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_27.png" id="29_laohv"]
+[ext_resource type="Texture2D" uid="uid://cxx0ls4bybes3" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_28.png" id="30_tnehx"]
+[ext_resource type="Texture2D" uid="uid://cdq8wxgwiat50" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_29.png" id="31_io2b4"]
+[ext_resource type="Texture2D" uid="uid://c463wg6xhm1kh" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_30.png" id="32_m71p6"]
+[ext_resource type="Texture2D" uid="uid://c7m2itg6lrypf" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_31.png" id="33_pascy"]
+[ext_resource type="Texture2D" uid="uid://dn4b0tsnv4gut" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_32.png" id="34_q7o25"]
+[ext_resource type="Texture2D" uid="uid://bkp4pcg8cgd44" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_33.png" id="35_fup86"]
+[ext_resource type="Texture2D" uid="uid://bfn2lafpich16" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_34.png" id="36_4370p"]
+[ext_resource type="Texture2D" uid="uid://cyu1gq7qql2jh" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_35.png" id="37_j48o3"]
+[ext_resource type="Texture2D" uid="uid://7rdwgpvbynmu" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_36.png" id="38_he3mx"]
+[ext_resource type="Texture2D" uid="uid://4f21f87mmuj2" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_37.png" id="39_c6nct"]
+[ext_resource type="Texture2D" uid="uid://c025fb6mcgvd5" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_38.png" id="40_el7l0"]
+[ext_resource type="Texture2D" uid="uid://hup2xe5014no" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_39.png" id="41_shsi1"]
+[ext_resource type="Texture2D" uid="uid://cknx7c4oi6r66" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_40.png" id="42_15u7y"]
+[ext_resource type="Texture2D" uid="uid://cblyhn3txhhke" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_41.png" id="43_igxp8"]
+[ext_resource type="Texture2D" uid="uid://f6q7d3alg5i4" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_42.png" id="44_wy3e3"]
+[ext_resource type="Texture2D" uid="uid://3yeqkr4tinjm" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_43.png" id="45_c06c7"]
+[ext_resource type="Texture2D" uid="uid://bgbhmnxmxlppf" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_44.png" id="46_6w18a"]
+[ext_resource type="Texture2D" uid="uid://mjwvew7235qd" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_45.png" id="47_vl7eo"]
+[ext_resource type="Texture2D" uid="uid://bpi87rrbht6bq" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_46.png" id="48_lebkc"]
+[ext_resource type="Texture2D" uid="uid://c8aao4uvxjrws" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_47.png" id="49_u04sc"]
+[ext_resource type="Texture2D" uid="uid://ck73vpn4lv6ed" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_48.png" id="50_c7yhv"]
+[ext_resource type="Texture2D" uid="uid://dunoj8g7mk3su" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_49.png" id="51_uxnm8"]
+[ext_resource type="Texture2D" uid="uid://bg25nscfc5v0e" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_50.png" id="52_qyekj"]
+[ext_resource type="Texture2D" uid="uid://qlt5h8ehd04p" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_51.png" id="53_dpbfv"]
+[ext_resource type="Texture2D" uid="uid://dinpyls64pld1" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_52.png" id="54_mmbdt"]
+[ext_resource type="Texture2D" uid="uid://dqvjrj3qgchwt" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_53.png" id="55_2s0ro"]
+[ext_resource type="Texture2D" uid="uid://tynumnhxdudp" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_54.png" id="56_dq6uo"]
+[ext_resource type="Texture2D" uid="uid://b6kcdvgx85vhm" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_55.png" id="57_8p26v"]
+[ext_resource type="Texture2D" uid="uid://bitb31ijl5l7h" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_56.png" id="58_jbauc"]
+[ext_resource type="Texture2D" uid="uid://78wwkswd8fhh" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_57.png" id="59_uhpoa"]
+[ext_resource type="Texture2D" uid="uid://dio8mb0jw7vmu" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_58.png" id="60_l0sb6"]
+[ext_resource type="Texture2D" uid="uid://bc46v3hx4t1kh" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_59.png" id="61_bayb5"]
+[ext_resource type="Texture2D" uid="uid://ctg6eepwtb6yc" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_60.png" id="62_ixgo0"]
+[ext_resource type="Texture2D" uid="uid://q86x3nhrbai8" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_61.png" id="63_qhgil"]
+[ext_resource type="Texture2D" uid="uid://x3e68wob43b3" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_62.png" id="64_fuajp"]
+[ext_resource type="Texture2D" uid="uid://cxfchmrckpab8" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_63.png" id="65_v83nj"]
+[ext_resource type="Texture2D" uid="uid://dxi0b27x6vqmx" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_64.png" id="66_jjbvu"]
+[ext_resource type="Texture2D" uid="uid://dymrv8oxwq613" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_65.png" id="67_b6am1"]
+[ext_resource type="Texture2D" uid="uid://cis5r3sm0prnp" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_66.png" id="68_hdros"]
+[ext_resource type="Texture2D" uid="uid://thh4dxa6ah7x" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_67.png" id="69_rn13u"]
+[ext_resource type="Texture2D" uid="uid://co6rs6udqt8ku" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_68.png" id="70_jdrq7"]
+[ext_resource type="Texture2D" uid="uid://b5v23irhxv82n" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_69.png" id="71_0gljj"]
+[ext_resource type="Texture2D" uid="uid://b76gwkvhgyaxm" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_70.png" id="72_veohx"]
+[ext_resource type="Texture2D" uid="uid://dipmwkseaecwx" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_71.png" id="73_e3nea"]
+[ext_resource type="Texture2D" uid="uid://duhbod11isml7" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_72.png" id="74_oj4ss"]
+[ext_resource type="Texture2D" uid="uid://stv1vn5h68bp" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_73.png" id="75_jx4b4"]
+[ext_resource type="Texture2D" uid="uid://ykupci1uqm1i" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_74.png" id="76_0jtxg"]
+[ext_resource type="Texture2D" uid="uid://1sf42lf4gkc7" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_75.png" id="77_q4iaw"]
+[ext_resource type="Texture2D" uid="uid://x5j6u43r3lrg" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_76.png" id="78_kuhus"]
+[ext_resource type="Texture2D" uid="uid://cwodxuvanva00" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_77.png" id="79_vott4"]
+[ext_resource type="Texture2D" uid="uid://cjuseeuyqy8cp" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_78.png" id="80_ch7cx"]
+[ext_resource type="Texture2D" uid="uid://2ydss2sc1gpo" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_79.png" id="81_i6h4x"]
+[ext_resource type="Texture2D" uid="uid://bt3f5lvpd64kq" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_80.png" id="82_w44ay"]
+[ext_resource type="Texture2D" uid="uid://cunjoymkarosi" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_81.png" id="83_0ugci"]
+[ext_resource type="Texture2D" uid="uid://dpelkb0nwypwp" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_82.png" id="84_at2ud"]
+[ext_resource type="Texture2D" uid="uid://d0yyr42livyki" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_83.png" id="85_maddx"]
+[ext_resource type="Texture2D" uid="uid://c3to82hkrri2x" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_84.png" id="86_lwbqu"]
+[ext_resource type="Texture2D" uid="uid://jm3ndcy03f6d" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_85.png" id="87_6uemn"]
+[ext_resource type="Texture2D" uid="uid://dmf3vjjlym2lb" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_86.png" id="88_pd1g1"]
+[ext_resource type="Texture2D" uid="uid://dyijgtghk5heq" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_87.png" id="89_uawa5"]
+[ext_resource type="Texture2D" uid="uid://oedydjvan6ib" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_88.png" id="90_ma236"]
+[ext_resource type="Texture2D" uid="uid://gsfcp0c6cjsj" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_89.png" id="91_e2ohn"]
+[ext_resource type="Texture2D" uid="uid://biayd31vlwr81" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_90.png" id="92_qsber"]
+[ext_resource type="Texture2D" uid="uid://bk3wtvgnsv6hl" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_91.png" id="93_2vc0o"]
+[ext_resource type="Texture2D" uid="uid://vxr004esxjw7" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_92.png" id="94_7hx6s"]
+[ext_resource type="Texture2D" uid="uid://cjlv6fff72mdg" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_93.png" id="95_cjqiu"]
+[ext_resource type="Texture2D" uid="uid://dq6xmghwvqp6d" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_94.png" id="96_68n2q"]
+[ext_resource type="Texture2D" uid="uid://cv061yliu41r4" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_95.png" id="97_mksm2"]
+[ext_resource type="Texture2D" uid="uid://mqm7rakf2yw0" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_96.png" id="98_8vo3g"]
+[ext_resource type="Texture2D" uid="uid://brihxcpn5fv3d" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_97.png" id="99_6jgbh"]
+[ext_resource type="Texture2D" uid="uid://cvci3c0d176fe" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_98.png" id="100_ldqcx"]
+[ext_resource type="Texture2D" uid="uid://bewbjg67sr1f7" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_99.png" id="101_ysryx"]
+[ext_resource type="Texture2D" uid="uid://dgw14x2737wo7" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_100.png" id="102_xjykv"]
+[ext_resource type="Texture2D" uid="uid://cfytb1l08m3yw" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_101.png" id="103_lv4bj"]
+[ext_resource type="Texture2D" uid="uid://xaoj7jhckqjx" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_102.png" id="104_md5tl"]
+[ext_resource type="Texture2D" uid="uid://c1c2vblxypk4n" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_103.png" id="105_74bte"]
+[ext_resource type="Texture2D" uid="uid://136p6fdby3ak" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_104.png" id="106_ha64w"]
+[ext_resource type="Texture2D" uid="uid://calxcvs3tdq7j" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_105.png" id="107_mfqaj"]
+[ext_resource type="Texture2D" uid="uid://dqtnc1sbja1ie" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_106.png" id="108_pt6pf"]
+[ext_resource type="Texture2D" uid="uid://b3d2mj2i7bfq6" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_107.png" id="109_0aown"]
+[ext_resource type="Texture2D" uid="uid://bnx6wfin26g3y" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_108.png" id="110_ta8uo"]
+[ext_resource type="Texture2D" uid="uid://bhgp4qc8esdyy" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_109.png" id="111_5hm0f"]
+[ext_resource type="Texture2D" uid="uid://d1riin3wpma50" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_110.png" id="112_bdx7h"]
+[ext_resource type="Texture2D" uid="uid://br6tc3tpj8avt" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_111.png" id="113_2aa0v"]
+[ext_resource type="Texture2D" uid="uid://x0qrq85bukk0" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_112.png" id="114_0r570"]
+[ext_resource type="Texture2D" uid="uid://bdiryqivg6kqp" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_113.png" id="115_ga43a"]
+[ext_resource type="Texture2D" uid="uid://c54fxox8t6acq" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_114.png" id="116_ho23w"]
+[ext_resource type="Texture2D" uid="uid://b4j7ce6pep6eh" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_115.png" id="117_3rwim"]
+[ext_resource type="Texture2D" uid="uid://rl2mvsusmo3t" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_116.png" id="118_ky14t"]
+[ext_resource type="Texture2D" uid="uid://ds30kqxiaauqc" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_117.png" id="119_ifgee"]
+[ext_resource type="Texture2D" uid="uid://b58xksqqlw1rf" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_1.png" id="120_6d0jp"]
+[ext_resource type="Texture2D" uid="uid://ba8muqw7n1oax" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_118.png" id="120_8ftya"]
+[ext_resource type="Texture2D" uid="uid://y6qunioxm205" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_119.png" id="121_u32hm"]
+[ext_resource type="Texture2D" uid="uid://d28ooinmmtud7" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_2.png" id="121_wvh6j"]
+[ext_resource type="Texture2D" uid="uid://bsoga5r0oge2" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_3.png" id="122_74d8q"]
+[ext_resource type="Texture2D" uid="uid://bshxs5e7uelrs" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_120.png" id="122_sd22q"]
+[ext_resource type="Texture2D" uid="uid://k8nv4v3tt02v" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_121.png" id="123_ic142"]
+[ext_resource type="Texture2D" uid="uid://wkjew1objync" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_4.png" id="123_soh6d"]
+[ext_resource type="Texture2D" uid="uid://bq3khbm6wv1ep" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_122.png" id="124_tugme"]
+[ext_resource type="Texture2D" uid="uid://b720kcdnon1ts" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_5.png" id="124_wkeva"]
+[ext_resource type="Texture2D" uid="uid://bbem1li3tokl" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_123.png" id="125_dphbw"]
+[ext_resource type="Texture2D" uid="uid://cd0qsjy708e5v" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_6.png" id="125_rxgx2"]
+[ext_resource type="Texture2D" uid="uid://bp3uvi7h86v24" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_7.png" id="126_3kb24"]
+[ext_resource type="Texture2D" uid="uid://nsq7lg2cchgg" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_124.png" id="126_jd3fg"]
+[ext_resource type="Texture2D" uid="uid://bqc8osujo41ol" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_125.png" id="127_13edb"]
+[ext_resource type="Texture2D" uid="uid://by8cccy05qf3j" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_8.png" id="127_pohhm"]
+[ext_resource type="Texture2D" uid="uid://c45dofak0bfim" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_9.png" id="128_3xgms"]
+[ext_resource type="Texture2D" uid="uid://bgxr3n06866i4" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_126.png" id="128_67nkx"]
+[ext_resource type="Texture2D" uid="uid://71vy8sbn5f27" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_127.png" id="129_hjw8d"]
+[ext_resource type="Texture2D" uid="uid://utm7vlk3qph4" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_10.png" id="129_m2616"]
+[ext_resource type="Texture2D" uid="uid://c50gny1qsmmi1" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_128.png" id="130_gfbnw"]
+[ext_resource type="Texture2D" uid="uid://datvd6jj31vjh" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_11.png" id="130_q4a15"]
+[ext_resource type="Texture2D" uid="uid://brd2sqvqvivop" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_129.png" id="131_pkwhu"]
+[ext_resource type="Texture2D" uid="uid://dqdfjsi3ebcgp" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_12.png" id="131_tpm22"]
+[ext_resource type="Texture2D" uid="uid://dxv85g2a6hen8" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_13.png" id="132_l7y0r"]
+[ext_resource type="Texture2D" uid="uid://blg36a4nryvch" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_130.png" id="132_ls06c"]
+[ext_resource type="Texture2D" uid="uid://ck5tmvyf1vj4x" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_14.png" id="133_cokaq"]
+[ext_resource type="Texture2D" uid="uid://qnl0ukaqrj4s" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_131.png" id="133_usyhu"]
+[ext_resource type="Texture2D" uid="uid://d3ck8pxnvi7xf" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_132.png" id="134_ngqep"]
+[ext_resource type="Texture2D" uid="uid://d0o5bft53s0s6" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_15.png" id="134_x2x0y"]
+[ext_resource type="Texture2D" uid="uid://cvjoaaj11o65" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_16.png" id="135_p572y"]
+[ext_resource type="Texture2D" uid="uid://c2tk2l54wvs1m" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_133.png" id="135_sxi8p"]
+[ext_resource type="Texture2D" uid="uid://cohlyyha7gxel" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_134.png" id="136_lcd3i"]
+[ext_resource type="Texture2D" uid="uid://cwyygs4p0j5a7" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_17.png" id="136_w5gru"]
+[ext_resource type="Texture2D" uid="uid://buy2ktb02os84" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_135.png" id="137_ft02y"]
+[ext_resource type="Texture2D" uid="uid://dtwq36jjslutj" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_18.png" id="137_pdrl7"]
+[ext_resource type="Texture2D" uid="uid://vrmm6bc6u587" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_19.png" id="138_rd86g"]
+[ext_resource type="Texture2D" uid="uid://c844tps8xuwc3" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_136.png" id="138_xqfvq"]
+[ext_resource type="Texture2D" uid="uid://co0ie4uspoqxi" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_20.png" id="139_0ucvi"]
+[ext_resource type="Texture2D" uid="uid://bxrc6rab6lkfs" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_137.png" id="139_j8h3j"]
+[ext_resource type="Texture2D" uid="uid://drevs8k341vo" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_138.png" id="140_apc2a"]
+[ext_resource type="Texture2D" uid="uid://clu2xpw1ecgb7" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_21.png" id="140_l8igp"]
+[ext_resource type="Texture2D" uid="uid://dxjpjo3gnh777" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_139.png" id="141_fiajp"]
+[ext_resource type="Texture2D" uid="uid://c54u8wj7vnigg" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_22.png" id="141_jlt2i"]
+[ext_resource type="Texture2D" uid="uid://bssab1qu52t5c" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_140.png" id="142_jshgh"]
+[ext_resource type="Texture2D" uid="uid://c7qyja51xdy8v" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_23.png" id="142_l8wlj"]
+[ext_resource type="Texture2D" uid="uid://diqlqmhoehdg2" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_24.png" id="143_i56dl"]
+[ext_resource type="Texture2D" uid="uid://b1sgcu3ouvjej" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_141.png" id="143_o2d10"]
+[ext_resource type="Texture2D" uid="uid://tc7xlte5rbpl" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_142.png" id="144_2onxh"]
+[ext_resource type="Texture2D" uid="uid://bxx6wmov7qhuc" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_25.png" id="144_dxkth"]
+[ext_resource type="Texture2D" uid="uid://3v2rt0akqwpi" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_26.png" id="145_0qbrg"]
+[ext_resource type="Texture2D" uid="uid://j78037yh8n2g" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_143.png" id="145_7uqer"]
+[ext_resource type="Texture2D" uid="uid://f3vgljpxrsgk" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_144.png" id="146_kl5hg"]
+[ext_resource type="Texture2D" uid="uid://bs6tcfedujrbv" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_27.png" id="146_l27oa"]
+[ext_resource type="Texture2D" uid="uid://cj2e3uiuxb7y3" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_145.png" id="147_5y0hp"]
+[ext_resource type="Texture2D" uid="uid://cbq1c73vnu127" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_28.png" id="147_gr724"]
+[ext_resource type="Texture2D" uid="uid://ca4gc6qfce5bm" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_146.png" id="148_hwtvu"]
+[ext_resource type="Texture2D" uid="uid://uup4x7iwqr7v" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_29.png" id="148_jmsvx"]
+[ext_resource type="Texture2D" uid="uid://b5plg5cna6a0l" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_147.png" id="149_gh5yc"]
+[ext_resource type="Texture2D" uid="uid://dcyde2mv8aa3t" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_30.png" id="149_qoh02"]
+[ext_resource type="Texture2D" uid="uid://5qxyppx8leqo" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_31.png" id="150_08gyk"]
+[ext_resource type="Texture2D" uid="uid://71ny8why8pau" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_148.png" id="150_lupgu"]
+[ext_resource type="Texture2D" uid="uid://bjsmn660rgos4" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_32.png" id="151_e0vnx"]
+[ext_resource type="Texture2D" uid="uid://4lasjjlbdh7w" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_149.png" id="151_sny7f"]
+[ext_resource type="Texture2D" uid="uid://bywvcf6knasmr" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_150.png" id="152_plh7l"]
+[ext_resource type="Texture2D" uid="uid://btm2t1dbkiwjq" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_33.png" id="152_t5wky"]
+[ext_resource type="Texture2D" uid="uid://cruu6w272al41" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_34.png" id="153_cmiys"]
+[ext_resource type="Texture2D" uid="uid://cdnnt8t8vtjen" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_151.png" id="153_vm5a1"]
+[ext_resource type="Texture2D" uid="uid://6wfjrndhldhg" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_35.png" id="154_km8xq"]
+[ext_resource type="Texture2D" uid="uid://b1mfj6b1w41hk" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_152.png" id="154_puq2f"]
+[ext_resource type="Texture2D" uid="uid://bkw2tf7q5deh" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_36.png" id="155_e54d3"]
+[ext_resource type="Texture2D" uid="uid://dp01hrpcg6r4v" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_153.png" id="155_vps55"]
+[ext_resource type="Texture2D" uid="uid://dfedil1f5gtlg" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_37.png" id="156_ucdmo"]
+[ext_resource type="Texture2D" uid="uid://bssgunoavwlcx" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_154.png" id="156_y10em"]
+[ext_resource type="Texture2D" uid="uid://c84xgpq0ep8qi" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_38.png" id="157_ftr3x"]
+[ext_resource type="Texture2D" uid="uid://di5pr4j5lcr2i" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_155.png" id="157_gdkhd"]
+[ext_resource type="Texture2D" uid="uid://d6rq3ufle0ko" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_39.png" id="158_ctmdw"]
+[ext_resource type="Texture2D" uid="uid://ckbphu7d57dyj" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_156.png" id="158_ta5f0"]
+[ext_resource type="Texture2D" uid="uid://7vg7i6gm8ihd" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_40.png" id="159_1mw5h"]
+[ext_resource type="Texture2D" uid="uid://cjxdwsk7jsy8p" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_157.png" id="159_a1gwe"]
+[ext_resource type="Texture2D" uid="uid://jfr02gaq3f48" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_158.png" id="160_mqjog"]
+[ext_resource type="Texture2D" uid="uid://b0bcd60i1qdam" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_41.png" id="160_vty3c"]
+[ext_resource type="Texture2D" uid="uid://btfev0pl5xpbw" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_159.png" id="161_mytcm"]
+[ext_resource type="Texture2D" uid="uid://pohwdrfbsol1" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_42.png" id="161_ombbe"]
+[ext_resource type="Texture2D" uid="uid://c04ojglxj4yih" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_43.png" id="162_2iaeq"]
+[ext_resource type="Texture2D" uid="uid://csmho8gr8iawn" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_160.png" id="162_mw4eb"]
+[ext_resource type="Texture2D" uid="uid://b74gontbnyab5" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_44.png" id="163_ai8vf"]
+[ext_resource type="Texture2D" uid="uid://sttcmvn3lgih" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_161.png" id="163_jl8xc"]
+[ext_resource type="Texture2D" uid="uid://bp4va7x8f86gv" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_162.png" id="164_1x8ja"]
+[ext_resource type="Texture2D" uid="uid://b2mklehfdm0qe" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_45.png" id="164_asclj"]
+[ext_resource type="Texture2D" uid="uid://b58qtoctuopp8" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_163.png" id="165_n47sk"]
+[ext_resource type="Texture2D" uid="uid://b73fr752xni08" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_46.png" id="165_yx6ib"]
+[ext_resource type="Texture2D" uid="uid://b2wiiduhv13tq" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_47.png" id="166_jk32q"]
+[ext_resource type="Texture2D" uid="uid://bvudkgn7drpip" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_164.png" id="166_k1ufc"]
+[ext_resource type="Texture2D" uid="uid://dr64jw5swo8n3" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_48.png" id="167_0nvpg"]
+[ext_resource type="Texture2D" uid="uid://wxsqvw6jq62b" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_165.png" id="167_5bv8f"]
+[ext_resource type="Texture2D" uid="uid://caxgtw22vfvmw" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_166.png" id="168_5a3qn"]
+[ext_resource type="Texture2D" uid="uid://v0e5wbv7l2eg" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_49.png" id="168_8s11g"]
+[ext_resource type="Texture2D" uid="uid://blsi0nfpext4g" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_50.png" id="169_11mhn"]
+[ext_resource type="Texture2D" uid="uid://gh7ly2j50pvr" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_167.png" id="169_l0xmw"]
+[ext_resource type="Texture2D" uid="uid://dn8vtfw6yv5ur" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_168.png" id="170_n3d4w"]
+[ext_resource type="Texture2D" uid="uid://dyrf2cxf0nue7" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_51.png" id="170_wiqae"]
+[ext_resource type="Texture2D" uid="uid://cc3tbqmhefx1e" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_52.png" id="171_hbw8u"]
+[ext_resource type="Texture2D" uid="uid://d3yfdxrsbvfqy" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_169.png" id="171_rl03u"]
+[ext_resource type="Texture2D" uid="uid://cs8rr1rsip225" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_170.png" id="172_31o1v"]
+[ext_resource type="Texture2D" uid="uid://qymx3pmnsn6t" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_53.png" id="172_i1i1i"]
+[ext_resource type="Texture2D" uid="uid://cfdgtps7wsmxm" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_171.png" id="173_23g6p"]
+[ext_resource type="Texture2D" uid="uid://dk71qrxt221is" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_54.png" id="173_acg2v"]
+[ext_resource type="Texture2D" uid="uid://ba516lo4ohf8b" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_55.png" id="174_650b1"]
+[ext_resource type="Texture2D" uid="uid://do5e5an8y7yw6" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_172.png" id="174_d4sh4"]
+[ext_resource type="Texture2D" uid="uid://y7tgubnsuwvw" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_173.png" id="175_1o27l"]
+[ext_resource type="Texture2D" uid="uid://cy5uuhcyv0rew" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_56.png" id="175_8w52n"]
+[ext_resource type="Texture2D" uid="uid://wanhv488deas" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_57.png" id="176_1o0pw"]
+[ext_resource type="Texture2D" uid="uid://d00vd8e2n4m0c" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_174.png" id="176_gjp4d"]
+[ext_resource type="Texture2D" uid="uid://cyflb2b6wal3u" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_58.png" id="177_5cfdi"]
+[ext_resource type="Texture2D" uid="uid://b1fwejm1slj88" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_175.png" id="177_t6em2"]
+[ext_resource type="Texture2D" uid="uid://bftn4gap3od2b" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_176.png" id="178_6djwp"]
+[ext_resource type="Texture2D" uid="uid://dcn76nf0ad03k" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_59.png" id="178_lbai8"]
+[ext_resource type="Texture2D" uid="uid://b6ftmf16a3vqr" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_60.png" id="179_7wyoc"]
+[ext_resource type="Texture2D" uid="uid://dvlf8k53i2mpv" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_177.png" id="179_pc8na"]
+[ext_resource type="Texture2D" uid="uid://ctco3kl41le4u" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_61.png" id="180_ak20w"]
+[ext_resource type="Texture2D" uid="uid://bp1vtwiv6een" path="res://assets/character/刀兵/enemy_1071_dftman_Attack_Sequence/enemy_1071_dftman_Attack_178.png" id="180_kmme6"]
+[ext_resource type="Texture2D" uid="uid://cylodcm2rhfwr" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_62.png" id="181_nufud"]
+[ext_resource type="Texture2D" uid="uid://csa8l750ilxax" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_63.png" id="182_j8gdk"]
+[ext_resource type="Texture2D" uid="uid://c5isc6ywwmpwv" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_64.png" id="183_0snka"]
+[ext_resource type="Texture2D" uid="uid://wqqkksihb0ba" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_65.png" id="184_kaqge"]
+[ext_resource type="Texture2D" uid="uid://brbhy8bfovjii" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_66.png" id="185_13rbs"]
+[ext_resource type="Texture2D" uid="uid://budtujjbsuhxh" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_67.png" id="186_tao6a"]
+[ext_resource type="Texture2D" uid="uid://0gwpmu26m7nv" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_68.png" id="187_mlmbn"]
+[ext_resource type="Texture2D" uid="uid://dwst8x5aepl83" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_69.png" id="188_dyukh"]
+[ext_resource type="Texture2D" uid="uid://b17s02newkbgj" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_70.png" id="189_o4ox6"]
+[ext_resource type="Texture2D" uid="uid://c7t67l2e12kuh" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_71.png" id="190_y86nt"]
+[ext_resource type="Texture2D" uid="uid://dod44skvtx20g" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_72.png" id="191_ggm1s"]
+[ext_resource type="Texture2D" uid="uid://djc70wh5uc2fw" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_73.png" id="192_5y5l6"]
+[ext_resource type="Texture2D" uid="uid://eyg0e4ua6r4w" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_74.png" id="193_3aoxw"]
+[ext_resource type="Texture2D" uid="uid://bpaupsbsxqqv0" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_75.png" id="194_xe1kw"]
+[ext_resource type="Texture2D" uid="uid://c82hvowkcov27" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_76.png" id="195_mwhmv"]
+[ext_resource type="Texture2D" uid="uid://46wboy0rmi7n" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_77.png" id="196_vpmwv"]
+[ext_resource type="Texture2D" uid="uid://cl5yp2madcihm" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_78.png" id="197_psc4v"]
+[ext_resource type="Texture2D" uid="uid://ce4xa67gnndgu" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_79.png" id="198_8lci3"]
+[ext_resource type="Texture2D" uid="uid://dmu67vhhlipjo" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_80.png" id="199_wj1ft"]
+[ext_resource type="Texture2D" uid="uid://4txby8geeqag" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_81.png" id="200_ohhwx"]
+[ext_resource type="Texture2D" uid="uid://56w80b7jotu8" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_82.png" id="201_uq6w8"]
+[ext_resource type="Texture2D" uid="uid://ndyykqw4bq74" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_83.png" id="202_harri"]
+[ext_resource type="Texture2D" uid="uid://df0wxinmafq88" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_84.png" id="203_d3fet"]
+[ext_resource type="Texture2D" uid="uid://c6gv3nhrme1vm" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_85.png" id="204_rpcbe"]
+[ext_resource type="Texture2D" uid="uid://cyhp1s3l77ksw" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_86.png" id="205_ymvv8"]
+[ext_resource type="Texture2D" uid="uid://bdocrt0bmrieg" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_87.png" id="206_tdlvq"]
+[ext_resource type="Texture2D" uid="uid://wukcawd36ssf" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_88.png" id="207_yt31e"]
+[ext_resource type="Texture2D" uid="uid://b72mm8ikhlffk" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_89.png" id="208_ynij7"]
+[ext_resource type="Texture2D" uid="uid://d0fc4tc1tgrqm" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_90.png" id="209_vicrt"]
+[ext_resource type="Texture2D" uid="uid://coikvhse0d8k0" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_91.png" id="210_amkh4"]
+[ext_resource type="Texture2D" uid="uid://dp757e0yobsjr" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_92.png" id="211_n53h6"]
+[ext_resource type="Texture2D" uid="uid://bk3pbhf0pbnr0" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_93.png" id="212_3anka"]
+[ext_resource type="Texture2D" uid="uid://blspxs3km8a1s" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_94.png" id="213_1m3hk"]
+[ext_resource type="Texture2D" uid="uid://ctc1m4i66lqlf" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_95.png" id="214_0q73r"]
+[ext_resource type="Texture2D" uid="uid://dwdpeav4rykek" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_96.png" id="215_5bdd6"]
+[ext_resource type="Texture2D" uid="uid://dqisufhi0f3k8" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_97.png" id="216_1mmeq"]
+[ext_resource type="Texture2D" uid="uid://c5g3lkqguadmp" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_98.png" id="217_3pde3"]
+[ext_resource type="Texture2D" uid="uid://bknc1sexu34su" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_99.png" id="218_jmhb2"]
+[ext_resource type="Texture2D" uid="uid://dgj4yynbj5yy0" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_100.png" id="219_8oxvq"]
+[ext_resource type="Texture2D" uid="uid://cl6f1xtvkgs7l" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_101.png" id="220_08yhu"]
+[ext_resource type="Texture2D" uid="uid://bsyso6gnakps4" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_102.png" id="221_0djs3"]
+[ext_resource type="Texture2D" uid="uid://di28o3dui2rew" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_103.png" id="222_fdt3p"]
+[ext_resource type="Texture2D" uid="uid://dvbdxiuymw0lw" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_104.png" id="223_s2d7f"]
+[ext_resource type="Texture2D" uid="uid://cx7d33krh4y4o" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_105.png" id="224_wto63"]
+[ext_resource type="Texture2D" uid="uid://biqvxspuxjiui" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_106.png" id="225_5s6vx"]
+[ext_resource type="Texture2D" uid="uid://cescofr014mj" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_107.png" id="226_kjhxk"]
+[ext_resource type="Texture2D" uid="uid://cm31usj6gnieq" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_108.png" id="227_ux7c0"]
+[ext_resource type="Texture2D" uid="uid://toejegdklaw3" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_109.png" id="228_j4beu"]
+[ext_resource type="Texture2D" uid="uid://bsag8fsyl6g48" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_110.png" id="229_nep7q"]
+[ext_resource type="Texture2D" uid="uid://bcfl3cd7nojnl" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_111.png" id="230_bu1hm"]
+[ext_resource type="Texture2D" uid="uid://cesehsgivsv64" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_112.png" id="231_e07qs"]
+[ext_resource type="Texture2D" uid="uid://d2qbhhgv1q4g3" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_113.png" id="232_7wbvl"]
+[ext_resource type="Texture2D" uid="uid://bjx8unwxvqr4i" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_114.png" id="233_y7g2s"]
+[ext_resource type="Texture2D" uid="uid://cfkuy3gdyndj" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_115.png" id="234_d0glr"]
+[ext_resource type="Texture2D" uid="uid://chd3lpgeih2wq" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_116.png" id="235_fnksq"]
+[ext_resource type="Texture2D" uid="uid://n1jbadll7jpo" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_117.png" id="236_51ilj"]
+[ext_resource type="Texture2D" uid="uid://clspjq7g6t0aj" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_118.png" id="237_j6jbp"]
+[ext_resource type="Texture2D" uid="uid://dkd0iqc6dya3s" path="res://assets/character/刀兵/enemy_1071_dftman_Die_Sequence/enemy_1071_dftman_Die_119.png" id="238_qo3e4"]
+[ext_resource type="Texture2D" uid="uid://bwn8m01gb0wik" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_0.png" id="300_hxtmx"]
+[ext_resource type="Texture2D" uid="uid://cn5bco0jekq8b" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_1.png" id="301_qelpe"]
+[ext_resource type="Texture2D" uid="uid://bdwlhd3h7eh15" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_2.png" id="302_6mspi"]
+[ext_resource type="Texture2D" uid="uid://f1esj2hx2acg" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_3.png" id="303_b1a6a"]
+[ext_resource type="Texture2D" uid="uid://dptd2xv1wx524" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_4.png" id="304_6lxpi"]
+[ext_resource type="Texture2D" uid="uid://c60unfx685mg6" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_5.png" id="305_cobnv"]
+[ext_resource type="Texture2D" uid="uid://de8wmfh338h0h" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_6.png" id="306_7qja8"]
+[ext_resource type="Texture2D" uid="uid://dvhjd4mmrc0tp" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_7.png" id="307_jdc4b"]
+[ext_resource type="Texture2D" uid="uid://cjysav34iop3b" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_8.png" id="308_gnco8"]
+[ext_resource type="Texture2D" uid="uid://bgeval0k5hdm5" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_9.png" id="309_c4f3t"]
+[ext_resource type="Texture2D" uid="uid://btpsrluqb4sf6" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_10.png" id="310_tn8ys"]
+[ext_resource type="Texture2D" uid="uid://31rn2otumg1w" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_11.png" id="311_fu104"]
+[ext_resource type="Texture2D" uid="uid://clws7v64xuic8" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_12.png" id="312_2bdo4"]
+[ext_resource type="Texture2D" uid="uid://cspg0hows56f7" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_13.png" id="313_vp2y7"]
+[ext_resource type="Texture2D" uid="uid://dcfoo165284xw" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_14.png" id="314_xhlu2"]
+[ext_resource type="Texture2D" uid="uid://clpfymdcr2wcq" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_15.png" id="315_7kvya"]
+[ext_resource type="Texture2D" uid="uid://dyo8nkpenee1q" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_16.png" id="316_cetc5"]
+[ext_resource type="Texture2D" uid="uid://dvv77673e10g8" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_17.png" id="317_4y7ow"]
+[ext_resource type="Texture2D" uid="uid://b41pw63t13cns" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_18.png" id="318_ld2yy"]
+[ext_resource type="Texture2D" uid="uid://dvgniw6l31pts" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_19.png" id="319_3xfd1"]
+[ext_resource type="Texture2D" uid="uid://c666fav2bdu4s" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_20.png" id="320_1qiyv"]
+[ext_resource type="Texture2D" uid="uid://pe27555qgn5q" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_21.png" id="321_057qd"]
+[ext_resource type="Texture2D" uid="uid://bpjhxhdpjbgd4" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_22.png" id="322_0nyph"]
+[ext_resource type="Texture2D" uid="uid://dyegya2rhupfh" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_23.png" id="323_beg01"]
+[ext_resource type="Texture2D" uid="uid://ei30h0yj51d6" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_24.png" id="324_63uvs"]
+[ext_resource type="Texture2D" uid="uid://6gqm8nt4w8lj" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_25.png" id="325_l8uhp"]
+[ext_resource type="Texture2D" uid="uid://d0cw3ekc2f064" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_26.png" id="326_euqg3"]
+[ext_resource type="Texture2D" uid="uid://deody1sq5o4k4" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_27.png" id="327_hinis"]
+[ext_resource type="Texture2D" uid="uid://dfpxokxkq6tpy" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_28.png" id="328_d7qn5"]
+[ext_resource type="Texture2D" uid="uid://2a37bq4j13lc" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_29.png" id="329_ljikg"]
+[ext_resource type="Texture2D" uid="uid://cwwe4yvgwgage" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_30.png" id="330_bnx30"]
+[ext_resource type="Texture2D" uid="uid://cghv5qo0bohew" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_31.png" id="331_miqp5"]
+[ext_resource type="Texture2D" uid="uid://c3q87mjxgkxk7" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_32.png" id="332_yl87f"]
+[ext_resource type="Texture2D" uid="uid://pogaq6u2npjv" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_33.png" id="333_u7026"]
+[ext_resource type="Texture2D" uid="uid://cuu2s25owfki" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_34.png" id="334_pe7uh"]
+[ext_resource type="Texture2D" uid="uid://cqcbrebly4ilo" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_35.png" id="335_6m1qq"]
+[ext_resource type="Texture2D" uid="uid://byiq2i7xg68cp" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_36.png" id="336_ysen0"]
+[ext_resource type="Texture2D" uid="uid://8pdd22df85ut" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_37.png" id="337_djd3u"]
+[ext_resource type="Texture2D" uid="uid://bpgnh282e1uyl" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_38.png" id="338_aydoo"]
+[ext_resource type="Texture2D" uid="uid://1qb8uivb3vvg" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_39.png" id="339_dmjuu"]
+[ext_resource type="Texture2D" uid="uid://dmgmsxjljnq1r" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_40.png" id="340_f3cr2"]
+[ext_resource type="Texture2D" uid="uid://qilt05qyx404" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_41.png" id="341_ktr64"]
+[ext_resource type="Texture2D" uid="uid://dj1it0nttpcuw" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_42.png" id="342_f0y6o"]
+[ext_resource type="Texture2D" uid="uid://cwm8f0egjniy7" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_43.png" id="343_c7l0p"]
+[ext_resource type="Texture2D" uid="uid://buxvu312q0t63" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_44.png" id="344_j7oqo"]
+[ext_resource type="Texture2D" uid="uid://ueqs1nb6mftu" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_45.png" id="345_35q1j"]
+[ext_resource type="Texture2D" uid="uid://duw4yrbvdg4xr" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_46.png" id="346_07clc"]
+[ext_resource type="Texture2D" uid="uid://h1rsfybhy6gh" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_47.png" id="347_tx6oi"]
+[ext_resource type="Texture2D" uid="uid://dg43bqqkwk0x" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_48.png" id="348_smcjo"]
+[ext_resource type="Texture2D" uid="uid://def0mnnfavg7e" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_49.png" id="349_37t1l"]
+[ext_resource type="Texture2D" uid="uid://dshyvm11m431b" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_50.png" id="350_f1rk4"]
+[ext_resource type="Texture2D" uid="uid://h1dkvw37tae2" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_51.png" id="351_4wlv8"]
+[ext_resource type="Texture2D" uid="uid://rg5ktdkcjoh7" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_52.png" id="352_ubgxt"]
+[ext_resource type="Texture2D" uid="uid://crbemhf7jnmcu" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_53.png" id="353_xtmg4"]
+[ext_resource type="Texture2D" uid="uid://tdtx4krrc0wp" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_54.png" id="354_mkkrf"]
+[ext_resource type="Texture2D" uid="uid://mgfemjrq5twu" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_55.png" id="355_14bae"]
+[ext_resource type="Texture2D" uid="uid://chgu1x7fk81q7" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_56.png" id="356_cudlb"]
+[ext_resource type="Texture2D" uid="uid://87xvgfog7ia7" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_57.png" id="357_866ae"]
+[ext_resource type="Texture2D" uid="uid://bokjbsx2tnamt" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_58.png" id="358_ayh4j"]
+[ext_resource type="Texture2D" uid="uid://lnnew058c35s" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_59.png" id="359_pko12"]
+[ext_resource type="Texture2D" uid="uid://qbbn681m5mwe" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_60.png" id="360_myoxv"]
+[ext_resource type="Texture2D" uid="uid://cmpk6vgpl1srg" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_61.png" id="361_25h4p"]
+[ext_resource type="Texture2D" uid="uid://bxdycrbkwohtk" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_62.png" id="362_5ldu6"]
+[ext_resource type="Texture2D" uid="uid://b1vxanu3qbimh" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_63.png" id="363_1cnv8"]
+[ext_resource type="Texture2D" uid="uid://bft8nwg14yrbf" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_64.png" id="364_78jik"]
+[ext_resource type="Texture2D" uid="uid://bh1k5dobgmw6y" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_65.png" id="365_6hy85"]
+[ext_resource type="Texture2D" uid="uid://bcjxinwylok2m" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_66.png" id="366_iy15j"]
+[ext_resource type="Texture2D" uid="uid://cwjjdn3m5ouqx" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_67.png" id="367_ifcvs"]
+[ext_resource type="Texture2D" uid="uid://dui17lh0agtme" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_68.png" id="368_xjwe7"]
+[ext_resource type="Texture2D" uid="uid://cmuekt673ajv1" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_69.png" id="369_1bwqb"]
+[ext_resource type="Texture2D" uid="uid://dfvti1qtbi0bj" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_70.png" id="370_vtpki"]
+[ext_resource type="Texture2D" uid="uid://d30dxdiv5hhrh" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_71.png" id="371_0qtbo"]
+[ext_resource type="Texture2D" uid="uid://d1nub7hpn5af8" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_72.png" id="372_sukwb"]
+[ext_resource type="Texture2D" uid="uid://cxsdry5f1a0xp" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_73.png" id="373_vbpxw"]
+[ext_resource type="Texture2D" uid="uid://e02k4gtkgy1x" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_74.png" id="374_bxb22"]
+[ext_resource type="Texture2D" uid="uid://dnq8mtap7wlj3" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_75.png" id="375_s5eoe"]
+[ext_resource type="Texture2D" uid="uid://cs1mup4nk202q" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_76.png" id="376_ai315"]
+[ext_resource type="Texture2D" uid="uid://oadovyfwh7sn" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_77.png" id="377_qlgb8"]
+[ext_resource type="Texture2D" uid="uid://clhs3xukvsq7l" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_78.png" id="378_dmwkt"]
+[ext_resource type="Texture2D" uid="uid://bcr8qcaiox4fg" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_79.png" id="379_q6k3v"]
+[ext_resource type="Texture2D" uid="uid://cul5t2p7xej1k" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_80.png" id="380_3atu6"]
+[ext_resource type="Texture2D" uid="uid://cdvksqw1v3dtf" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_81.png" id="381_543mj"]
+[ext_resource type="Texture2D" uid="uid://bsvaaf0lrh1aj" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_82.png" id="382_w5khl"]
+[ext_resource type="Texture2D" uid="uid://u2tkrtgke6hq" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_83.png" id="383_6mjki"]
+[ext_resource type="Texture2D" uid="uid://cx6d8e0hqs4fq" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_84.png" id="384_y4vfp"]
+[ext_resource type="Texture2D" uid="uid://cx3ylwqdqcmrv" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_85.png" id="385_eedt7"]
+[ext_resource type="Texture2D" uid="uid://dfs3rdmpx3tik" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_86.png" id="386_d1cia"]
+[ext_resource type="Texture2D" uid="uid://bxc6dc2w1ivm1" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_87.png" id="387_qh6td"]
+[ext_resource type="Texture2D" uid="uid://hexqmg6h6i6v" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_88.png" id="388_aaasg"]
+[ext_resource type="Texture2D" uid="uid://cxo5qam5crdih" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_89.png" id="389_ugmdf"]
+[ext_resource type="Texture2D" uid="uid://c7s173qqq1vvt" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_90.png" id="390_0s157"]
+[ext_resource type="Texture2D" uid="uid://dekyjcwtujioe" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_91.png" id="391_t2i3w"]
+[ext_resource type="Texture2D" uid="uid://bl00mksuj3ymf" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_92.png" id="392_vj1qy"]
+[ext_resource type="Texture2D" uid="uid://citste771505v" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_93.png" id="393_81ujr"]
+[ext_resource type="Texture2D" uid="uid://do1l0q72763q7" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_94.png" id="394_afw75"]
+[ext_resource type="Texture2D" uid="uid://djs36ohjd6gn6" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_95.png" id="395_yfe8r"]
+[ext_resource type="Texture2D" uid="uid://nvcvj3y51tj4" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_96.png" id="396_ad5cc"]
+[ext_resource type="Texture2D" uid="uid://dhy1cyuudn8h6" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_97.png" id="397_pb777"]
+[ext_resource type="Texture2D" uid="uid://bgshiks84kq8q" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_98.png" id="398_ux821"]
+[ext_resource type="Texture2D" uid="uid://cp5mvxhv5xyw3" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_99.png" id="399_0pvqy"]
+[ext_resource type="Texture2D" uid="uid://bwy7im8k08nbq" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_100.png" id="400_l148u"]
+[ext_resource type="Texture2D" uid="uid://dke1b8nm2vw7i" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_101.png" id="401_rtlyu"]
+[ext_resource type="Texture2D" uid="uid://banko8pg7jsx6" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_102.png" id="402_r4fh1"]
+[ext_resource type="Texture2D" uid="uid://bfrohuskgl4n6" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_103.png" id="403_86dkb"]
+[ext_resource type="Texture2D" uid="uid://biem8m5bkq3oe" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_104.png" id="404_7j7vm"]
+[ext_resource type="Texture2D" uid="uid://dm75jdw63buvs" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_105.png" id="405_ft7tg"]
+[ext_resource type="Texture2D" uid="uid://cvnvq7ai2fyhf" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_106.png" id="406_5m8kb"]
+[ext_resource type="Texture2D" uid="uid://dc6jvkdgn32sj" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_107.png" id="407_6hu0b"]
+[ext_resource type="Texture2D" uid="uid://sxmjty4btvrp" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_108.png" id="408_6604c"]
+[ext_resource type="Texture2D" uid="uid://xqy2ony74gxb" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_109.png" id="409_kud2n"]
+[ext_resource type="Texture2D" uid="uid://2t1l2pusgsy4" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_110.png" id="410_nrkgs"]
+[ext_resource type="Texture2D" uid="uid://bsktpjnuw5hye" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_111.png" id="411_xou57"]
+[ext_resource type="Texture2D" uid="uid://wgouk06jjdw6" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_112.png" id="412_q75qq"]
+[ext_resource type="Texture2D" uid="uid://b7kd5njlqdnj2" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_113.png" id="413_8pned"]
+[ext_resource type="Texture2D" uid="uid://yndiw5ebdtws" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_114.png" id="414_p8w7c"]
+[ext_resource type="Texture2D" uid="uid://bhrapj2rjtm3x" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_115.png" id="415_glbga"]
+[ext_resource type="Texture2D" uid="uid://ndvybdcup51b" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_116.png" id="416_h36fl"]
+[ext_resource type="Texture2D" uid="uid://b0jpooiowu0i3" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_117.png" id="417_gn71c"]
+[ext_resource type="Texture2D" uid="uid://c723148r7pduq" path="res://assets/character/刀兵/enemy_1071_dftman_Idle_Sequence/enemy_1071_dftman_Idle_118.png" id="418_34unp"]
+[ext_resource type="Texture2D" uid="uid://jj72328xsggi" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_0.png" id="419_kskqp"]
+[ext_resource type="Texture2D" uid="uid://cqj0vxyimhcfk" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_1.png" id="420_jgn0y"]
+[ext_resource type="Texture2D" uid="uid://ct2380i11jayh" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_2.png" id="421_a2byq"]
+[ext_resource type="Texture2D" uid="uid://dc10epvs4hjl4" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_3.png" id="422_0xkhl"]
+[ext_resource type="Texture2D" uid="uid://b5mb1bhqycxa8" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_4.png" id="423_rwjvq"]
+[ext_resource type="Script" uid="uid://bn4reb36r6yie" path="res://ai/tasks/play_frame_animation.gd" id="424_u2rom"]
+[ext_resource type="Texture2D" uid="uid://b26c87wiavgyr" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_5.png" id="424_vaq8r"]
+[ext_resource type="Texture2D" uid="uid://c8cnaodl6us6i" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_6.png" id="425_ecmsk"]
+[ext_resource type="Script" uid="uid://b5yyt0mq3bcy3" path="res://ai/tasks/random_move.gd" id="425_rc171"]
+[ext_resource type="PackedScene" uid="uid://bnhtoeja04f2s" path="res://scenes/info.tscn" id="426_offtb"]
+[ext_resource type="Texture2D" uid="uid://dhrvees673d6l" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_7.png" id="426_tpyvu"]
+[ext_resource type="Texture2D" uid="uid://cofo11msa2wi2" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_8.png" id="427_83kkk"]
+[ext_resource type="Texture2D" uid="uid://hrgeekpm3ad8" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_9.png" id="428_ysjnl"]
+[ext_resource type="Texture2D" uid="uid://f1etrm5jobd5" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_10.png" id="429_qkvy8"]
+[ext_resource type="Texture2D" uid="uid://cf5jo0ebf08bd" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_11.png" id="430_vh4xn"]
+[ext_resource type="Texture2D" uid="uid://btv3ry6iude0i" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_12.png" id="431_1h5w3"]
+[ext_resource type="Texture2D" uid="uid://bit36mwcdocw" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_13.png" id="432_5io63"]
+[ext_resource type="Texture2D" uid="uid://u7v5mjs1ftj4" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_14.png" id="433_c3jd0"]
+[ext_resource type="Texture2D" uid="uid://6u4pao5372mh" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_15.png" id="434_l6rfm"]
+[ext_resource type="Texture2D" uid="uid://bo7x2f5bf6fp3" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_16.png" id="435_bkgkr"]
+[ext_resource type="Texture2D" uid="uid://dn6tqe3w6wn01" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_17.png" id="436_yny71"]
+[ext_resource type="Texture2D" uid="uid://cabqh81k706hu" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_18.png" id="437_u2rom"]
+[ext_resource type="Texture2D" uid="uid://ccwj63ngd8ghv" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_19.png" id="438_rc171"]
+[ext_resource type="Texture2D" uid="uid://6qxsch2akkkl" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_20.png" id="439_offtb"]
+[ext_resource type="Texture2D" uid="uid://cgs0grxkjg6e7" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_21.png" id="440_siwhr"]
+[ext_resource type="Texture2D" uid="uid://crh7h33a33e6v" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_22.png" id="441_yjr7p"]
+[ext_resource type="Texture2D" uid="uid://co53tr5ud8xne" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_23.png" id="442_t6mbn"]
+[ext_resource type="Texture2D" uid="uid://dc8d4gotngin3" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_24.png" id="443_xasff"]
+[ext_resource type="Texture2D" uid="uid://bixc37ghof8dk" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_25.png" id="444_pvpmy"]
+[ext_resource type="Texture2D" uid="uid://xrl0tyi8oyah" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_26.png" id="445_qapen"]
+[ext_resource type="Texture2D" uid="uid://bm0kekjjupubs" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_27.png" id="446_30ldw"]
+[ext_resource type="Texture2D" uid="uid://btw8axmmehsgr" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_28.png" id="447_qxwri"]
+[ext_resource type="Texture2D" uid="uid://bqd0f7jweflb7" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_29.png" id="448_1p46g"]
+[ext_resource type="Texture2D" uid="uid://kj2jek2voxjc" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_30.png" id="449_72uyc"]
+[ext_resource type="Texture2D" uid="uid://ryka4rinubj5" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_31.png" id="450_fnnja"]
+[ext_resource type="Texture2D" uid="uid://baki1yo636rvd" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_32.png" id="451_jo66j"]
+[ext_resource type="Texture2D" uid="uid://db87fnm3om3f7" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_33.png" id="452_wrenr"]
+[ext_resource type="Texture2D" uid="uid://ci6tvirigmepv" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_34.png" id="453_tweub"]
+[ext_resource type="Texture2D" uid="uid://b4lwqwqxlihc8" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_35.png" id="454_dj7mj"]
+[ext_resource type="Texture2D" uid="uid://bglhb1fia7pa4" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_36.png" id="455_ps7t8"]
+[ext_resource type="Texture2D" uid="uid://b0kn6o341146m" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_37.png" id="456_pfu8o"]
+[ext_resource type="Texture2D" uid="uid://cjmb71vqp4ky2" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_38.png" id="457_bjq2y"]
+[ext_resource type="Texture2D" uid="uid://h3ec3y4bl4o7" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_39.png" id="458_pbu8y"]
+[ext_resource type="Texture2D" uid="uid://ogxwg4vuyy5i" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_40.png" id="459_df8ml"]
+[ext_resource type="Texture2D" uid="uid://b7e0g45efvh6n" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_41.png" id="460_lf31o"]
+[ext_resource type="Texture2D" uid="uid://c5itc2qa2w34p" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_42.png" id="461_lnha6"]
+[ext_resource type="Texture2D" uid="uid://c4xhbr5tpcans" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_43.png" id="462_fbsph"]
+[ext_resource type="Texture2D" uid="uid://dhlh6iu2da0ne" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_44.png" id="463_iqpre"]
+[ext_resource type="Texture2D" uid="uid://bumd1aj4tlml6" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_45.png" id="464_v0rp3"]
+[ext_resource type="Texture2D" uid="uid://clakpf1vq6tlq" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_46.png" id="465_yshdm"]
+[ext_resource type="Texture2D" uid="uid://b7rawkr36c2tg" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_47.png" id="466_eqew5"]
+[ext_resource type="Texture2D" uid="uid://b1i7hct21s3e6" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_48.png" id="467_5c8so"]
+[ext_resource type="Texture2D" uid="uid://b7p8s3o8brls2" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_49.png" id="468_wahra"]
+[ext_resource type="Texture2D" uid="uid://dwbo3xjngkixt" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_50.png" id="469_dhki2"]
+[ext_resource type="Texture2D" uid="uid://b0q0ut6tyrt8a" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_51.png" id="470_j78dy"]
+[ext_resource type="Texture2D" uid="uid://b3ufsgbgwkpu2" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_52.png" id="471_qfoub"]
+[ext_resource type="Texture2D" uid="uid://cstjqy7n5blyv" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_53.png" id="472_05732"]
+[ext_resource type="Texture2D" uid="uid://deiharcaevaxb" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_54.png" id="473_yhl0r"]
+[ext_resource type="Texture2D" uid="uid://dfwuglqro6wvd" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_55.png" id="474_4y7av"]
+[ext_resource type="Texture2D" uid="uid://cywf32eh5sq70" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_56.png" id="475_1qtbe"]
+[ext_resource type="Texture2D" uid="uid://0ow6eh4vefn8" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_57.png" id="476_r56mw"]
+[ext_resource type="Texture2D" uid="uid://bwcpsr4ecdrwt" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_58.png" id="477_may6t"]
+[ext_resource type="Texture2D" uid="uid://s1r7go50t2e7" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_59.png" id="478_x8704"]
+[ext_resource type="Texture2D" uid="uid://dcmwjja13rlcg" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_60.png" id="479_olnao"]
+[ext_resource type="Texture2D" uid="uid://cq0wk5b2tqgos" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_61.png" id="480_i1dfb"]
+[ext_resource type="Texture2D" uid="uid://cxq6miehx122k" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_62.png" id="481_50b36"]
+[ext_resource type="Texture2D" uid="uid://dnakc6frh3muh" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_63.png" id="482_otost"]
+[ext_resource type="Texture2D" uid="uid://b1butffs6m5xd" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_64.png" id="483_6qev5"]
+[ext_resource type="Texture2D" uid="uid://ct1kokv1hkcx0" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_65.png" id="484_me6fi"]
+[ext_resource type="Texture2D" uid="uid://dm58xvc5qrwc7" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_66.png" id="485_pt0n2"]
+[ext_resource type="Texture2D" uid="uid://bqsuycjjr30au" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_67.png" id="486_5g08u"]
+[ext_resource type="Texture2D" uid="uid://ck3budbygnt5g" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_68.png" id="487_elite"]
+[ext_resource type="Texture2D" uid="uid://cp7kxvy7bllkv" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_69.png" id="488_48en3"]
+[ext_resource type="Texture2D" uid="uid://c7ufd5cax6f48" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_70.png" id="489_el7je"]
+[ext_resource type="Texture2D" uid="uid://cb8gfmhy6dxmc" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_71.png" id="490_au034"]
+[ext_resource type="Texture2D" uid="uid://c1gqqcdxtfkqy" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_72.png" id="491_osrq3"]
+[ext_resource type="Texture2D" uid="uid://bnxegm7toglr4" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_73.png" id="492_g5wbs"]
+[ext_resource type="Texture2D" uid="uid://bpf5spggrigd3" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_74.png" id="493_qhc1r"]
+[ext_resource type="Texture2D" uid="uid://dhjjsqnv8noik" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_75.png" id="494_bjf1v"]
+[ext_resource type="Texture2D" uid="uid://blbjmjntg2vmd" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_76.png" id="495_u88v3"]
+[ext_resource type="Texture2D" uid="uid://c5clpii5n51n" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_77.png" id="496_v8fp3"]
+[ext_resource type="Texture2D" uid="uid://cqtwp2xmyko2j" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_78.png" id="497_2mfyy"]
+[ext_resource type="Texture2D" uid="uid://duixd0kyymibw" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_79.png" id="498_3r2r4"]
+[ext_resource type="Texture2D" uid="uid://jfeujkjjb65e" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_80.png" id="499_nx14k"]
+[ext_resource type="Texture2D" uid="uid://clk5lt5xqjt2f" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_81.png" id="500_we8il"]
+[ext_resource type="Texture2D" uid="uid://d4cld5nlc2jv5" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_82.png" id="501_sspyr"]
+[ext_resource type="Texture2D" uid="uid://iaf65suuq8ui" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_83.png" id="502_ksjvc"]
+[ext_resource type="Texture2D" uid="uid://c5ipfouyp0y3b" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_84.png" id="503_nh272"]
+[ext_resource type="Texture2D" uid="uid://bpnlljhijkyya" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_85.png" id="504_bax7g"]
+[ext_resource type="Texture2D" uid="uid://bhdedfibqs5jm" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_86.png" id="505_jo6gp"]
+[ext_resource type="Texture2D" uid="uid://da4it870g3nv0" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_87.png" id="506_fd04r"]
+[ext_resource type="Texture2D" uid="uid://8vibvdo1m4pc" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_88.png" id="507_owokv"]
+[ext_resource type="Texture2D" uid="uid://b8eyvregil0a4" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_89.png" id="508_e2f8a"]
+[ext_resource type="Texture2D" uid="uid://btaeh0s6knqca" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_90.png" id="509_uank1"]
+[ext_resource type="Texture2D" uid="uid://daqtuga3fm2lu" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_91.png" id="510_og8mp"]
+[ext_resource type="Texture2D" uid="uid://b61xbf2vk7hp2" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_92.png" id="511_rwrwc"]
+[ext_resource type="Texture2D" uid="uid://r0atx0svr22y" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_93.png" id="512_0prwo"]
+[ext_resource type="Texture2D" uid="uid://bwoquwqpc37pd" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_94.png" id="513_3kveu"]
+[ext_resource type="Texture2D" uid="uid://bnemcwlkc7wyf" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_95.png" id="514_b5cm1"]
+[ext_resource type="Texture2D" uid="uid://dgibab7v4wn2n" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_96.png" id="515_p8qlg"]
+[ext_resource type="Texture2D" uid="uid://crjr3lwy4enm2" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_97.png" id="516_o4flt"]
+[ext_resource type="Texture2D" uid="uid://cpw27ea8v2cnr" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_98.png" id="517_guln5"]
+[ext_resource type="Texture2D" uid="uid://b43d3kc6bys2v" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_99.png" id="518_4cuq2"]
+[ext_resource type="Texture2D" uid="uid://2hxjjfr7nark" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_100.png" id="519_ng8m2"]
+[ext_resource type="Texture2D" uid="uid://d3sdia0ypxj53" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_101.png" id="520_uuprx"]
+[ext_resource type="Texture2D" uid="uid://bbptseaoiammt" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_102.png" id="521_hylyg"]
+[ext_resource type="Texture2D" uid="uid://ccpskxt22ej8x" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_103.png" id="522_ooqbn"]
+[ext_resource type="Texture2D" uid="uid://ojldwifoxahp" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_104.png" id="523_f1w41"]
+[ext_resource type="Texture2D" uid="uid://cg1kq8g70yhek" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_105.png" id="524_1k2of"]
+[ext_resource type="Texture2D" uid="uid://w3ax18cdrndd" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_106.png" id="525_ea0bu"]
+[ext_resource type="Texture2D" uid="uid://bf45s0u8cwfta" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_107.png" id="526_ak2a1"]
+[ext_resource type="Texture2D" uid="uid://cbcjjngqi1egc" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_108.png" id="527_ypjs5"]
+[ext_resource type="Texture2D" uid="uid://dhc2k3dfu21vw" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_109.png" id="528_8s820"]
+[ext_resource type="Texture2D" uid="uid://di85iapic7udh" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_110.png" id="529_lou2s"]
+[ext_resource type="Texture2D" uid="uid://d0j0tql7cndiq" path="res://assets/character/刀兵/enemy_1071_dftman_Move_Sequence/enemy_1071_dftman_Move_111.png" id="530_3acru"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_j4beu"]
+radius = 0.282023
+height = 1.12508
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_litfo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_j4beu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_nep7q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_bu1hm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_e07qs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_7wbvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_y7g2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_d0glr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_fnksq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_51ilj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_j6jbp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_qo3e4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_litfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_t0lqi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_llkg2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_t7ckn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_aqk3p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_jkair")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_y1h6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_sh44b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_w1f6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_y1ge0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_x0jb4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ycscj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_s0t2x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_p5ul7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_12rnc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_av18d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_laohv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_tnehx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_io2b4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_m71p6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_pascy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_q7o25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_fup86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_4370p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_j48o3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_he3mx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_c6nct")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_el7l0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_shsi1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_15u7y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_igxp8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_wy3e3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_c06c7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_6w18a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_vl7eo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_lebkc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_u04sc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_c7yhv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_uxnm8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_qyekj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_dpbfv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_mmbdt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_2s0ro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_dq6uo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_8p26v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_jbauc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_uhpoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_l0sb6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_bayb5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_ixgo0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_qhgil")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_fuajp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_v83nj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_jjbvu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_b6am1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_hdros")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_rn13u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_jdrq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_0gljj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_veohx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_e3nea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_oj4ss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_jx4b4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_0jtxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_q4iaw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_kuhus")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_vott4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_ch7cx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_i6h4x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_w44ay")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_0ugci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_at2ud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_maddx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_lwbqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_6uemn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_pd1g1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_uawa5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_ma236")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_e2ohn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_qsber")
+}],
+"loop": false,
+"name": &"attack1",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("93_2vc0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_7hx6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_cjqiu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_68n2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_mksm2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_8vo3g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_6jgbh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_ldqcx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_ysryx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_xjykv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_lv4bj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_md5tl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_74bte")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_ha64w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_mfqaj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_pt6pf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_0aown")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_ta8uo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_5hm0f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_bdx7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_2aa0v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_0r570")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_ga43a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_ho23w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_3rwim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_ky14t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_ifgee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_8ftya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_u32hm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_sd22q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_ic142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_tugme")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_dphbw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_jd3fg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_13edb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_67nkx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_hjw8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_gfbnw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_pkwhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_ls06c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_usyhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_ngqep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_sxi8p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_lcd3i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_ft02y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_xqfvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_j8h3j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_apc2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_fiajp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_jshgh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_o2d10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_2onxh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_7uqer")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_kl5hg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_5y0hp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_hwtvu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_gh5yc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_lupgu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_sny7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_plh7l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_vm5a1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_puq2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_vps55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_y10em")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_gdkhd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_ta5f0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_a1gwe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_mqjog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_mytcm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_mw4eb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_jl8xc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_1x8ja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_n47sk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_k1ufc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_5bv8f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_5a3qn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_l0xmw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_n3d4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_rl03u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_31o1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_23g6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_d4sh4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_1o27l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_gjp4d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_t6em2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_6djwp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_pc8na")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_kmme6")
+}],
+"loop": false,
+"name": &"attack2",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("120_6d0jp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_wvh6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_74d8q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_soh6d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_wkeva")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_rxgx2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_3kb24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_pohhm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_3xgms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_m2616")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_q4a15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_tpm22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_l7y0r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_cokaq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_x2x0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_p572y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_w5gru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_pdrl7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_rd86g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_0ucvi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_l8igp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_jlt2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_l8wlj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_i56dl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_dxkth")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_0qbrg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_l27oa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_gr724")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_jmsvx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_qoh02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_08gyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_e0vnx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_t5wky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_cmiys")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_km8xq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_e54d3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_ucdmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_ftr3x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_ctmdw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_1mw5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_vty3c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_ombbe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_2iaeq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_ai8vf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_asclj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_yx6ib")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_jk32q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_0nvpg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_8s11g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_11mhn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_wiqae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_hbw8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_i1i1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_acg2v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_650b1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_8w52n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_1o0pw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_5cfdi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_lbai8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_7wyoc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_ak20w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_nufud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_j8gdk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_0snka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_kaqge")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_13rbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_tao6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_mlmbn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_dyukh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_o4ox6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_y86nt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_ggm1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_5y5l6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_3aoxw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_xe1kw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_mwhmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_vpmwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_psc4v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_8lci3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_wj1ft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_ohhwx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_uq6w8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_harri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_d3fet")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_rpcbe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_ymvv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_tdlvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_yt31e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_ynij7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_vicrt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_amkh4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_n53h6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_3anka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_1m3hk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_0q73r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_5bdd6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_1mmeq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_3pde3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_jmhb2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_8oxvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_08yhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_0djs3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_fdt3p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_s2d7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_wto63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_5s6vx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_kjhxk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_ux7c0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_j4beu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_nep7q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_bu1hm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_e07qs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_7wbvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_y7g2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_d0glr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_fnksq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_51ilj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_j6jbp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_qo3e4")
+}],
+"loop": false,
+"name": &"die",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("300_hxtmx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("301_qelpe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("302_6mspi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("303_b1a6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304_6lxpi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("305_cobnv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("306_7qja8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("307_jdc4b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("308_gnco8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("309_c4f3t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("310_tn8ys")
+}, {
+"duration": 1.0,
+"texture": ExtResource("311_fu104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("312_2bdo4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("313_vp2y7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("314_xhlu2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("315_7kvya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("316_cetc5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("317_4y7ow")
+}, {
+"duration": 1.0,
+"texture": ExtResource("318_ld2yy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("319_3xfd1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("320_1qiyv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("321_057qd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("322_0nyph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("323_beg01")
+}, {
+"duration": 1.0,
+"texture": ExtResource("324_63uvs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("325_l8uhp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("326_euqg3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("327_hinis")
+}, {
+"duration": 1.0,
+"texture": ExtResource("328_d7qn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("329_ljikg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("330_bnx30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("331_miqp5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("332_yl87f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("333_u7026")
+}, {
+"duration": 1.0,
+"texture": ExtResource("334_pe7uh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("335_6m1qq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("336_ysen0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("337_djd3u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("338_aydoo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("339_dmjuu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("340_f3cr2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("341_ktr64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("342_f0y6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("343_c7l0p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("344_j7oqo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("345_35q1j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("346_07clc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("347_tx6oi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("348_smcjo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("349_37t1l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("350_f1rk4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("351_4wlv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("352_ubgxt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("353_xtmg4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("354_mkkrf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("355_14bae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("356_cudlb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("357_866ae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("358_ayh4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("359_pko12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("360_myoxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("361_25h4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("362_5ldu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("363_1cnv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("364_78jik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("365_6hy85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("366_iy15j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("367_ifcvs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("368_xjwe7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("369_1bwqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("370_vtpki")
+}, {
+"duration": 1.0,
+"texture": ExtResource("371_0qtbo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("372_sukwb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("373_vbpxw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("374_bxb22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("375_s5eoe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("376_ai315")
+}, {
+"duration": 1.0,
+"texture": ExtResource("377_qlgb8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("378_dmwkt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("379_q6k3v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("380_3atu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("381_543mj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("382_w5khl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("383_6mjki")
+}, {
+"duration": 1.0,
+"texture": ExtResource("384_y4vfp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("385_eedt7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("386_d1cia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("387_qh6td")
+}, {
+"duration": 1.0,
+"texture": ExtResource("388_aaasg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("389_ugmdf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("390_0s157")
+}, {
+"duration": 1.0,
+"texture": ExtResource("391_t2i3w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("392_vj1qy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("393_81ujr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("394_afw75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("395_yfe8r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("396_ad5cc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("397_pb777")
+}, {
+"duration": 1.0,
+"texture": ExtResource("398_ux821")
+}, {
+"duration": 1.0,
+"texture": ExtResource("399_0pvqy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("400_l148u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("401_rtlyu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("402_r4fh1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("403_86dkb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("404_7j7vm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("405_ft7tg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("406_5m8kb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("407_6hu0b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("408_6604c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("409_kud2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("410_nrkgs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("411_xou57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("412_q75qq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("413_8pned")
+}, {
+"duration": 1.0,
+"texture": ExtResource("414_p8w7c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("415_glbga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("416_h36fl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("417_gn71c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("418_34unp")
+}],
+"loop": false,
+"name": &"idle",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("419_kskqp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("420_jgn0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("421_a2byq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("422_0xkhl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("423_rwjvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("424_vaq8r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("425_ecmsk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("426_tpyvu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("427_83kkk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("428_ysjnl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("429_qkvy8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("430_vh4xn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("431_1h5w3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("432_5io63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("433_c3jd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("434_l6rfm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("435_bkgkr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("436_yny71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("437_u2rom")
+}, {
+"duration": 1.0,
+"texture": ExtResource("438_rc171")
+}, {
+"duration": 1.0,
+"texture": ExtResource("439_offtb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("440_siwhr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("441_yjr7p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("442_t6mbn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("443_xasff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("444_pvpmy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("445_qapen")
+}, {
+"duration": 1.0,
+"texture": ExtResource("446_30ldw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("447_qxwri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("448_1p46g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("449_72uyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("450_fnnja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("451_jo66j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("452_wrenr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("453_tweub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("454_dj7mj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("455_ps7t8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("456_pfu8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("457_bjq2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("458_pbu8y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("459_df8ml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("460_lf31o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("461_lnha6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("462_fbsph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("463_iqpre")
+}, {
+"duration": 1.0,
+"texture": ExtResource("464_v0rp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("465_yshdm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("466_eqew5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("467_5c8so")
+}, {
+"duration": 1.0,
+"texture": ExtResource("468_wahra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("469_dhki2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("470_j78dy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("471_qfoub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("472_05732")
+}, {
+"duration": 1.0,
+"texture": ExtResource("473_yhl0r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("474_4y7av")
+}, {
+"duration": 1.0,
+"texture": ExtResource("475_1qtbe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("476_r56mw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("477_may6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("478_x8704")
+}, {
+"duration": 1.0,
+"texture": ExtResource("479_olnao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("480_i1dfb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("481_50b36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("482_otost")
+}, {
+"duration": 1.0,
+"texture": ExtResource("483_6qev5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("484_me6fi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("485_pt0n2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("486_5g08u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("487_elite")
+}, {
+"duration": 1.0,
+"texture": ExtResource("488_48en3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("489_el7je")
+}, {
+"duration": 1.0,
+"texture": ExtResource("490_au034")
+}, {
+"duration": 1.0,
+"texture": ExtResource("491_osrq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("492_g5wbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("493_qhc1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("494_bjf1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("495_u88v3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("496_v8fp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("497_2mfyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("498_3r2r4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("499_nx14k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("500_we8il")
+}, {
+"duration": 1.0,
+"texture": ExtResource("501_sspyr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("502_ksjvc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("503_nh272")
+}, {
+"duration": 1.0,
+"texture": ExtResource("504_bax7g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("505_jo6gp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("506_fd04r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("507_owokv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("508_e2f8a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("509_uank1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("510_og8mp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("511_rwrwc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("512_0prwo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("513_3kveu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("514_b5cm1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("515_p8qlg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("516_o4flt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("517_guln5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("518_4cuq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("519_ng8m2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("520_uuprx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("521_hylyg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("522_ooqbn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("523_f1w41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("524_1k2of")
+}, {
+"duration": 1.0,
+"texture": ExtResource("525_ea0bu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("526_ak2a1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("527_ypjs5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("528_8s820")
+}, {
+"duration": 1.0,
+"texture": ExtResource("529_lou2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("530_3acru")
+}],
+"loop": false,
+"name": &"walk",
+"speed": 120.0
+}]
+
+[sub_resource type="BlackboardPlan" id="BlackboardPlan_j4beu"]
+var/hp/name = &"hp"
+var/hp/type = 2
+var/hp/value = 0
+var/hp/hint = 0
+var/hp/hint_string = ""
+var/player_path/name = &"player_path"
+var/player_path/type = 22
+var/player_path/value = NodePath("")
+var/player_path/hint = 0
+var/player_path/hint_string = ""
+binding/hp = NodePath(".")
+
+[sub_resource type="BBVariant" id="BBVariant_nep7q"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_bu1hm"]
+variable = &"hp"
+check_type = 2
+value = SubResource("BBVariant_nep7q")
+
+[sub_resource type="BTAction" id="BTAction_e07qs"]
+script = ExtResource("424_u2rom")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"die"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBNode" id="BBNode_7wbvl"]
+saved_value = NodePath("AnimationPlayer")
+resource_name = "AnimationPlayer"
+
+[sub_resource type="BTPlayAnimation" id="BTPlayAnimation_y7g2s"]
+animation_player = SubResource("BBNode_7wbvl")
+animation_name = &"die"
+
+[sub_resource type="BBVariant" id="BBVariant_d0glr"]
+type = 2
+saved_value = 8
+resource_name = "8"
+
+[sub_resource type="BTSetAgentProperty" id="BTSetAgentProperty_fnksq"]
+property = &"collision_layer"
+value = SubResource("BBVariant_d0glr")
+
+[sub_resource type="BBVariant" id="BBVariant_51ilj"]
+type = 2
+saved_value = 8
+resource_name = "8"
+
+[sub_resource type="BTSetAgentProperty" id="BTSetAgentProperty_j6jbp"]
+property = &"collision_mask"
+value = SubResource("BBVariant_51ilj")
+
+[sub_resource type="BTParallel" id="BTParallel_qo3e4"]
+num_successes_required = 4
+children = [SubResource("BTAction_e07qs"), SubResource("BTPlayAnimation_y7g2s"), SubResource("BTSetAgentProperty_fnksq"), SubResource("BTSetAgentProperty_j6jbp")]
+
+[sub_resource type="BBNode" id="BBNode_litfo"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_t0lqi"]
+node = SubResource("BBNode_litfo")
+method = &"queue_free"
+
+[sub_resource type="BTSequence" id="BTSequence_llkg2"]
+custom_name = "die"
+children = [SubResource("BTCheckVar_bu1hm"), SubResource("BTParallel_qo3e4"), SubResource("BTCallMethod_t0lqi")]
+
+[sub_resource type="BBVariant" id="BBVariant_t7ckn"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_aqk3p"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_t7ckn")
+
+[sub_resource type="BBVariant" id="BBVariant_jkair"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_y1h6n"]
+variable = &"player_path"
+check_type = 5
+value = SubResource("BBVariant_jkair")
+
+[sub_resource type="BBNode" id="BBNode_sh44b"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_w1f6j"]
+node = SubResource("BBNode_sh44b")
+method = &"stop_navgation"
+
+[sub_resource type="BTRandomWait" id="BTRandomWait_y1ge0"]
+min_duration = 0.1
+max_duration = 0.5
+
+[sub_resource type="BBVariant" id="BBVariant_x0jb4"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_ycscj"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_x0jb4")
+
+[sub_resource type="BTAction" id="BTAction_s0t2x"]
+script = ExtResource("424_u2rom")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"attack1"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBVariant" id="BBVariant_p5ul7"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_12rnc"]
+variable = &"player_path"
+check_type = 5
+value = SubResource("BBVariant_p5ul7")
+
+[sub_resource type="BBNode" id="BBNode_av18d"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_laohv"]
+node = SubResource("BBNode_av18d")
+method = &"attack"
+
+[sub_resource type="BTSequence" id="BTSequence_tnehx"]
+children = [SubResource("BTCheckVar_ycscj"), SubResource("BTAction_s0t2x"), SubResource("BTCheckVar_12rnc"), SubResource("BTCallMethod_laohv")]
+
+[sub_resource type="BTAlwaysSucceed" id="BTAlwaysSucceed_io2b4"]
+children = [SubResource("BTSequence_tnehx")]
+
+[sub_resource type="BTAction" id="BTAction_m71p6"]
+script = ExtResource("424_u2rom")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"attack2"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_pascy"]
+custom_name = "attrack"
+children = [SubResource("BTCheckVar_aqk3p"), SubResource("BTCheckVar_y1h6n"), SubResource("BTCallMethod_w1f6j"), SubResource("BTRandomWait_y1ge0"), SubResource("BTAlwaysSucceed_io2b4"), SubResource("BTAction_m71p6")]
+
+[sub_resource type="BTCooldown" id="BTCooldown_q7o25"]
+duration = 2.0
+children = [SubResource("BTSequence_pascy")]
+
+[sub_resource type="BBNode" id="BBNode_fup86"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_4370p"]
+node = SubResource("BBNode_fup86")
+method = &"stop_navgation"
+
+[sub_resource type="BBVariant" id="BBVariant_j48o3"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_he3mx"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_j48o3")
+
+[sub_resource type="BTAction" id="BTAction_c6nct"]
+script = ExtResource("424_u2rom")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"idle"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_el7l0"]
+custom_name = "idle"
+children = [SubResource("BTCallMethod_4370p"), SubResource("BTCheckVar_he3mx"), SubResource("BTAction_c6nct")]
+
+[sub_resource type="BTProbability" id="BTProbability_shsi1"]
+children = [SubResource("BTSequence_el7l0")]
+
+[sub_resource type="BTCooldown" id="BTCooldown_15u7y"]
+duration = 5.0
+children = [SubResource("BTProbability_shsi1")]
+
+[sub_resource type="BBVariant" id="BBVariant_igxp8"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_wy3e3"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_igxp8")
+
+[sub_resource type="BBVariant" id="BBVariant_c06c7"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_6w18a"]
+variable = &"player_path"
+value = SubResource("BBVariant_c06c7")
+
+[sub_resource type="BTAction" id="BTAction_vl7eo"]
+script = ExtResource("425_rc171")
+area = 5.0
+
+[sub_resource type="BTAction" id="BTAction_lebkc"]
+script = ExtResource("424_u2rom")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"walk"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBVariant" id="BBVariant_u04sc"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_c7yhv"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_u04sc")
+
+[sub_resource type="BTSequence" id="BTSequence_uxnm8"]
+children = [SubResource("BTAction_lebkc"), SubResource("BTCheckVar_c7yhv")]
+
+[sub_resource type="BTRepeat" id="BTRepeat_qyekj"]
+forever = true
+children = [SubResource("BTSequence_uxnm8")]
+
+[sub_resource type="BTParallel" id="BTParallel_dpbfv"]
+children = [SubResource("BTAction_vl7eo"), SubResource("BTRepeat_qyekj")]
+
+[sub_resource type="BTSequence" id="BTSequence_mmbdt"]
+custom_name = "walk"
+children = [SubResource("BTCheckVar_wy3e3"), SubResource("BTCheckVar_6w18a"), SubResource("BTParallel_dpbfv")]
+
+[sub_resource type="BBNode" id="BBNode_2s0ro"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_dq6uo"]
+node = SubResource("BBNode_2s0ro")
+method = &"stop_navgation"
+
+[sub_resource type="BBVariant" id="BBVariant_8p26v"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_jbauc"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_8p26v")
+
+[sub_resource type="BTAction" id="BTAction_uhpoa"]
+script = ExtResource("424_u2rom")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"idle"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_l0sb6"]
+custom_name = "idle"
+children = [SubResource("BTCallMethod_dq6uo"), SubResource("BTCheckVar_jbauc"), SubResource("BTAction_uhpoa")]
+
+[sub_resource type="BTSelector" id="BTSelector_bayb5"]
+children = [SubResource("BTSequence_llkg2"), SubResource("BTCooldown_q7o25"), SubResource("BTCooldown_15u7y"), SubResource("BTSequence_mmbdt"), SubResource("BTSequence_l0sb6")]
+
+[sub_resource type="BehaviorTree" id="BehaviorTree_ixgo0"]
+blackboard_plan = SubResource("BlackboardPlan_j4beu")
+root_task = SubResource("BTSelector_bayb5")
+
+[sub_resource type="BlackboardPlan" id="BlackboardPlan_y1f6v"]
+binding/hp = NodePath("..:hp")
+binding/player_path = NodePath("..:player_path")
+
+[sub_resource type="Animation" id="Animation_1acxm"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_yh0ue"]
+resource_name = "blink"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.266667, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0.406038, 0.406038, 0.406038, 1), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_syauo"]
+resource_name = "die"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_syauo"]
+_data = {
+&"RESET": SubResource("Animation_1acxm"),
+&"blink": SubResource("Animation_yh0ue"),
+&"die": SubResource("Animation_syauo")
+}
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_1acxm"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1acxm"]
+size = Vector3(1.05375, 1.1275, 1)
+
+[node name="Dftman" type="CharacterBody3D" groups=["enemy"]]
+collision_layer = 2
+collision_mask = 2
+axis_lock_linear_z = true
+script = ExtResource("1_wvh6j")
+hp = 5
+damage = 2
+movement_speed = 3.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(-0.999981, -0.0062307, 0, 0.0062307, -0.999981, 0, 0, 0, 1, 0, 0.166242, 0)
+shape = SubResource("CapsuleShape3D_j4beu")
+
+[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.251614, 0)
+pixel_size = 0.003
+sprite_frames = SubResource("SpriteFrames_litfo")
+animation = &"walk"
+
+[node name="BTPlayer" type="BTPlayer" parent="."]
+behavior_tree = SubResource("BehaviorTree_ixgo0")
+blackboard_plan = SubResource("BlackboardPlan_y1f6v")
+monitor_performance = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_syauo")
+}
+
+[node name="Info" parent="." instance=ExtResource("426_offtb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.84145, 0)
+pixel_size = 0.0015
+render_priority = 127
+texture = SubResource("ViewportTexture_1acxm")
+
+[node name="AttackArea" type="Area3D" parent="."]
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AttackArea"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00129455, 0.158844, 0)
+shape = SubResource("BoxShape3D_1acxm")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+
+[connection signal="body_entered" from="AttackArea" to="." method="_on_attack_area_body_entered"]
+[connection signal="body_exited" from="AttackArea" to="." method="_on_attack_area_body_exited"]

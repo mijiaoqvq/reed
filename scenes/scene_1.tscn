@@ -1,11 +1,18 @@
-[gd_scene load_steps=13 format=3 uid="uid://bthxhupw0i4nk"]
+[gd_scene load_steps=25 format=3 uid="uid://bthxhupw0i4nk"]
 
 [ext_resource type="PackedScene" uid="uid://dibggq5mpdd75" path="res://scenes/reed.tscn" id="1_ta4h7"]
+[ext_resource type="Script" uid="uid://bhncddkps01p8" path="res://scripts/map/scene_1.gd" id="1_ybqas"]
 [ext_resource type="MeshLibrary" uid="uid://cvha7l7kjbjj" path="res://assets/block/grid_map.meshlib" id="2_ka884"]
 [ext_resource type="PackedScene" uid="uid://d1leh2a7tgf8v" path="res://scenes/dog.tscn" id="4_sj5te"]
 [ext_resource type="PackedScene" uid="uid://tmiase524ugu" path="res://scenes/ui_layer.tscn" id="5_lki8s"]
-[ext_resource type="Script" uid="uid://jh71obyu2kar" path="res://scenes/ui_layer.gd" id="5_t6bmd"]
-[ext_resource type="Texture2D" uid="uid://bnxkeltslbhq7" path="res://assets/背景/ccmap_armory.png" id="7_d7a6c"]
+[ext_resource type="Texture2D" uid="uid://bnxkeltslbhq7" path="res://assets/background/ccmap_armory.png" id="7_d7a6c"]
+[ext_resource type="Shape3D" uid="uid://dx1xr3s2e5luc" path="res://assets/collision_shape/gate.tres" id="8_g2j0d"]
+[ext_resource type="Script" uid="uid://bd046eokvcnu2" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="9_p837x"]
+[ext_resource type="Script" uid="uid://csjccrhj5wnx7" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd" id="10_lv108"]
+[ext_resource type="Script" uid="uid://bb6rfno8om844" path="res://scripts/map/kill.gd" id="10_r02jg"]
+[ext_resource type="Script" uid="uid://8umksf8e80fw" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="11_ybqas"]
+[ext_resource type="Script" uid="uid://cuffvge5ad4aa" path="res://addons/phantom_camera/scripts/resources/phantom_camera_noise_3d.gd" id="12_rbtea"]
+[ext_resource type="PackedScene" uid="uid://73jm5qjy52vq" path="res://scenes/balloon.tscn" id="13_ybqas"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_sj5te"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -20,16 +27,79 @@ sky = SubResource("Sky_lki8s")
 tonemap_mode = 2
 glow_enabled = true
 
-[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ka884"]
-
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g2j0d"]
 albedo_texture = ExtResource("7_d7a6c")
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_p837x"]
 material = SubResource("StandardMaterial3D_g2j0d")
-size = Vector2(120, 60)
+size = Vector2(140, 70)
+
+[sub_resource type="Resource" id="Resource_jdgsh"]
+script = ExtResource("11_ybqas")
+duration = 1.0
+transition = 0
+ease = 2
+
+[sub_resource type="Resource" id="Resource_6r6dc"]
+script = ExtResource("12_rbtea")
+amplitude = 0.0
+frequency = 0.2
+randomize_noise_seed = 1
+noise_seed = 0
+rotational_noise = true
+positional_noise = false
+rotational_multiplier_x = 1.0
+rotational_multiplier_y = 1.0
+rotational_multiplier_z = 1.0
+positional_multiplier_x = 1.0
+positional_multiplier_y = 1.0
+positional_multiplier_z = 1.0
+metadata/_custom_type_script = "uid://cuffvge5ad4aa"
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_p837x"]
+
+[sub_resource type="Animation" id="Animation_ybqas"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PhantomCamera3D:noise:amplitude")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_lv108"]
+resource_name = "camera_noise"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PhantomCamera3D:noise:amplitude")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [10.0, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_rbtea"]
+_data = {
+&"RESET": SubResource("Animation_ybqas"),
+&"camera_noise": SubResource("Animation_lv108")
+}
 
 [node name="Scene1" type="Node3D"]
+script = ExtResource("1_ybqas")
+skip_log = true
+start_point = NodePath("StartPoint")
+end_point = NodePath("EndPoint")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_t6bmd")
@@ -39,24 +109,24 @@ transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -
 shadow_enabled = true
 
 [node name="Reed" parent="." instance=ExtResource("1_ta4h7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.412, 1.687, 0)
-speed_y = 5.0
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.322851, 2.14932, -0.000412464)
 
 [node name="GridMap" type="GridMap" parent="."]
+unique_name_in_owner = true
 mesh_library = ExtResource("2_ka884")
-physics_material = SubResource("PhysicsMaterial_ka884")
 cell_size = Vector3(1, 1, 1)
 cell_center_y = false
-collision_layer = 3
-collision_mask = 3
+collision_layer = 4294967295
+collision_mask = 4294967295
 bake_navigation = true
 data = {
-"cells": PackedInt32Array(-65536, 65535, 152, -65534, 65535, 63, 0, 65535, 40, -65532, 65535, 53, -65530, 65535, 54, -65528, 65535, 42, 65543, 65533, 151, 5, 65533, 151, -65533, 65533, 151, 131081, 65533, 138, 14, 65535, 132, 16, 65535, 132, 18, 65535, 135, 22, 65535, 63, 24, 65535, 63, 26, 65535, 63, 23, 65535, 63, 25, 65535, 63, 27, 65535, 63, 28, 65535, 63, 29, 65535, 63, 30, 65535, 63, 31, 65535, 63, 32, 65535, 63, 29, 65533, 64, 26, 65534, 136, 24, 65534, 136, 22, 65534, 136, 32, 65533, 54, 65570, 65533, 54, 65568, 65531, 168, 65563, 65531, 168, 65561, 65531, 158, 65559, 65531, 158, 65551, 65533, 162, 65553, 65533, 54, 262178, 65533, 174, 131098, 65533, 16, 131110, 65535, 53, 131112, 65535, 53, 196650, 65535, 46, 262185, 65533, 50, 262190, 65535, 50, 262192, 65535, 147, 327727, 65533, 147, 327729, 65533, 142, 196662, 65535, 135, 65571, 65535, 19, 131124, 65535, 19, 131124, 65533, 21, 196662, 65533, 21, 9, 65533, 42, 10, 65535, 42, 327736, 0, 851987, 458808, 0, 851987, 589880, 0, 851987, 524340, 65534, 393235)
+"cells": PackedInt32Array(-65536, 65535, 152, -65534, 65535, 63, 0, 65535, 40, -65532, 65535, 53, -65530, 65535, 54, -65528, 65535, 42, 65543, 65533, 151, 5, 65533, 151, -65533, 65533, 151, 131081, 65533, 138, 14, 65535, 132, 16, 65535, 132, 18, 65535, 135, 22, 65535, 63, 24, 65535, 63, 28, 65535, 63, 30, 65535, 63, 32, 65535, 63, 29, 65533, 64, 26, 65534, 136, 24, 65534, 136, 22, 65534, 136, 32, 65533, 54, 65570, 65533, 54, 65568, 65531, 168, 65563, 65531, 168, 65561, 65531, 158, 65559, 65531, 158, 65551, 65533, 162, 65553, 65533, 54, 262178, 65533, 174, 131098, 65533, 16, 131110, 65535, 53, 131112, 65535, 53, 196650, 65535, 46, 262185, 65533, 50, 262190, 65535, 50, 262192, 65535, 147, 327727, 65533, 147, 327729, 65533, 142, 196662, 65535, 135, 65571, 65535, 19, 131124, 65535, 19, 131124, 65533, 21, 196662, 65533, 21, 9, 65533, 42, 10, 65535, 42, 327736, 0, 851987, 458808, 0, 851987, 589880, 0, 851987, 524340, 65534, 393235, 589880, 65535, 40, 589882, 65535, 46, 589884, 65535, 50, 589886, 65535, 147, 589888, 65535, 147, 589890, 65535, 147, 589886, 65533, 0, 720960, 65533, 143, 720962, 65533, 143, 589892, 65535, 30, 917572, 65535, 19, 983112, 65535, 19, 720968, 65535, 19, 983106, 65535, 19, 1048638, 65535, 19, 1048636, 65535, 19, 1048634, 65535, 19, 1048632, 65535, 19, 1048630, 65535, 19, 1048626, 65535, 19, 1114160, 65535, 19, 1114156, 65535, 23, 1114152, 65535, 23, 1114148, 65535, 23, 1179680, 65535, 23, 1310748, 65535, 23, 1310746, 65535, 32, 1310744, 65535, 32, 1310742, 65535, 19, 1179665, 65535, 20, 1114125, 65535, 20, 1114123, 65535, 20, 1114121, 65535, 23, 983044, 65535, 19, 1114112, 65535, 19, 1245188, 65535, 19, 917510, 65535, 19, 1245184, 65535, 19, 1376256, 65535, 19, 1376260, 65535, 19, 1507332, 65535, 19, 1245179, 65535, 19, 1245177, 65535, 19, 1245175, 65535, 19, 1310711, 65535, 39, 1376284, 65535, 40, 1245213, 65535, 19, 26, 65535, 63)
 }
-metadata/_editor_floor_ = Vector3(0, 7, 0)
+metadata/_editor_floor_ = Vector3(-1, 11, -1)
 
 [node name="UILayer" parent="." instance=ExtResource("5_lki8s")]
-script = ExtResource("5_t6bmd")
+unique_name_in_owner = true
 
 [node name="Dog" parent="." instance=ExtResource("4_sj5te")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.275, 1.446, 0)
@@ -70,8 +140,107 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.458, 2.54611, 0)
 [node name="Dog4" parent="." instance=ExtResource("4_sj5te")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.3163, 4.60944, 0)
 
+[node name="Dog5" parent="." instance=ExtResource("4_sj5te")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.6351, 9.43096, 0)
+
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 29.2182, 12.7267, -16.1413)
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 30.7469, 12.2084, -16.1413)
 mesh = SubResource("PlaneMesh_p837x")
 
-[connection signal="status_change" from="Reed" to="UILayer" method="_on_weed_status_change"]
+[node name="StartPoint" type="Area3D" parent="." groups=["checkpoint"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.489996, 1.36513, -0.47639)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StartPoint"]
+shape = ExtResource("8_g2j0d")
+
+[node name="EndPoint" type="Area3D" parent="." groups=["checkpoint"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.49, 20.34, -0.476)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="EndPoint"]
+shape = ExtResource("8_g2j0d")
+
+[node name="PhantomCamera3D" type="Node3D" parent="." node_paths=PackedStringArray("follow_target")]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.322851, 2.14932, 3.99959)
+top_level = true
+script = ExtResource("10_lv108")
+priority = 1
+follow_mode = 2
+follow_target = NodePath("../Reed/CameraPosition")
+tween_resource = SubResource("Resource_jdgsh")
+follow_offset = Vector3(0, 0, 4)
+follow_damping = true
+follow_damping_value = Vector3(0.5, 0, 0.1)
+follow_axis_lock = 3
+dead_zone_width = 0.8
+dead_zone_height = 0.2
+show_viewfinder_in_play = true
+noise = SubResource("Resource_6r6dc")
+metadata/_custom_type_script = "uid://csjccrhj5wnx7"
+
+[node name="Camera3D" type="Camera3D" parent="."]
+physics_interpolation_mode = 1
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 227, -28, 0)
+
+[node name="PhantomCameraHost" type="Node" parent="Camera3D"]
+process_priority = 300
+process_physics_priority = 300
+script = ExtResource("9_p837x")
+
+[node name="Kill" type="Area3D" parent="."]
+script = ExtResource("10_r02jg")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Kill"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5.08692, 0)
+shape = SubResource("WorldBoundaryShape3D_p837x")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.979, 0)
+collision_layer = 4294967295
+collision_mask = 4294967295
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5.08692, 0)
+shape = SubResource("WorldBoundaryShape3D_p837x")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+unique_name_in_owner = true
+libraries = {
+&"": SubResource("AnimationLibrary_rbtea")
+}
+
+[node name="CheckPoint" type="Area3D" parent="." groups=["checkpoint"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 56.5211, 10.3245, -0.47639)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CheckPoint"]
+shape = ExtResource("8_g2j0d")
+
+[node name="CheckPoint2" type="Area3D" parent="." groups=["checkpoint"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.4128, 22.3075, -0.47639)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CheckPoint2"]
+shape = ExtResource("8_g2j0d")
+
+[node name="Balloon" parent="." instance=ExtResource("13_ybqas")]
+unique_name_in_owner = true
+visible = false
+
+[node name="Dog6" parent="." instance=ExtResource("4_sj5te")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.9652, 11.4783, 0)
+
+[node name="Dog7" parent="." instance=ExtResource("4_sj5te")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.559, 18.5187, 0)
+
+[node name="Dog8" parent="." instance=ExtResource("4_sj5te")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 72.5055, 13.5456, 0)
+
+[node name="Dog9" parent="." instance=ExtResource("4_sj5te")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.53342, 20.2478, 0)
+
+[node name="Dog10" parent="." instance=ExtResource("4_sj5te")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.6067, 19.7648, 0)
+
+[connection signal="body_entered" from="Kill" to="Kill" method="_on_body_entered"]
+
+[editable path="Reed"]
+[editable path="UILayer"]

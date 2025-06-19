@@ -491,6 +491,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_o02ig")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_134" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_134/NavigationRegion3D" index="0"]
@@ -513,6 +514,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_cv6hr")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_200/StaticBody3D/CollisionShape3D" index="0"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_200/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -535,6 +537,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_pa4wi")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体/NavigationRegion3D" index="0"]
@@ -550,6 +553,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_om7fo")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_001" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_001/NavigationRegion3D" index="0"]
@@ -572,6 +576,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_o86m1")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_004" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_004/NavigationRegion3D" index="0"]
@@ -587,6 +592,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_gin1u")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_005" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_005/NavigationRegion3D" index="0"]
@@ -602,6 +608,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_w1if3")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_007" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_007/NavigationRegion3D" index="0"]
@@ -617,6 +624,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_yqlyc")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_008" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_008/NavigationRegion3D" index="0"]
@@ -632,6 +640,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_0wtla")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_010" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_010/NavigationRegion3D" index="0"]
@@ -647,6 +656,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_45xca")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_011" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_011/NavigationRegion3D" index="0"]
@@ -662,6 +672,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_tjrgj")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_012" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_012/NavigationRegion3D" index="0"]
@@ -677,6 +688,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_x36lq")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_014" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_014/NavigationRegion3D" index="0"]
@@ -693,6 +705,7 @@ shape = SubResource("ConvexPolygonShape3D_cwwvp")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_006" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_006/NavigationRegion3D" index="0"]
@@ -709,6 +722,7 @@ shape = SubResource("ConvexPolygonShape3D_omeu8")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_016/StaticBody3D/CollisionShape3D" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.88714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_016/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -724,6 +738,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_3nhho")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_017" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_017/NavigationRegion3D" index="0"]
@@ -739,6 +754,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_mtw2p")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_018" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_018/NavigationRegion3D" index="0"]
@@ -754,6 +770,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_v5k52")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_019" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_019/NavigationRegion3D" index="0"]
@@ -770,6 +787,7 @@ shape = SubResource("ConvexPolygonShape3D_7tuik")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_020" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_020/NavigationRegion3D" index="0"]
@@ -786,6 +804,7 @@ shape = SubResource("ConvexPolygonShape3D_4qyuv")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_021" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_021/NavigationRegion3D" index="0"]
@@ -815,6 +834,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_5loya")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_033" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_033/NavigationRegion3D" index="0"]
@@ -831,6 +851,7 @@ shape = SubResource("ConvexPolygonShape3D_eahlt")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_035" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_035/NavigationRegion3D" index="0"]
@@ -847,6 +868,7 @@ shape = SubResource("ConvexPolygonShape3D_2f7u5")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_036" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_036/NavigationRegion3D" index="0"]
@@ -863,6 +885,7 @@ shape = SubResource("ConvexPolygonShape3D_6tsch")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_037" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_037/NavigationRegion3D" index="0"]
@@ -913,6 +936,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_b26aa")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_133" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_133/NavigationRegion3D" index="0"]
@@ -929,6 +953,7 @@ shape = SubResource("ConvexPolygonShape3D_squ7r")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_135/StaticBody3D/CollisionShape3D" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_135/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -945,6 +970,7 @@ shape = SubResource("ConvexPolygonShape3D_aj3ix")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_137" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.924611, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_137/NavigationRegion3D" index="0"]
@@ -960,6 +986,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_t3316")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_187" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_187/NavigationRegion3D" index="0"]
@@ -976,6 +1003,7 @@ shape = SubResource("ConvexPolygonShape3D_vd27q")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_188" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_188/NavigationRegion3D" index="0"]
@@ -1012,6 +1040,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_oad3w")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_203" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_203/NavigationRegion3D" index="0"]
@@ -1035,6 +1064,7 @@ shape = SubResource("ConvexPolygonShape3D_smgui")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_199" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_199/NavigationRegion3D" index="0"]
@@ -1057,6 +1087,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_ephab")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_207" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_207/NavigationRegion3D" index="0"]
@@ -1090,6 +1121,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_ledm4")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_040" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_040/NavigationRegion3D" index="0"]
@@ -1105,6 +1137,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_2geje")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_041" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_041/NavigationRegion3D" index="0"]
@@ -1121,6 +1154,7 @@ shape = SubResource("ConvexPolygonShape3D_4h3e2")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_042" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_042/NavigationRegion3D" index="0"]
@@ -1137,6 +1171,7 @@ shape = SubResource("ConvexPolygonShape3D_7pisf")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_043" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_043/NavigationRegion3D" index="0"]
@@ -1152,6 +1187,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_62xqd")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_044" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_044/NavigationRegion3D" index="0"]
@@ -1181,6 +1217,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_hny6k")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_047/StaticBody3D/CollisionShape3D" index="0"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_047/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -1196,6 +1233,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_gl87s")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_048" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_048/NavigationRegion3D" index="0"]
@@ -1225,6 +1263,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_m58sc")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_051" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_051/NavigationRegion3D" index="0"]
@@ -1240,6 +1279,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_oa73k")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_052" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_052/NavigationRegion3D" index="0"]
@@ -1262,6 +1302,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_ihfe8")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_054/StaticBody3D/CollisionShape3D" index="0"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_054/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -1285,6 +1326,7 @@ shape = SubResource("ConvexPolygonShape3D_8l7xe")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_057/StaticBody3D/CollisionShape3D" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.406871, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_057/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -1307,6 +1349,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_x1uvn")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_069" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_069/NavigationRegion3D" index="0"]
@@ -1322,6 +1365,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_ym1q5")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_070" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_070/NavigationRegion3D" index="0"]
@@ -1337,6 +1381,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_oq1fj")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_072/StaticBody3D/CollisionShape3D" index="0"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_072/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -1352,6 +1397,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_mv4jb")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_073" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_073/NavigationRegion3D" index="0"]
@@ -1367,6 +1413,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_0yvb6")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_074" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_074/NavigationRegion3D" index="0"]
@@ -1382,6 +1429,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_m55wq")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_075/StaticBody3D/CollisionShape3D" index="0"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_075/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -1397,6 +1445,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_8g40d")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_076" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_076/NavigationRegion3D" index="0"]
@@ -1427,6 +1476,7 @@ shape = SubResource("ConvexPolygonShape3D_7loxg")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_081" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_081/NavigationRegion3D" index="0"]
@@ -1457,6 +1507,7 @@ shape = SubResource("ConvexPolygonShape3D_yewk4")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_084" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_084/NavigationRegion3D" index="0"]
@@ -1473,6 +1524,7 @@ shape = SubResource("ConvexPolygonShape3D_65xmy")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_085" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_085/NavigationRegion3D" index="0"]
@@ -1488,6 +1540,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_ixdok")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_086" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_086/NavigationRegion3D" index="0"]
@@ -1503,6 +1556,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_s3rrm")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_087" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_087/NavigationRegion3D" index="0"]
@@ -1518,6 +1572,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_ig8ff")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_088/StaticBody3D/CollisionShape3D" index="0"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_088/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -1533,6 +1588,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_2ca54")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_089/StaticBody3D/CollisionShape3D" index="0"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_089/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -1548,6 +1604,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_n8dn3")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_090" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_090/NavigationRegion3D" index="0"]
@@ -1563,6 +1620,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_7lihm")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_091" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_091/NavigationRegion3D" index="0"]
@@ -1599,6 +1657,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_elmrx")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_095" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_095/NavigationRegion3D" index="0"]
@@ -1614,6 +1673,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_x5b36")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_096" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_096/NavigationRegion3D" index="0"]
@@ -1658,6 +1718,7 @@ shape = SubResource("ConvexPolygonShape3D_ymn7p")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_101/StaticBody3D/CollisionShape3D" index="0"]
 transform = Transform3D(0.999759, 0, -0.021937, 0, 1, 0, 0.021937, 0, 0.999759, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_101/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -1681,6 +1742,7 @@ shape = SubResource("ConvexPolygonShape3D_8purg")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_103/StaticBody3D/CollisionShape3D" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_103/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -1697,6 +1759,7 @@ shape = SubResource("ConvexPolygonShape3D_mwntb")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_104" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_104/NavigationRegion3D" index="0"]
@@ -1713,6 +1776,7 @@ shape = SubResource("ConvexPolygonShape3D_p1376")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_105" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.02672, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_105/NavigationRegion3D" index="0"]
@@ -1729,6 +1793,7 @@ shape = SubResource("ConvexPolygonShape3D_cw5cl")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_107" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_107/NavigationRegion3D" index="0"]
@@ -1744,6 +1809,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_84efk")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_109/StaticBody3D/CollisionShape3D" index="0"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_109/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -1759,6 +1825,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_v12ya")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_111/StaticBody3D/CollisionShape3D" index="0"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_111/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -1802,6 +1869,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_q2lt7")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="文本" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="文本/NavigationRegion3D" index="0"]
@@ -1838,6 +1906,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_73vgv")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_233" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_233/NavigationRegion3D" index="0"]
@@ -1853,6 +1922,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_7ne3v")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_234" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_234/NavigationRegion3D" index="0"]
@@ -1875,6 +1945,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_wkw3j")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_034" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_034/NavigationRegion3D" index="0"]
@@ -1890,6 +1961,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_yi4tv")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_236" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_236/NavigationRegion3D" index="0"]
@@ -1954,6 +2026,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_13c80")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_138" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_138/NavigationRegion3D" index="0"]
@@ -1983,6 +2056,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_gdht2")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_143" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_143/NavigationRegion3D" index="0"]
@@ -1998,6 +2072,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_d0c3v")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_144" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_144/NavigationRegion3D" index="0"]
@@ -2013,6 +2088,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_ausd6")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_145" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_145/NavigationRegion3D" index="0"]
@@ -2028,6 +2104,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_kq061")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_147/StaticBody3D/CollisionShape3D" index="0"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_147/StaticBody3D/CollisionShape3D/NavigationRegion3D" index="0"]
@@ -2043,6 +2120,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_i1jga")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_148" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_148/NavigationRegion3D" index="0"]
@@ -2059,6 +2137,7 @@ shape = SubResource("ConvexPolygonShape3D_j8gqn")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_150" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_150/NavigationRegion3D" index="0"]
@@ -2074,6 +2153,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_oqlbp")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_154" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_154/NavigationRegion3D" index="0"]
@@ -2089,6 +2169,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_gwxa6")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_155" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_155/NavigationRegion3D" index="0"]
@@ -2104,6 +2185,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_ncplk")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_156" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_156/NavigationRegion3D" index="0"]
@@ -2119,6 +2201,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_p2gc0")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_157" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_157/NavigationRegion3D" index="0"]
@@ -2135,6 +2218,7 @@ shape = SubResource("ConvexPolygonShape3D_jbqp5")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_158" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.41383, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_158/NavigationRegion3D" index="0"]
@@ -2150,6 +2234,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_wqybb")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_159" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_159/NavigationRegion3D" index="0"]
@@ -2165,6 +2250,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_dpmdv")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_160" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_160/NavigationRegion3D" index="0"]
@@ -2187,6 +2273,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_dypc4")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_174" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_174/NavigationRegion3D" index="0"]
@@ -2209,6 +2296,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_cg0te")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_180" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_180/NavigationRegion3D" index="0"]
@@ -2225,6 +2313,7 @@ shape = SubResource("ConvexPolygonShape3D_ccaoi")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_182" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.52343, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_182/NavigationRegion3D" index="0"]
@@ -2241,6 +2330,7 @@ shape = SubResource("ConvexPolygonShape3D_37y04")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_183" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.625427, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_183/NavigationRegion3D" index="0"]
@@ -2256,6 +2346,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_3cv6v")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_184" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_184/NavigationRegion3D" index="0"]
@@ -2271,6 +2362,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_4y1bp")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_185" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_185/NavigationRegion3D" index="0"]
@@ -2286,6 +2378,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_0xata")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_186" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_186/NavigationRegion3D" index="0"]
@@ -2302,6 +2395,7 @@ shape = SubResource("ConvexPolygonShape3D_5djk6")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_161" index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.862714, 0)
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_161/NavigationRegion3D" index="0"]
@@ -2317,6 +2411,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_jorj4")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_176" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_176/NavigationRegion3D" index="0"]
@@ -2332,6 +2427,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_ax2o7")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="网格_003" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="网格_003/NavigationRegion3D" index="0"]
@@ -2354,6 +2450,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_aujnc")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_239" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_239/NavigationRegion3D" index="0"]
@@ -2376,6 +2473,7 @@ collision_mask = 3
 shape = SubResource("ConvexPolygonShape3D_djary")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="立方体_243" index="1"]
+visible = false
 navigation_mesh = SubResource("NavigationMesh_o02ig")
 
 [node name="立方体" type="MeshInstance3D" parent="立方体_243/NavigationRegion3D" index="0"]
