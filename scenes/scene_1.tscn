@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://bthxhupw0i4nk"]
+[gd_scene load_steps=26 format=3 uid="uid://bthxhupw0i4nk"]
 
 [ext_resource type="PackedScene" uid="uid://dibggq5mpdd75" path="res://scenes/reed.tscn" id="1_ta4h7"]
 [ext_resource type="Script" uid="uid://bhncddkps01p8" path="res://scripts/map/scene_1.gd" id="1_ybqas"]
@@ -13,6 +13,7 @@
 [ext_resource type="Script" uid="uid://8umksf8e80fw" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="11_ybqas"]
 [ext_resource type="Script" uid="uid://cuffvge5ad4aa" path="res://addons/phantom_camera/scripts/resources/phantom_camera_noise_3d.gd" id="12_rbtea"]
 [ext_resource type="PackedScene" uid="uid://73jm5qjy52vq" path="res://scenes/balloon.tscn" id="13_ybqas"]
+[ext_resource type="AudioStream" uid="uid://bp6jn7el43est" path="res://assets/音乐/塞壬唱片-MSR; Robert Wolf; Obadiah Brown-Beach - Skeletal Wings (Instrumental).mp3" id="14_rbtea"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_sj5te"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -97,7 +98,6 @@ _data = {
 
 [node name="Scene1" type="Node3D"]
 script = ExtResource("1_ybqas")
-skip_log = true
 start_point = NodePath("StartPoint")
 end_point = NodePath("EndPoint")
 
@@ -180,7 +180,7 @@ metadata/_custom_type_script = "uid://csjccrhj5wnx7"
 
 [node name="Camera3D" type="Camera3D" parent="."]
 physics_interpolation_mode = 1
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 227, -28, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.322851, 2.14932, 3.99959)
 
 [node name="PhantomCameraHost" type="Node" parent="Camera3D"]
 process_priority = 300
@@ -234,11 +234,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.559, 18.5187, 0)
 [node name="Dog8" parent="." instance=ExtResource("4_sj5te")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 72.5055, 13.5456, 0)
 
-[node name="Dog9" parent="." instance=ExtResource("4_sj5te")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.53342, 20.2478, 0)
-
 [node name="Dog10" parent="." instance=ExtResource("4_sj5te")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.6067, 19.7648, 0)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+process_mode = 3
+stream = ExtResource("14_rbtea")
+autoplay = true
+parameters/looping = true
 
 [connection signal="body_entered" from="Kill" to="Kill" method="_on_body_entered"]
 

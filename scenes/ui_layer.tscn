@@ -82,6 +82,7 @@ shader_parameter/Color = Color(0.25, 0.25, 0.25, 0.392157)
 shader_parameter/Alpha = 1.0
 
 [node name="UILayer" type="CanvasLayer"]
+process_mode = 1
 script = ExtResource("1_6syxi")
 
 [node name="UI" type="Control" parent="."]
@@ -173,6 +174,7 @@ libraries = {
 }
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+process_mode = 1
 layer = 128
 
 [node name="Pause" type="ColorRect" parent="CanvasLayer"]
@@ -209,9 +211,12 @@ label_settings = SubResource("LabelSettings_6syxi")
 horizontal_alignment = 1
 
 [node name="Button" type="Button" parent="CanvasLayer/Pause/VBoxContainer"]
+process_mode = 1
+visible = false
 layout_mode = 2
 size_flags_horizontal = 6
 theme_override_fonts/font = ExtResource("3_6av8n")
 text = "返回主菜单"
 
 [connection signal="pressed" from="UI/Failed/VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/Pause/VBoxContainer/Button" to="." method="_on_exit_pressed"]

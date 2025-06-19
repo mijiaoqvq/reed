@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://by4rusp17bt1t"
+path="res://.godot/imported/塞壬唱片-MSR; Giovanni Rios - Transcending Brilliance of Gold.mp3-2aaf9ccce7c4485287040180e0164c28.mp3str"
+
+[deps]
+
+source_file="res://assets/音乐/塞壬唱片-MSR; Giovanni Rios - Transcending Brilliance of Gold.mp3"
+dest_files=["res://.godot/imported/塞壬唱片-MSR; Giovanni Rios - Transcending Brilliance of Gold.mp3-2aaf9ccce7c4485287040180e0164c28.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

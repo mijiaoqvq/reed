@@ -13,7 +13,9 @@ config_version=5
 config/name="reed_fight"
 run/main_scene="uid://blyhns6lc45oo"
 config/features=PackedStringArray("4.4", "Forward Plus")
+boot_splash/image="uid://iw2oakjtdgiq"
 config/icon="res://icon.svg"
+config/windows_native_icon="res://icon.ico"
 
 [autoload]
 
@@ -39,6 +41,7 @@ enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg", "res://add
 player=""
 checkpoint=""
 enemy=""
+necrass=""
 
 [input]
 
@@ -50,6 +53,7 @@ ctrl={
 [internationalization]
 
 locale/translations_pot_files=PackedStringArray("res://dialogue/dialogue_test.dialogue", "res://dialogue/charpter1.dialogue", "res://dialogue/charpter0.dialogue", "res://dialogue/charpter2.dialogue", "res://dialogue/charpter2_2.dialogue", "res://dialogue/charpter3.dialogue", "res://dialogue/charpter3_2.dialogue", "res://dialogue/charpter3_3.dialogue")
+locale/locale_filter_mode=0
 
 [physics]
 

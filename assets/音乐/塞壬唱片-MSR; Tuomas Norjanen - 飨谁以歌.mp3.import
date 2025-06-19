@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bo0pw3mn2krec"
+path="res://.godot/imported/塞壬唱片-MSR; Tuomas Norjanen - 飨谁以歌.mp3-dd38ae315b1b113fdec191e6c6542a0a.mp3str"
+
+[deps]
+
+source_file="res://assets/音乐/塞壬唱片-MSR; Tuomas Norjanen - 飨谁以歌.mp3"
+dest_files=["res://.godot/imported/塞壬唱片-MSR; Tuomas Norjanen - 飨谁以歌.mp3-dd38ae315b1b113fdec191e6c6542a0a.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

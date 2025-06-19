@@ -19,7 +19,7 @@ extends CharacterBody3D
 @export var raw_speed_x := 1.0
 @export var raw_run_speed := 2.5
 @export var raw_speed_y := 5.0
-@export var raw_sp_rate := 0.2
+@export var raw_sp_rate := 0.4
 
 var acc:= 0.5
 var attack_speed:= 2.0

@@ -11,5 +11,6 @@ func _physics_process(delta: float) -> void:
 func _on_area_3d_body_entered(body: Node3D) -> void:
 	if body.is_in_group(&"enemy"):
 		body.attacked(2)
-		await get_tree().create_timer(0.1, false, true).timeout
+		if not body.is_in_group(&"necrass"):
+			await get_tree().create_timer(0.1, false, true).timeout
 		queue_free()

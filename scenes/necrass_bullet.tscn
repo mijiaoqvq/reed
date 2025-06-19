@@ -1,0 +1,67 @@
+[gd_scene load_steps=10 format=3 uid="uid://4yydu6hbs0g3"]
+
+[ext_resource type="Script" uid="uid://cnppfly1wq12s" path="res://scripts/bullet.gd" id="1_m3tbm"]
+[ext_resource type="Shader" uid="uid://csh3dhynfhohx" path="res://assets/shader/dmage.tres" id="2_cnheu"]
+[ext_resource type="Script" uid="uid://610l1kr2r678" path="res://scripts/Trail3D.gd" id="3_foxlc"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tqqmr"]
+render_priority = 0
+shader = ExtResource("2_cnheu")
+shader_parameter/FireColor = Color(0.499667, 0.21, 1, 1)
+shader_parameter/Vector2Parameter = Vector2(0.5, 2)
+
+[sub_resource type="ImmediateMesh" id="ImmediateMesh_1mh0k"]
+
+[sub_resource type="ImmediateMesh" id="ImmediateMesh_m3tbm"]
+
+[sub_resource type="ImmediateMesh" id="ImmediateMesh_cnheu"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_i43qy"]
+radius = 0.062116
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_tqqmr"]
+radius = 0.154801
+
+[node name="NecrassBullet" type="CharacterBody3D"]
+collision_mask = 4
+script = ExtResource("1_m3tbm")
+
+[node name="Trail3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.79886e-15, 4.37114e-08, -1, 1, -4.37114e-08, 8.88178e-16, -4.37114e-08, -1, -4.37114e-08, 0, 0, 0)
+material_override = SubResource("ShaderMaterial_tqqmr")
+mesh = SubResource("ImmediateMesh_1mh0k")
+script = ExtResource("3_foxlc")
+fromWidth = 0.2
+toWidth = 0.2
+metadata/_custom_type_script = "uid://610l1kr2r678"
+
+[node name="Trail3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
+material_override = SubResource("ShaderMaterial_tqqmr")
+mesh = SubResource("ImmediateMesh_m3tbm")
+script = ExtResource("3_foxlc")
+fromWidth = 0.2
+toWidth = 0.2
+metadata/_custom_type_script = "uid://610l1kr2r678"
+
+[node name="Trail3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
+material_override = SubResource("ShaderMaterial_tqqmr")
+mesh = SubResource("ImmediateMesh_cnheu")
+script = ExtResource("3_foxlc")
+fromWidth = 0.2
+toWidth = 0.2
+metadata/_custom_type_script = "uid://610l1kr2r678"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_i43qy")
+
+[node name="Area3D" type="Area3D" parent="."]
+collision_layer = 5
+collision_mask = 5
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+shape = SubResource("SphereShape3D_tqqmr")
+debug_color = Color(0.920857, 5.87195e-05, 0.693346, 0.42)
+
+[connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]

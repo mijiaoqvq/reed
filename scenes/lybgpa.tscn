@@ -1,0 +1,2664 @@
+[gd_scene load_steps=632 format=3 uid="uid://ufdqjtc0jut6"]
+
+[ext_resource type="Script" uid="uid://k2vus13cetl3" path="res://scripts/enemy.gd" id="1_y7m3i"]
+[ext_resource type="Texture2D" uid="uid://dmnkb151382kc" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_0.png" id="2_4gby3"]
+[ext_resource type="Texture2D" uid="uid://dswxm6rn2f2jg" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_1.png" id="3_stcmp"]
+[ext_resource type="Texture2D" uid="uid://v3r84ui7sry1" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_2.png" id="4_avyn6"]
+[ext_resource type="Texture2D" uid="uid://cq1b48r30028f" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_3.png" id="5_dmhir"]
+[ext_resource type="Texture2D" uid="uid://dofjsoctqjeak" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_4.png" id="6_utttc"]
+[ext_resource type="Texture2D" uid="uid://bjsfev7lhoukp" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_5.png" id="7_oudj5"]
+[ext_resource type="Texture2D" uid="uid://bofry7l3eq164" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_6.png" id="8_d104l"]
+[ext_resource type="Texture2D" uid="uid://batb7ki8b3tq0" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_7.png" id="9_g032e"]
+[ext_resource type="Texture2D" uid="uid://d0cxgilt48h6g" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_8.png" id="10_qu8vs"]
+[ext_resource type="Texture2D" uid="uid://coecu4yl2tqxt" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_9.png" id="11_vyqx6"]
+[ext_resource type="Texture2D" uid="uid://btymnmss8w04o" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_10.png" id="12_ec3o7"]
+[ext_resource type="Texture2D" uid="uid://popgjhev80qt" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_11.png" id="13_5wxs8"]
+[ext_resource type="Texture2D" uid="uid://cpk05knmmu52u" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_12.png" id="14_cooy0"]
+[ext_resource type="Texture2D" uid="uid://dv6hdeabc4uks" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_13.png" id="15_1yugq"]
+[ext_resource type="Texture2D" uid="uid://benh2o72xubeu" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_14.png" id="16_ipnf1"]
+[ext_resource type="Texture2D" uid="uid://dujucx2j44w1r" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_15.png" id="17_y1q7h"]
+[ext_resource type="Texture2D" uid="uid://pu8ql5jsnfs8" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_16.png" id="18_fu7x2"]
+[ext_resource type="Texture2D" uid="uid://bneqsakb22gwc" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_17.png" id="19_bqo4c"]
+[ext_resource type="Texture2D" uid="uid://diq7ffnyvcv14" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_18.png" id="20_qyup2"]
+[ext_resource type="Texture2D" uid="uid://yv8tdst58lts" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_19.png" id="21_ykau0"]
+[ext_resource type="Texture2D" uid="uid://ccxnrptf3unic" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_20.png" id="22_q1gg3"]
+[ext_resource type="Texture2D" uid="uid://yuicnbql2guk" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_21.png" id="23_1c0a7"]
+[ext_resource type="Texture2D" uid="uid://d2wyyypp3sxkc" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_22.png" id="24_gtbhj"]
+[ext_resource type="Texture2D" uid="uid://dpihgqc75fy7s" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_23.png" id="25_jdsu0"]
+[ext_resource type="Texture2D" uid="uid://bvm7t25jb1ows" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_24.png" id="26_gasuo"]
+[ext_resource type="Texture2D" uid="uid://ivb5fnmjhx72" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_25.png" id="27_mr3th"]
+[ext_resource type="Texture2D" uid="uid://dbabq614o58ia" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_26.png" id="28_0anus"]
+[ext_resource type="Texture2D" uid="uid://cq3yddbj58rmi" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_27.png" id="29_a8o50"]
+[ext_resource type="Texture2D" uid="uid://rqsm7y6c06xq" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_28.png" id="30_3d58x"]
+[ext_resource type="Texture2D" uid="uid://dks66vxcosl4e" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_29.png" id="31_duvma"]
+[ext_resource type="Texture2D" uid="uid://goa4nvdh5off" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_30.png" id="32_nbogi"]
+[ext_resource type="Texture2D" uid="uid://dbwpq26tt4bq" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_31.png" id="33_3b5mn"]
+[ext_resource type="Texture2D" uid="uid://bw3sqefsor80b" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_32.png" id="34_egulg"]
+[ext_resource type="Texture2D" uid="uid://faemi0c478f5" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_33.png" id="35_pi4m6"]
+[ext_resource type="Texture2D" uid="uid://cuirli8v3r15p" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_34.png" id="36_so70t"]
+[ext_resource type="Texture2D" uid="uid://c4o3l2410ll65" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_35.png" id="37_rfq3a"]
+[ext_resource type="Texture2D" uid="uid://c2i8357cvh34w" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_36.png" id="38_nlucw"]
+[ext_resource type="Texture2D" uid="uid://bskku3t76qnkl" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_37.png" id="39_cvvt8"]
+[ext_resource type="Texture2D" uid="uid://b8nsod3h5jcr3" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_38.png" id="40_utojx"]
+[ext_resource type="Texture2D" uid="uid://dx3qjp303jn5c" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_39.png" id="41_euuh2"]
+[ext_resource type="Texture2D" uid="uid://b4h8p0u8krpm1" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_40.png" id="42_6u00t"]
+[ext_resource type="Texture2D" uid="uid://j06cjjhfcp65" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_41.png" id="43_fhk4f"]
+[ext_resource type="Texture2D" uid="uid://cvjl750n3pyow" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_42.png" id="44_f7nam"]
+[ext_resource type="Texture2D" uid="uid://cgqexit7mdrlp" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_43.png" id="45_g1r0t"]
+[ext_resource type="Texture2D" uid="uid://c20v4dh2bccfr" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_44.png" id="46_jtub7"]
+[ext_resource type="Texture2D" uid="uid://befqcjffiqjnl" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_45.png" id="47_n7vc7"]
+[ext_resource type="Texture2D" uid="uid://dwy8j5mv3q2vr" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_46.png" id="48_p1c7k"]
+[ext_resource type="Texture2D" uid="uid://428gyg67sjwv" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_47.png" id="49_34ti1"]
+[ext_resource type="Texture2D" uid="uid://yiqrgigcqnff" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_48.png" id="50_vblnp"]
+[ext_resource type="Texture2D" uid="uid://bn81on64fxbej" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_49.png" id="51_r42d7"]
+[ext_resource type="Texture2D" uid="uid://ctpu6iqdqm6mh" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_50.png" id="52_c2atd"]
+[ext_resource type="Texture2D" uid="uid://du7bqi8nj4v2f" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_51.png" id="53_2bify"]
+[ext_resource type="Texture2D" uid="uid://dbb7qthx7dqfx" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_52.png" id="54_da5x4"]
+[ext_resource type="Texture2D" uid="uid://bimoieomd3veg" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_53.png" id="55_ygtly"]
+[ext_resource type="Texture2D" uid="uid://dh8tfd3i3tal4" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_54.png" id="56_icqmm"]
+[ext_resource type="Texture2D" uid="uid://1v3ax04ttexi" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_55.png" id="57_xk74a"]
+[ext_resource type="Texture2D" uid="uid://d82bw3xbia46" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_56.png" id="58_oxtsu"]
+[ext_resource type="Texture2D" uid="uid://7ctnt0idowpi" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_57.png" id="59_3tp0x"]
+[ext_resource type="Texture2D" uid="uid://c8dyreo5iij0l" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_58.png" id="60_pr52c"]
+[ext_resource type="Texture2D" uid="uid://b8mkolbc3w8lc" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_59.png" id="61_6a460"]
+[ext_resource type="Texture2D" uid="uid://dtmqhdqq60408" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_60.png" id="62_wdyxe"]
+[ext_resource type="Texture2D" uid="uid://v2akefjvec8k" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_61.png" id="63_6285q"]
+[ext_resource type="Texture2D" uid="uid://bgvx48kg31nhw" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_62.png" id="64_rf27a"]
+[ext_resource type="Texture2D" uid="uid://b51rr616kblfl" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_63.png" id="65_u3lm2"]
+[ext_resource type="Texture2D" uid="uid://bcm7wdyivdihn" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_64.png" id="66_ke10u"]
+[ext_resource type="Texture2D" uid="uid://dlgc1v2ygo551" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_65.png" id="67_s11l6"]
+[ext_resource type="Texture2D" uid="uid://cekbgpalc300t" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_66.png" id="68_0ht64"]
+[ext_resource type="Texture2D" uid="uid://dslqa6xo77ya0" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_67.png" id="69_3581o"]
+[ext_resource type="Texture2D" uid="uid://yogujbd6ahgy" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_68.png" id="70_1fvhh"]
+[ext_resource type="Texture2D" uid="uid://ccck2j5tjaatt" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_69.png" id="71_vb3dx"]
+[ext_resource type="Texture2D" uid="uid://23wfv5o2urck" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_70.png" id="72_0dh4x"]
+[ext_resource type="Texture2D" uid="uid://krkrwajeeruu" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_71.png" id="73_qwxhl"]
+[ext_resource type="Texture2D" uid="uid://dy8nohtfgxvdg" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_72.png" id="74_lfdim"]
+[ext_resource type="Texture2D" uid="uid://ny33oh8knqua" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_73.png" id="75_wtqg5"]
+[ext_resource type="Texture2D" uid="uid://chyx7jo6vvd86" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_74.png" id="76_ontcr"]
+[ext_resource type="Texture2D" uid="uid://bhu6w84jg22ll" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_75.png" id="77_lbpcj"]
+[ext_resource type="Texture2D" uid="uid://bvf03561n4lu8" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_76.png" id="78_ukdrq"]
+[ext_resource type="Texture2D" uid="uid://d18gos4ex87ua" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_77.png" id="79_3iwt2"]
+[ext_resource type="Texture2D" uid="uid://dik8w7bn851k7" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_78.png" id="80_pvs60"]
+[ext_resource type="Texture2D" uid="uid://bf7jn50b4jo81" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_79.png" id="81_incy4"]
+[ext_resource type="Texture2D" uid="uid://dn4vu3cr4s0p8" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_80.png" id="82_o4i6w"]
+[ext_resource type="Texture2D" uid="uid://c34aqjsrco60p" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_81.png" id="83_jgobe"]
+[ext_resource type="Texture2D" uid="uid://dabnd6cdifk5s" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_82.png" id="84_41t0f"]
+[ext_resource type="Texture2D" uid="uid://8dhvd5cx0pu0" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_83.png" id="85_5ie3k"]
+[ext_resource type="Texture2D" uid="uid://nujyhckmsd31" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_84.png" id="86_o6atf"]
+[ext_resource type="Texture2D" uid="uid://b83gd2odk826w" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_85.png" id="87_3sjwr"]
+[ext_resource type="Texture2D" uid="uid://dtx4rebt4a4mf" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_86.png" id="88_4esw8"]
+[ext_resource type="Texture2D" uid="uid://tqrx26tcvkwl" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_87.png" id="89_7ql3v"]
+[ext_resource type="Texture2D" uid="uid://bj4t2ye51q7b0" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_88.png" id="90_rdr8g"]
+[ext_resource type="Texture2D" uid="uid://dpdw4m724p8tx" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_89.png" id="91_7eddw"]
+[ext_resource type="Texture2D" uid="uid://q20sqvmso8gs" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_90.png" id="92_frsqm"]
+[ext_resource type="Texture2D" uid="uid://cfxv7uj0pcjit" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_91.png" id="93_yl5ao"]
+[ext_resource type="Texture2D" uid="uid://i7m3ukbg3a1y" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_92.png" id="94_03jp8"]
+[ext_resource type="Texture2D" uid="uid://dpxgqybpmmg8c" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_93.png" id="95_hpeqf"]
+[ext_resource type="Texture2D" uid="uid://ebpqk8au8di3" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_94.png" id="96_kwoyk"]
+[ext_resource type="Texture2D" uid="uid://d2d340vm64tdp" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_95.png" id="97_r8cek"]
+[ext_resource type="Texture2D" uid="uid://ccwcxrmva4ah7" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_96.png" id="98_aqhd6"]
+[ext_resource type="Texture2D" uid="uid://cdxywcmucglmp" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_97.png" id="99_m23yn"]
+[ext_resource type="Texture2D" uid="uid://bhgg1mfkaqpqh" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_98.png" id="100_whan3"]
+[ext_resource type="Texture2D" uid="uid://div1vfx2wd4ci" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_99.png" id="101_kd5x1"]
+[ext_resource type="Texture2D" uid="uid://dpcfmevljgl2v" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_100.png" id="102_eqfrw"]
+[ext_resource type="Texture2D" uid="uid://bvu5ydamyocqs" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_101.png" id="103_4wn5s"]
+[ext_resource type="Texture2D" uid="uid://dr02oiiph3xwr" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_102.png" id="104_0mjfd"]
+[ext_resource type="Texture2D" uid="uid://upvkripjpga4" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_103.png" id="105_8q616"]
+[ext_resource type="Texture2D" uid="uid://cuacgaw3v6xke" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_104.png" id="106_tpmin"]
+[ext_resource type="Texture2D" uid="uid://cgadvesxte18y" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_105.png" id="107_bl7vk"]
+[ext_resource type="Texture2D" uid="uid://bdhtinhpq6m1n" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_106.png" id="108_e8wip"]
+[ext_resource type="Texture2D" uid="uid://g2phid4eondc" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_107.png" id="109_gp0dk"]
+[ext_resource type="Texture2D" uid="uid://b3dl8gqffyuc0" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_108.png" id="110_hqewu"]
+[ext_resource type="Texture2D" uid="uid://blyaureequowh" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_109.png" id="111_wofau"]
+[ext_resource type="Texture2D" uid="uid://2sdq722wyw2k" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_110.png" id="112_5jyfw"]
+[ext_resource type="Texture2D" uid="uid://cuyoqa46ljvhr" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_111.png" id="113_wxxy2"]
+[ext_resource type="Texture2D" uid="uid://kqmwyxvq30mc" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_112.png" id="114_yvl6x"]
+[ext_resource type="Texture2D" uid="uid://bef2cppbd1a0b" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_113.png" id="115_3smpw"]
+[ext_resource type="Texture2D" uid="uid://b5skrmo12mgfd" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_114.png" id="116_w7fvg"]
+[ext_resource type="Texture2D" uid="uid://cbjypmc4aufm8" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_115.png" id="117_lh2wb"]
+[ext_resource type="Texture2D" uid="uid://dei1bmiuv042m" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_116.png" id="118_5bg48"]
+[ext_resource type="Texture2D" uid="uid://c21ejhjcam1um" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_117.png" id="119_wtigp"]
+[ext_resource type="Texture2D" uid="uid://byc2cynd24bwv" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_118.png" id="120_55qum"]
+[ext_resource type="Texture2D" uid="uid://b6sh750oqyt8i" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_119.png" id="121_pniwv"]
+[ext_resource type="Texture2D" uid="uid://535foujev50e" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_120.png" id="122_8jmmf"]
+[ext_resource type="Texture2D" uid="uid://2wtnn3j0it8x" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_121.png" id="123_sjefp"]
+[ext_resource type="Texture2D" uid="uid://dpyjq5eublb02" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_122.png" id="124_sdge0"]
+[ext_resource type="Texture2D" uid="uid://da1h2r5o73yim" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_123.png" id="125_42sxi"]
+[ext_resource type="Texture2D" uid="uid://om2ixhj1n2v7" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_124.png" id="126_6i4q7"]
+[ext_resource type="Texture2D" uid="uid://cbst5chi6fbrl" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_125.png" id="127_rp00y"]
+[ext_resource type="Texture2D" uid="uid://chf8q6bv3ft68" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_126.png" id="128_2ykmq"]
+[ext_resource type="Texture2D" uid="uid://ch0s06vayj2co" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_127.png" id="129_nm2j0"]
+[ext_resource type="Texture2D" uid="uid://8qng2kin6vb4" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_128.png" id="130_bblda"]
+[ext_resource type="Texture2D" uid="uid://ctkiinuuxqb1a" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_129.png" id="131_lldnl"]
+[ext_resource type="Texture2D" uid="uid://dnn7fo7fy6cck" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_130.png" id="132_j2xac"]
+[ext_resource type="Texture2D" uid="uid://cqdeb3x4tudov" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_131.png" id="133_j5gca"]
+[ext_resource type="Texture2D" uid="uid://dv62ho8vyas28" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_132.png" id="134_j0w1w"]
+[ext_resource type="Texture2D" uid="uid://bdtgg0ogj1c5h" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_133.png" id="135_i3chn"]
+[ext_resource type="Texture2D" uid="uid://craegfad7gq6p" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_134.png" id="136_jen0i"]
+[ext_resource type="Texture2D" uid="uid://p0cjjcfgr4ix" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_135.png" id="137_5ga6m"]
+[ext_resource type="Texture2D" uid="uid://bovyflcubs1yw" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_136.png" id="138_lts1d"]
+[ext_resource type="Texture2D" uid="uid://dohsead8cg3ds" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_137.png" id="139_ga6x5"]
+[ext_resource type="Texture2D" uid="uid://j55428ei5vhd" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_138.png" id="140_2tbum"]
+[ext_resource type="Texture2D" uid="uid://tfj40nawemn8" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_139.png" id="141_y2jd5"]
+[ext_resource type="Texture2D" uid="uid://byimg3b4p8lu0" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_140.png" id="142_w3enn"]
+[ext_resource type="Texture2D" uid="uid://bmhjltok5c088" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_141.png" id="143_22seh"]
+[ext_resource type="Texture2D" uid="uid://dvcoe4g2xbe6h" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_142.png" id="144_geiid"]
+[ext_resource type="Texture2D" uid="uid://bhkbkw43yb7ca" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_143.png" id="145_jkvtt"]
+[ext_resource type="Texture2D" uid="uid://da68uydyemcgk" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_144.png" id="146_ogoqn"]
+[ext_resource type="Texture2D" uid="uid://dt2u7trhe0m5g" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_145.png" id="147_x5m6j"]
+[ext_resource type="Texture2D" uid="uid://o3npscxyhl55" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_146.png" id="148_kfhwp"]
+[ext_resource type="Texture2D" uid="uid://j2lbixv7p6e5" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_147.png" id="149_olg2i"]
+[ext_resource type="Texture2D" uid="uid://bngyqtxvevt2i" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_148.png" id="150_jroxn"]
+[ext_resource type="Texture2D" uid="uid://l0j107bwj3s7" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_149.png" id="151_ubwoj"]
+[ext_resource type="Texture2D" uid="uid://d4lx2ror4w4gq" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_150.png" id="152_16awu"]
+[ext_resource type="Texture2D" uid="uid://xh1oyxhcj7pu" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_151.png" id="153_6wpi5"]
+[ext_resource type="Texture2D" uid="uid://crt5asc6rwyg2" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_152.png" id="154_8bu0x"]
+[ext_resource type="Texture2D" uid="uid://xi8ctolof34l" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_153.png" id="155_eavqc"]
+[ext_resource type="Texture2D" uid="uid://dqp4xavvfuw1n" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_154.png" id="156_jmi1m"]
+[ext_resource type="Texture2D" uid="uid://ob2268x54gsn" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_155.png" id="157_nhdev"]
+[ext_resource type="Texture2D" uid="uid://dfy8b364tegtn" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_156.png" id="158_dx2r7"]
+[ext_resource type="Texture2D" uid="uid://bnwkudvgpu11j" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_157.png" id="159_vymjd"]
+[ext_resource type="Texture2D" uid="uid://vhto68vycmjh" path="res://assets/character/机甲/enemy_1255_lybgpa_Attack_Sequence/enemy_1255_lybgpa_Attack_158.png" id="160_utuss"]
+[ext_resource type="Texture2D" uid="uid://dkft63m5onhrf" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_1.png" id="161_k3ja6"]
+[ext_resource type="Texture2D" uid="uid://snmvqj5sc64d" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_2.png" id="162_1cbwi"]
+[ext_resource type="Texture2D" uid="uid://decr7jyr7qou6" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_3.png" id="163_km0pi"]
+[ext_resource type="Texture2D" uid="uid://banib8p4jcn67" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_4.png" id="164_hjanu"]
+[ext_resource type="Texture2D" uid="uid://ctr4wmlixodgk" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_5.png" id="165_1ksm8"]
+[ext_resource type="Texture2D" uid="uid://cbvgck6oyantd" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_6.png" id="166_gtm4b"]
+[ext_resource type="Texture2D" uid="uid://bfdt5emyrr5ne" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_7.png" id="167_64gn0"]
+[ext_resource type="Texture2D" uid="uid://c52fcs5n03luf" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_8.png" id="168_0i17h"]
+[ext_resource type="Texture2D" uid="uid://bscfkkavjyw3e" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_9.png" id="169_0f5bs"]
+[ext_resource type="Texture2D" uid="uid://t1q3mwrjbj5t" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_10.png" id="170_ewd3d"]
+[ext_resource type="Texture2D" uid="uid://n14si63lrbgc" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_11.png" id="171_gyoro"]
+[ext_resource type="Texture2D" uid="uid://c5x3oqc8qe4dc" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_12.png" id="172_mvlpy"]
+[ext_resource type="Texture2D" uid="uid://djvrn5xtvuyke" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_13.png" id="173_5tots"]
+[ext_resource type="Texture2D" uid="uid://dsaxoqpblxt84" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_14.png" id="174_scn2k"]
+[ext_resource type="Texture2D" uid="uid://pbul0ksngja0" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_15.png" id="175_6g51n"]
+[ext_resource type="Texture2D" uid="uid://c2owuo4g3j8jh" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_16.png" id="176_j3gtc"]
+[ext_resource type="Texture2D" uid="uid://cfcsrhl756uml" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_17.png" id="177_qaa1i"]
+[ext_resource type="Texture2D" uid="uid://bhig8mec2vo7s" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_18.png" id="178_j3wqe"]
+[ext_resource type="Texture2D" uid="uid://dseu8gm5bxk7r" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_19.png" id="179_a6svf"]
+[ext_resource type="Texture2D" uid="uid://delni8k7xgode" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_20.png" id="180_wlole"]
+[ext_resource type="Texture2D" uid="uid://dy1wrukpaansd" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_21.png" id="181_v4oai"]
+[ext_resource type="Texture2D" uid="uid://5hxknt4a88vm" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_22.png" id="182_1cdbh"]
+[ext_resource type="Texture2D" uid="uid://cneu2rqq4vp6y" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_23.png" id="183_xryhx"]
+[ext_resource type="Texture2D" uid="uid://v1ewyw6suxld" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_24.png" id="184_447ko"]
+[ext_resource type="Texture2D" uid="uid://be8ussaq1rrpi" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_25.png" id="185_yfcnt"]
+[ext_resource type="Texture2D" uid="uid://ckdxxcfgato5" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_26.png" id="186_nsjcb"]
+[ext_resource type="Texture2D" uid="uid://duanfncotdlio" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_27.png" id="187_sdu74"]
+[ext_resource type="Texture2D" uid="uid://b1rgh163q52n" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_28.png" id="188_r248m"]
+[ext_resource type="Texture2D" uid="uid://bpjdcuqwqwl1r" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_29.png" id="189_2gi0a"]
+[ext_resource type="Texture2D" uid="uid://bqj1pajba44jp" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_30.png" id="190_l7wou"]
+[ext_resource type="Texture2D" uid="uid://d1dop5v41jeau" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_31.png" id="191_o3sra"]
+[ext_resource type="Texture2D" uid="uid://dngvjwfiralpg" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_32.png" id="192_wqxqs"]
+[ext_resource type="Texture2D" uid="uid://bc876dhjbs1vs" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_33.png" id="193_ely08"]
+[ext_resource type="Texture2D" uid="uid://de2pimp8bie4t" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_34.png" id="194_g5y64"]
+[ext_resource type="Texture2D" uid="uid://c5ymygr8qpk67" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_35.png" id="195_qrcor"]
+[ext_resource type="Texture2D" uid="uid://c4h535f3k0s0t" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_36.png" id="196_i11t6"]
+[ext_resource type="Texture2D" uid="uid://dn5ypb877pn76" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_37.png" id="197_pyayo"]
+[ext_resource type="Texture2D" uid="uid://bp44k3lihdb1w" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_38.png" id="198_bvjg8"]
+[ext_resource type="Texture2D" uid="uid://dgcdhfjytrukg" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_39.png" id="199_hftnj"]
+[ext_resource type="Texture2D" uid="uid://cjfcogkoq6ciw" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_40.png" id="200_a0s60"]
+[ext_resource type="Texture2D" uid="uid://x1pd1wc33dju" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_41.png" id="201_lpdcl"]
+[ext_resource type="Texture2D" uid="uid://drdvy3bhtjhtx" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_42.png" id="202_va0ty"]
+[ext_resource type="Texture2D" uid="uid://63ucvstoyl3s" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_43.png" id="203_lhsi0"]
+[ext_resource type="Texture2D" uid="uid://dyq74c3tape0a" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_44.png" id="204_77gt0"]
+[ext_resource type="Texture2D" uid="uid://djx0dwqm5blnc" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_45.png" id="205_sd4kp"]
+[ext_resource type="Texture2D" uid="uid://drbkcy21tp3gn" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_46.png" id="206_dmhh0"]
+[ext_resource type="Texture2D" uid="uid://nreyh61ye205" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_47.png" id="207_21js4"]
+[ext_resource type="Texture2D" uid="uid://71a52ipqiw5l" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_48.png" id="208_chw5w"]
+[ext_resource type="Texture2D" uid="uid://d2mpdg1llxt0p" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_49.png" id="209_jli0d"]
+[ext_resource type="Texture2D" uid="uid://wpiplotws5de" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_50.png" id="210_2f7yt"]
+[ext_resource type="Texture2D" uid="uid://djcuqm5sc4g70" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_51.png" id="211_1hdas"]
+[ext_resource type="Texture2D" uid="uid://burale47ei2w0" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_52.png" id="212_q8hup"]
+[ext_resource type="Texture2D" uid="uid://blhmbnmfbojdb" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_53.png" id="213_7kkfn"]
+[ext_resource type="Texture2D" uid="uid://b4m7kc3aa5fo1" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_54.png" id="214_phcbb"]
+[ext_resource type="Texture2D" uid="uid://go65w1ii6uph" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_55.png" id="215_mijyt"]
+[ext_resource type="Texture2D" uid="uid://b3pgmasf2g0gr" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_56.png" id="216_dj747"]
+[ext_resource type="Texture2D" uid="uid://bly71oictq817" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_57.png" id="217_rnvr4"]
+[ext_resource type="Texture2D" uid="uid://cgxwl5ykji5b" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_58.png" id="218_o5m1n"]
+[ext_resource type="Texture2D" uid="uid://0qpntmssfv2p" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_59.png" id="219_q8i80"]
+[ext_resource type="Texture2D" uid="uid://diixhlp63wunx" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_60.png" id="220_udjat"]
+[ext_resource type="Texture2D" uid="uid://cw3tuec5282p1" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_61.png" id="221_nsweg"]
+[ext_resource type="Texture2D" uid="uid://dwyxo7eopi32p" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_62.png" id="222_4kb32"]
+[ext_resource type="Texture2D" uid="uid://dqe110bxhwbot" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_63.png" id="223_chcwy"]
+[ext_resource type="Texture2D" uid="uid://c7nasen8017ga" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_64.png" id="224_g1mxa"]
+[ext_resource type="Texture2D" uid="uid://dm2msajt78slf" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_65.png" id="225_4km37"]
+[ext_resource type="Texture2D" uid="uid://dm513u7nraeq3" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_66.png" id="226_4rjf5"]
+[ext_resource type="Texture2D" uid="uid://m7mfewynck6h" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_67.png" id="227_npjke"]
+[ext_resource type="Texture2D" uid="uid://72f21tiginwh" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_68.png" id="228_tw4ij"]
+[ext_resource type="Texture2D" uid="uid://dp6js2unqegvo" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_69.png" id="229_0486x"]
+[ext_resource type="Texture2D" uid="uid://b4bdjhy2fn8eo" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_70.png" id="230_l5twa"]
+[ext_resource type="Texture2D" uid="uid://b8on2gxamawmx" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_71.png" id="231_rfiux"]
+[ext_resource type="Texture2D" uid="uid://hkwurj5va7ci" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_72.png" id="232_4w7if"]
+[ext_resource type="Texture2D" uid="uid://co8k46bwhwfcp" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_73.png" id="233_0ykvm"]
+[ext_resource type="Texture2D" uid="uid://ct4t7sxjaui4w" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_74.png" id="234_waybo"]
+[ext_resource type="Texture2D" uid="uid://da1bjybad7lbv" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_75.png" id="235_krjd0"]
+[ext_resource type="Texture2D" uid="uid://dtf4tvh7hvb0s" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_76.png" id="236_q1l42"]
+[ext_resource type="Texture2D" uid="uid://cceswje33ff16" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_77.png" id="237_mrdue"]
+[ext_resource type="Texture2D" uid="uid://cmbixw2wch7um" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_78.png" id="238_vdcgu"]
+[ext_resource type="Texture2D" uid="uid://bs1nr61lulvwg" path="res://assets/character/机甲/enemy_1255_lybgpa_Die_02_Sequence/enemy_1255_lybgpa_Die_02_79.png" id="239_n5pxo"]
+[ext_resource type="Texture2D" uid="uid://bkwd400agqq4b" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_0.png" id="240_vt7ge"]
+[ext_resource type="Texture2D" uid="uid://dfvthxklyjbph" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_1.png" id="241_r1hgh"]
+[ext_resource type="Texture2D" uid="uid://orrmb10bx5rl" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_2.png" id="242_yb85t"]
+[ext_resource type="Texture2D" uid="uid://dls8pybnw3d7u" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_3.png" id="243_uh6wh"]
+[ext_resource type="Texture2D" uid="uid://d11oxgnog47fv" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_4.png" id="244_xno38"]
+[ext_resource type="Texture2D" uid="uid://dx8sl3p5oejo5" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_5.png" id="245_qm271"]
+[ext_resource type="Texture2D" uid="uid://c4me7jj5htcvu" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_6.png" id="246_qgpfd"]
+[ext_resource type="Texture2D" uid="uid://pv2tgruune7u" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_7.png" id="247_mwbhj"]
+[ext_resource type="Texture2D" uid="uid://b0m0d6mdukmtp" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_8.png" id="248_8vf5y"]
+[ext_resource type="Texture2D" uid="uid://caji47lvj0n2t" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_9.png" id="249_0jpso"]
+[ext_resource type="Texture2D" uid="uid://w1ory1ydeu7v" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_10.png" id="250_ar84n"]
+[ext_resource type="Texture2D" uid="uid://vb7b3pa3vqet" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_11.png" id="251_l6u4i"]
+[ext_resource type="Texture2D" uid="uid://vf58tx30s7js" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_12.png" id="252_85tn0"]
+[ext_resource type="Texture2D" uid="uid://co0vyvedb3vgn" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_13.png" id="253_o5ahr"]
+[ext_resource type="Texture2D" uid="uid://dhrld3ovwu2om" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_14.png" id="254_3tmn5"]
+[ext_resource type="Texture2D" uid="uid://dbsm527wcalwp" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_15.png" id="255_s808q"]
+[ext_resource type="Texture2D" uid="uid://4p627i2yxit8" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_16.png" id="256_xu1co"]
+[ext_resource type="Texture2D" uid="uid://dwdfwxp5ujar4" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_17.png" id="257_f2n8w"]
+[ext_resource type="Texture2D" uid="uid://b6dx7f7kpvcqb" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_18.png" id="258_lg67u"]
+[ext_resource type="Texture2D" uid="uid://csrd28acw1e7" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_19.png" id="259_6rb06"]
+[ext_resource type="Texture2D" uid="uid://d0c88euy7qidd" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_20.png" id="260_vo3yr"]
+[ext_resource type="Texture2D" uid="uid://dy826wfptg520" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_21.png" id="261_5texm"]
+[ext_resource type="Texture2D" uid="uid://bou5cjiqgi6c3" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_22.png" id="262_vgnsl"]
+[ext_resource type="Texture2D" uid="uid://7whdqvvmya4b" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_23.png" id="263_o6ycf"]
+[ext_resource type="Texture2D" uid="uid://dl3wffnu6wdsb" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_24.png" id="264_voiwn"]
+[ext_resource type="Texture2D" uid="uid://icjet6bp8scl" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_25.png" id="265_o7aoj"]
+[ext_resource type="Texture2D" uid="uid://dgfgtn64jokkm" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_26.png" id="266_bhq1u"]
+[ext_resource type="Texture2D" uid="uid://b7qhnupkq5qmm" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_27.png" id="267_ut8tx"]
+[ext_resource type="Texture2D" uid="uid://ltwrvp4hfhwe" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_28.png" id="268_38k23"]
+[ext_resource type="Texture2D" uid="uid://ddsk4h1roehci" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_29.png" id="269_0ftsb"]
+[ext_resource type="Texture2D" uid="uid://c6akcojta82sw" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_30.png" id="270_3toj0"]
+[ext_resource type="Texture2D" uid="uid://cbefx0lmixxj5" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_31.png" id="271_eh254"]
+[ext_resource type="Texture2D" uid="uid://b2eyiolswd3g7" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_32.png" id="272_wpira"]
+[ext_resource type="Texture2D" uid="uid://b6amd572iym85" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_33.png" id="273_sk2x1"]
+[ext_resource type="Texture2D" uid="uid://nxwfn8pgr6xg" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_34.png" id="274_wkqn6"]
+[ext_resource type="Texture2D" uid="uid://dqbd060a0wjbu" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_35.png" id="275_xrib5"]
+[ext_resource type="Texture2D" uid="uid://cltm421abgonf" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_36.png" id="276_1omad"]
+[ext_resource type="Texture2D" uid="uid://de06sk0lttp7q" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_37.png" id="277_ehyq4"]
+[ext_resource type="Texture2D" uid="uid://dhu7nwbnbixmp" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_38.png" id="278_i5y2m"]
+[ext_resource type="Texture2D" uid="uid://i6a6bx3gwnlf" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_39.png" id="279_gymjr"]
+[ext_resource type="Texture2D" uid="uid://bjqeuqvxbwnh2" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_40.png" id="280_vbuha"]
+[ext_resource type="Texture2D" uid="uid://bu6uwcm643caw" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_41.png" id="281_0pja1"]
+[ext_resource type="Texture2D" uid="uid://dixcwods1fica" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_42.png" id="282_sq7eh"]
+[ext_resource type="Texture2D" uid="uid://ci21dlgr5ugra" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_43.png" id="283_pctno"]
+[ext_resource type="Texture2D" uid="uid://bh2od4pa2aatr" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_44.png" id="284_nlm6l"]
+[ext_resource type="Texture2D" uid="uid://g4d0ra4vpr76" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_45.png" id="285_2xtla"]
+[ext_resource type="Texture2D" uid="uid://m3btr63en84g" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_46.png" id="286_wewx7"]
+[ext_resource type="Texture2D" uid="uid://dcf3mr4akny46" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_47.png" id="287_wn46h"]
+[ext_resource type="Texture2D" uid="uid://dkmdse6nr4vgf" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_48.png" id="288_ciwfq"]
+[ext_resource type="Texture2D" uid="uid://bm8bqrcwgqy3f" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_49.png" id="289_fua42"]
+[ext_resource type="Texture2D" uid="uid://bub8a4dpoqpxw" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_50.png" id="290_fs66c"]
+[ext_resource type="Texture2D" uid="uid://invho0kbcax7" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_51.png" id="291_cowa2"]
+[ext_resource type="Texture2D" uid="uid://ct3qom5cod8u0" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_52.png" id="292_4vgfh"]
+[ext_resource type="Texture2D" uid="uid://cyajnmmycuii1" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_53.png" id="293_jx6be"]
+[ext_resource type="Texture2D" uid="uid://ce43kpy01h8da" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_54.png" id="294_sm2dh"]
+[ext_resource type="Texture2D" uid="uid://cco3kkrlalndw" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_55.png" id="295_84qw0"]
+[ext_resource type="Texture2D" uid="uid://bsxmluni1ap74" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_56.png" id="296_wwp5y"]
+[ext_resource type="Texture2D" uid="uid://bgpg27wus00c8" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_57.png" id="297_r8r53"]
+[ext_resource type="Texture2D" uid="uid://ci1f23mtxfwwp" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_58.png" id="298_tjxl4"]
+[ext_resource type="Texture2D" uid="uid://cur2natx1bxl0" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_59.png" id="299_o584k"]
+[ext_resource type="Texture2D" uid="uid://cxplewnqjx75o" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_60.png" id="300_4feoy"]
+[ext_resource type="Texture2D" uid="uid://bo8oiw81y5pvn" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_61.png" id="301_w6e1i"]
+[ext_resource type="Texture2D" uid="uid://cw33i02orq75s" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_62.png" id="302_v1h45"]
+[ext_resource type="Texture2D" uid="uid://dgpuoc6q2qulk" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_63.png" id="303_0gsvx"]
+[ext_resource type="Texture2D" uid="uid://hseqqw6410it" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_64.png" id="304_di5o3"]
+[ext_resource type="Texture2D" uid="uid://ca3evaogt7aqn" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_65.png" id="305_3g034"]
+[ext_resource type="Texture2D" uid="uid://df0brpy4opsfb" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_66.png" id="306_ev7yh"]
+[ext_resource type="Texture2D" uid="uid://cd1evdovc25pr" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_67.png" id="307_k2bs1"]
+[ext_resource type="Texture2D" uid="uid://5wa6qifg2712" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_68.png" id="308_cltpp"]
+[ext_resource type="Texture2D" uid="uid://chs4pvy1ferj" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_69.png" id="309_6q4eb"]
+[ext_resource type="Texture2D" uid="uid://ccwqlrb1a2aha" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_70.png" id="310_63ds8"]
+[ext_resource type="Texture2D" uid="uid://ch2y0v0a8s4hc" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_71.png" id="311_qqvr8"]
+[ext_resource type="Texture2D" uid="uid://c6raawspjgg5w" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_72.png" id="312_e1v8a"]
+[ext_resource type="Texture2D" uid="uid://b4ft1aa6gueum" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_73.png" id="313_hlh82"]
+[ext_resource type="Texture2D" uid="uid://c4jplrt6s4e0k" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_74.png" id="314_6cggn"]
+[ext_resource type="Texture2D" uid="uid://ddh6cl7hrefsa" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_75.png" id="315_6g8m5"]
+[ext_resource type="Texture2D" uid="uid://gsk18mcymo2x" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_76.png" id="316_k7ech"]
+[ext_resource type="Texture2D" uid="uid://cuitced7dr8u1" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_77.png" id="317_wo3wy"]
+[ext_resource type="Texture2D" uid="uid://dwgq5hgrlab03" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_78.png" id="318_3ypgr"]
+[ext_resource type="Texture2D" uid="uid://bpcu1nriq4d1" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_79.png" id="319_hi1fp"]
+[ext_resource type="Texture2D" uid="uid://cpv6xakfhykgi" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_80.png" id="320_gpgcn"]
+[ext_resource type="Texture2D" uid="uid://cb1f1awhaun2w" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_81.png" id="321_0r31h"]
+[ext_resource type="Texture2D" uid="uid://dhc7rve3ldlqq" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_82.png" id="322_4n1c1"]
+[ext_resource type="Texture2D" uid="uid://big75kc4exbf6" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_83.png" id="323_im7vn"]
+[ext_resource type="Texture2D" uid="uid://bwviw4sxsp4nn" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_84.png" id="324_v1gy4"]
+[ext_resource type="Texture2D" uid="uid://dna6p6kynahe" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_85.png" id="325_4mk0n"]
+[ext_resource type="Texture2D" uid="uid://tsqoersoovl7" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_86.png" id="326_84k31"]
+[ext_resource type="Texture2D" uid="uid://b4w6ls2thuxyp" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_87.png" id="327_ccaye"]
+[ext_resource type="Texture2D" uid="uid://bkv62i7evinh2" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_88.png" id="328_aa01d"]
+[ext_resource type="Texture2D" uid="uid://byj1umcy3nuxn" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_89.png" id="329_ldgaq"]
+[ext_resource type="Texture2D" uid="uid://cyymxsiwk2d5j" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_90.png" id="330_spw1r"]
+[ext_resource type="Texture2D" uid="uid://c32h1cy04g2sh" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_91.png" id="331_agva6"]
+[ext_resource type="Texture2D" uid="uid://bmidneqh3qsmp" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_92.png" id="332_hklym"]
+[ext_resource type="Texture2D" uid="uid://buhmhk3kx0oyi" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_93.png" id="333_h7nma"]
+[ext_resource type="Texture2D" uid="uid://bx0878sjbaaue" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_94.png" id="334_jm0if"]
+[ext_resource type="Texture2D" uid="uid://bt5lpdmndyiki" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_95.png" id="335_q81rk"]
+[ext_resource type="Texture2D" uid="uid://pyph4pn6y0e1" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_96.png" id="336_y4usu"]
+[ext_resource type="Texture2D" uid="uid://diu4sjk7vsywj" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_97.png" id="337_6avqj"]
+[ext_resource type="Texture2D" uid="uid://cxx4cdv7dg6yl" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_98.png" id="338_6c5bu"]
+[ext_resource type="Texture2D" uid="uid://37cap54ecvxy" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_99.png" id="339_fd4uk"]
+[ext_resource type="Texture2D" uid="uid://ces2hl4wnml8g" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_100.png" id="340_2urfo"]
+[ext_resource type="Texture2D" uid="uid://djrl5y05ctrmy" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_101.png" id="341_3vxma"]
+[ext_resource type="Texture2D" uid="uid://dr0e0ttsex0li" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_102.png" id="342_e42yo"]
+[ext_resource type="Texture2D" uid="uid://dudvg0u52f7gp" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_103.png" id="343_7i1ah"]
+[ext_resource type="Texture2D" uid="uid://cpmla8dxdh3b5" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_104.png" id="344_psdg2"]
+[ext_resource type="Texture2D" uid="uid://bct01c4311elo" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_105.png" id="345_diafx"]
+[ext_resource type="Texture2D" uid="uid://cvg1a5wlxj24" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_106.png" id="346_ciwsg"]
+[ext_resource type="Texture2D" uid="uid://crdkjjearp488" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_107.png" id="347_6rdja"]
+[ext_resource type="Texture2D" uid="uid://bmbad5mg7iepm" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_108.png" id="348_mklmh"]
+[ext_resource type="Texture2D" uid="uid://dvsrmcn66x8vn" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_109.png" id="349_icirb"]
+[ext_resource type="Texture2D" uid="uid://cp4tv1snpikdg" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_110.png" id="350_medhu"]
+[ext_resource type="Texture2D" uid="uid://duoruua2lub3c" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_111.png" id="351_fxq5o"]
+[ext_resource type="Texture2D" uid="uid://imstyuy3sy7x" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_112.png" id="352_tyv33"]
+[ext_resource type="Texture2D" uid="uid://degd860bbfx4x" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_113.png" id="353_ka07t"]
+[ext_resource type="Texture2D" uid="uid://colt43cfko1kl" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_114.png" id="354_h855g"]
+[ext_resource type="Texture2D" uid="uid://bi3tohrosbsei" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_115.png" id="355_fxxdb"]
+[ext_resource type="Texture2D" uid="uid://cgu5dvrui03ro" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_116.png" id="356_lvpkm"]
+[ext_resource type="Texture2D" uid="uid://c4na6qplcaaki" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_117.png" id="357_ho1fk"]
+[ext_resource type="Texture2D" uid="uid://br8w3arbllyio" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_118.png" id="358_fhrwt"]
+[ext_resource type="Texture2D" uid="uid://bdxexhs5h0et2" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_119.png" id="359_df18v"]
+[ext_resource type="Texture2D" uid="uid://dfc64hqe5sd5j" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_120.png" id="360_mka0i"]
+[ext_resource type="Texture2D" uid="uid://dcso8mr13dnj" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_121.png" id="361_jn1pv"]
+[ext_resource type="Texture2D" uid="uid://clhywqd3cc35m" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_122.png" id="362_he0mv"]
+[ext_resource type="Texture2D" uid="uid://d04ds56vy63xg" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_123.png" id="363_wm5fg"]
+[ext_resource type="Texture2D" uid="uid://bhxvjtfxfxh3" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_124.png" id="364_quoq0"]
+[ext_resource type="Texture2D" uid="uid://cyrmvl7mm7b1p" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_125.png" id="365_w2wwc"]
+[ext_resource type="Texture2D" uid="uid://ct0tbngu7625x" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_126.png" id="366_u8tey"]
+[ext_resource type="Texture2D" uid="uid://bmm8rqvovkjkl" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_127.png" id="367_tk35u"]
+[ext_resource type="Texture2D" uid="uid://s1emnruvm777" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_128.png" id="368_4pnyn"]
+[ext_resource type="Texture2D" uid="uid://cotono0iepfn3" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_129.png" id="369_erp28"]
+[ext_resource type="Texture2D" uid="uid://7omoigbqcyxv" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_130.png" id="370_4pvdi"]
+[ext_resource type="Texture2D" uid="uid://fm5evb24we47" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_131.png" id="371_fw27o"]
+[ext_resource type="Texture2D" uid="uid://ip3un1lxlrkl" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_132.png" id="372_lcwgv"]
+[ext_resource type="Texture2D" uid="uid://cg46kks6iq7tm" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_133.png" id="373_eoafe"]
+[ext_resource type="Texture2D" uid="uid://dew3v0xuk21rl" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_134.png" id="374_c68oo"]
+[ext_resource type="Texture2D" uid="uid://cmyt11t4kdx0x" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_135.png" id="375_cyhl0"]
+[ext_resource type="Texture2D" uid="uid://cty7qrr41djnh" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_136.png" id="376_kpcbc"]
+[ext_resource type="Texture2D" uid="uid://efgn1nggqrie" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_137.png" id="377_ywpxc"]
+[ext_resource type="Texture2D" uid="uid://0w8f3otngbgb" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_138.png" id="378_esu5k"]
+[ext_resource type="Texture2D" uid="uid://cnov6shco4ux" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_139.png" id="379_mti2i"]
+[ext_resource type="Texture2D" uid="uid://cq7rxrwrtk64p" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_140.png" id="380_qnjd3"]
+[ext_resource type="Texture2D" uid="uid://jy05e4btgltx" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_141.png" id="381_682uo"]
+[ext_resource type="Texture2D" uid="uid://c2ydwdcky0j1p" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_142.png" id="382_c0qiy"]
+[ext_resource type="Texture2D" uid="uid://c0e0jonxwkihj" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_143.png" id="383_7r2fa"]
+[ext_resource type="Texture2D" uid="uid://bxifnq1c7k3ph" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_144.png" id="384_0wire"]
+[ext_resource type="Texture2D" uid="uid://df68pk5xrlpb3" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_145.png" id="385_dko0a"]
+[ext_resource type="Texture2D" uid="uid://bbq0m0gdhbu57" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_146.png" id="386_ygkuf"]
+[ext_resource type="Texture2D" uid="uid://bakkgnevhkndu" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_147.png" id="387_hk51b"]
+[ext_resource type="Texture2D" uid="uid://djurmuli4iy43" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_148.png" id="388_q0pji"]
+[ext_resource type="Texture2D" uid="uid://c2ulidn3mjt5s" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_149.png" id="389_wks0b"]
+[ext_resource type="Texture2D" uid="uid://bktq83bk7lgyw" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_150.png" id="390_jbwrf"]
+[ext_resource type="Texture2D" uid="uid://bvrnyefuk16ds" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_151.png" id="391_0p6lr"]
+[ext_resource type="Texture2D" uid="uid://uksylcpaoy84" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_152.png" id="392_eymio"]
+[ext_resource type="Texture2D" uid="uid://dqw6cvrclna5k" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_153.png" id="393_wyqic"]
+[ext_resource type="Texture2D" uid="uid://jjxayrccks1t" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_154.png" id="394_4mkd0"]
+[ext_resource type="Texture2D" uid="uid://dg2y5gshcgcjn" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_155.png" id="395_gdyt6"]
+[ext_resource type="Texture2D" uid="uid://b2i5ys1ydrsny" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_156.png" id="396_07t4k"]
+[ext_resource type="Texture2D" uid="uid://c23l0hhagdjbm" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_157.png" id="397_61egh"]
+[ext_resource type="Texture2D" uid="uid://clyfylbobxd5b" path="res://assets/character/机甲/enemy_1255_lybgpa_Idle_Sequence/enemy_1255_lybgpa_Idle_158.png" id="398_fonep"]
+[ext_resource type="Texture2D" uid="uid://cx5diarod4vqx" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_0.png" id="399_yvccv"]
+[ext_resource type="Texture2D" uid="uid://rw181adjr7fp" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_1.png" id="400_xiwkv"]
+[ext_resource type="Texture2D" uid="uid://v2wqtlndd8vc" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_2.png" id="401_5fiya"]
+[ext_resource type="Texture2D" uid="uid://bte0aayrdvec6" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_3.png" id="402_e21i7"]
+[ext_resource type="Texture2D" uid="uid://ddse40yjpay7n" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_4.png" id="403_vj7kt"]
+[ext_resource type="Texture2D" uid="uid://d13qf143bdbr3" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_5.png" id="404_a3tul"]
+[ext_resource type="Texture2D" uid="uid://dccapuqb0xcik" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_6.png" id="405_jyr0w"]
+[ext_resource type="Texture2D" uid="uid://cuapg1kchcxoa" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_7.png" id="406_o2b8v"]
+[ext_resource type="Texture2D" uid="uid://c8g3nuhxywjou" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_8.png" id="407_nem2w"]
+[ext_resource type="Texture2D" uid="uid://b2k4gf6kll0g7" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_9.png" id="408_gfvl8"]
+[ext_resource type="Texture2D" uid="uid://cxk3jgryf8t1n" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_10.png" id="409_vvl14"]
+[ext_resource type="Texture2D" uid="uid://cy5xheo2ohg88" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_11.png" id="410_hc5po"]
+[ext_resource type="Texture2D" uid="uid://da7gqxdkyqkhx" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_12.png" id="411_p8ijy"]
+[ext_resource type="Texture2D" uid="uid://powtq0owrqob" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_13.png" id="412_dy8ik"]
+[ext_resource type="Texture2D" uid="uid://xx1b7jxjrewj" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_14.png" id="413_2xyyg"]
+[ext_resource type="Texture2D" uid="uid://fiwk45m8rfhd" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_15.png" id="414_mwwed"]
+[ext_resource type="Texture2D" uid="uid://dox3qrv6wahkp" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_16.png" id="415_wripx"]
+[ext_resource type="Texture2D" uid="uid://bi3pxr5b1c4ac" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_17.png" id="416_rth3y"]
+[ext_resource type="Texture2D" uid="uid://bxbsn5c0upbss" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_18.png" id="417_56k7b"]
+[ext_resource type="Texture2D" uid="uid://dgin5ggkj8vvo" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_19.png" id="418_s75ot"]
+[ext_resource type="Texture2D" uid="uid://b4fdew5crt7l6" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_20.png" id="419_trwnt"]
+[ext_resource type="Texture2D" uid="uid://d072vh847hfyt" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_21.png" id="420_cu7he"]
+[ext_resource type="Texture2D" uid="uid://vb3fycl7cbdc" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_22.png" id="421_dxdyk"]
+[ext_resource type="Texture2D" uid="uid://bxu3gjk16hc0v" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_23.png" id="422_25tcm"]
+[ext_resource type="Texture2D" uid="uid://d1g1ehbe7jur2" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_24.png" id="423_6lwvt"]
+[ext_resource type="Texture2D" uid="uid://ic4fuh862pw2" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_25.png" id="424_x5g2o"]
+[ext_resource type="Texture2D" uid="uid://bc7fae3pw43a6" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_26.png" id="425_sld3a"]
+[ext_resource type="Texture2D" uid="uid://c4y5ijovi2a3k" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_27.png" id="426_7uxd5"]
+[ext_resource type="Texture2D" uid="uid://coh6iv3ju20kl" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_28.png" id="427_aqiyx"]
+[ext_resource type="Texture2D" uid="uid://cfc1dkq08tl8j" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_29.png" id="428_2nb5h"]
+[ext_resource type="Texture2D" uid="uid://kqjch1tea5uo" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_30.png" id="429_ac52d"]
+[ext_resource type="Texture2D" uid="uid://b4yatu42mjy34" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_31.png" id="430_wu8jk"]
+[ext_resource type="Texture2D" uid="uid://bpc5yb1xymuq2" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_32.png" id="431_wxpxn"]
+[ext_resource type="Texture2D" uid="uid://b522207wlknmi" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_33.png" id="432_7cumq"]
+[ext_resource type="Texture2D" uid="uid://d2exifdwwl4ww" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_34.png" id="433_o707b"]
+[ext_resource type="Texture2D" uid="uid://b7vncpv8p08ct" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_35.png" id="434_854c6"]
+[ext_resource type="Texture2D" uid="uid://cspouv62gy8up" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_36.png" id="435_2rjcs"]
+[ext_resource type="Texture2D" uid="uid://b2ybykbrb42rd" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_37.png" id="436_ja7bd"]
+[ext_resource type="Texture2D" uid="uid://cx05n0k3uxk3k" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_38.png" id="437_umud3"]
+[ext_resource type="Texture2D" uid="uid://cqt4pn8q5rvuu" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_39.png" id="438_a8aih"]
+[ext_resource type="Texture2D" uid="uid://41ymqsn0kdjv" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_40.png" id="439_154tq"]
+[ext_resource type="Texture2D" uid="uid://ca1cxpgt126mb" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_41.png" id="440_jeqwd"]
+[ext_resource type="Texture2D" uid="uid://b0isyvkhcl0jh" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_42.png" id="441_1s14u"]
+[ext_resource type="Texture2D" uid="uid://bjmqbvhibdkte" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_43.png" id="442_80h1e"]
+[ext_resource type="Texture2D" uid="uid://bmeyexmbrfnv0" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_44.png" id="443_lj4ar"]
+[ext_resource type="Texture2D" uid="uid://bjcx18l6y11l3" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_45.png" id="444_ardo6"]
+[ext_resource type="Texture2D" uid="uid://dyrijkutbqsnc" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_46.png" id="445_bbic3"]
+[ext_resource type="Texture2D" uid="uid://b8ojkxvdtm8rd" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_47.png" id="446_pl5c1"]
+[ext_resource type="Texture2D" uid="uid://crpov7q0lr1gq" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_48.png" id="447_kic0i"]
+[ext_resource type="Texture2D" uid="uid://crd35pjujm1f1" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_49.png" id="448_txyb8"]
+[ext_resource type="Texture2D" uid="uid://cg0ejm6ddnvhc" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_50.png" id="449_mddky"]
+[ext_resource type="Texture2D" uid="uid://bm1m55w4uxc56" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_51.png" id="450_70bap"]
+[ext_resource type="Texture2D" uid="uid://57w3evnu2t6w" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_52.png" id="451_xssqf"]
+[ext_resource type="Texture2D" uid="uid://bxnv0bk6oqe8r" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_53.png" id="452_uyo2e"]
+[ext_resource type="Texture2D" uid="uid://dknj78bn73mca" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_54.png" id="453_usx2l"]
+[ext_resource type="Texture2D" uid="uid://c0au88ra2rt5i" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_55.png" id="454_jfna3"]
+[ext_resource type="Texture2D" uid="uid://b0u77u6y0rxd4" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_56.png" id="455_ni8hg"]
+[ext_resource type="Texture2D" uid="uid://bl0m4jak1g85m" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_57.png" id="456_l45gi"]
+[ext_resource type="Texture2D" uid="uid://dnmnqxqi0bq55" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_58.png" id="457_r82n8"]
+[ext_resource type="Texture2D" uid="uid://dxhtxb6r5cp14" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_59.png" id="458_x3sdj"]
+[ext_resource type="Texture2D" uid="uid://dnk1svs7fcyrh" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_60.png" id="459_iysrt"]
+[ext_resource type="Texture2D" uid="uid://dtkcbxwjxo425" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_61.png" id="460_525rl"]
+[ext_resource type="Texture2D" uid="uid://b8f0yuilhq5kp" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_62.png" id="461_jgk42"]
+[ext_resource type="Texture2D" uid="uid://26yifxsx2mo3" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_63.png" id="462_3l38k"]
+[ext_resource type="Texture2D" uid="uid://cba4qgvb66nt8" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_64.png" id="463_akcdc"]
+[ext_resource type="Texture2D" uid="uid://biewjobu3o0bo" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_65.png" id="464_qc7ka"]
+[ext_resource type="Texture2D" uid="uid://hf1q5jvct6th" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_66.png" id="465_uen2t"]
+[ext_resource type="Texture2D" uid="uid://cahhmdgemeuer" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_67.png" id="466_v8tb2"]
+[ext_resource type="Texture2D" uid="uid://tiq5uebug0pv" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_68.png" id="467_q81i6"]
+[ext_resource type="Texture2D" uid="uid://bs3kwgvsyoca4" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_69.png" id="468_xsm17"]
+[ext_resource type="Texture2D" uid="uid://cbr6rqtq1r11t" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_70.png" id="469_l8vs8"]
+[ext_resource type="Texture2D" uid="uid://c81tdsb2t2as6" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_71.png" id="470_1qw35"]
+[ext_resource type="Texture2D" uid="uid://brx5a67bki4wv" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_72.png" id="471_f0j8v"]
+[ext_resource type="Texture2D" uid="uid://cxo2kgqhuryt6" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_73.png" id="472_od0jq"]
+[ext_resource type="Texture2D" uid="uid://dlgqobreb3e3u" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_74.png" id="473_4twh2"]
+[ext_resource type="Texture2D" uid="uid://cqjtp6uhsauhw" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_75.png" id="474_m0xks"]
+[ext_resource type="Texture2D" uid="uid://bykgcb37lhk37" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_76.png" id="475_v6jrc"]
+[ext_resource type="Texture2D" uid="uid://dmnhqpqqh3wj1" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_77.png" id="476_68h5s"]
+[ext_resource type="Texture2D" uid="uid://ceflxabpg32t" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_78.png" id="477_7beve"]
+[ext_resource type="Texture2D" uid="uid://bigwknqlxp6lf" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_79.png" id="478_sk774"]
+[ext_resource type="Texture2D" uid="uid://bggmurp2xjrxi" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_80.png" id="479_ofirx"]
+[ext_resource type="Texture2D" uid="uid://ddq3qus8ta2ah" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_81.png" id="480_xbjjc"]
+[ext_resource type="Texture2D" uid="uid://dggrys6ckdleo" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_82.png" id="481_dc0ll"]
+[ext_resource type="Texture2D" uid="uid://davttiedu0vj8" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_83.png" id="482_7ggat"]
+[ext_resource type="Texture2D" uid="uid://xoggdgh0tphl" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_84.png" id="483_s4fg2"]
+[ext_resource type="Texture2D" uid="uid://dn2oma6y1yilr" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_85.png" id="484_thn0w"]
+[ext_resource type="Texture2D" uid="uid://l8d5o5g7kpld" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_86.png" id="485_iegc6"]
+[ext_resource type="Texture2D" uid="uid://1rwobwyp5hsh" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_87.png" id="486_klimn"]
+[ext_resource type="Texture2D" uid="uid://yus8sjob37py" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_88.png" id="487_6ga8f"]
+[ext_resource type="Texture2D" uid="uid://dsy6lrve4aad3" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_89.png" id="488_ug7cs"]
+[ext_resource type="Texture2D" uid="uid://c0qi3vjdltjgl" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_90.png" id="489_e1k2u"]
+[ext_resource type="Texture2D" uid="uid://b6186csux7ix4" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_91.png" id="490_5s6vx"]
+[ext_resource type="Texture2D" uid="uid://bgsvtvr52x4pn" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_92.png" id="491_132rj"]
+[ext_resource type="Texture2D" uid="uid://q6o428awxpd1" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_93.png" id="492_mea4h"]
+[ext_resource type="Texture2D" uid="uid://dbqmhpermxrb2" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_94.png" id="493_qxcom"]
+[ext_resource type="Texture2D" uid="uid://d2l6rv54hxrdf" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_95.png" id="494_bw7oh"]
+[ext_resource type="Texture2D" uid="uid://clxihn2n211a6" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_96.png" id="495_fsd5o"]
+[ext_resource type="Texture2D" uid="uid://dudoe7ykrfvsc" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_97.png" id="496_hohe0"]
+[ext_resource type="Texture2D" uid="uid://b8a8pw02sgrgf" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_98.png" id="497_hdg0n"]
+[ext_resource type="Texture2D" uid="uid://dj4firhbveluo" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_99.png" id="498_nekcf"]
+[ext_resource type="Texture2D" uid="uid://croegexxq4a43" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_100.png" id="499_acqwr"]
+[ext_resource type="Texture2D" uid="uid://b12dwcamlfnvf" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_101.png" id="500_cltmq"]
+[ext_resource type="Texture2D" uid="uid://c2fuq1752dyod" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_102.png" id="501_1t5h1"]
+[ext_resource type="Texture2D" uid="uid://bvwe1sdajtibe" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_103.png" id="502_xni7f"]
+[ext_resource type="Texture2D" uid="uid://csmtl3ihnrgvt" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_104.png" id="503_yisvk"]
+[ext_resource type="Texture2D" uid="uid://c6i80r0budnog" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_105.png" id="504_3si24"]
+[ext_resource type="Texture2D" uid="uid://4qs6makvjm2i" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_106.png" id="505_rhppi"]
+[ext_resource type="Texture2D" uid="uid://clwr3w06emp51" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_107.png" id="506_260ig"]
+[ext_resource type="Texture2D" uid="uid://dj7ddh67485hk" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_108.png" id="507_pwhe8"]
+[ext_resource type="Texture2D" uid="uid://c1hwl1j5nkb31" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_109.png" id="508_crqhc"]
+[ext_resource type="Texture2D" uid="uid://3owvfj8e04dw" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_110.png" id="509_gao0m"]
+[ext_resource type="Texture2D" uid="uid://cbu4cg221atp5" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_111.png" id="510_dle2t"]
+[ext_resource type="Texture2D" uid="uid://bpyg5oxnch8ll" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_112.png" id="511_81opg"]
+[ext_resource type="Texture2D" uid="uid://dekfg5njw3ti7" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_113.png" id="512_mgtm7"]
+[ext_resource type="Texture2D" uid="uid://irdmokpnc2b3" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_114.png" id="513_f5dix"]
+[ext_resource type="Texture2D" uid="uid://dfdyt7x6ushuh" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_115.png" id="514_0mxkb"]
+[ext_resource type="Texture2D" uid="uid://dbqi6c8nn4d8i" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_116.png" id="515_3skqh"]
+[ext_resource type="Texture2D" uid="uid://l37xhynhg44k" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_117.png" id="516_1i65s"]
+[ext_resource type="Texture2D" uid="uid://db26sy4gxe86c" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_118.png" id="517_mv1cu"]
+[ext_resource type="Texture2D" uid="uid://s41ism86fb16" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_119.png" id="518_ge3ry"]
+[ext_resource type="Texture2D" uid="uid://bdpmv75e70wn5" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_120.png" id="519_0uph6"]
+[ext_resource type="Texture2D" uid="uid://dsa7l32t0pf2w" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_121.png" id="520_taf6o"]
+[ext_resource type="Texture2D" uid="uid://dr20ky33maufk" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_122.png" id="521_sfrsb"]
+[ext_resource type="Texture2D" uid="uid://d28kicjagx6y7" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_123.png" id="522_s0sld"]
+[ext_resource type="Texture2D" uid="uid://datnryhx3i6et" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_124.png" id="523_4gu33"]
+[ext_resource type="Texture2D" uid="uid://ckrh1xaxcr2jf" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_125.png" id="524_mk41m"]
+[ext_resource type="Texture2D" uid="uid://c8vasmbjrx06m" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_126.png" id="525_qsvdy"]
+[ext_resource type="Texture2D" uid="uid://c0uv0tq5wglt" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_127.png" id="526_cx1sd"]
+[ext_resource type="Texture2D" uid="uid://ftakpe38xktt" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_128.png" id="527_dy1fw"]
+[ext_resource type="Texture2D" uid="uid://crswunt2gr7oq" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_129.png" id="528_6gfls"]
+[ext_resource type="Texture2D" uid="uid://dmgakpt4r8ovl" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_130.png" id="529_na48w"]
+[ext_resource type="Texture2D" uid="uid://cfyyc5p50pcui" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_131.png" id="530_si7j5"]
+[ext_resource type="Script" uid="uid://bn4reb36r6yie" path="res://ai/tasks/play_frame_animation.gd" id="531_3si24"]
+[ext_resource type="Texture2D" uid="uid://fwk8177674l6" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_132.png" id="531_s2e7t"]
+[ext_resource type="Texture2D" uid="uid://d4cp4cgtk815c" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_133.png" id="532_6s22d"]
+[ext_resource type="Script" uid="uid://b5yyt0mq3bcy3" path="res://ai/tasks/random_move.gd" id="532_rhppi"]
+[ext_resource type="Texture2D" uid="uid://473no83su7as" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_134.png" id="533_5fjps"]
+[ext_resource type="PackedScene" uid="uid://bnhtoeja04f2s" path="res://scenes/info.tscn" id="533_260ig"]
+[ext_resource type="Texture2D" uid="uid://p74xehu3c8jm" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_135.png" id="534_pyuy6"]
+[ext_resource type="Texture2D" uid="uid://dn18pjpmyhxqq" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_136.png" id="535_oo4at"]
+[ext_resource type="Texture2D" uid="uid://dgyeh8tblt1r8" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_137.png" id="536_2ypm8"]
+[ext_resource type="Texture2D" uid="uid://du6qn2os3eifs" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_138.png" id="537_kam1d"]
+[ext_resource type="Texture2D" uid="uid://bl7hhl0865nts" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_139.png" id="538_wvb4s"]
+[ext_resource type="Texture2D" uid="uid://t82d73vqnx2e" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_140.png" id="539_xow64"]
+[ext_resource type="Texture2D" uid="uid://uyk7ybp4fgrp" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_141.png" id="540_nvpqu"]
+[ext_resource type="Texture2D" uid="uid://cl85qk8tyds1" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_142.png" id="541_gl76d"]
+[ext_resource type="Texture2D" uid="uid://1bp3708gyo4c" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_143.png" id="542_itel5"]
+[ext_resource type="Texture2D" uid="uid://btj3s6j2u73xk" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_144.png" id="543_vaq0y"]
+[ext_resource type="Texture2D" uid="uid://b60esruknjor6" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_145.png" id="544_2aob4"]
+[ext_resource type="Texture2D" uid="uid://dgfqt6s75je8d" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_146.png" id="545_xxeq5"]
+[ext_resource type="Texture2D" uid="uid://dg2rc0lyf137j" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_147.png" id="546_6xdij"]
+[ext_resource type="Texture2D" uid="uid://bfpaca1klq6p3" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_148.png" id="547_84yd4"]
+[ext_resource type="Texture2D" uid="uid://bkqs3styjyogl" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_149.png" id="548_eqif4"]
+[ext_resource type="Texture2D" uid="uid://cgjcn0u108kbp" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_150.png" id="549_anijh"]
+[ext_resource type="Texture2D" uid="uid://b4j722pqnwuq6" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_151.png" id="550_tgwe0"]
+[ext_resource type="Texture2D" uid="uid://b2ed86xx5p4ua" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_152.png" id="551_uolt5"]
+[ext_resource type="Texture2D" uid="uid://cylq888bf8uts" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_153.png" id="552_ghsa5"]
+[ext_resource type="Texture2D" uid="uid://beiom7kuqiet0" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_154.png" id="553_ee8ij"]
+[ext_resource type="Texture2D" uid="uid://c0trk0niu41bu" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_155.png" id="554_yauc3"]
+[ext_resource type="Texture2D" uid="uid://gp76ocnm6ffp" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_156.png" id="555_uxg48"]
+[ext_resource type="Texture2D" uid="uid://dekn6hpb2gqb8" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_157.png" id="556_oop8j"]
+[ext_resource type="Texture2D" uid="uid://ch8clrd08unud" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_158.png" id="557_418gl"]
+[ext_resource type="Texture2D" uid="uid://djgksj56jccyl" path="res://assets/character/机甲/enemy_1255_lybgpa_Move_Sequence/enemy_1255_lybgpa_Move_159.png" id="558_hnrfr"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_j4beu"]
+radius = 0.282023
+height = 1.3851
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gnpr3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_4gby3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_stcmp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_avyn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_dmhir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_utttc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_oudj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_d104l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_g032e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_qu8vs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_vyqx6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ec3o7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_5wxs8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_cooy0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_1yugq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ipnf1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_y1q7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_fu7x2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_bqo4c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_qyup2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ykau0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_q1gg3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_1c0a7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_gtbhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_jdsu0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_gasuo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_mr3th")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_0anus")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_a8o50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_3d58x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_duvma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_nbogi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_3b5mn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_egulg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_pi4m6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_so70t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_rfq3a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_nlucw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_cvvt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_utojx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_euuh2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_6u00t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_fhk4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_f7nam")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_g1r0t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_jtub7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_n7vc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_p1c7k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_34ti1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_vblnp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_r42d7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_c2atd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_2bify")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_da5x4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_ygtly")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_icqmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_xk74a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_oxtsu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_3tp0x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_pr52c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_6a460")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_wdyxe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_6285q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_rf27a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_u3lm2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_ke10u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_s11l6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_0ht64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_3581o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_1fvhh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_vb3dx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_0dh4x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_qwxhl")
+}],
+"loop": false,
+"name": &"attack1",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("74_lfdim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_wtqg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_ontcr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_lbpcj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_ukdrq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_3iwt2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_pvs60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_incy4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_o4i6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_jgobe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_41t0f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_5ie3k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_o6atf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_3sjwr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_4esw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_7ql3v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_rdr8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_7eddw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_frsqm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_yl5ao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_03jp8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_hpeqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_kwoyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_r8cek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_aqhd6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_m23yn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_whan3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_kd5x1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_eqfrw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_4wn5s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_0mjfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_8q616")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_tpmin")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_bl7vk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_e8wip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_gp0dk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_hqewu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_wofau")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_5jyfw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_wxxy2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_yvl6x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_3smpw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_w7fvg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_lh2wb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_5bg48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_wtigp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_55qum")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_pniwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_8jmmf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_sjefp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_sdge0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_42sxi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_6i4q7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_rp00y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_2ykmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_nm2j0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_bblda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_lldnl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_j2xac")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_j5gca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_j0w1w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_i3chn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_jen0i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_5ga6m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_lts1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_ga6x5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_2tbum")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_y2jd5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_w3enn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_22seh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_geiid")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_jkvtt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_ogoqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_x5m6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_kfhwp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_olg2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_jroxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_ubwoj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_16awu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_6wpi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_8bu0x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_eavqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_jmi1m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_nhdev")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_dx2r7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_vymjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_utuss")
+}],
+"loop": false,
+"name": &"attack2",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("161_k3ja6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_1cbwi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_km0pi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_hjanu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_1ksm8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_gtm4b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_64gn0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_0i17h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_0f5bs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_ewd3d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_gyoro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_mvlpy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_5tots")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_scn2k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_6g51n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_j3gtc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_qaa1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_j3wqe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_a6svf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_wlole")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_v4oai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_1cdbh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_xryhx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_447ko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_yfcnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_nsjcb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_sdu74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_r248m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_2gi0a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_l7wou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_o3sra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_wqxqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_ely08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_g5y64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_qrcor")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_i11t6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_pyayo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_bvjg8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_hftnj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_a0s60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_lpdcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_va0ty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_lhsi0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_77gt0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_sd4kp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_dmhh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_21js4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_chw5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_jli0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_2f7yt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_1hdas")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_q8hup")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_7kkfn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_phcbb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_mijyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_dj747")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_rnvr4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_o5m1n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_q8i80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_udjat")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_nsweg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_4kb32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_chcwy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_g1mxa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_4km37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_4rjf5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_npjke")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_tw4ij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_0486x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_l5twa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_rfiux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_4w7if")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_0ykvm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_waybo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_krjd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_q1l42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_mrdue")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_vdcgu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_n5pxo")
+}],
+"loop": false,
+"name": &"die",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("240_vt7ge")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_r1hgh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242_yb85t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_uh6wh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_xno38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_qm271")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_qgpfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_mwbhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_8vf5y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_0jpso")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250_ar84n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_l6u4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_85tn0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_o5ahr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254_3tmn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_s808q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_xu1co")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257_f2n8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258_lg67u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259_6rb06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260_vo3yr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261_5texm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262_vgnsl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263_o6ycf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264_voiwn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265_o7aoj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("266_bhq1u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267_ut8tx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268_38k23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269_0ftsb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270_3toj0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271_eh254")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272_wpira")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273_sk2x1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274_wkqn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275_xrib5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276_1omad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277_ehyq4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("278_i5y2m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279_gymjr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280_vbuha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281_0pja1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282_sq7eh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283_pctno")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284_nlm6l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285_2xtla")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286_wewx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("287_wn46h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("288_ciwfq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("289_fua42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("290_fs66c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("291_cowa2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("292_4vgfh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("293_jx6be")
+}, {
+"duration": 1.0,
+"texture": ExtResource("294_sm2dh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("295_84qw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("296_wwp5y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("297_r8r53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("298_tjxl4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("299_o584k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("300_4feoy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("301_w6e1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("302_v1h45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("303_0gsvx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304_di5o3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("305_3g034")
+}, {
+"duration": 1.0,
+"texture": ExtResource("306_ev7yh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("307_k2bs1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("308_cltpp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("309_6q4eb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("310_63ds8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("311_qqvr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("312_e1v8a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("313_hlh82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("314_6cggn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("315_6g8m5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("316_k7ech")
+}, {
+"duration": 1.0,
+"texture": ExtResource("317_wo3wy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("318_3ypgr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("319_hi1fp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("320_gpgcn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("321_0r31h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("322_4n1c1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("323_im7vn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("324_v1gy4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("325_4mk0n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("326_84k31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("327_ccaye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("328_aa01d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("329_ldgaq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("330_spw1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("331_agva6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("332_hklym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("333_h7nma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("334_jm0if")
+}, {
+"duration": 1.0,
+"texture": ExtResource("335_q81rk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("336_y4usu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("337_6avqj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("338_6c5bu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("339_fd4uk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("340_2urfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("341_3vxma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("342_e42yo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("343_7i1ah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("344_psdg2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("345_diafx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("346_ciwsg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("347_6rdja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("348_mklmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("349_icirb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("350_medhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("351_fxq5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("352_tyv33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("353_ka07t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("354_h855g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("355_fxxdb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("356_lvpkm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("357_ho1fk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("358_fhrwt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("359_df18v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("360_mka0i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("361_jn1pv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("362_he0mv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("363_wm5fg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("364_quoq0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("365_w2wwc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("366_u8tey")
+}, {
+"duration": 1.0,
+"texture": ExtResource("367_tk35u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("368_4pnyn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("369_erp28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("370_4pvdi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("371_fw27o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("372_lcwgv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("373_eoafe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("374_c68oo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("375_cyhl0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("376_kpcbc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("377_ywpxc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("378_esu5k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("379_mti2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("380_qnjd3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("381_682uo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("382_c0qiy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("383_7r2fa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("384_0wire")
+}, {
+"duration": 1.0,
+"texture": ExtResource("385_dko0a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("386_ygkuf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("387_hk51b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("388_q0pji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("389_wks0b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("390_jbwrf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("391_0p6lr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("392_eymio")
+}, {
+"duration": 1.0,
+"texture": ExtResource("393_wyqic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("394_4mkd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("395_gdyt6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("396_07t4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("397_61egh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("398_fonep")
+}],
+"loop": false,
+"name": &"idle",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("399_yvccv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("400_xiwkv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("401_5fiya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("402_e21i7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("403_vj7kt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("404_a3tul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("405_jyr0w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("406_o2b8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("407_nem2w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("408_gfvl8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("409_vvl14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("410_hc5po")
+}, {
+"duration": 1.0,
+"texture": ExtResource("411_p8ijy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("412_dy8ik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("413_2xyyg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("414_mwwed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("415_wripx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("416_rth3y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("417_56k7b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("418_s75ot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("419_trwnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("420_cu7he")
+}, {
+"duration": 1.0,
+"texture": ExtResource("421_dxdyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("422_25tcm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("423_6lwvt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("424_x5g2o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("425_sld3a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("426_7uxd5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("427_aqiyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("428_2nb5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("429_ac52d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("430_wu8jk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("431_wxpxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("432_7cumq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("433_o707b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("434_854c6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("435_2rjcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("436_ja7bd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("437_umud3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("438_a8aih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("439_154tq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("440_jeqwd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("441_1s14u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("442_80h1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("443_lj4ar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("444_ardo6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("445_bbic3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("446_pl5c1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("447_kic0i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("448_txyb8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("449_mddky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("450_70bap")
+}, {
+"duration": 1.0,
+"texture": ExtResource("451_xssqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("452_uyo2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("453_usx2l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("454_jfna3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("455_ni8hg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("456_l45gi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("457_r82n8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("458_x3sdj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("459_iysrt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("460_525rl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("461_jgk42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("462_3l38k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("463_akcdc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("464_qc7ka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("465_uen2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("466_v8tb2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("467_q81i6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("468_xsm17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("469_l8vs8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("470_1qw35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("471_f0j8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("472_od0jq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("473_4twh2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("474_m0xks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("475_v6jrc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("476_68h5s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("477_7beve")
+}, {
+"duration": 1.0,
+"texture": ExtResource("478_sk774")
+}, {
+"duration": 1.0,
+"texture": ExtResource("479_ofirx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("480_xbjjc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("481_dc0ll")
+}, {
+"duration": 1.0,
+"texture": ExtResource("482_7ggat")
+}, {
+"duration": 1.0,
+"texture": ExtResource("483_s4fg2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("484_thn0w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("485_iegc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("486_klimn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("487_6ga8f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("488_ug7cs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("489_e1k2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("490_5s6vx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("491_132rj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("492_mea4h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("493_qxcom")
+}, {
+"duration": 1.0,
+"texture": ExtResource("494_bw7oh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("495_fsd5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("496_hohe0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("497_hdg0n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("498_nekcf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("499_acqwr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("500_cltmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("501_1t5h1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("502_xni7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("503_yisvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("504_3si24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("505_rhppi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("506_260ig")
+}, {
+"duration": 1.0,
+"texture": ExtResource("507_pwhe8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("508_crqhc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("509_gao0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("510_dle2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("511_81opg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("512_mgtm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("513_f5dix")
+}, {
+"duration": 1.0,
+"texture": ExtResource("514_0mxkb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("515_3skqh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("516_1i65s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("517_mv1cu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("518_ge3ry")
+}, {
+"duration": 1.0,
+"texture": ExtResource("519_0uph6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("520_taf6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("521_sfrsb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("522_s0sld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("523_4gu33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("524_mk41m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("525_qsvdy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("526_cx1sd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("527_dy1fw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("528_6gfls")
+}, {
+"duration": 1.0,
+"texture": ExtResource("529_na48w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("530_si7j5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("531_s2e7t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("532_6s22d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("533_5fjps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("534_pyuy6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("535_oo4at")
+}, {
+"duration": 1.0,
+"texture": ExtResource("536_2ypm8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("537_kam1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("538_wvb4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("539_xow64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("540_nvpqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("541_gl76d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("542_itel5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("543_vaq0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("544_2aob4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("545_xxeq5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("546_6xdij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("547_84yd4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("548_eqif4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("549_anijh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("550_tgwe0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("551_uolt5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("552_ghsa5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("553_ee8ij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("554_yauc3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("555_uxg48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("556_oop8j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("557_418gl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("558_hnrfr")
+}],
+"loop": false,
+"name": &"walk",
+"speed": 120.0
+}]
+
+[sub_resource type="BlackboardPlan" id="BlackboardPlan_j4beu"]
+var/hp/name = &"hp"
+var/hp/type = 2
+var/hp/value = 0
+var/hp/hint = 0
+var/hp/hint_string = ""
+var/player_path/name = &"player_path"
+var/player_path/type = 22
+var/player_path/value = NodePath("")
+var/player_path/hint = 0
+var/player_path/hint_string = ""
+binding/hp = NodePath(".")
+
+[sub_resource type="BBVariant" id="BBVariant_nep7q"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_bu1hm"]
+variable = &"hp"
+check_type = 2
+value = SubResource("BBVariant_nep7q")
+
+[sub_resource type="BTAction" id="BTAction_e07qs"]
+script = ExtResource("531_3si24")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"die"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBNode" id="BBNode_7wbvl"]
+saved_value = NodePath("AnimationPlayer")
+resource_name = "AnimationPlayer"
+
+[sub_resource type="BTPlayAnimation" id="BTPlayAnimation_y7g2s"]
+animation_player = SubResource("BBNode_7wbvl")
+animation_name = &"die"
+
+[sub_resource type="BBVariant" id="BBVariant_d0glr"]
+type = 2
+saved_value = 8
+resource_name = "8"
+
+[sub_resource type="BTSetAgentProperty" id="BTSetAgentProperty_fnksq"]
+property = &"collision_layer"
+value = SubResource("BBVariant_d0glr")
+
+[sub_resource type="BBVariant" id="BBVariant_51ilj"]
+type = 2
+saved_value = 8
+resource_name = "8"
+
+[sub_resource type="BTSetAgentProperty" id="BTSetAgentProperty_j6jbp"]
+property = &"collision_mask"
+value = SubResource("BBVariant_51ilj")
+
+[sub_resource type="BTParallel" id="BTParallel_qo3e4"]
+num_successes_required = 4
+children = [SubResource("BTAction_e07qs"), SubResource("BTPlayAnimation_y7g2s"), SubResource("BTSetAgentProperty_fnksq"), SubResource("BTSetAgentProperty_j6jbp")]
+
+[sub_resource type="BBNode" id="BBNode_litfo"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_t0lqi"]
+node = SubResource("BBNode_litfo")
+method = &"queue_free"
+
+[sub_resource type="BTSequence" id="BTSequence_llkg2"]
+custom_name = "die"
+children = [SubResource("BTCheckVar_bu1hm"), SubResource("BTParallel_qo3e4"), SubResource("BTCallMethod_t0lqi")]
+
+[sub_resource type="BBVariant" id="BBVariant_t7ckn"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_aqk3p"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_t7ckn")
+
+[sub_resource type="BBVariant" id="BBVariant_jkair"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_y1h6n"]
+variable = &"player_path"
+check_type = 5
+value = SubResource("BBVariant_jkair")
+
+[sub_resource type="BBNode" id="BBNode_sh44b"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_w1f6j"]
+node = SubResource("BBNode_sh44b")
+method = &"stop_navgation"
+
+[sub_resource type="BTRandomWait" id="BTRandomWait_y1ge0"]
+min_duration = 0.1
+max_duration = 0.5
+
+[sub_resource type="BBVariant" id="BBVariant_x0jb4"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_ycscj"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_x0jb4")
+
+[sub_resource type="BTAction" id="BTAction_s0t2x"]
+script = ExtResource("531_3si24")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"attack1"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBVariant" id="BBVariant_p5ul7"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_12rnc"]
+variable = &"player_path"
+check_type = 5
+value = SubResource("BBVariant_p5ul7")
+
+[sub_resource type="BBNode" id="BBNode_av18d"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_laohv"]
+node = SubResource("BBNode_av18d")
+method = &"attack"
+
+[sub_resource type="BTSequence" id="BTSequence_tnehx"]
+children = [SubResource("BTCheckVar_ycscj"), SubResource("BTAction_s0t2x"), SubResource("BTCheckVar_12rnc"), SubResource("BTCallMethod_laohv")]
+
+[sub_resource type="BTAlwaysSucceed" id="BTAlwaysSucceed_io2b4"]
+children = [SubResource("BTSequence_tnehx")]
+
+[sub_resource type="BTAction" id="BTAction_m71p6"]
+script = ExtResource("531_3si24")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"attack2"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_pascy"]
+custom_name = "attrack"
+children = [SubResource("BTCheckVar_aqk3p"), SubResource("BTCheckVar_y1h6n"), SubResource("BTCallMethod_w1f6j"), SubResource("BTRandomWait_y1ge0"), SubResource("BTAlwaysSucceed_io2b4"), SubResource("BTAction_m71p6")]
+
+[sub_resource type="BTCooldown" id="BTCooldown_q7o25"]
+duration = 2.0
+children = [SubResource("BTSequence_pascy")]
+
+[sub_resource type="BBNode" id="BBNode_fup86"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_4370p"]
+node = SubResource("BBNode_fup86")
+method = &"stop_navgation"
+
+[sub_resource type="BBVariant" id="BBVariant_j48o3"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_he3mx"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_j48o3")
+
+[sub_resource type="BTAction" id="BTAction_c6nct"]
+script = ExtResource("531_3si24")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"idle"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_el7l0"]
+custom_name = "idle"
+children = [SubResource("BTCallMethod_4370p"), SubResource("BTCheckVar_he3mx"), SubResource("BTAction_c6nct")]
+
+[sub_resource type="BTProbability" id="BTProbability_shsi1"]
+children = [SubResource("BTSequence_el7l0")]
+
+[sub_resource type="BTCooldown" id="BTCooldown_15u7y"]
+duration = 5.0
+children = [SubResource("BTProbability_shsi1")]
+
+[sub_resource type="BBVariant" id="BBVariant_igxp8"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_wy3e3"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_igxp8")
+
+[sub_resource type="BBVariant" id="BBVariant_c06c7"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_6w18a"]
+variable = &"player_path"
+value = SubResource("BBVariant_c06c7")
+
+[sub_resource type="BTAction" id="BTAction_vl7eo"]
+script = ExtResource("532_rhppi")
+area = 5.0
+
+[sub_resource type="BTAction" id="BTAction_lebkc"]
+script = ExtResource("531_3si24")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"walk"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBVariant" id="BBVariant_u04sc"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_c7yhv"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_u04sc")
+
+[sub_resource type="BTSequence" id="BTSequence_uxnm8"]
+children = [SubResource("BTAction_lebkc"), SubResource("BTCheckVar_c7yhv")]
+
+[sub_resource type="BTRepeat" id="BTRepeat_qyekj"]
+forever = true
+children = [SubResource("BTSequence_uxnm8")]
+
+[sub_resource type="BTParallel" id="BTParallel_dpbfv"]
+children = [SubResource("BTAction_vl7eo"), SubResource("BTRepeat_qyekj")]
+
+[sub_resource type="BTSequence" id="BTSequence_mmbdt"]
+custom_name = "walk"
+children = [SubResource("BTCheckVar_wy3e3"), SubResource("BTCheckVar_6w18a"), SubResource("BTParallel_dpbfv")]
+
+[sub_resource type="BBNode" id="BBNode_2s0ro"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_dq6uo"]
+node = SubResource("BBNode_2s0ro")
+method = &"stop_navgation"
+
+[sub_resource type="BBVariant" id="BBVariant_8p26v"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_jbauc"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_8p26v")
+
+[sub_resource type="BTAction" id="BTAction_uhpoa"]
+script = ExtResource("531_3si24")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"idle"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_l0sb6"]
+custom_name = "idle"
+children = [SubResource("BTCallMethod_dq6uo"), SubResource("BTCheckVar_jbauc"), SubResource("BTAction_uhpoa")]
+
+[sub_resource type="BTSelector" id="BTSelector_bayb5"]
+children = [SubResource("BTSequence_llkg2"), SubResource("BTCooldown_q7o25"), SubResource("BTCooldown_15u7y"), SubResource("BTSequence_mmbdt"), SubResource("BTSequence_l0sb6")]
+
+[sub_resource type="BehaviorTree" id="BehaviorTree_ixgo0"]
+blackboard_plan = SubResource("BlackboardPlan_j4beu")
+root_task = SubResource("BTSelector_bayb5")
+
+[sub_resource type="BlackboardPlan" id="BlackboardPlan_y1f6v"]
+binding/hp = NodePath("..:hp")
+binding/player_path = NodePath("..:player_path")
+
+[sub_resource type="Animation" id="Animation_1acxm"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_yh0ue"]
+resource_name = "blink"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.266667, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0.406038, 0.406038, 0.406038, 1), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_syauo"]
+resource_name = "die"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_syauo"]
+_data = {
+&"RESET": SubResource("Animation_1acxm"),
+&"blink": SubResource("Animation_yh0ue"),
+&"die": SubResource("Animation_syauo")
+}
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_1acxm"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4gby3"]
+size = Vector3(1.876, 1.618, 1)
+
+[node name="Lybgpa" type="CharacterBody3D" groups=["enemy"]]
+collision_layer = 2
+collision_mask = 2
+axis_lock_linear_z = true
+script = ExtResource("1_y7m3i")
+hp = 10
+damage = 3
+movement_speed = 1.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(-0.999981, -0.0062307, 0, 0.0062307, -0.999981, 0, 0, 0, 1, 0, 0.390933, 0)
+shape = SubResource("CapsuleShape3D_j4beu")
+
+[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.251614, 0)
+pixel_size = 0.003
+sprite_frames = SubResource("SpriteFrames_gnpr3")
+animation = &"walk"
+
+[node name="BTPlayer" type="BTPlayer" parent="."]
+behavior_tree = SubResource("BehaviorTree_ixgo0")
+blackboard_plan = SubResource("BlackboardPlan_y1f6v")
+monitor_performance = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_syauo")
+}
+
+[node name="Info" parent="." instance=ExtResource("533_260ig")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.84145, 0)
+pixel_size = 0.0015
+render_priority = 127
+texture = SubResource("ViewportTexture_1acxm")
+
+[node name="AttackArea" type="Area3D" parent="."]
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AttackArea"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.404408, 0)
+shape = SubResource("BoxShape3D_4gby3")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+
+[connection signal="body_entered" from="AttackArea" to="." method="_on_attack_area_body_entered"]
+[connection signal="body_exited" from="AttackArea" to="." method="_on_attack_area_body_exited"]

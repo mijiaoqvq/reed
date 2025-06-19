@@ -35,9 +35,9 @@ func fail():
 
 var scene : AsyncScene
 
-func _on_button_2_pressed() -> void:
-	scene = AsyncScene.new("res://scenes/main.tscn", AsyncScene.LoadingSceneOperation.ReplaceImmediate)
-
-
 func _on_button_pressed() -> void:
 	%Failed.visible = false
+
+
+func _on_exit_pressed() -> void:
+	scene = AsyncScene.new("res://scenes/main.tscn", AsyncScene.LoadingSceneOperation.ReplaceImmediate)

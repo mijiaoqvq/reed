@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://j086nqlyb4c1"]
+[gd_scene load_steps=6 format=3 uid="uid://j086nqlyb4c1"]
 
 [ext_resource type="Shader" uid="uid://caepmai8cvp6d" path="res://assets/shader/failed.tres" id="1_3d26k"]
+[ext_resource type="Script" uid="uid://b0vbf6107mb8v" path="res://scripts/end.gd" id="1_p7m4f"]
 [ext_resource type="FontFile" uid="uid://d1lpqmuqhlmhx" path="res://assets/font/SourceHanSansCN-Medium.ttf" id="2_p7m4f"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_bvfni"]
@@ -20,6 +21,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_p7m4f")
 
 [node name="End" type="ColorRect" parent="."]
 unique_name_in_owner = true
@@ -59,3 +61,5 @@ layout_mode = 2
 size_flags_horizontal = 6
 theme_override_fonts/font = ExtResource("2_p7m4f")
 text = "返回主菜单"
+
+[connection signal="pressed" from="End/VBoxContainer/Button" to="." method="_on_button_pressed"]

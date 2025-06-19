@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://dipybsd2atjop"]
 
-[ext_resource type="Script" uid="uid://cnppfly1wq12s" path="res://scripts/dmage_bullet.gd" id="1_tqqmr"]
+[ext_resource type="Script" uid="uid://cnppfly1wq12s" path="res://scripts/bullet.gd" id="1_tqqmr"]
 [ext_resource type="Script" uid="uid://610l1kr2r678" path="res://scripts/Trail3D.gd" id="2_h52xv"]
 [ext_resource type="Shader" uid="uid://csh3dhynfhohx" path="res://assets/shader/dmage.tres" id="2_tqqmr"]
 [ext_resource type="Shader" uid="uid://dg0j461xtysr3" path="res://assets/shader/fireball_head.tres" id="3_h52xv"]

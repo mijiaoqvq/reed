@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://blyhns6lc45oo"]
+[gd_scene load_steps=11 format=3 uid="uid://blyhns6lc45oo"]
 
 [ext_resource type="Script" uid="uid://c78irqdbm3d4a" path="res://scripts/main.gd" id="1_85g3d"]
 [ext_resource type="Texture2D" uid="uid://dr5dtr2fao3j8" path="res://assets/background/main.png" id="1_o5qli"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://cef4168cpd8jf" path="res://assets/textures/start_pressed.png" id="4_tbgi4"]
 [ext_resource type="Texture2D" uid="uid://xl43fb4uetgd" path="res://assets/textures/start_hover.png" id="5_tefeu"]
 [ext_resource type="Script" uid="uid://bv8rp5gbn0f7x" path="res://scripts/mask_button.gd" id="6_tefeu"]
+[ext_resource type="AudioStream" uid="uid://otq8sbyus6qj" path="res://assets/音乐/塞壬唱片-MSR; Adam Gubman - 幻象斑驳.mp3" id="10_choun"]
 
 [node name="Main" type="Control"]
 layout_mode = 3
@@ -31,6 +32,7 @@ expand_mode = 1
 stretch_mode = 6
 
 [node name="Settings" type="TextureButton" parent="."]
+visible = false
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.024
@@ -67,5 +69,11 @@ texture_hover = ExtResource("5_tefeu")
 ignore_texture_size = true
 stretch_mode = 5
 script = ExtResource("6_tefeu")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+process_mode = 3
+stream = ExtResource("10_choun")
+autoplay = true
+parameters/looping = true
 
 [connection signal="pressed" from="Start" to="." method="_on_start_pressed"]

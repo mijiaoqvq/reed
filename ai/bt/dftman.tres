@@ -1,4 +1,4 @@
-[gd_resource type="BehaviorTree" load_steps=63 format=3 uid="uid://qvvkui0322v2"]
+[gd_resource type="BehaviorTree" load_steps=56 format=3 uid="uid://qvvkui0322v2"]
 
 [ext_resource type="Script" uid="uid://bn4reb36r6yie" path="res://ai/tasks/play_frame_animation.gd" id="1_lo6ty"]
 [ext_resource type="Script" uid="uid://b5yyt0mq3bcy3" path="res://ai/tasks/random_move.gd" id="2_37lbc"]
@@ -163,42 +163,6 @@ children = [SubResource("BTCheckVar_5owri"), SubResource("BTCheckVar_fxo0m"), Su
 duration = 1.0
 children = [SubResource("BTSequence_5owri")]
 
-[sub_resource type="BBNode" id="BBNode_fxo0m"]
-saved_value = NodePath(".")
-resource_name = "."
-
-[sub_resource type="BTCallMethod" id="BTCallMethod_5owri"]
-node = SubResource("BBNode_fxo0m")
-method = &"stop_navgation"
-
-[sub_resource type="BBVariant" id="BBVariant_yh0ue"]
-type = 2
-saved_value = 0
-resource_name = "<null>"
-
-[sub_resource type="BTCheckVar" id="BTCheckVar_1acxm"]
-variable = &"hp"
-check_type = 3
-value = SubResource("BBVariant_yh0ue")
-
-[sub_resource type="BTAction" id="BTAction_1acxm"]
-script = ExtResource("1_lo6ty")
-sprite_path = NodePath("AnimatedSprite3D")
-animation = &"idle"
-speed_scale = 1.0
-from_end = false
-
-[sub_resource type="BTSequence" id="BTSequence_riuj1"]
-custom_name = "idle"
-children = [SubResource("BTCallMethod_5owri"), SubResource("BTCheckVar_1acxm"), SubResource("BTAction_1acxm")]
-
-[sub_resource type="BTProbability" id="BTProbability_yh0ue"]
-children = [SubResource("BTSequence_riuj1")]
-
-[sub_resource type="BTCooldown" id="BTCooldown_yh0ue"]
-duration = 5.0
-children = [SubResource("BTProbability_yh0ue")]
-
 [sub_resource type="BBVariant" id="BBVariant_1acxm"]
 type = 2
 saved_value = 0
@@ -253,6 +217,10 @@ children = [SubResource("BTAction_5owri"), SubResource("BTRepeat_yh0ue")]
 custom_name = "walk"
 children = [SubResource("BTCheckVar_syauo"), SubResource("BTCheckVar_y1f6v"), SubResource("BTParallel_5owri")]
 
+[sub_resource type="BTCooldown" id="BTCooldown_lo6ty"]
+duration = 5.0
+children = [SubResource("BTSequence_fxo0m")]
+
 [sub_resource type="BBNode" id="BBNode_5owri"]
 saved_value = NodePath(".")
 resource_name = "."
@@ -283,7 +251,7 @@ custom_name = "idle"
 children = [SubResource("BTCallMethod_g63gj"), SubResource("BTCheckVar_tm5rb"), SubResource("BTAction_wtwi3")]
 
 [sub_resource type="BTSelector" id="BTSelector_g63gj"]
-children = [SubResource("BTSequence_vftjy"), SubResource("BTCooldown_riuj1"), SubResource("BTCooldown_yh0ue"), SubResource("BTSequence_fxo0m"), SubResource("BTSequence_uun35")]
+children = [SubResource("BTSequence_vftjy"), SubResource("BTCooldown_riuj1"), SubResource("BTCooldown_lo6ty"), SubResource("BTSequence_uun35")]
 
 [resource]
 blackboard_plan = SubResource("BlackboardPlan_syauo")

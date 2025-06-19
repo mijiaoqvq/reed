@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=3 uid="uid://db0qhq50jtvpu"]
+[gd_scene load_steps=27 format=3 uid="uid://db0qhq50jtvpu"]
 
 [ext_resource type="Script" uid="uid://m5utyl4t7ypr" path="res://scripts/map/scene_3.gd" id="1_5uf0h"]
 [ext_resource type="PackedScene" uid="uid://dibggq5mpdd75" path="res://scenes/reed.tscn" id="2_gm7q5"]
@@ -12,6 +12,9 @@
 [ext_resource type="Script" uid="uid://bb6rfno8om844" path="res://scripts/map/kill.gd" id="10_ptyiu"]
 [ext_resource type="Shape3D" uid="uid://dx1xr3s2e5luc" path="res://assets/collision_shape/gate.tres" id="11_pwx8t"]
 [ext_resource type="PackedScene" uid="uid://73jm5qjy52vq" path="res://scenes/balloon.tscn" id="12_7drqf"]
+[ext_resource type="PackedScene" uid="uid://ufdqjtc0jut6" path="res://scenes/lybgpa.tscn" id="13_gm7q5"]
+[ext_resource type="PackedScene" uid="uid://67xmonxe1btu" path="res://scenes/necrass.tscn" id="14_2rqdi"]
+[ext_resource type="AudioStream" uid="uid://cy0us4uldkgxw" path="res://assets/音乐/塞壬唱片-MSR; Adam Gubman - The Theme (Imperial).mp3" id="15_pl5ms"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_sj5te"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -108,7 +111,7 @@ shadow_enabled = true
 
 [node name="Reed" parent="." instance=ExtResource("2_gm7q5")]
 unique_name_in_owner = true
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.411637, 1.69704, -0.000412464)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.541679, 2.34482, -0.000412464)
 
 [node name="GridMap" type="GridMap" parent="."]
 unique_name_in_owner = true
@@ -132,7 +135,7 @@ mesh = SubResource("PlaneMesh_2rqdi")
 
 [node name="PhantomCamera3D" type="Node3D" parent="." node_paths=PackedStringArray("follow_target")]
 unique_name_in_owner = true
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.411637, 1.69704, 3.99959)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.541679, 2.34482, 3.99959)
 top_level = true
 script = ExtResource("6_cuwey")
 priority = 3
@@ -151,7 +154,7 @@ metadata/_custom_type_script = "uid://csjccrhj5wnx7"
 
 [node name="Camera3D" type="Camera3D" parent="."]
 physics_interpolation_mode = 1
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.411637, 1.69704, 3.99959)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.541679, 2.34482, 3.99959)
 
 [node name="PhantomCameraHost" type="Node" parent="Camera3D"]
 process_priority = 300
@@ -210,8 +213,38 @@ shape = ExtResource("11_pwx8t")
 unique_name_in_owner = true
 visible = false
 
+[node name="Lybgpa" parent="." instance=ExtResource("13_gm7q5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.2343, 1.43552, 0)
+
+[node name="Lybgpa5" parent="." instance=ExtResource("13_gm7q5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.6535, -12.446, 0)
+
+[node name="Lybgpa4" parent="." instance=ExtResource("13_gm7q5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.1763, -6.50416, 0)
+
+[node name="Lybgpa3" parent="." instance=ExtResource("13_gm7q5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 73.129, -0.0965619, 0)
+
+[node name="Lybgpa2" parent="." instance=ExtResource("13_gm7q5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.9883, 0.0799949, 0)
+
+[node name="Necrass" parent="." node_paths=PackedStringArray("reed") instance=ExtResource("14_2rqdi")]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.7259, -20.3112, 0.138857)
+reed = NodePath("../Reed")
+hp = 50
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+process_mode = 3
+stream = ExtResource("15_pl5ms")
+autoplay = true
+parameters/looping = true
+
 [connection signal="body_entered" from="Kill" to="Kill" method="_on_body_entered"]
+[connection signal="body_entered" from="CheckPoint2" to="." method="_on_boss_point_body_entered"]
 [connection signal="finished" from="Balloon" to="." method="_on_balloon_finished"]
+[connection signal="dead" from="Necrass" to="." method="_on_necrass_dead"]
 
 [editable path="Reed"]
 [editable path="UILayer"]

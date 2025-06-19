@@ -1,0 +1,2980 @@
+[gd_scene load_steps=707 format=3 uid="uid://67xmonxe1btu"]
+
+[ext_resource type="Script" uid="uid://c7ve8rp5e2ew6" path="res://scripts/necrass.gd" id="1_jtxhj"]
+[ext_resource type="Texture2D" uid="uid://ba3jp2julr3aw" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_0.png" id="2_vyvej"]
+[ext_resource type="Texture2D" uid="uid://cxq4b0au74sdo" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_1.png" id="3_fcsdd"]
+[ext_resource type="Texture2D" uid="uid://bdj7gdl7rtrco" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_2.png" id="4_o4l28"]
+[ext_resource type="Texture2D" uid="uid://djyv61x7jfwj1" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_3.png" id="5_knmdr"]
+[ext_resource type="Texture2D" uid="uid://c3v51p3kver0s" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_4.png" id="6_nhjrg"]
+[ext_resource type="Texture2D" uid="uid://bqti0opx2lpbf" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_5.png" id="7_jtxhj"]
+[ext_resource type="Texture2D" uid="uid://bsc0jlctvdnsm" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_6.png" id="8_4pbn7"]
+[ext_resource type="Texture2D" uid="uid://etp8g3rcb1d7" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_7.png" id="9_vvbc5"]
+[ext_resource type="Texture2D" uid="uid://f08rerbvyyoh" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_8.png" id="10_nyfpp"]
+[ext_resource type="Texture2D" uid="uid://c4xlaocep5hhm" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_9.png" id="11_pqf8n"]
+[ext_resource type="Texture2D" uid="uid://cxg756hlb6m1o" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_10.png" id="12_ac325"]
+[ext_resource type="Texture2D" uid="uid://cmk5gsxejohdm" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_11.png" id="13_guklc"]
+[ext_resource type="Texture2D" uid="uid://dqqxwd3v0d5eb" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_12.png" id="14_c6wvt"]
+[ext_resource type="Texture2D" uid="uid://rrdw1hrucyiy" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_13.png" id="15_jv7pg"]
+[ext_resource type="Texture2D" uid="uid://mdoo2j173e" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_14.png" id="16_4pwqb"]
+[ext_resource type="Texture2D" uid="uid://bfhxo2qkx56" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_15.png" id="17_48owh"]
+[ext_resource type="Texture2D" uid="uid://b8o2r331m3kot" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_16.png" id="18_tceqs"]
+[ext_resource type="Texture2D" uid="uid://bv4c0sprajsao" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_17.png" id="19_eusbl"]
+[ext_resource type="Texture2D" uid="uid://bn0rpvauau5no" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_18.png" id="20_uqd2c"]
+[ext_resource type="Texture2D" uid="uid://dvq11utedoq4y" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_19.png" id="21_3qif1"]
+[ext_resource type="Texture2D" uid="uid://cm7j55yi7axdo" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_20.png" id="22_aa4re"]
+[ext_resource type="Texture2D" uid="uid://7njxbc5xbt2h" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_21.png" id="23_tc427"]
+[ext_resource type="Texture2D" uid="uid://g0ke3axrokxy" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_22.png" id="24_2gcmg"]
+[ext_resource type="Texture2D" uid="uid://8b26prg08o83" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_23.png" id="25_2msh0"]
+[ext_resource type="Texture2D" uid="uid://bacobualj5d2v" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_24.png" id="26_8ijx3"]
+[ext_resource type="Texture2D" uid="uid://dux0nv5hi850u" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_25.png" id="27_ybgst"]
+[ext_resource type="Texture2D" uid="uid://u0ujhk3jl3uk" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_26.png" id="28_6j8x5"]
+[ext_resource type="Texture2D" uid="uid://cwvrnnghvdyfc" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_27.png" id="29_3a1yc"]
+[ext_resource type="Texture2D" uid="uid://c5nqab3f2ajyb" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_28.png" id="30_7f1m2"]
+[ext_resource type="Texture2D" uid="uid://cj7uqufujsvvq" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_29.png" id="31_qvgv4"]
+[ext_resource type="Texture2D" uid="uid://bv5kmvpy15hu3" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_30.png" id="32_iwaed"]
+[ext_resource type="Texture2D" uid="uid://cnoomowipcpd" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_31.png" id="33_xjhyi"]
+[ext_resource type="Texture2D" uid="uid://c7ajr4v4b78v7" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_32.png" id="34_uf6bu"]
+[ext_resource type="Texture2D" uid="uid://cpxj6pddkkoho" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_33.png" id="35_wod6g"]
+[ext_resource type="Texture2D" uid="uid://ce3git3jw8sgh" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_34.png" id="36_5ncy6"]
+[ext_resource type="Texture2D" uid="uid://q6w1756up2jg" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_35.png" id="37_i4b74"]
+[ext_resource type="Texture2D" uid="uid://cdd1e8wcuau0w" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_36.png" id="38_x8snb"]
+[ext_resource type="Texture2D" uid="uid://c61308ae2cq2d" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_37.png" id="39_ptjk6"]
+[ext_resource type="Texture2D" uid="uid://2mdkq6fxo6gq" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_38.png" id="40_r2upm"]
+[ext_resource type="Texture2D" uid="uid://dn3pf7e1a6ibt" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_39.png" id="41_yee5k"]
+[ext_resource type="Texture2D" uid="uid://sx84qtmxcj7o" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_40.png" id="42_r21kh"]
+[ext_resource type="Texture2D" uid="uid://vmu30pwyx4fd" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_41.png" id="43_viw6a"]
+[ext_resource type="Texture2D" uid="uid://dcn5stll4gtis" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_42.png" id="44_wu8hd"]
+[ext_resource type="Texture2D" uid="uid://b1llroc86eofi" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_43.png" id="45_sw7kk"]
+[ext_resource type="Texture2D" uid="uid://d3s2bicuxw7eo" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_44.png" id="46_etff4"]
+[ext_resource type="Texture2D" uid="uid://dld06bxyygirl" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_45.png" id="47_2pgep"]
+[ext_resource type="Texture2D" uid="uid://ceaq0b5iqvn7f" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_46.png" id="48_wq2wj"]
+[ext_resource type="Texture2D" uid="uid://14hlfp2w6sm" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_47.png" id="49_sy2gj"]
+[ext_resource type="Texture2D" uid="uid://bcjeketm7d4qx" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_48.png" id="50_n4ckw"]
+[ext_resource type="Texture2D" uid="uid://ci4k0s58xvcqy" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_49.png" id="51_cqpve"]
+[ext_resource type="Texture2D" uid="uid://rere04a1dt2f" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_50.png" id="52_5yfaa"]
+[ext_resource type="Texture2D" uid="uid://boi1dc3dwydpv" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_51.png" id="53_4ttr8"]
+[ext_resource type="Texture2D" uid="uid://c1oo0rohb3ic6" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_52.png" id="54_85c2e"]
+[ext_resource type="Texture2D" uid="uid://dxr7x2pc3euuh" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_53.png" id="55_iwhi6"]
+[ext_resource type="Texture2D" uid="uid://bk1wbur1csyuh" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_54.png" id="56_besm6"]
+[ext_resource type="Texture2D" uid="uid://h5ugukrgxygk" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_55.png" id="57_jvevv"]
+[ext_resource type="Texture2D" uid="uid://da7pfyjq1fgvi" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_56.png" id="58_o76ir"]
+[ext_resource type="Texture2D" uid="uid://bsd72vadnlfga" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_57.png" id="59_ju5ka"]
+[ext_resource type="Texture2D" uid="uid://71aewcwa4ylq" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_58.png" id="60_nnvpv"]
+[ext_resource type="Texture2D" uid="uid://xxvj8t7rqk1w" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_59.png" id="61_jjd2f"]
+[ext_resource type="Texture2D" uid="uid://cds7n8i5hwi1" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_60.png" id="62_8rhem"]
+[ext_resource type="Texture2D" uid="uid://bex5o3v6qxpxf" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_61.png" id="63_6a0p3"]
+[ext_resource type="Texture2D" uid="uid://j6glr4ug72u6" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_62.png" id="64_dgklx"]
+[ext_resource type="Texture2D" uid="uid://clvgq8d2pqf4n" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_63.png" id="65_t7oba"]
+[ext_resource type="Texture2D" uid="uid://d4dejmocplfhq" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_64.png" id="66_0gr4g"]
+[ext_resource type="Texture2D" uid="uid://dr2q0fwirxdsw" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_65.png" id="67_px60u"]
+[ext_resource type="Texture2D" uid="uid://da7yg6pq6oqm" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_66.png" id="68_1p4o8"]
+[ext_resource type="Texture2D" uid="uid://c6dca4yu0f848" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_67.png" id="69_u2gc4"]
+[ext_resource type="Texture2D" uid="uid://ovgbm1tunaic" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_68.png" id="70_7b0su"]
+[ext_resource type="Texture2D" uid="uid://bm3xcyutdl1l8" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_69.png" id="71_k52uo"]
+[ext_resource type="Texture2D" uid="uid://cd5xtyxupl4a1" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_70.png" id="72_7dma2"]
+[ext_resource type="Texture2D" uid="uid://jiox355a17jn" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_71.png" id="73_oymy1"]
+[ext_resource type="Texture2D" uid="uid://db7oqquuao2ap" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_72.png" id="74_qkc76"]
+[ext_resource type="Texture2D" uid="uid://couqb1vwxneyj" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_73.png" id="75_hkh7v"]
+[ext_resource type="Texture2D" uid="uid://cjs3jqbu6u6dy" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_74.png" id="76_skukl"]
+[ext_resource type="Texture2D" uid="uid://d2lxncuk1l7mn" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_75.png" id="77_1dfg5"]
+[ext_resource type="Texture2D" uid="uid://1jjvcb20kcdu" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_76.png" id="78_rqhoc"]
+[ext_resource type="Texture2D" uid="uid://c0wolibvivbof" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_77.png" id="79_b6lr8"]
+[ext_resource type="Texture2D" uid="uid://bn81vkdt4awuf" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_78.png" id="80_82svx"]
+[ext_resource type="Texture2D" uid="uid://bckot3hit5tbn" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_79.png" id="81_v7lsk"]
+[ext_resource type="Texture2D" uid="uid://b5f0i3sa2tu7" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_80.png" id="82_njlpq"]
+[ext_resource type="Texture2D" uid="uid://caxp1cjsvfqus" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_81.png" id="83_n0di0"]
+[ext_resource type="Texture2D" uid="uid://b0rm6sw8mtivg" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_82.png" id="84_mfbp6"]
+[ext_resource type="Texture2D" uid="uid://rpxsmr1wwwld" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_83.png" id="85_kk6hf"]
+[ext_resource type="Texture2D" uid="uid://bylycq34sfr68" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_84.png" id="86_bqoqs"]
+[ext_resource type="Texture2D" uid="uid://cajsbofnmb1o4" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_85.png" id="87_n5eyc"]
+[ext_resource type="Texture2D" uid="uid://bnonsbqg7o7il" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_86.png" id="88_4bqsh"]
+[ext_resource type="Texture2D" uid="uid://pi5m76sa2rck" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_87.png" id="89_w6xbo"]
+[ext_resource type="Texture2D" uid="uid://cuhhlwqine2d6" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_88.png" id="90_blslc"]
+[ext_resource type="Texture2D" uid="uid://bxqnb6qcmt3mc" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_89.png" id="91_cny56"]
+[ext_resource type="Texture2D" uid="uid://dylyfy31mvoac" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_90.png" id="92_5g1wa"]
+[ext_resource type="Texture2D" uid="uid://c6gnomdsp68c5" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_91.png" id="93_l1s4n"]
+[ext_resource type="Texture2D" uid="uid://8ndoiy1ycspu" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_92.png" id="94_dmhmp"]
+[ext_resource type="Texture2D" uid="uid://cktj1e04s0gs0" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_93.png" id="95_ko11m"]
+[ext_resource type="Texture2D" uid="uid://b86xfh2tsb46p" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_94.png" id="96_mcgfe"]
+[ext_resource type="Texture2D" uid="uid://b5q82mxmbpbcj" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_95.png" id="97_8na8q"]
+[ext_resource type="Texture2D" uid="uid://pdk2f0efes30" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_96.png" id="98_5sqg8"]
+[ext_resource type="Texture2D" uid="uid://l64tt0pow5d6" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_97.png" id="99_7olsx"]
+[ext_resource type="Texture2D" uid="uid://drtt28cvbdqnd" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_98.png" id="100_ll5fx"]
+[ext_resource type="Texture2D" uid="uid://bgdl2lkk1up6j" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_99.png" id="101_4d6x3"]
+[ext_resource type="Texture2D" uid="uid://mv7o5qsccse6" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_100.png" id="102_o63g3"]
+[ext_resource type="Texture2D" uid="uid://cr0pkhyuk8idw" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_101.png" id="103_ek2yc"]
+[ext_resource type="Texture2D" uid="uid://bd6c7bvbjnkth" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_102.png" id="104_fkepd"]
+[ext_resource type="Texture2D" uid="uid://dxgrh6lwyunxq" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_103.png" id="105_fpjh4"]
+[ext_resource type="Texture2D" uid="uid://bco4r4xepin5k" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_104.png" id="106_wtdlk"]
+[ext_resource type="Texture2D" uid="uid://dtihuc3h570yn" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_105.png" id="107_tafes"]
+[ext_resource type="Texture2D" uid="uid://dwy7mc6xd7cna" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_106.png" id="108_prgca"]
+[ext_resource type="Texture2D" uid="uid://bj7sbpkhifn5r" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_107.png" id="109_68537"]
+[ext_resource type="Texture2D" uid="uid://deslf6wrx60l2" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_108.png" id="110_2er4k"]
+[ext_resource type="Texture2D" uid="uid://clrfqiij55plg" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_109.png" id="111_vsrr3"]
+[ext_resource type="Texture2D" uid="uid://dn4vrskg0mvsq" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_110.png" id="112_ilndk"]
+[ext_resource type="Texture2D" uid="uid://d0xliofdtqnsp" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_111.png" id="113_hn302"]
+[ext_resource type="Texture2D" uid="uid://s708v1lk625x" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_112.png" id="114_4g7m2"]
+[ext_resource type="Texture2D" uid="uid://bwxvnbtvgr3hg" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_113.png" id="115_d46bx"]
+[ext_resource type="Texture2D" uid="uid://cbf2eeflru5ta" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_114.png" id="116_sw15x"]
+[ext_resource type="Texture2D" uid="uid://badflio66mwop" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_115.png" id="117_3gfv1"]
+[ext_resource type="Texture2D" uid="uid://b5n02lsonl25y" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_116.png" id="118_pbfjq"]
+[ext_resource type="Texture2D" uid="uid://cdao1rfgrn7r" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_117.png" id="119_o2nfd"]
+[ext_resource type="Texture2D" uid="uid://djl5plnkm5sq0" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_118.png" id="120_7miql"]
+[ext_resource type="Texture2D" uid="uid://bqouqhwoqd5mw" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_119.png" id="121_ibai6"]
+[ext_resource type="Texture2D" uid="uid://dhsu781vid63g" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_120.png" id="122_15s2e"]
+[ext_resource type="Texture2D" uid="uid://dbrrium8b7k0w" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_121.png" id="123_1liqu"]
+[ext_resource type="Texture2D" uid="uid://ra6uh1ihxmmt" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_122.png" id="124_l6qi7"]
+[ext_resource type="Texture2D" uid="uid://d0dtn1gokyu8p" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_123.png" id="125_qqudb"]
+[ext_resource type="Texture2D" uid="uid://dd6toqedusuyh" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_124.png" id="126_kxvco"]
+[ext_resource type="Texture2D" uid="uid://del8whvddetme" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_125.png" id="127_yy64a"]
+[ext_resource type="Texture2D" uid="uid://6qsyrpnmnxm6" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_126.png" id="128_bdjd8"]
+[ext_resource type="Texture2D" uid="uid://dgrth6ennymsp" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_127.png" id="129_blaq0"]
+[ext_resource type="Texture2D" uid="uid://cvys784o4iiqd" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_128.png" id="130_stf25"]
+[ext_resource type="Texture2D" uid="uid://c6n23rl7a3sm0" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_129.png" id="131_3glq7"]
+[ext_resource type="Texture2D" uid="uid://b1gqj0ga0a8vo" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_130.png" id="132_p5f07"]
+[ext_resource type="Texture2D" uid="uid://cn6vxph1off35" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_131.png" id="133_tvmuf"]
+[ext_resource type="Texture2D" uid="uid://dwmic6v5hr183" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_132.png" id="134_3y306"]
+[ext_resource type="Texture2D" uid="uid://bxjgr3n1801rq" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_133.png" id="135_3tpi2"]
+[ext_resource type="Texture2D" uid="uid://crynnxxbc3km8" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_134.png" id="136_4d8kx"]
+[ext_resource type="Texture2D" uid="uid://7x3k4wpfmswt" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_135.png" id="137_akspg"]
+[ext_resource type="Texture2D" uid="uid://d2py38ipi3gjy" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_136.png" id="138_ho1nw"]
+[ext_resource type="Texture2D" uid="uid://juuso5wilf0o" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_137.png" id="139_abkbm"]
+[ext_resource type="Texture2D" uid="uid://cj4btcu7t5lp" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_138.png" id="140_lut8d"]
+[ext_resource type="Texture2D" uid="uid://5yt0t35nep3f" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_139.png" id="141_ogngm"]
+[ext_resource type="Texture2D" uid="uid://gganc22o64lv" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_140.png" id="142_7j3ri"]
+[ext_resource type="Texture2D" uid="uid://dj7nbwes1xd0d" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_141.png" id="143_mmko7"]
+[ext_resource type="Texture2D" uid="uid://cmrxaepsbi80o" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_142.png" id="144_v1j18"]
+[ext_resource type="Texture2D" uid="uid://c7kw7dowauvod" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_143.png" id="145_gk31a"]
+[ext_resource type="Texture2D" uid="uid://daa2kr7m5q7fq" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_144.png" id="146_dfxfb"]
+[ext_resource type="Texture2D" uid="uid://j6lle8bek3tg" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_145.png" id="147_vuosu"]
+[ext_resource type="Texture2D" uid="uid://cxxk5hpamxrlf" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_146.png" id="148_tyhqg"]
+[ext_resource type="Texture2D" uid="uid://c2wtepvt4xcpu" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_147.png" id="149_82f23"]
+[ext_resource type="Texture2D" uid="uid://b85xse74im2to" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_148.png" id="150_flstk"]
+[ext_resource type="Texture2D" uid="uid://bt1t6yuyj88n3" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_149.png" id="151_c7kyn"]
+[ext_resource type="Texture2D" uid="uid://nl8pcp7qeu0k" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_150.png" id="152_ywbeo"]
+[ext_resource type="Texture2D" uid="uid://bb4wr6wkrj1e3" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_151.png" id="153_kv7ej"]
+[ext_resource type="Texture2D" uid="uid://jctw4jv65wo3" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_152.png" id="154_j45kb"]
+[ext_resource type="Texture2D" uid="uid://cysryu77nvobr" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_153.png" id="155_yvw47"]
+[ext_resource type="Texture2D" uid="uid://b7j6dw1t65gat" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_154.png" id="156_46afe"]
+[ext_resource type="Texture2D" uid="uid://pfsacc0gxgxk" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_155.png" id="157_ktaph"]
+[ext_resource type="Texture2D" uid="uid://deex0jjhmu2gc" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_156.png" id="158_5jc2i"]
+[ext_resource type="Texture2D" uid="uid://b4votg4t4207t" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_157.png" id="159_u08f4"]
+[ext_resource type="Texture2D" uid="uid://ctaiuh0igwwl7" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_158.png" id="160_t7f6r"]
+[ext_resource type="Texture2D" uid="uid://l718s81pbfj3" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_159.png" id="161_70d4b"]
+[ext_resource type="Texture2D" uid="uid://dy6cmqhqj5tv7" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_160.png" id="162_rbh5g"]
+[ext_resource type="Texture2D" uid="uid://cfwhvup7w0t65" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_161.png" id="163_tlwyy"]
+[ext_resource type="Texture2D" uid="uid://b8eid6wwsby0" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_162.png" id="164_ory2l"]
+[ext_resource type="Texture2D" uid="uid://bbch35myo36nl" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_163.png" id="165_u04os"]
+[ext_resource type="Texture2D" uid="uid://cmup7bneiiaui" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_164.png" id="166_y7b8k"]
+[ext_resource type="Texture2D" uid="uid://dtdbor4c5vg1n" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_165.png" id="167_r40yo"]
+[ext_resource type="Texture2D" uid="uid://dd5brufg0xr0b" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_166.png" id="168_2ydcx"]
+[ext_resource type="Texture2D" uid="uid://ddbg8lsy17k2k" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_167.png" id="169_1fpo3"]
+[ext_resource type="Texture2D" uid="uid://dx50vgy6ld0bp" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_168.png" id="170_g1iyo"]
+[ext_resource type="Texture2D" uid="uid://l8pf7jiam08w" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_169.png" id="171_75jba"]
+[ext_resource type="Texture2D" uid="uid://crgeuyvgt1k2d" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_170.png" id="172_pcceh"]
+[ext_resource type="Texture2D" uid="uid://c08a2vdhd1q2k" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_171.png" id="173_xiqya"]
+[ext_resource type="Texture2D" uid="uid://b10ul4jv4xu81" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_172.png" id="174_4esde"]
+[ext_resource type="Texture2D" uid="uid://dc4ol1olmx6tf" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_173.png" id="175_xwh8m"]
+[ext_resource type="Texture2D" uid="uid://b61yql0qd0uj1" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_174.png" id="176_vn2x6"]
+[ext_resource type="Texture2D" uid="uid://ct7djfk5i35po" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_175.png" id="177_6kabo"]
+[ext_resource type="Texture2D" uid="uid://btwffqsridxeh" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_176.png" id="178_cfcte"]
+[ext_resource type="Texture2D" uid="uid://de8hrrn6kq2wk" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_177.png" id="179_4gvud"]
+[ext_resource type="Texture2D" uid="uid://dmkmjdskcm7rj" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_178.png" id="180_yoxo2"]
+[ext_resource type="Texture2D" uid="uid://1murljdubr64" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_179.png" id="181_0prcm"]
+[ext_resource type="Texture2D" uid="uid://qhh2gwc2mt2u" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_180.png" id="182_fc1i2"]
+[ext_resource type="Texture2D" uid="uid://dt8i0wd7eubqc" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_181.png" id="183_bdd6g"]
+[ext_resource type="Texture2D" uid="uid://bp4hhslxd8d2r" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_182.png" id="184_ekpc7"]
+[ext_resource type="Texture2D" uid="uid://dvbbq1gky40lu" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_183.png" id="185_xjlhv"]
+[ext_resource type="Texture2D" uid="uid://ccygy8fuc8abs" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_184.png" id="186_u6vpx"]
+[ext_resource type="Texture2D" uid="uid://d2shxw1owvfxt" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_185.png" id="187_865kn"]
+[ext_resource type="Texture2D" uid="uid://div111fyvywdy" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_186.png" id="188_dckou"]
+[ext_resource type="Texture2D" uid="uid://bqwt6wgnrwshy" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_187.png" id="189_ywxhm"]
+[ext_resource type="Texture2D" uid="uid://fef0rpv14tep" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_188.png" id="190_a0y87"]
+[ext_resource type="Texture2D" uid="uid://cb5a0swckxxqc" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_189.png" id="191_kyuae"]
+[ext_resource type="Texture2D" uid="uid://t363bmritdck" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_190.png" id="192_enndl"]
+[ext_resource type="Texture2D" uid="uid://1oa12kkpo1ay" path="res://assets/character/死芒/char_450_necras_Attack_Sequence/char_450_necras_Attack_191.png" id="193_nb0eb"]
+[ext_resource type="Texture2D" uid="uid://cviv0fqpexhvp" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_0.png" id="194_4n8w2"]
+[ext_resource type="Texture2D" uid="uid://bsiepjyeeuefm" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_0.png" id="194_7b0su"]
+[ext_resource type="Texture2D" uid="uid://bifxpry6wgnj0" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_1.png" id="195_ig2dy"]
+[ext_resource type="Texture2D" uid="uid://jo3m4daaqw17" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_1.png" id="195_k52uo"]
+[ext_resource type="Texture2D" uid="uid://bk7cim2opclmp" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_2.png" id="196_3lmpe"]
+[ext_resource type="Texture2D" uid="uid://csl5vg2kjbmpk" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_2.png" id="196_7dma2"]
+[ext_resource type="Texture2D" uid="uid://br31l7jput7ic" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_3.png" id="197_caw5f"]
+[ext_resource type="Texture2D" uid="uid://pshbjhpq807n" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_3.png" id="197_oymy1"]
+[ext_resource type="Texture2D" uid="uid://bxmba3c14k4hq" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_4.png" id="198_85ug8"]
+[ext_resource type="Texture2D" uid="uid://b6tepc1n3h2kb" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_4.png" id="198_qkc76"]
+[ext_resource type="Texture2D" uid="uid://1a4b5notprur" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_5.png" id="199_hkh7v"]
+[ext_resource type="Texture2D" uid="uid://cirav7fptf5gt" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_5.png" id="199_ih21j"]
+[ext_resource type="Texture2D" uid="uid://c8y4k0qj2nqv2" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_6.png" id="200_057i4"]
+[ext_resource type="Texture2D" uid="uid://bm5y3qrnnwj18" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_6.png" id="200_skukl"]
+[ext_resource type="Texture2D" uid="uid://dqqii8124i3p3" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_7.png" id="201_1dfg5"]
+[ext_resource type="Texture2D" uid="uid://lagcedcbexig" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_7.png" id="201_48dxy"]
+[ext_resource type="Texture2D" uid="uid://cb55ygmdpr60e" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_8.png" id="202_oa45q"]
+[ext_resource type="Texture2D" uid="uid://c1pbs32pjbugr" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_8.png" id="202_rqhoc"]
+[ext_resource type="Texture2D" uid="uid://byeo4n13kepdb" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_9.png" id="203_b6lr8"]
+[ext_resource type="Texture2D" uid="uid://b6v2vkeieicgw" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_9.png" id="203_ubbr2"]
+[ext_resource type="Texture2D" uid="uid://cwio7imav033a" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_10.png" id="204_82svx"]
+[ext_resource type="Texture2D" uid="uid://caw6x0f4tel82" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_10.png" id="204_muprq"]
+[ext_resource type="Texture2D" uid="uid://x05nn5keytd3" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_11.png" id="205_fys45"]
+[ext_resource type="Texture2D" uid="uid://lb21r6hosjd" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_11.png" id="205_v7lsk"]
+[ext_resource type="Texture2D" uid="uid://chmem205pl0ql" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_12.png" id="206_5ib7n"]
+[ext_resource type="Texture2D" uid="uid://jgsxpq2mcm3u" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_12.png" id="206_njlpq"]
+[ext_resource type="Texture2D" uid="uid://ctoxmaoxhb7m2" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_13.png" id="207_4oorl"]
+[ext_resource type="Texture2D" uid="uid://ci1qpetevxo6q" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_13.png" id="207_n0di0"]
+[ext_resource type="Texture2D" uid="uid://d322hb5dyi73t" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_14.png" id="208_mfbp6"]
+[ext_resource type="Texture2D" uid="uid://doenxbllj5sof" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_14.png" id="208_v3ajf"]
+[ext_resource type="Texture2D" uid="uid://ngqap78yfvcm" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_15.png" id="209_kk6hf"]
+[ext_resource type="Texture2D" uid="uid://dmeofx6b2lojy" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_15.png" id="209_q33aq"]
+[ext_resource type="Texture2D" uid="uid://bwesvmv7vudtp" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_16.png" id="210_ajt21"]
+[ext_resource type="Texture2D" uid="uid://cs6olc2itw6l0" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_16.png" id="210_bqoqs"]
+[ext_resource type="Texture2D" uid="uid://q0doqr1u2c0i" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_17.png" id="211_5rgyh"]
+[ext_resource type="Texture2D" uid="uid://disojmacvqkth" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_17.png" id="211_n5eyc"]
+[ext_resource type="Texture2D" uid="uid://cbjwr7qcr3yqw" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_18.png" id="212_4bqsh"]
+[ext_resource type="Texture2D" uid="uid://c35mw238erial" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_18.png" id="212_l1eg6"]
+[ext_resource type="Texture2D" uid="uid://defiyvyno72md" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_19.png" id="213_5rcxd"]
+[ext_resource type="Texture2D" uid="uid://byyk68p1op4w" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_19.png" id="213_w6xbo"]
+[ext_resource type="Texture2D" uid="uid://b6yb1y4n35gio" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_20.png" id="214_blslc"]
+[ext_resource type="Texture2D" uid="uid://cwrqllqpcbk2v" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_20.png" id="214_v61cu"]
+[ext_resource type="Texture2D" uid="uid://ba2v1kibqhqhp" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_21.png" id="215_cny56"]
+[ext_resource type="Texture2D" uid="uid://c8pycmhhs6w7u" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_21.png" id="215_ewn0y"]
+[ext_resource type="Texture2D" uid="uid://cm314myiijj24" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_22.png" id="216_5g1wa"]
+[ext_resource type="Texture2D" uid="uid://dtje68o4lei2d" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_22.png" id="216_oevq2"]
+[ext_resource type="Texture2D" uid="uid://cmh3oe1t722fk" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_23.png" id="217_l1s4n"]
+[ext_resource type="Texture2D" uid="uid://dd5f47cd8twf6" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_23.png" id="217_p4xnk"]
+[ext_resource type="Texture2D" uid="uid://cy20r84djo4ny" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_24.png" id="218_dmhmp"]
+[ext_resource type="Texture2D" uid="uid://bumuqoina3eon" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_24.png" id="218_jys5a"]
+[ext_resource type="Texture2D" uid="uid://lxlf20yhl2ss" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_25.png" id="219_ko11m"]
+[ext_resource type="Texture2D" uid="uid://cumijeqati1xv" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_25.png" id="219_t4atv"]
+[ext_resource type="Texture2D" uid="uid://k1op6dgdnoqx" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_26.png" id="220_1elgw"]
+[ext_resource type="Texture2D" uid="uid://wlba76eeghx1" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_26.png" id="220_mcgfe"]
+[ext_resource type="Texture2D" uid="uid://ccdj0hdv4p4ld" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_27.png" id="221_8na8q"]
+[ext_resource type="Texture2D" uid="uid://berf0gn5vh5u4" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_27.png" id="221_en7sy"]
+[ext_resource type="Texture2D" uid="uid://h1k72hpxfijk" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_28.png" id="222_5sqg8"]
+[ext_resource type="Texture2D" uid="uid://dj3xi0mc123v6" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_28.png" id="222_gpb0k"]
+[ext_resource type="Texture2D" uid="uid://b7j67r7jjbpxn" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_29.png" id="223_5g1bk"]
+[ext_resource type="Texture2D" uid="uid://6cnwd7ng3521" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_29.png" id="223_7olsx"]
+[ext_resource type="Texture2D" uid="uid://cdrv2hg0l1die" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_30.png" id="224_7kd0x"]
+[ext_resource type="Texture2D" uid="uid://c1nyb1ye2rjs2" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_30.png" id="224_ll5fx"]
+[ext_resource type="Texture2D" uid="uid://bw4bum3l1gog4" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_31.png" id="225_4d6x3"]
+[ext_resource type="Texture2D" uid="uid://do65k8vb0cv1x" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_31.png" id="225_pqovg"]
+[ext_resource type="Texture2D" uid="uid://iekmlha45rqu" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_32.png" id="226_hqipj"]
+[ext_resource type="Texture2D" uid="uid://dl1i4orryup1u" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_32.png" id="226_o63g3"]
+[ext_resource type="Texture2D" uid="uid://dhqou47go8yd7" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_33.png" id="227_ek2yc"]
+[ext_resource type="Texture2D" uid="uid://cpy0kcp1jnvvd" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_33.png" id="227_m88c8"]
+[ext_resource type="Texture2D" uid="uid://dt6dghl1tfsel" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_34.png" id="228_1wsco"]
+[ext_resource type="Texture2D" uid="uid://dmvtvygqdkgp" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_34.png" id="228_fkepd"]
+[ext_resource type="Texture2D" uid="uid://cqd7ehblf3q41" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_35.png" id="229_fpjh4"]
+[ext_resource type="Texture2D" uid="uid://cplkkrgkccho0" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_35.png" id="229_ip425"]
+[ext_resource type="Texture2D" uid="uid://dc2osytmnr2xa" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_36.png" id="230_jn42h"]
+[ext_resource type="Texture2D" uid="uid://x52xj5bmr5vq" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_36.png" id="230_wtdlk"]
+[ext_resource type="Texture2D" uid="uid://d2ok0731oo1lu" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_37.png" id="231_l5eoe"]
+[ext_resource type="Texture2D" uid="uid://cx78wib1mbdl" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_37.png" id="231_tafes"]
+[ext_resource type="Texture2D" uid="uid://fjx73mleqhfk" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_38.png" id="232_prgca"]
+[ext_resource type="Texture2D" uid="uid://oap4lfs5nkqc" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_38.png" id="232_r14b4"]
+[ext_resource type="Texture2D" uid="uid://ctpio0y7edbg6" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_39.png" id="233_68537"]
+[ext_resource type="Texture2D" uid="uid://dbk8gsygfeqcb" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_39.png" id="233_flf1f"]
+[ext_resource type="Texture2D" uid="uid://ca4akvqr20p5v" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_40.png" id="234_2er4k"]
+[ext_resource type="Texture2D" uid="uid://dj76mve6hrk51" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_40.png" id="234_o8vol"]
+[ext_resource type="Texture2D" uid="uid://bj80kucrpxf02" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_41.png" id="235_er7ai"]
+[ext_resource type="Texture2D" uid="uid://ddiyeh8g7g0el" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_41.png" id="235_vsrr3"]
+[ext_resource type="Texture2D" uid="uid://bpyeykfh03234" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_42.png" id="236_ilndk"]
+[ext_resource type="Texture2D" uid="uid://cokj7on86qdof" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_42.png" id="236_p0mrf"]
+[ext_resource type="Texture2D" uid="uid://626u6jghdhh5" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_43.png" id="237_hn302"]
+[ext_resource type="Texture2D" uid="uid://dveht2u7l1858" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_43.png" id="237_x8tmq"]
+[ext_resource type="Texture2D" uid="uid://cnidv2wdde743" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_44.png" id="238_4g7m2"]
+[ext_resource type="Texture2D" uid="uid://3wvqqs41r0nj" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_44.png" id="238_fmaim"]
+[ext_resource type="Texture2D" uid="uid://cr2plpavkik7n" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_45.png" id="239_d46bx"]
+[ext_resource type="Texture2D" uid="uid://5p3snitymw4p" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_45.png" id="239_o3xek"]
+[ext_resource type="Texture2D" uid="uid://c6k3do7abrqsf" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_46.png" id="240_sw15x"]
+[ext_resource type="Texture2D" uid="uid://b4acjcgkp8vup" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_46.png" id="240_y6s27"]
+[ext_resource type="Texture2D" uid="uid://dvj7cbktd4q5q" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_47.png" id="241_3gfv1"]
+[ext_resource type="Texture2D" uid="uid://biqr05axy7d0x" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_47.png" id="241_u3ovc"]
+[ext_resource type="Texture2D" uid="uid://c2thvxugveogg" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_48.png" id="242_gxrkp"]
+[ext_resource type="Texture2D" uid="uid://dl8ui6mmsqedy" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_48.png" id="242_pbfjq"]
+[ext_resource type="Texture2D" uid="uid://u3xyheypyuaq" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_49.png" id="243_6xbqt"]
+[ext_resource type="Texture2D" uid="uid://6cra067jtivs" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_49.png" id="243_o2nfd"]
+[ext_resource type="Texture2D" uid="uid://b6b7riwc28oc4" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_50.png" id="244_7miql"]
+[ext_resource type="Texture2D" uid="uid://ng4lma4fpw4e" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_50.png" id="244_ixq5q"]
+[ext_resource type="Texture2D" uid="uid://dhpv33oiaveop" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_51.png" id="245_ibai6"]
+[ext_resource type="Texture2D" uid="uid://dtfmx5uk5j24j" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_51.png" id="245_ltioi"]
+[ext_resource type="Texture2D" uid="uid://d0bs05lg1lwix" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_52.png" id="246_11dtg"]
+[ext_resource type="Texture2D" uid="uid://dcmsgmiuqes6m" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_52.png" id="246_15s2e"]
+[ext_resource type="Texture2D" uid="uid://bsylk43jdctx2" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_53.png" id="247_1liqu"]
+[ext_resource type="Texture2D" uid="uid://tkgxqjcvxmry" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_53.png" id="247_b2yn4"]
+[ext_resource type="Texture2D" uid="uid://bwxxy1uuamna6" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_54.png" id="248_l6qi7"]
+[ext_resource type="Texture2D" uid="uid://hqcs8g0fyglq" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_54.png" id="248_v85nj"]
+[ext_resource type="Texture2D" uid="uid://bstrqvtg4qnm1" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_55.png" id="249_qqudb"]
+[ext_resource type="Texture2D" uid="uid://c73wxdikm82mg" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_55.png" id="249_wpfho"]
+[ext_resource type="Texture2D" uid="uid://d1gg3p8d57dqm" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_56.png" id="250_kxvco"]
+[ext_resource type="Texture2D" uid="uid://jrwmd33lp3r6" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_56.png" id="250_r8jne"]
+[ext_resource type="Texture2D" uid="uid://d3k3de3f0d7rw" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_57.png" id="251_t8cx8"]
+[ext_resource type="Texture2D" uid="uid://b2klobpl2vwe0" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_57.png" id="251_yy64a"]
+[ext_resource type="Texture2D" uid="uid://brdtmoa1hxlwt" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_58.png" id="252_bdjd8"]
+[ext_resource type="Texture2D" uid="uid://o1yul673tjib" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_58.png" id="252_idxyl"]
+[ext_resource type="Texture2D" uid="uid://cl7l0opkf4u5u" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_59.png" id="253_5k8cw"]
+[ext_resource type="Texture2D" uid="uid://dthsif0oo5qlw" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_59.png" id="253_blaq0"]
+[ext_resource type="Texture2D" uid="uid://dyfyy30b8n30s" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_60.png" id="254_4sq83"]
+[ext_resource type="Texture2D" uid="uid://exkbvmmyywpe" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_60.png" id="254_stf25"]
+[ext_resource type="Texture2D" uid="uid://chtaa21p4k1em" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_61.png" id="255_0iud5"]
+[ext_resource type="Texture2D" uid="uid://cbfdamnrjkcew" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_61.png" id="255_3glq7"]
+[ext_resource type="Texture2D" uid="uid://5dqo0mckvu7l" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_62.png" id="256_3h4d1"]
+[ext_resource type="Texture2D" uid="uid://boyluhjfrbbh1" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_62.png" id="256_p5f07"]
+[ext_resource type="Texture2D" uid="uid://dh4e2davkk4j3" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_63.png" id="257_kj55m"]
+[ext_resource type="Texture2D" uid="uid://yjh58437ps5q" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_63.png" id="257_tvmuf"]
+[ext_resource type="Texture2D" uid="uid://coxqlggp86u6y" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_64.png" id="258_3y306"]
+[ext_resource type="Texture2D" uid="uid://d0tugovehqvfa" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_64.png" id="258_y4jjo"]
+[ext_resource type="Texture2D" uid="uid://droftem3c6tlu" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_65.png" id="259_3tpi2"]
+[ext_resource type="Texture2D" uid="uid://x8fe0o0oxugn" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_65.png" id="259_fycbj"]
+[ext_resource type="Texture2D" uid="uid://cmtstt0hmln31" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_66.png" id="260_02wxs"]
+[ext_resource type="Texture2D" uid="uid://tc706ddlohup" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_66.png" id="260_4d8kx"]
+[ext_resource type="Texture2D" uid="uid://drhxcjck54fn6" path="res://assets/character/死芒/char_450_necras_Skill_3_Loop_Sequence/char_450_necras_Skill_3_Loop_67.png" id="261_akspg"]
+[ext_resource type="Texture2D" uid="uid://e1x8xleda4st" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_67.png" id="261_f2e55"]
+[ext_resource type="Texture2D" uid="uid://dfd5dy1f2qxol" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_68.png" id="262_yd20u"]
+[ext_resource type="Texture2D" uid="uid://cl2wusduar56j" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_69.png" id="263_uaw1i"]
+[ext_resource type="Texture2D" uid="uid://bkdx7tpuvo41p" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_70.png" id="264_ylfxy"]
+[ext_resource type="Texture2D" uid="uid://d0sav21aue8uj" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_71.png" id="265_gbp45"]
+[ext_resource type="Texture2D" uid="uid://du3441o5gwdol" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_72.png" id="266_c6k5h"]
+[ext_resource type="Texture2D" uid="uid://cwhldw1gn31py" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_73.png" id="267_y2gf0"]
+[ext_resource type="Texture2D" uid="uid://bu2rp0ptw4x6u" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_74.png" id="268_fr322"]
+[ext_resource type="Texture2D" uid="uid://b1h54ucqogjo8" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_75.png" id="269_y4igb"]
+[ext_resource type="Texture2D" uid="uid://d1t33wnb2g010" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_76.png" id="270_t7rv2"]
+[ext_resource type="Texture2D" uid="uid://bomct8g3o2r2n" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_77.png" id="271_v3m67"]
+[ext_resource type="Texture2D" uid="uid://8nck3u1jl71n" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_78.png" id="272_tcyi3"]
+[ext_resource type="Texture2D" uid="uid://8o2v2qud5v08" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_79.png" id="273_oe30i"]
+[ext_resource type="Texture2D" uid="uid://btwuve0wxd0kk" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_80.png" id="274_0miph"]
+[ext_resource type="Texture2D" uid="uid://dhy32ti3gkj1s" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_81.png" id="275_4jrk4"]
+[ext_resource type="Texture2D" uid="uid://dcy0il2dni1lf" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_82.png" id="276_y51qf"]
+[ext_resource type="Texture2D" uid="uid://87254sf6pcoq" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_83.png" id="277_pvix8"]
+[ext_resource type="Texture2D" uid="uid://cadrn1lbhgecq" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_84.png" id="278_jeayo"]
+[ext_resource type="Texture2D" uid="uid://d2labsmbcwoxm" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_85.png" id="279_1781h"]
+[ext_resource type="Texture2D" uid="uid://ctoudb86wo5ca" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_86.png" id="280_p6yrh"]
+[ext_resource type="Texture2D" uid="uid://cahb6qujwfjip" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_87.png" id="281_itjyq"]
+[ext_resource type="Texture2D" uid="uid://ovpisa7jaq42" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_88.png" id="282_iqkc7"]
+[ext_resource type="Texture2D" uid="uid://dkuhunqs0fi5y" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_89.png" id="283_gn230"]
+[ext_resource type="Texture2D" uid="uid://d0w2oisgc0qby" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_90.png" id="284_lj5jq"]
+[ext_resource type="Texture2D" uid="uid://cqoew38euir6h" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_91.png" id="285_45psx"]
+[ext_resource type="Texture2D" uid="uid://b3cnm43nkmmkd" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_92.png" id="286_u6yxx"]
+[ext_resource type="Texture2D" uid="uid://byvxetbqawr3p" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_93.png" id="287_s0x3k"]
+[ext_resource type="Texture2D" uid="uid://cgb33vmxe4q6e" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_94.png" id="288_1xlxl"]
+[ext_resource type="Texture2D" uid="uid://cm5hrhdd8d4p6" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_95.png" id="289_rdyf5"]
+[ext_resource type="Texture2D" uid="uid://dce2iyxv7yep" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_96.png" id="290_6ip06"]
+[ext_resource type="Texture2D" uid="uid://cajmsheryj3hl" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_97.png" id="291_dd5c7"]
+[ext_resource type="Texture2D" uid="uid://yf2sn4ujdlx5" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_98.png" id="292_0cpty"]
+[ext_resource type="Texture2D" uid="uid://bp75spxphf0y5" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_99.png" id="293_6xadu"]
+[ext_resource type="Texture2D" uid="uid://dpu0frtme03d8" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_100.png" id="294_8oaaj"]
+[ext_resource type="Texture2D" uid="uid://cimw8qtecdk8u" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_101.png" id="295_fq2sj"]
+[ext_resource type="Texture2D" uid="uid://3lvfln55yon8" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_102.png" id="296_p7j4v"]
+[ext_resource type="Texture2D" uid="uid://dwe3wyas0j1gw" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_103.png" id="297_nvqsc"]
+[ext_resource type="Texture2D" uid="uid://cnke7dvk2q2kl" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_104.png" id="298_37cv4"]
+[ext_resource type="Texture2D" uid="uid://b74lps6bdbhuu" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_105.png" id="299_4gi72"]
+[ext_resource type="Texture2D" uid="uid://xmlnw2ahkrms" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_106.png" id="300_hc5oe"]
+[ext_resource type="Texture2D" uid="uid://1anda8v0dt6u" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_107.png" id="301_iut8u"]
+[ext_resource type="Texture2D" uid="uid://dnacn8xnwya6a" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_108.png" id="302_mxhcf"]
+[ext_resource type="Texture2D" uid="uid://vke7jrneu3vn" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_109.png" id="303_tcsl5"]
+[ext_resource type="Texture2D" uid="uid://ocfa0gfttbui" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_110.png" id="304_rxpc2"]
+[ext_resource type="Texture2D" uid="uid://ce15qm88quyn8" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_111.png" id="305_8ig0u"]
+[ext_resource type="Texture2D" uid="uid://bn82fem0alcs8" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_112.png" id="306_mqokq"]
+[ext_resource type="Texture2D" uid="uid://gxnnye47y5t1" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_113.png" id="307_isytt"]
+[ext_resource type="Texture2D" uid="uid://dw06oqy5i2u7x" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_114.png" id="308_qocla"]
+[ext_resource type="Texture2D" uid="uid://cpjfj6ugtlg7s" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_115.png" id="309_xi456"]
+[ext_resource type="Texture2D" uid="uid://cn6pkv7771yqf" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_116.png" id="310_t6wfo"]
+[ext_resource type="Texture2D" uid="uid://5benfr8ycac6" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_117.png" id="311_ydxpi"]
+[ext_resource type="Texture2D" uid="uid://bevfshoofowje" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_118.png" id="312_d8hv7"]
+[ext_resource type="Texture2D" uid="uid://dhtwmuilmmee8" path="res://assets/character/死芒/char_450_necras_Die_Sequence/char_450_necras_Die_119.png" id="313_vcmb0"]
+[ext_resource type="Texture2D" uid="uid://b33kr7oi6wadx" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_0.png" id="314_i37x0"]
+[ext_resource type="Texture2D" uid="uid://b5rs6c8s4lprl" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_1.png" id="315_8twa0"]
+[ext_resource type="Texture2D" uid="uid://db40vro127gtl" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_2.png" id="316_t8p4w"]
+[ext_resource type="Texture2D" uid="uid://cu0gxihc2p8dj" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_3.png" id="317_2cuf0"]
+[ext_resource type="Texture2D" uid="uid://dsxyueehmenyy" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_4.png" id="318_sp5bd"]
+[ext_resource type="Texture2D" uid="uid://bakbe8rqv6ti6" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_5.png" id="319_t8cjn"]
+[ext_resource type="Texture2D" uid="uid://dgh50iujh3b7i" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_6.png" id="320_i3tc4"]
+[ext_resource type="Texture2D" uid="uid://fq4o501wor2j" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_7.png" id="321_oqxl4"]
+[ext_resource type="Texture2D" uid="uid://dkjd5pcu87r84" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_8.png" id="322_54rak"]
+[ext_resource type="Texture2D" uid="uid://c785ht5kq0xl7" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_9.png" id="323_uaukb"]
+[ext_resource type="Texture2D" uid="uid://egmu3sal45d7" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_10.png" id="324_a0jb1"]
+[ext_resource type="Texture2D" uid="uid://b5kabhvmyr6es" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_11.png" id="325_lytmv"]
+[ext_resource type="Texture2D" uid="uid://b4bc7gn77e5ks" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_12.png" id="326_g52di"]
+[ext_resource type="Texture2D" uid="uid://b4e3fbeq0op7c" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_13.png" id="327_0ubua"]
+[ext_resource type="Texture2D" uid="uid://dw6v0a6p3qkhw" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_14.png" id="328_4bixv"]
+[ext_resource type="Texture2D" uid="uid://rjl1p5u3epym" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_15.png" id="329_i488i"]
+[ext_resource type="Texture2D" uid="uid://cxstc1lie7bu1" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_16.png" id="330_wb5la"]
+[ext_resource type="Texture2D" uid="uid://cvkp72uosjeq" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_17.png" id="331_cm7ix"]
+[ext_resource type="Texture2D" uid="uid://cv1w06fls2ri0" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_18.png" id="332_qsif5"]
+[ext_resource type="Texture2D" uid="uid://bsybsy52v0wc8" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_19.png" id="333_k54v6"]
+[ext_resource type="Texture2D" uid="uid://cloiem2r8jr2s" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_20.png" id="334_k52th"]
+[ext_resource type="Texture2D" uid="uid://djfhvuwjgm27s" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_21.png" id="335_vfypc"]
+[ext_resource type="Texture2D" uid="uid://d1db1nuyqcdgr" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_22.png" id="336_tims5"]
+[ext_resource type="Texture2D" uid="uid://ba6tb4sibevs2" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_23.png" id="337_t1j7a"]
+[ext_resource type="Texture2D" uid="uid://dem20280un87y" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_24.png" id="338_htut8"]
+[ext_resource type="Texture2D" uid="uid://cmlbppnt3qout" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_25.png" id="339_kp16d"]
+[ext_resource type="Texture2D" uid="uid://h8o28sfsk8bv" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_26.png" id="340_lfcsl"]
+[ext_resource type="Texture2D" uid="uid://dd5gwj6d4gkrv" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_27.png" id="341_q56kq"]
+[ext_resource type="Texture2D" uid="uid://ch17pkxl5amwh" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_28.png" id="342_l86h0"]
+[ext_resource type="Texture2D" uid="uid://bdhm87sbydw84" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_29.png" id="343_k63r2"]
+[ext_resource type="Texture2D" uid="uid://cb67jxmkgn5nl" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_30.png" id="344_uk053"]
+[ext_resource type="Texture2D" uid="uid://bbij7rq4qhl4n" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_31.png" id="345_byxst"]
+[ext_resource type="Texture2D" uid="uid://b7wu6nnixpxjt" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_32.png" id="346_x3sxh"]
+[ext_resource type="Texture2D" uid="uid://eyus55oxba88" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_33.png" id="347_v2qq8"]
+[ext_resource type="Texture2D" uid="uid://26prv3jrh50x" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_34.png" id="348_2lqu5"]
+[ext_resource type="Texture2D" uid="uid://65vtmksbu336" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_35.png" id="349_m2mhw"]
+[ext_resource type="Texture2D" uid="uid://dy2ia8f2q3jum" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_36.png" id="350_27lr0"]
+[ext_resource type="Texture2D" uid="uid://bfvujbbexn7ny" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_37.png" id="351_skncl"]
+[ext_resource type="Texture2D" uid="uid://b0udu2iodk7k5" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_38.png" id="352_jv1lp"]
+[ext_resource type="Texture2D" uid="uid://dehvqfoe4wygi" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_39.png" id="353_f62dx"]
+[ext_resource type="Texture2D" uid="uid://bafhd2ro76yxm" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_40.png" id="354_8pxdc"]
+[ext_resource type="Texture2D" uid="uid://dky8q244ovah1" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_41.png" id="355_a6c68"]
+[ext_resource type="Texture2D" uid="uid://nq1y6leo56op" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_42.png" id="356_w3hw4"]
+[ext_resource type="Texture2D" uid="uid://0kickplnrykw" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_43.png" id="357_qhne1"]
+[ext_resource type="Texture2D" uid="uid://c8qhmklqxckvu" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_44.png" id="358_eavl7"]
+[ext_resource type="Texture2D" uid="uid://smjsy42byl6x" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_45.png" id="359_3vd1y"]
+[ext_resource type="Texture2D" uid="uid://ixj6axallu2o" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_46.png" id="360_78nlf"]
+[ext_resource type="Texture2D" uid="uid://bd5q15otnysvx" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_47.png" id="361_5kegp"]
+[ext_resource type="Texture2D" uid="uid://brg4hyiwepmav" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_48.png" id="362_vs2ne"]
+[ext_resource type="Texture2D" uid="uid://ctf3hsscdldh5" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_49.png" id="363_oibby"]
+[ext_resource type="Texture2D" uid="uid://bltg3vbdmi010" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_50.png" id="364_qom7q"]
+[ext_resource type="Texture2D" uid="uid://u38fx68ki4fv" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_51.png" id="365_smr4j"]
+[ext_resource type="Texture2D" uid="uid://oehivcqqn4dg" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_52.png" id="366_27bto"]
+[ext_resource type="Texture2D" uid="uid://descr6hyjmhmy" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_53.png" id="367_nftb8"]
+[ext_resource type="Texture2D" uid="uid://bffue37qsy68y" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_54.png" id="368_krubc"]
+[ext_resource type="Texture2D" uid="uid://bupufulrbbsab" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_55.png" id="369_6y3ou"]
+[ext_resource type="Texture2D" uid="uid://idd3lvo8y28u" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_56.png" id="370_iccrx"]
+[ext_resource type="Texture2D" uid="uid://b7cnrhos2jal7" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_57.png" id="371_aetsv"]
+[ext_resource type="Texture2D" uid="uid://dfiwinqulexg7" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_58.png" id="372_e3w3s"]
+[ext_resource type="Texture2D" uid="uid://bclyd0f5fh8jr" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_59.png" id="373_lf86y"]
+[ext_resource type="Texture2D" uid="uid://r3guhwo0eirg" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_60.png" id="374_fq8gl"]
+[ext_resource type="Texture2D" uid="uid://cx4ixffeqghxy" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_61.png" id="375_a5f1l"]
+[ext_resource type="Texture2D" uid="uid://b8kscrpsbm6il" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_62.png" id="376_umiwk"]
+[ext_resource type="Texture2D" uid="uid://bg78en1du4s18" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_63.png" id="377_im83v"]
+[ext_resource type="Texture2D" uid="uid://cpgx0ujogsfe3" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_64.png" id="378_tn0uh"]
+[ext_resource type="Texture2D" uid="uid://brddds16ytt0g" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_65.png" id="379_k0cyg"]
+[ext_resource type="Texture2D" uid="uid://42laap8of3ht" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_66.png" id="380_o1e4j"]
+[ext_resource type="Texture2D" uid="uid://cnig1ql4nhewj" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_67.png" id="381_c1h0a"]
+[ext_resource type="Texture2D" uid="uid://de1ar78uhxnuw" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_68.png" id="382_n72v0"]
+[ext_resource type="Texture2D" uid="uid://c2c2nh84pnxou" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_69.png" id="383_8xdjd"]
+[ext_resource type="Texture2D" uid="uid://b1yhg6hgg61ub" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_70.png" id="384_5hsmm"]
+[ext_resource type="Texture2D" uid="uid://cop0rjgtejb6h" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_71.png" id="385_w5nwd"]
+[ext_resource type="Texture2D" uid="uid://vyyspsvu4syb" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_72.png" id="386_x4rh5"]
+[ext_resource type="Texture2D" uid="uid://56hk0ethbstd" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_73.png" id="387_ec5my"]
+[ext_resource type="Texture2D" uid="uid://d2dsa7m3dwhue" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_74.png" id="388_f0eqb"]
+[ext_resource type="Texture2D" uid="uid://ogx1hsl3hcr1" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_75.png" id="389_kslk6"]
+[ext_resource type="Texture2D" uid="uid://cim6i0xafud5p" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_76.png" id="390_x2dnt"]
+[ext_resource type="Texture2D" uid="uid://bl28qiqf2bi1t" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_77.png" id="391_gstxa"]
+[ext_resource type="Texture2D" uid="uid://bs2udegxp1c0k" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_78.png" id="392_opcnq"]
+[ext_resource type="Texture2D" uid="uid://dgdu21p58oj7" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_79.png" id="393_chxdg"]
+[ext_resource type="Texture2D" uid="uid://crmmik6ltd3r7" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_80.png" id="394_82ght"]
+[ext_resource type="Texture2D" uid="uid://be6b3skhf8b61" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_81.png" id="395_m2je4"]
+[ext_resource type="Texture2D" uid="uid://c4ebtwh5yhtui" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_82.png" id="396_j37nt"]
+[ext_resource type="Texture2D" uid="uid://bylttsanoc3hw" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_83.png" id="397_06rlo"]
+[ext_resource type="Texture2D" uid="uid://kmm53cyjphim" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_84.png" id="398_urufx"]
+[ext_resource type="Texture2D" uid="uid://dc3r7aecmgjvl" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_85.png" id="399_c2c1a"]
+[ext_resource type="Texture2D" uid="uid://dum8botcqjyiv" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_86.png" id="400_w1174"]
+[ext_resource type="Texture2D" uid="uid://2cmpclo4xln" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_87.png" id="401_rmaem"]
+[ext_resource type="Texture2D" uid="uid://cm08fmixyg1es" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_88.png" id="402_ep7sc"]
+[ext_resource type="Texture2D" uid="uid://duewuwpqofgxy" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_89.png" id="403_x3rsy"]
+[ext_resource type="Texture2D" uid="uid://dmqb7vt71ik4u" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_90.png" id="404_q2n13"]
+[ext_resource type="Texture2D" uid="uid://beldpr5jm5rml" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_91.png" id="405_1vppa"]
+[ext_resource type="Texture2D" uid="uid://nsh5d8gkws2d" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_92.png" id="406_falgn"]
+[ext_resource type="Texture2D" uid="uid://dolybby3yfq0t" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_93.png" id="407_ye5ms"]
+[ext_resource type="Texture2D" uid="uid://c4qloybth7pom" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_94.png" id="408_jcbtu"]
+[ext_resource type="Texture2D" uid="uid://b6yriy0dowtow" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_95.png" id="409_ykoob"]
+[ext_resource type="Texture2D" uid="uid://dse2tb77r0iuk" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_96.png" id="410_jehkm"]
+[ext_resource type="Texture2D" uid="uid://dg3y77mnlvwew" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_97.png" id="411_rojyk"]
+[ext_resource type="Texture2D" uid="uid://tlfb7687cd1l" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_98.png" id="412_flbb8"]
+[ext_resource type="Texture2D" uid="uid://dhpwy5ere06yr" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_99.png" id="413_d7xl8"]
+[ext_resource type="Texture2D" uid="uid://dbrh3ei1kj27" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_100.png" id="414_1h3ab"]
+[ext_resource type="Texture2D" uid="uid://d1o836qb6ht6i" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_101.png" id="415_r541w"]
+[ext_resource type="Texture2D" uid="uid://chofs777q5fqf" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_102.png" id="416_xd4gg"]
+[ext_resource type="Texture2D" uid="uid://bpbsw3ir3g1ur" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_103.png" id="417_aipi5"]
+[ext_resource type="Texture2D" uid="uid://dwrvt0f2gibsg" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_104.png" id="418_gwam1"]
+[ext_resource type="Texture2D" uid="uid://ddbbjhtwhyo1p" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_105.png" id="419_3tfny"]
+[ext_resource type="Texture2D" uid="uid://yxbxcx620l6c" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_106.png" id="420_ivtr4"]
+[ext_resource type="Texture2D" uid="uid://c6457rew8b1p2" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_107.png" id="421_xacwm"]
+[ext_resource type="Texture2D" uid="uid://d0dydtobw2kat" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_108.png" id="422_ckqea"]
+[ext_resource type="Texture2D" uid="uid://bn1qowuy4eqgt" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_109.png" id="423_2jfbv"]
+[ext_resource type="Texture2D" uid="uid://b2cpxwlt3u40q" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_110.png" id="424_g3pm5"]
+[ext_resource type="Texture2D" uid="uid://dx670cac2uf58" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_111.png" id="425_n4ct2"]
+[ext_resource type="Texture2D" uid="uid://d2daprf48v1jb" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_112.png" id="426_ns64b"]
+[ext_resource type="Texture2D" uid="uid://bonrott1v70er" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_113.png" id="427_w2i2o"]
+[ext_resource type="Texture2D" uid="uid://bij2qkojt78nj" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_114.png" id="428_sc1jy"]
+[ext_resource type="Texture2D" uid="uid://b4ktfidfdgry1" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_115.png" id="429_wa5yu"]
+[ext_resource type="Texture2D" uid="uid://dxswb7fcu6vix" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_116.png" id="430_aoo37"]
+[ext_resource type="Texture2D" uid="uid://bat7b4ie682uf" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_117.png" id="431_43u1d"]
+[ext_resource type="Texture2D" uid="uid://dn7darbfpsm38" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_118.png" id="432_3yyyi"]
+[ext_resource type="Texture2D" uid="uid://d3uq4oyjon43v" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_119.png" id="433_b7sq1"]
+[ext_resource type="Texture2D" uid="uid://l7olk7qskss3" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_120.png" id="434_mcek6"]
+[ext_resource type="Texture2D" uid="uid://cxykef1x5nwvr" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_121.png" id="435_j5mlw"]
+[ext_resource type="Texture2D" uid="uid://c18s8tl7f12rd" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_122.png" id="436_e4ac8"]
+[ext_resource type="Texture2D" uid="uid://b1gm6y1uxowit" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_123.png" id="437_o1qeq"]
+[ext_resource type="Texture2D" uid="uid://crj7ckc0nt5gt" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_124.png" id="438_l5864"]
+[ext_resource type="Texture2D" uid="uid://cy62cmly12dqq" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_125.png" id="439_wjkxw"]
+[ext_resource type="Texture2D" uid="uid://d2h73wblfpx62" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_126.png" id="440_yfksf"]
+[ext_resource type="Texture2D" uid="uid://drfyb28f00sl0" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_127.png" id="441_dgd7l"]
+[ext_resource type="Texture2D" uid="uid://clt11605rom7p" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_128.png" id="442_d35ym"]
+[ext_resource type="Texture2D" uid="uid://bm6sf7r8rbrqx" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_129.png" id="443_ejwtk"]
+[ext_resource type="Texture2D" uid="uid://c267exqgjv1hw" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_130.png" id="444_vl46c"]
+[ext_resource type="Texture2D" uid="uid://5rmnrtp3tqon" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_131.png" id="445_n8kdm"]
+[ext_resource type="Texture2D" uid="uid://c5tp0tm1fv4m4" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_132.png" id="446_8bjnk"]
+[ext_resource type="Texture2D" uid="uid://bn7jfsd6qljkf" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_133.png" id="447_d665t"]
+[ext_resource type="Texture2D" uid="uid://rb3tkn4nxgwr" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_134.png" id="448_bn34e"]
+[ext_resource type="Texture2D" uid="uid://qlmvijw33uhc" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_135.png" id="449_tgj0q"]
+[ext_resource type="Texture2D" uid="uid://s8oelpr7474j" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_136.png" id="450_dj006"]
+[ext_resource type="Texture2D" uid="uid://b6v3yihec6ut4" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_137.png" id="451_os6bw"]
+[ext_resource type="Texture2D" uid="uid://csbu1ewlmcuj" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_138.png" id="452_6vie0"]
+[ext_resource type="Texture2D" uid="uid://v4gwckiexx3a" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_139.png" id="453_vnns2"]
+[ext_resource type="Texture2D" uid="uid://cv5iqpa4coybj" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_140.png" id="454_rhvjd"]
+[ext_resource type="Texture2D" uid="uid://bc43f5vx4ajwy" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_141.png" id="455_jg5ai"]
+[ext_resource type="Texture2D" uid="uid://co6a46phybt0f" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_142.png" id="456_ifbsg"]
+[ext_resource type="Texture2D" uid="uid://bkh0tpb2mpstg" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_143.png" id="457_5laon"]
+[ext_resource type="Texture2D" uid="uid://dd0t4kuqsb027" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_144.png" id="458_mr12u"]
+[ext_resource type="Texture2D" uid="uid://h0p4lmqkx4vb" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_145.png" id="459_b18tt"]
+[ext_resource type="Texture2D" uid="uid://bqlg32oeukoeq" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_146.png" id="460_1lq22"]
+[ext_resource type="Texture2D" uid="uid://drgepp4hjkner" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_147.png" id="461_ueq3r"]
+[ext_resource type="Texture2D" uid="uid://cayvs2it8ly2h" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_148.png" id="462_yvmt0"]
+[ext_resource type="Texture2D" uid="uid://5kpvye2xilgx" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_149.png" id="463_hibu8"]
+[ext_resource type="Texture2D" uid="uid://vkjyvygqaqgg" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_150.png" id="464_xhxyw"]
+[ext_resource type="Texture2D" uid="uid://guuq41qf504f" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_151.png" id="465_wowx2"]
+[ext_resource type="Texture2D" uid="uid://dkatuggk1hh6k" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_152.png" id="466_375xk"]
+[ext_resource type="Texture2D" uid="uid://cjy6v3w5y2qqe" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_153.png" id="467_3d4oq"]
+[ext_resource type="Texture2D" uid="uid://fdwj0avl3y3o" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_154.png" id="468_rh7rb"]
+[ext_resource type="Texture2D" uid="uid://b5hehmu3heo32" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_155.png" id="469_5fm32"]
+[ext_resource type="Texture2D" uid="uid://dk26hcdkusy35" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_156.png" id="470_ewart"]
+[ext_resource type="Texture2D" uid="uid://p2gx5ait2bvq" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_157.png" id="471_fln53"]
+[ext_resource type="Texture2D" uid="uid://c7arueftbhvmi" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_158.png" id="472_0wiac"]
+[ext_resource type="Texture2D" uid="uid://dwuu7ne2a2yq5" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_159.png" id="473_ipuf7"]
+[ext_resource type="Texture2D" uid="uid://bspermy6txcpq" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_160.png" id="474_tc3po"]
+[ext_resource type="Texture2D" uid="uid://bu823u2x3q122" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_161.png" id="475_vp2xa"]
+[ext_resource type="Texture2D" uid="uid://bfism5nwle12t" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_162.png" id="476_yfe0s"]
+[ext_resource type="Texture2D" uid="uid://b7fxheqs3h1uc" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_163.png" id="477_5mfmm"]
+[ext_resource type="Texture2D" uid="uid://cvrvlaup6lhg7" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_164.png" id="478_0a7rh"]
+[ext_resource type="Texture2D" uid="uid://6q6rx2cv3eeb" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_165.png" id="479_nxdr1"]
+[ext_resource type="Texture2D" uid="uid://c581uyik51ooj" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_166.png" id="480_qr16h"]
+[ext_resource type="Texture2D" uid="uid://b4sxwv2kt8csa" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_167.png" id="481_j8rxh"]
+[ext_resource type="Texture2D" uid="uid://bgfcjc8m5b44i" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_168.png" id="482_j3ly7"]
+[ext_resource type="Texture2D" uid="uid://dptj5dwfo5sjl" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_169.png" id="483_k85v1"]
+[ext_resource type="Texture2D" uid="uid://dfrjhaxcsalap" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_170.png" id="484_yrco8"]
+[ext_resource type="Texture2D" uid="uid://mf1cn2nb68q8" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_171.png" id="485_d18v1"]
+[ext_resource type="Texture2D" uid="uid://dsvml85abhouy" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_172.png" id="486_6mfst"]
+[ext_resource type="Texture2D" uid="uid://c6l20v02010a8" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_173.png" id="487_k5b6v"]
+[ext_resource type="Texture2D" uid="uid://d01rykxctnnn" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_174.png" id="488_v6x03"]
+[ext_resource type="Texture2D" uid="uid://dq8t5fy5aw8ar" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_175.png" id="489_od7d8"]
+[ext_resource type="Texture2D" uid="uid://dggfwucrvyhij" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_176.png" id="490_ouo72"]
+[ext_resource type="Texture2D" uid="uid://bo5qvj27a0d6" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_177.png" id="491_6qedc"]
+[ext_resource type="Texture2D" uid="uid://db6xicuugb0wq" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_178.png" id="492_v7pgx"]
+[ext_resource type="Texture2D" uid="uid://bqhf2xjpbi3qg" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_179.png" id="493_17d3m"]
+[ext_resource type="Texture2D" uid="uid://dmjsnied3wxva" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_180.png" id="494_0kfgq"]
+[ext_resource type="Texture2D" uid="uid://dhsmxb2ob5dbs" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_181.png" id="495_pknea"]
+[ext_resource type="Texture2D" uid="uid://r8pwdmj0byyi" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_182.png" id="496_yv132"]
+[ext_resource type="Texture2D" uid="uid://c74ewimyp1asn" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_183.png" id="497_n0vfe"]
+[ext_resource type="Texture2D" uid="uid://b62kes8yn8a31" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_184.png" id="498_v3ses"]
+[ext_resource type="Texture2D" uid="uid://b62sq18pa61li" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_185.png" id="499_4u75x"]
+[ext_resource type="Texture2D" uid="uid://cnkmlt04kuemm" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_186.png" id="500_y3yop"]
+[ext_resource type="Texture2D" uid="uid://42k2y4308fj" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_187.png" id="501_q3f13"]
+[ext_resource type="Texture2D" uid="uid://fvl820pxqcfv" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_188.png" id="502_ip0fr"]
+[ext_resource type="Texture2D" uid="uid://jtlaiar1lbn7" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_189.png" id="503_oitb3"]
+[ext_resource type="Texture2D" uid="uid://bk4t84ssf0oey" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_190.png" id="504_0kbqh"]
+[ext_resource type="Texture2D" uid="uid://qq54iiyf72mo" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_191.png" id="505_0r2g4"]
+[ext_resource type="Texture2D" uid="uid://ddq5h8xk3yy06" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_192.png" id="506_swyvo"]
+[ext_resource type="Texture2D" uid="uid://cx280i8mgydbl" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_193.png" id="507_qsxjg"]
+[ext_resource type="Texture2D" uid="uid://bg2ic221ytecj" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_194.png" id="508_fcnvi"]
+[ext_resource type="Texture2D" uid="uid://bfmoy1ymn7get" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_195.png" id="509_4dn0v"]
+[ext_resource type="Texture2D" uid="uid://b2a8dc10ftl6i" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_196.png" id="510_lc8n6"]
+[ext_resource type="Texture2D" uid="uid://b3ee2cqxu08fn" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_197.png" id="511_rlygq"]
+[ext_resource type="Texture2D" uid="uid://buwkutewfmeaj" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_198.png" id="512_spxqn"]
+[ext_resource type="Texture2D" uid="uid://d0ide03k8xkyl" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_199.png" id="513_xrpg6"]
+[ext_resource type="Texture2D" uid="uid://boqif5nfks1ss" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_200.png" id="514_g23po"]
+[ext_resource type="Texture2D" uid="uid://67gam4cbyhhh" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_201.png" id="515_gmbiy"]
+[ext_resource type="Texture2D" uid="uid://0pirwe2d8q2o" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_202.png" id="516_gv5cx"]
+[ext_resource type="Texture2D" uid="uid://cm3728ph4v3ux" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_203.png" id="517_6778e"]
+[ext_resource type="Texture2D" uid="uid://dfyotepyx0ph4" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_204.png" id="518_civmx"]
+[ext_resource type="Texture2D" uid="uid://btmiil2gopki2" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_205.png" id="519_lvwx4"]
+[ext_resource type="Texture2D" uid="uid://pihr3627xyqn" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_206.png" id="520_2j1dw"]
+[ext_resource type="Texture2D" uid="uid://dc1q73lgw413k" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_207.png" id="521_2nj1m"]
+[ext_resource type="Texture2D" uid="uid://dsilvuj6mhwl7" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_208.png" id="522_ofgdw"]
+[ext_resource type="Texture2D" uid="uid://bd5db2olqo2p2" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_209.png" id="523_2h5bq"]
+[ext_resource type="Texture2D" uid="uid://hsx8mkqh0fsm" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_210.png" id="524_rjogh"]
+[ext_resource type="Texture2D" uid="uid://bmjtraeynl2st" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_211.png" id="525_5dssn"]
+[ext_resource type="Texture2D" uid="uid://8uydyxqjqxcw" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_212.png" id="526_52v0c"]
+[ext_resource type="Texture2D" uid="uid://c5yj76jrs3t4q" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_213.png" id="527_vktn3"]
+[ext_resource type="Texture2D" uid="uid://05cdquhric8s" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_214.png" id="528_mhrw1"]
+[ext_resource type="Texture2D" uid="uid://cbsu4udtsl7l4" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_215.png" id="529_q8dpk"]
+[ext_resource type="Texture2D" uid="uid://cxfjoig3v6fhc" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_216.png" id="530_gex8r"]
+[ext_resource type="Texture2D" uid="uid://cv5ip1367dvn7" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_217.png" id="531_wxfcr"]
+[ext_resource type="Texture2D" uid="uid://btcbmfdns3fkl" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_218.png" id="532_s6t6n"]
+[ext_resource type="Texture2D" uid="uid://d8h2co2sh6ri" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_219.png" id="533_2uyb8"]
+[ext_resource type="Texture2D" uid="uid://r8vahekmvd55" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_220.png" id="534_pfnyf"]
+[ext_resource type="Texture2D" uid="uid://dbm6qjro0eru7" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_221.png" id="535_vmve3"]
+[ext_resource type="Texture2D" uid="uid://g7ddq75gay57" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_222.png" id="536_faxuk"]
+[ext_resource type="Texture2D" uid="uid://beec01kvf4tty" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_223.png" id="537_6s1np"]
+[ext_resource type="Texture2D" uid="uid://cknt71e0e0li1" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_224.png" id="538_msiec"]
+[ext_resource type="Texture2D" uid="uid://ccd6u11jowbr6" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_225.png" id="539_7y24e"]
+[ext_resource type="Texture2D" uid="uid://b0wopkedpy1f" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_226.png" id="540_0a01e"]
+[ext_resource type="Texture2D" uid="uid://b8ruh8ie50482" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_227.png" id="541_wici8"]
+[ext_resource type="Texture2D" uid="uid://d1yrkrkfwocf0" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_228.png" id="542_spw5e"]
+[ext_resource type="Texture2D" uid="uid://dpyy2ch6es212" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_229.png" id="543_tob7c"]
+[ext_resource type="Texture2D" uid="uid://bnirn5aekl6oj" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_230.png" id="544_bdphc"]
+[ext_resource type="Texture2D" uid="uid://buaf2frtjhp5s" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_231.png" id="545_qctow"]
+[ext_resource type="Texture2D" uid="uid://dya2y2ssl4usd" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_232.png" id="546_wwxo1"]
+[ext_resource type="Texture2D" uid="uid://bq2c2aesl5mb2" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_233.png" id="547_3vwyh"]
+[ext_resource type="Texture2D" uid="uid://b6jdj4mse27vl" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_234.png" id="548_yvwvo"]
+[ext_resource type="Texture2D" uid="uid://d2ufy7r1333o5" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_235.png" id="549_e3kj8"]
+[ext_resource type="Texture2D" uid="uid://n7khndsmn4f4" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_236.png" id="550_v2dvy"]
+[ext_resource type="Texture2D" uid="uid://dnymxyjsb6u8y" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_237.png" id="551_j01md"]
+[ext_resource type="Texture2D" uid="uid://cbkhfvms714jh" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_238.png" id="552_s4rtb"]
+[ext_resource type="Texture2D" uid="uid://l6xwt8sp8loj" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_239.png" id="553_86owh"]
+[ext_resource type="Texture2D" uid="uid://s580kbnreqj3" path="res://assets/character/死芒/char_450_necras_Idle_Sequence/char_450_necras_Idle_240.png" id="554_trvql"]
+[ext_resource type="Script" uid="uid://bn4reb36r6yie" path="res://ai/tasks/play_frame_animation.gd" id="559_j6whi"]
+[ext_resource type="PackedScene" uid="uid://bnhtoeja04f2s" path="res://scenes/info.tscn" id="561_0kcby"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_j4beu"]
+radius = 0.282023
+height = 1.3851
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jtxhj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_vyvej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_fcsdd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_o4l28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_knmdr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_nhjrg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_jtxhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4pbn7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_vvbc5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_nyfpp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_pqf8n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ac325")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_guklc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_c6wvt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_jv7pg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_4pwqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_48owh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_tceqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_eusbl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_uqd2c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_3qif1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_aa4re")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_tc427")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_2gcmg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_2msh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_8ijx3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_ybgst")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_6j8x5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_3a1yc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_7f1m2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_qvgv4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_iwaed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_xjhyi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_uf6bu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_wod6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_5ncy6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_i4b74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_x8snb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_ptjk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_r2upm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_yee5k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_r21kh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_viw6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_wu8hd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_sw7kk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_etff4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_2pgep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_wq2wj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_sy2gj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_n4ckw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_cqpve")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_5yfaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_4ttr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_85c2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_iwhi6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_besm6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_jvevv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_o76ir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_ju5ka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_nnvpv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_jjd2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_8rhem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_6a0p3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_dgklx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_t7oba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_0gr4g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_px60u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_1p4o8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_u2gc4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_7b0su")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_k52uo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_7dma2")
+}],
+"loop": false,
+"name": &"attack1_1",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("73_oymy1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_qkc76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_hkh7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_skukl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_1dfg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_rqhoc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_b6lr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_82svx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_v7lsk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_njlpq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_n0di0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_mfbp6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_kk6hf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_bqoqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_n5eyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_4bqsh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_w6xbo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_blslc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_cny56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_5g1wa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_l1s4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_dmhmp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_ko11m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_mcgfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_8na8q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_5sqg8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_7olsx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_ll5fx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_4d6x3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_o63g3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_ek2yc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_fkepd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_fpjh4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_wtdlk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_tafes")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_prgca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_68537")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_2er4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_vsrr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_ilndk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_hn302")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_4g7m2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_d46bx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_sw15x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_3gfv1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_pbfjq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_o2nfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_7miql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_ibai6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_15s2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_1liqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_l6qi7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_qqudb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_kxvco")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_yy64a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_bdjd8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_blaq0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_stf25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_3glq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_p5f07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_tvmuf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_3y306")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_3tpi2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_4d8kx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_akspg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_ho1nw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_abkbm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_lut8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_ogngm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_7j3ri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_mmko7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_v1j18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_gk31a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_dfxfb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_vuosu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_tyhqg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_82f23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_flstk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_c7kyn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_ywbeo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_kv7ej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_j45kb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_yvw47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_46afe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_ktaph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_5jc2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_u08f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_t7f6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_70d4b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_rbh5g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_tlwyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_ory2l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_u04os")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_y7b8k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_r40yo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_2ydcx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_1fpo3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_g1iyo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_75jba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_pcceh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_xiqya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_4esde")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_xwh8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_vn2x6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_6kabo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_cfcte")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_4gvud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_yoxo2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_0prcm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_fc1i2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_bdd6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_ekpc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_xjlhv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_u6vpx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_865kn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_dckou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_ywxhm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_a0y87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_kyuae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_enndl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_nb0eb")
+}],
+"loop": false,
+"name": &"attack1_2",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("194_7b0su")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_k52uo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_7dma2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_oymy1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_qkc76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_hkh7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_skukl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_1dfg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_rqhoc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_b6lr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_82svx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_v7lsk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_njlpq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_n0di0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_mfbp6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_kk6hf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_bqoqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_n5eyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_4bqsh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_w6xbo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_blslc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_cny56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_5g1wa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_l1s4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_dmhmp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_ko11m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_mcgfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_8na8q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_5sqg8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_7olsx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_ll5fx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_4d6x3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_o63g3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_ek2yc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_fkepd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_fpjh4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_wtdlk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_tafes")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_prgca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_68537")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_2er4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_vsrr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_ilndk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_hn302")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_4g7m2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_d46bx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_sw15x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_3gfv1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242_pbfjq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_o2nfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_7miql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_ibai6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_15s2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_1liqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_l6qi7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_qqudb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250_kxvco")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_yy64a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_bdjd8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_blaq0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254_stf25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_3glq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_p5f07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257_tvmuf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258_3y306")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259_3tpi2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260_4d8kx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261_akspg")
+}],
+"loop": false,
+"name": &"attack2",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("194_4n8w2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_ig2dy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_3lmpe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_caw5f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_85ug8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_ih21j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_057i4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_48dxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_oa45q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_ubbr2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_muprq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_fys45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_5ib7n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_4oorl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_v3ajf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_q33aq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_ajt21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_5rgyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_l1eg6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_5rcxd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_v61cu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_ewn0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_oevq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_p4xnk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_jys5a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_t4atv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_1elgw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_en7sy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_gpb0k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_5g1bk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_7kd0x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_pqovg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_hqipj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_m88c8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_1wsco")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_ip425")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_jn42h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_l5eoe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_r14b4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_flf1f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_o8vol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_er7ai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_p0mrf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_x8tmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_fmaim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_o3xek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_y6s27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_u3ovc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242_gxrkp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_6xbqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_ixq5q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_ltioi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_11dtg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_b2yn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_v85nj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_wpfho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250_r8jne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_t8cx8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_idxyl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_5k8cw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254_4sq83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_0iud5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_3h4d1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257_kj55m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258_y4jjo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259_fycbj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260_02wxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261_f2e55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262_yd20u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263_uaw1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264_ylfxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265_gbp45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("266_c6k5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267_y2gf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268_fr322")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269_y4igb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270_t7rv2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271_v3m67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272_tcyi3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273_oe30i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274_0miph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275_4jrk4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276_y51qf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277_pvix8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("278_jeayo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279_1781h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280_p6yrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281_itjyq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282_iqkc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283_gn230")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284_lj5jq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285_45psx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286_u6yxx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("287_s0x3k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("288_1xlxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("289_rdyf5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("290_6ip06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("291_dd5c7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("292_0cpty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("293_6xadu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("294_8oaaj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("295_fq2sj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("296_p7j4v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("297_nvqsc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("298_37cv4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("299_4gi72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("300_hc5oe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("301_iut8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("302_mxhcf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("303_tcsl5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304_rxpc2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("305_8ig0u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("306_mqokq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("307_isytt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("308_qocla")
+}, {
+"duration": 1.0,
+"texture": ExtResource("309_xi456")
+}, {
+"duration": 1.0,
+"texture": ExtResource("310_t6wfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("311_ydxpi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("312_d8hv7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("313_vcmb0")
+}],
+"loop": false,
+"name": &"die",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("314_i37x0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("315_8twa0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("316_t8p4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("317_2cuf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("318_sp5bd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("319_t8cjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("320_i3tc4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("321_oqxl4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("322_54rak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("323_uaukb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("324_a0jb1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("325_lytmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("326_g52di")
+}, {
+"duration": 1.0,
+"texture": ExtResource("327_0ubua")
+}, {
+"duration": 1.0,
+"texture": ExtResource("328_4bixv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("329_i488i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("330_wb5la")
+}, {
+"duration": 1.0,
+"texture": ExtResource("331_cm7ix")
+}, {
+"duration": 1.0,
+"texture": ExtResource("332_qsif5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("333_k54v6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("334_k52th")
+}, {
+"duration": 1.0,
+"texture": ExtResource("335_vfypc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("336_tims5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("337_t1j7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("338_htut8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("339_kp16d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("340_lfcsl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("341_q56kq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("342_l86h0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("343_k63r2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("344_uk053")
+}, {
+"duration": 1.0,
+"texture": ExtResource("345_byxst")
+}, {
+"duration": 1.0,
+"texture": ExtResource("346_x3sxh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("347_v2qq8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("348_2lqu5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("349_m2mhw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("350_27lr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("351_skncl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("352_jv1lp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("353_f62dx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("354_8pxdc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("355_a6c68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("356_w3hw4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("357_qhne1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("358_eavl7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("359_3vd1y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("360_78nlf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("361_5kegp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("362_vs2ne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("363_oibby")
+}, {
+"duration": 1.0,
+"texture": ExtResource("364_qom7q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("365_smr4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("366_27bto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("367_nftb8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("368_krubc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("369_6y3ou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("370_iccrx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("371_aetsv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("372_e3w3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("373_lf86y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("374_fq8gl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("375_a5f1l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("376_umiwk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("377_im83v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("378_tn0uh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("379_k0cyg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("380_o1e4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("381_c1h0a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("382_n72v0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("383_8xdjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("384_5hsmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("385_w5nwd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("386_x4rh5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("387_ec5my")
+}, {
+"duration": 1.0,
+"texture": ExtResource("388_f0eqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("389_kslk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("390_x2dnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("391_gstxa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("392_opcnq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("393_chxdg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("394_82ght")
+}, {
+"duration": 1.0,
+"texture": ExtResource("395_m2je4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("396_j37nt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("397_06rlo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("398_urufx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("399_c2c1a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("400_w1174")
+}, {
+"duration": 1.0,
+"texture": ExtResource("401_rmaem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("402_ep7sc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("403_x3rsy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("404_q2n13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("405_1vppa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("406_falgn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("407_ye5ms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("408_jcbtu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("409_ykoob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("410_jehkm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("411_rojyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("412_flbb8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("413_d7xl8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("414_1h3ab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("415_r541w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("416_xd4gg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("417_aipi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("418_gwam1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("419_3tfny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("420_ivtr4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("421_xacwm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("422_ckqea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("423_2jfbv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("424_g3pm5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("425_n4ct2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("426_ns64b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("427_w2i2o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("428_sc1jy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("429_wa5yu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("430_aoo37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("431_43u1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("432_3yyyi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("433_b7sq1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("434_mcek6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("435_j5mlw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("436_e4ac8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("437_o1qeq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("438_l5864")
+}, {
+"duration": 1.0,
+"texture": ExtResource("439_wjkxw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("440_yfksf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("441_dgd7l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("442_d35ym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("443_ejwtk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("444_vl46c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("445_n8kdm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("446_8bjnk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("447_d665t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("448_bn34e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("449_tgj0q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("450_dj006")
+}, {
+"duration": 1.0,
+"texture": ExtResource("451_os6bw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("452_6vie0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("453_vnns2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("454_rhvjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("455_jg5ai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("456_ifbsg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("457_5laon")
+}, {
+"duration": 1.0,
+"texture": ExtResource("458_mr12u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("459_b18tt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("460_1lq22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("461_ueq3r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("462_yvmt0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("463_hibu8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("464_xhxyw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("465_wowx2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("466_375xk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("467_3d4oq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("468_rh7rb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("469_5fm32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("470_ewart")
+}, {
+"duration": 1.0,
+"texture": ExtResource("471_fln53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("472_0wiac")
+}, {
+"duration": 1.0,
+"texture": ExtResource("473_ipuf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("474_tc3po")
+}, {
+"duration": 1.0,
+"texture": ExtResource("475_vp2xa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("476_yfe0s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("477_5mfmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("478_0a7rh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("479_nxdr1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("480_qr16h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("481_j8rxh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("482_j3ly7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("483_k85v1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("484_yrco8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("485_d18v1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("486_6mfst")
+}, {
+"duration": 1.0,
+"texture": ExtResource("487_k5b6v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("488_v6x03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("489_od7d8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("490_ouo72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("491_6qedc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("492_v7pgx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("493_17d3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("494_0kfgq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("495_pknea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("496_yv132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("497_n0vfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("498_v3ses")
+}, {
+"duration": 1.0,
+"texture": ExtResource("499_4u75x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("500_y3yop")
+}, {
+"duration": 1.0,
+"texture": ExtResource("501_q3f13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("502_ip0fr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("503_oitb3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("504_0kbqh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("505_0r2g4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("506_swyvo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("507_qsxjg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("508_fcnvi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("509_4dn0v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("510_lc8n6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("511_rlygq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("512_spxqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("513_xrpg6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("514_g23po")
+}, {
+"duration": 1.0,
+"texture": ExtResource("515_gmbiy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("516_gv5cx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("517_6778e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("518_civmx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("519_lvwx4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("520_2j1dw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("521_2nj1m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("522_ofgdw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("523_2h5bq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("524_rjogh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("525_5dssn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("526_52v0c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("527_vktn3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("528_mhrw1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("529_q8dpk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("530_gex8r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("531_wxfcr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("532_s6t6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("533_2uyb8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("534_pfnyf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("535_vmve3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("536_faxuk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("537_6s1np")
+}, {
+"duration": 1.0,
+"texture": ExtResource("538_msiec")
+}, {
+"duration": 1.0,
+"texture": ExtResource("539_7y24e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("540_0a01e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("541_wici8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("542_spw5e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("543_tob7c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("544_bdphc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("545_qctow")
+}, {
+"duration": 1.0,
+"texture": ExtResource("546_wwxo1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("547_3vwyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("548_yvwvo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("549_e3kj8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("550_v2dvy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("551_j01md")
+}, {
+"duration": 1.0,
+"texture": ExtResource("552_s4rtb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("553_86owh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("554_trvql")
+}],
+"loop": false,
+"name": &"idle",
+"speed": 120.0
+}]
+
+[sub_resource type="BlackboardPlan" id="BlackboardPlan_4pbn7"]
+var/hp/name = &"hp"
+var/hp/type = 2
+var/hp/value = 0
+var/hp/hint = 0
+var/hp/hint_string = ""
+var/player_path/name = &"player_path"
+var/player_path/type = 22
+var/player_path/value = NodePath("")
+var/player_path/hint = 0
+var/player_path/hint_string = ""
+var/waiting/name = &"waiting"
+var/waiting/type = 1
+var/waiting/value = false
+var/waiting/hint = 0
+var/waiting/hint_string = ""
+binding/hp = NodePath(".")
+
+[sub_resource type="BBVariant" id="BBVariant_k52uo"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_nyfpp"]
+variable = &"hp"
+check_type = 2
+value = SubResource("BBVariant_k52uo")
+
+[sub_resource type="BTAction" id="BTAction_pqf8n"]
+script = ExtResource("559_j6whi")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"die"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBNode" id="BBNode_ac325"]
+saved_value = NodePath("AnimationPlayer")
+resource_name = "AnimationPlayer"
+
+[sub_resource type="BTPlayAnimation" id="BTPlayAnimation_guklc"]
+animation_player = SubResource("BBNode_ac325")
+animation_name = &"die"
+
+[sub_resource type="BBVariant" id="BBVariant_c6wvt"]
+type = 2
+saved_value = 8
+resource_name = "8"
+
+[sub_resource type="BTSetAgentProperty" id="BTSetAgentProperty_jv7pg"]
+property = &"collision_layer"
+value = SubResource("BBVariant_c6wvt")
+
+[sub_resource type="BBVariant" id="BBVariant_4pwqb"]
+type = 2
+saved_value = 8
+resource_name = "8"
+
+[sub_resource type="BTSetAgentProperty" id="BTSetAgentProperty_48owh"]
+property = &"collision_mask"
+value = SubResource("BBVariant_4pwqb")
+
+[sub_resource type="BTParallel" id="BTParallel_tceqs"]
+num_successes_required = 4
+children = [SubResource("BTAction_pqf8n"), SubResource("BTPlayAnimation_guklc"), SubResource("BTSetAgentProperty_jv7pg"), SubResource("BTSetAgentProperty_48owh")]
+
+[sub_resource type="BBNode" id="BBNode_eusbl"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_uqd2c"]
+node = SubResource("BBNode_eusbl")
+method = &"end"
+
+[sub_resource type="BTSequence" id="BTSequence_3qif1"]
+custom_name = "die"
+children = [SubResource("BTCheckVar_nyfpp"), SubResource("BTParallel_tceqs"), SubResource("BTCallMethod_uqd2c")]
+
+[sub_resource type="BBVariant" id="BBVariant_aa4re"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_tc427"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_aa4re")
+
+[sub_resource type="BBVariant" id="BBVariant_2gcmg"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_2msh0"]
+variable = &"player_path"
+check_type = 5
+value = SubResource("BBVariant_2gcmg")
+
+[sub_resource type="BBNode" id="BBNode_8ijx3"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_ybgst"]
+node = SubResource("BBNode_8ijx3")
+method = &"stop_navgation"
+
+[sub_resource type="BTRandomWait" id="BTRandomWait_6j8x5"]
+min_duration = 0.1
+max_duration = 0.5
+
+[sub_resource type="BBVariant" id="BBVariant_3a1yc"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_7f1m2"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_3a1yc")
+
+[sub_resource type="BTAction" id="BTAction_qvgv4"]
+script = ExtResource("559_j6whi")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"attack1_1"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBVariant" id="BBVariant_iwaed"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_xjhyi"]
+variable = &"player_path"
+check_type = 5
+value = SubResource("BBVariant_iwaed")
+
+[sub_resource type="BBNode" id="BBNode_uf6bu"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_wod6g"]
+node = SubResource("BBNode_uf6bu")
+method = &"attack"
+
+[sub_resource type="BTSequence" id="BTSequence_5ncy6"]
+children = [SubResource("BTCheckVar_7f1m2"), SubResource("BTAction_qvgv4"), SubResource("BTCheckVar_xjhyi"), SubResource("BTCallMethod_wod6g")]
+
+[sub_resource type="BTAlwaysSucceed" id="BTAlwaysSucceed_i4b74"]
+children = [SubResource("BTSequence_5ncy6")]
+
+[sub_resource type="BTAction" id="BTAction_x8snb"]
+script = ExtResource("559_j6whi")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"attack1_2"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTRandomWait" id="BTRandomWait_k52uo"]
+min_duration = 0.1
+max_duration = 0.5
+
+[sub_resource type="BTSequence" id="BTSequence_ptjk6"]
+custom_name = "attack1"
+children = [SubResource("BTCheckVar_tc427"), SubResource("BTCheckVar_2msh0"), SubResource("BTCallMethod_ybgst"), SubResource("BTRandomWait_6j8x5"), SubResource("BTAlwaysSucceed_i4b74"), SubResource("BTAction_x8snb"), SubResource("BTRandomWait_k52uo")]
+
+[sub_resource type="BTCooldown" id="BTCooldown_r2upm"]
+duration = 0.5
+children = [SubResource("BTSequence_ptjk6")]
+
+[sub_resource type="BBVariant" id="BBVariant_7b0su"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_k52uo"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_7b0su")
+
+[sub_resource type="BBNode" id="BBNode_7dma2"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_oymy1"]
+node = SubResource("BBNode_7dma2")
+method = &"stop_navgation"
+
+[sub_resource type="BTAction" id="BTAction_qkc76"]
+script = ExtResource("559_j6whi")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"attack2"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BBNode" id="BBNode_hkh7v"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_skukl"]
+node = SubResource("BBNode_hkh7v")
+method = &"attack2"
+
+[sub_resource type="BBNode" id="BBNode_7b0su"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_k52uo"]
+node = SubResource("BBNode_7b0su")
+method = &"stop_navgation"
+
+[sub_resource type="BBVariant" id="BBVariant_7dma2"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_oymy1"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_7dma2")
+
+[sub_resource type="BTAction" id="BTAction_hkh7v"]
+script = ExtResource("559_j6whi")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"idle"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_skukl"]
+custom_name = "idle"
+children = [SubResource("BTCallMethod_k52uo"), SubResource("BTCheckVar_oymy1"), SubResource("BTAction_hkh7v")]
+
+[sub_resource type="BTSequence" id="BTSequence_1dfg5"]
+custom_name = "attack2"
+children = [SubResource("BTCheckVar_k52uo"), SubResource("BTCallMethod_oymy1"), SubResource("BTAction_qkc76"), SubResource("BTCallMethod_skukl"), SubResource("BTSequence_skukl")]
+
+[sub_resource type="BTCooldown" id="BTCooldown_rqhoc"]
+duration = 2.0
+children = [SubResource("BTSequence_1dfg5")]
+
+[sub_resource type="BBNode" id="BBNode_yee5k"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_r21kh"]
+node = SubResource("BBNode_yee5k")
+method = &"stop_navgation"
+
+[sub_resource type="BBVariant" id="BBVariant_viw6a"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_wu8hd"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_viw6a")
+
+[sub_resource type="BTAction" id="BTAction_sw7kk"]
+script = ExtResource("559_j6whi")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"idle"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_etff4"]
+custom_name = "idle"
+children = [SubResource("BTCallMethod_r21kh"), SubResource("BTCheckVar_wu8hd"), SubResource("BTAction_sw7kk")]
+
+[sub_resource type="BTProbability" id="BTProbability_2pgep"]
+children = [SubResource("BTSequence_etff4")]
+
+[sub_resource type="BTCooldown" id="BTCooldown_wq2wj"]
+duration = 5.0
+children = [SubResource("BTProbability_2pgep")]
+
+[sub_resource type="BBVariant" id="BBVariant_o4l28"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_knmdr"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_o4l28")
+
+[sub_resource type="BBVariant" id="BBVariant_nhjrg"]
+type = 22
+saved_value = NodePath("")
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_jtxhj"]
+variable = &"player_path"
+value = SubResource("BBVariant_nhjrg")
+
+[sub_resource type="BBNode" id="BBNode_vyvej"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_fcsdd"]
+node = SubResource("BBNode_vyvej")
+method = &"random_tp"
+
+[sub_resource type="BTSequence" id="BTSequence_jv7pg"]
+custom_name = "walk"
+children = [SubResource("BTCheckVar_knmdr"), SubResource("BTCheckVar_jtxhj"), SubResource("BTCallMethod_fcsdd")]
+
+[sub_resource type="BTCooldown" id="BTCooldown_7b0su"]
+duration = 5.0
+children = [SubResource("BTSequence_jv7pg")]
+
+[sub_resource type="BBNode" id="BBNode_jjd2f"]
+saved_value = NodePath(".")
+resource_name = "."
+
+[sub_resource type="BTCallMethod" id="BTCallMethod_8rhem"]
+node = SubResource("BBNode_jjd2f")
+method = &"stop_navgation"
+
+[sub_resource type="BBVariant" id="BBVariant_6a0p3"]
+type = 2
+saved_value = 0
+resource_name = "<null>"
+
+[sub_resource type="BTCheckVar" id="BTCheckVar_dgklx"]
+variable = &"hp"
+check_type = 3
+value = SubResource("BBVariant_6a0p3")
+
+[sub_resource type="BTAction" id="BTAction_t7oba"]
+script = ExtResource("559_j6whi")
+sprite_path = NodePath("AnimatedSprite3D")
+animation = &"idle"
+speed_scale = 1.0
+from_end = false
+
+[sub_resource type="BTSequence" id="BTSequence_0gr4g"]
+custom_name = "idle"
+children = [SubResource("BTCallMethod_8rhem"), SubResource("BTCheckVar_dgklx"), SubResource("BTAction_t7oba")]
+
+[sub_resource type="BTSelector" id="BTSelector_px60u"]
+children = [SubResource("BTSequence_3qif1"), SubResource("BTCooldown_r2upm"), SubResource("BTCooldown_rqhoc"), SubResource("BTCooldown_wq2wj"), SubResource("BTCooldown_7b0su"), SubResource("BTSequence_0gr4g")]
+
+[sub_resource type="BehaviorTree" id="BehaviorTree_1p4o8"]
+blackboard_plan = SubResource("BlackboardPlan_4pbn7")
+root_task = SubResource("BTSelector_px60u")
+
+[sub_resource type="BlackboardPlan" id="BlackboardPlan_y1f6v"]
+binding/hp = NodePath("..:hp")
+binding/player_path = NodePath("..:player_path")
+
+[sub_resource type="Animation" id="Animation_1acxm"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_yh0ue"]
+resource_name = "blink"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.266667, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0.406038, 0.406038, 0.406038, 1), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_syauo"]
+resource_name = "die"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite3D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_syauo"]
+_data = {
+&"RESET": SubResource("Animation_1acxm"),
+&"blink": SubResource("Animation_yh0ue"),
+&"die": SubResource("Animation_syauo")
+}
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_1acxm"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4gby3"]
+size = Vector3(1.876, 1.618, 1)
+
+[node name="Necrass" type="CharacterBody3D" groups=["enemy", "necrass"]]
+collision_layer = 2
+collision_mask = 2
+axis_lock_linear_z = true
+script = ExtResource("1_jtxhj")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(-0.999981, -0.0062307, 0, 0.0062307, -0.999981, 0, 0, 0, 1, 0, 0.390933, 0)
+shape = SubResource("CapsuleShape3D_j4beu")
+
+[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.251614, 0)
+pixel_size = 0.003
+sprite_frames = SubResource("SpriteFrames_jtxhj")
+animation = &"die"
+
+[node name="BTPlayer" type="BTPlayer" parent="."]
+behavior_tree = SubResource("BehaviorTree_1p4o8")
+blackboard_plan = SubResource("BlackboardPlan_y1f6v")
+monitor_performance = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_syauo")
+}
+
+[node name="Info" parent="." instance=ExtResource("561_0kcby")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.84145, 0)
+pixel_size = 0.0015
+render_priority = 127
+texture = SubResource("ViewportTexture_1acxm")
+
+[node name="AttackArea" type="Area3D" parent="."]
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AttackArea"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.404408, 0)
+shape = SubResource("BoxShape3D_4gby3")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+
+[node name="Emit" type="Marker3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.93572, 0)
+
+[connection signal="body_entered" from="AttackArea" to="." method="_on_attack_area_body_entered"]
+[connection signal="body_exited" from="AttackArea" to="." method="_on_attack_area_body_exited"]
